@@ -2,14 +2,22 @@ package com.ceos.phoebus.runtime;
 
 import java.util.Optional;
 import java.util.concurrent.CompletableFuture;
+import java.util.concurrent.CountDownLatch;
 import java.util.logging.Level;
 import javafx.scene.Node;
+import javafx.scene.control.Alert;
+import javax.swing.JFrame;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.core.config.Configurator;
 import org.csstudio.display.builder.model.Widget;
+import org.csstudio.dcom.ceos.phoebus.runtimeisplay.builder.representation.ToolkitRepresentation;
 import org.csstudio.display.builder.representation.ToolkitRepresentation;
+import org.csstudio.display.builder.representation.javafx.Messages;
 import org.csstudio.display.builder.representation.javafx.widgets.JFXBaseRepresentation;
+import org.csstudio.display.builder.runtime.pv.RuntimePV;
+import org.csstudio.display.builder.runtime.script.PVUtil;
+import org.csstudio.display.builder.runtime.script.ScriptUtil;
 import org.epics.pvaccess.client.rpc.RPCClientImpl;
 import org.epics.pvaccess.server.rpc.RPCRequestException;
 import org.epics.pvdata.factory.FieldFactory;
@@ -18,6 +26,7 @@ import org.epics.pvdata.pv.FieldCreate;
 import org.epics.pvdata.pv.PVStructure;
 import org.epics.pvdata.pv.ScalarType;
 import org.epics.pvdata.pv.Structure;
+import org.phoebus.pv.PV;
 import org.phoebus.ui.dialog.DialogHelper;
 
 /**
@@ -28,35 +37,34 @@ public class CeosUtils {
 
     private static final Logger logger = LogManager.getLogger(CeosUtils.class);
 
+    /* 
     public static void main(String[] args) {
-        Configurator.initialize("ceos", "/log4j2.properties");
+        loadLogger();
         System.out.println("Hola mundo!!!!!");
         logger.info("Log ceos");
-//        try {
-//            // System.out.println( CeosUtils.enablePermission("karaf", "karaf"));
-//            JFrame marco = new JFrame();
-//            marco.setSize(400, 300);
-//            marco.setLocation(1500, 1000);
-//            marco.add(new LoginDialog());
-//            marco.setVisible(true);
-//        } catch (Exception e) {
+        try {
+            //Estrutura retornada
+             System.out.println( CeosUtils.enablePermission("karaf", "karaf"));
+            JFrame marco = new JFrame();
+            marco.setSize(400, 300);
+            marco.setLocation(1500, 1000);
+            marco.add(new LoginDialog());
+            marco.setVisible(true);
+            System.exit(0);
+        } catch (Exception e) {
 
-//        }
+        }
     }
-
-    //elaborado a modo de prueba
-    public static void hola() throws RPCRequestException {
-        Configurator.initialize("ceos", "/log4j2.properties");
-        System.out.println("Hola mundo!!!!!");
-        logger.info("Log ceos");
-
+     */
+    public static boolean checkLoginUser() {
+        boolean check = false;
+        //code here
+        return check;
     }
 
     /*
     Servicio rpc en epics v4 utiza protocolo pvAccess par la comunicación entre clientes y 
     servidores. El servidor expone metodos que pueden ser invocados por un cliente.
-    
-    
      */
     public static PVStructure enablePermission(String username, String password) throws RPCRequestException {
         PVStructure pv = null;
@@ -92,6 +100,45 @@ public class CeosUtils {
         return pv;
     }
 
+    //elaborado a modo de prueba. Usar para constatar la libreria
+    public static void hola() throws RPCRequestException {
+        loadLogger();
+        System.out.println("Hola mundo!!!!!");
+        logger.info("Log ceos");
+
+    }
+
+    private static void loadLogger() {
+        Configurator.initialize("ceos", "/log4j2.properties");
+    }
+
+    public static void showErrorDialog(final Widget widget, final String error) throws Exception {
+        final Node node = JFXBaseRepresentation.getJFXNode(widget);
+        final CountDownLatch done = new CountDownLatch(1);
+        final ToolkitRepresentation tk = ToolkitRepresentation.getToolkit(widget.getDisplayModel());
+        try {
+
+            tk.execute(()
+                    -> {
+                final Alert alert = new Alert(Alert.AlertType.WARNING);
+                DialogHelper.positionDialog(alert, node, -100, -50);
+                alert.setResizable(true);
+                alert.setTitle(Messages.ShowErrorDialogTitle);
+                alert.setHeaderText(error);
+                alert.initOwner(node.getScene().getWindow());
+                alert.showAndWait();
+                done.countDown();
+            });
+
+        } catch (Exception ex) {
+
+        }
+        try {
+            done.await();
+        } catch (InterruptedException ex) {
+            // Ignore
+        }
+    }
 
     public static String showPasswordDialog(final Widget widget) {
 
@@ -124,4 +171,12 @@ public class CeosUtils {
         return null;
 
     }
+
+    public static void getPv(final Widget widget) {
+        final RuntimePV rt = ScriptUtil.getPrimaryPV(widget);
+        System.out.println(rt);
+       PV pv = rt.getPV();
+        System.out.println(pv);
+    }
+
 }
