@@ -1,9 +1,11 @@
 package com.ceos.phoebus.runtime;
 
 import com.ceos.phoebus.runtime.numberboard.NumberBoardScene;
+import com.ceos.phoebus.runtime.numberboard.NumberDialog;
 import java.util.Optional;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.CountDownLatch;
+import java.util.logging.Level;
 import javafx.application.Platform;
 import javafx.scene.Node;
 import javafx.scene.Scene;
@@ -181,28 +183,40 @@ public class CeosUtils {
         System.out.println(pv);
     }
 
-    //final Widget widget
-    public static void initNumberBoardScene() {
-        
-        //Init toolkit de javafx
-        Platform.startup(()
-                -> {
-            
-            Stage stage = new Stage();
-            
-            
-            GridPane root = new NumberBoardScene().getRoot();
+    //
+    public static void initNumberBoardScene(final Widget widget) {
+        try {
+            ToolkitRepresentation tk = ToolkitRepresentation.getToolkit(widget.getDisplayModel());
+            final Node node = JFXBaseRepresentation.getJFXNode(widget);
 
-            Scene board = new Scene(root, 150, 170);
-
-            stage.setScene(board);
-            stage.show();
-
-            NumberBoardScene.getbAcep().setOnMouseClicked((MouseEvent event) -> {
-                stage.close();
+            tk.execute(()
+                    -> {
+                final NumberDialog dialog = new NumberDialog(widget);
+                DialogHelper.positionDialog(dialog, node, -100, -50);
+                dialog.initOwner(node.getScene().getWindow());
+                dialog.show();
+//                Stage stage = new Stage();
+//
+//                GridPane root = new NumberBoardScene().getRoot();
+//
+//                Scene board = new Scene(root, 150, 170);
+//
+//                stage.setScene(board);
+//                stage.show();
+//
+//                NumberBoardScene.getbAcep().setOnMouseClicked((MouseEvent event) -> {
+//                    stage.close();
+//                });
+//                DialogHelper.positionDialog(root, node, -100, -50);
+//                dialog.initOwner(node.getScene().getWindow());
             });
+        } catch (Exception ex) {
+            java.util.logging.Logger.getLogger(CeosUtils.class.getName()).log(Level.SEVERE, null, ex);
+        }
 
-        });
-
+        //Init toolkit de javafx
+        //  Platform.startup(()
+        //        -> {
+        //});
     }
 }

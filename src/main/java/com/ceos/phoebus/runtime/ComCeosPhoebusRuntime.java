@@ -4,8 +4,6 @@
 
 package com.ceos.phoebus.runtime;
 
-import javafx.application.Application;
-
 /**
  *
  * @author ceos
@@ -13,6 +11,6 @@ import javafx.application.Application;
 public class ComCeosPhoebusRuntime {
 
     public static void main(String[] args) {
-       CeosUtils.initNumberBoardScene();
+    //   CeosUtils.initNumberBoardScene();
     }
 }

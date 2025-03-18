@@ -25,7 +25,7 @@ public class NumberBoardScene {
     private Button bClrOne = new Button("Clr");
     private Button bDelete = new Button("Del");
     private Button bPunto = new Button(".");
-    private static  Button bAcep = new Button("Aceptar");
+    private static  Button bAcep = new Button("Accept");
 
     public NumberBoardScene() {
         root = new GridPane();
@@ -67,14 +67,6 @@ public class NumberBoardScene {
             }
         });
 
-//        bAcep.setOnMouseClicked((MouseEvent event) -> {
-//            if (stringValidate(field.getText())) {
-//                System.out.println(field.getText());
-//                stage.close();
-//            }
-//
-//        });
-
         /*
         Add controls GridPane
          */
@@ -110,7 +102,6 @@ public class NumberBoardScene {
         boolean checkValue = false;
 
         String regex = "^\\d+\\.\\d{1,2}$";
-        //String texto = "123.456789"; // Cambia este valor para probar otras cadenas
 
         Pattern pattern = Pattern.compile(regex);
         Matcher matcher = pattern.matcher(value);
