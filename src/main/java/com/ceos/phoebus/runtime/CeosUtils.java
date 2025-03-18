@@ -1,22 +1,24 @@
 package com.ceos.phoebus.runtime;
 
+import com.ceos.phoebus.runtime.numberboard.NumberBoardScene;
 import java.util.Optional;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.CountDownLatch;
-import java.util.logging.Level;
+import javafx.application.Platform;
 import javafx.scene.Node;
+import javafx.scene.Scene;
 import javafx.scene.control.Alert;
-import javax.swing.JFrame;
+import javafx.scene.input.MouseEvent;
+import javafx.scene.layout.GridPane;
+import javafx.stage.Stage;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.core.config.Configurator;
 import org.csstudio.display.builder.model.Widget;
-import org.csstudio.dcom.ceos.phoebus.runtimeisplay.builder.representation.ToolkitRepresentation;
 import org.csstudio.display.builder.representation.ToolkitRepresentation;
 import org.csstudio.display.builder.representation.javafx.Messages;
 import org.csstudio.display.builder.representation.javafx.widgets.JFXBaseRepresentation;
 import org.csstudio.display.builder.runtime.pv.RuntimePV;
-import org.csstudio.display.builder.runtime.script.PVUtil;
 import org.csstudio.display.builder.runtime.script.ScriptUtil;
 import org.epics.pvaccess.client.rpc.RPCClientImpl;
 import org.epics.pvaccess.server.rpc.RPCRequestException;
@@ -175,8 +177,32 @@ public class CeosUtils {
     public static void getPv(final Widget widget) {
         final RuntimePV rt = ScriptUtil.getPrimaryPV(widget);
         System.out.println(rt);
-       PV pv = rt.getPV();
+        PV pv = rt.getPV();
         System.out.println(pv);
     }
 
+    //final Widget widget
+    public static void initNumberBoardScene() {
+        
+        //Init toolkit de javafx
+        Platform.startup(()
+                -> {
+            
+            Stage stage = new Stage();
+            
+            
+            GridPane root = new NumberBoardScene().getRoot();
+
+            Scene board = new Scene(root, 150, 170);
+
+            stage.setScene(board);
+            stage.show();
+
+            NumberBoardScene.getbAcep().setOnMouseClicked((MouseEvent event) -> {
+                stage.close();
+            });
+
+        });
+
+    }
 }

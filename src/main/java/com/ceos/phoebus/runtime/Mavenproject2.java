@@ -13,11 +13,11 @@ public class Mavenproject2 {
     
    
 
-    public static void main(String[] args) {
-  
-       Configurator.initialize(null, "/home/ceos/usr/Configuracion-logging/log4j2.properties");
-       Logger logger = LogManager.getLogger(Mavenproject2.class);
-       logger.info("Hola mundo");
-   
-    }
+//    public static void main(String[] args) {
+//  
+//       Configurator.initialize(null, "/home/ceos/usr/Configuracion-logging/log4j2.properties");
+//       Logger logger = LogManager.getLogger(Mavenproject2.class);
+//       logger.info("Hola mundo");
+//   
+//    }
 }
