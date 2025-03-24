@@ -8,10 +8,15 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+import javafx.event.EventHandler;
+import javafx.event.EventType;
+import javafx.geometry.Insets;
 import javafx.scene.control.Button;
 import javafx.scene.control.Dialog;
 import javafx.scene.control.DialogPane;
 import javafx.scene.control.TextField;
+import javafx.scene.input.KeyCode;
+import javafx.scene.input.KeyEvent;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.HBox;
@@ -25,7 +30,7 @@ import org.phoebus.pv.PV;
  *
  * @author ceos
  */
-public class NumberDialog extends Dialog <String>{
+public class NumberDialog extends Dialog<String> {
 
     private TextField field = new TextField();
     private Button b0 = new Button("0");
@@ -38,53 +43,84 @@ public class NumberDialog extends Dialog <String>{
     private Button b7 = new Button("7");
     private Button b8 = new Button("8");
     private Button b9 = new Button("9");
-    private Button bClrOne = new Button("Clr");
-    private Button bDelete = new Button("Del");
+    private Button bClrOne = new Button("Del");
+    private Button bDelete = new Button("Clr");
     private Button bPunto = new Button(".");
-    private static  Button bAcep = new Button("Enter");
+    private static Button bAcep = new Button("Enter");
 
     public NumberDialog(Widget widget) {
+        //sizes buttons
+        b0.setMinWidth(50);
+        b0.setMinHeight(50);
+        
+        b1.setMinWidth(50);
+        b1.setMinHeight(50);
+
+        b2.setMinWidth(50);
+        b2.setMinHeight(50);
+
+        b3.setMinWidth(50);
+        b3.setMinHeight(50);
+
+        b4.setMinWidth(50);
+        b4.setMinHeight(50);
+
+        b5.setMinWidth(50);
+        b5.setMinHeight(50);
+
+        b6.setMinWidth(50);  
+        b6.setMinHeight(50);
+
+        b7.setMinWidth(50);
+        b7.setMinHeight(50);
+
+        b8.setMinWidth(50);
+        b8.setMinHeight(50);
+
+        b9.setMinWidth(50);
+        b9.setMinHeight(50);
+
+        bClrOne.setMinWidth(50);
+        bClrOne.setMinHeight(50);
+
+        bDelete.setMinWidth(50);
+        bDelete.setMinHeight(50);
+
+        bPunto.setMinWidth(50);
+        bPunto.setMinHeight(50);
+
+        bAcep.setMinWidth(50);
+        bAcep.setMinHeight(50);
 
         final DialogPane pane = getDialogPane();
-        HBox.setHgrow(field, Priority.ALWAYS);
-        
-//        Node[] nodes = new Node[15];
-//
-//        nodes[0] = field;
-//        nodes[1] = b0;
-//        nodes[2] = b1;
-//        nodes[3] = b2;
-//        nodes[4] = b3;
-//        nodes[5] = b4;
-//        nodes[6] = b5;
-//        nodes[7] = b6;
-//        nodes[8] = b7;
-//        nodes[9] = b8;
-//        nodes[10] = b9;
-//        nodes[11] = bClrOne;
-//        nodes[12] = bDelete;
-//        nodes[13] = bPunto;
-//        nodes[14] = bAcep;
-        
+
         GridPane root = new GridPane();
-        root.add(field, 0, 0, 4, 1);
+        root.setPadding(new Insets(5, 5, 5, 5));
+        root.setHgap(5);
+        root.setVgap(5);
+
+        root.add(field, 0, 0, 7, 1);
+
         root.add(b9, 0, 1);
-        root.add(b8, 1, 1);
-        root.add(b7, 2, 1);
-        root.add(bClrOne, 3, 1);
-        root.add(b6, 0, 2);
-        root.add(b5, 1, 2);
-        root.add(b4, 2, 2);
-        root.add(bDelete, 3, 2);
-        root.add(b3, 0, 3);
-        root.add(b2, 1, 3);
-        root.add(b1, 2, 3);
-        root.add(bPunto, 3, 3);
-        root.add(b0, 0, 4);
-        root.add(bAcep, 1, 4, 4, 1);
+        root.add(b8, 2, 1);
+        root.add(b7, 4, 1);
+        root.add(bClrOne, 6, 1);
+
+        root.add(b6, 0, 3);
+        root.add(b5, 2, 3);
+        root.add(b4, 4, 3);
+        root.add(bDelete, 6, 3);
+
+        root.add(b3, 0, 5);
+        root.add(b2, 2, 5);
+        root.add(b1, 4, 5);
+        root.add(bAcep, 6, 5);
+
+        root.add(b0, 0, 7);
+        root.add(bPunto, 2, 7);
 
         this.setDialogPane(pane);
-          /*
+        /*
         Actions buttons
          */
         b0.setOnMouseClicked(event -> field.setText(field.getText() + b0.getText()));
@@ -116,32 +152,49 @@ public class NumberDialog extends Dialog <String>{
                 System.out.println(stringValidate(field.getText()));
             }
         });
-        
-         bAcep.setOnMouseClicked((event) -> {
+
+        pane.addEventFilter(KeyEvent.KEY_PRESSED, new EventHandler<KeyEvent>() {
+            public void handle(KeyEvent keyEvent) {
+
+                PV pv = ScriptUtil.getPrimaryPV(widget).getPV();
+                if (keyEvent.getCode() == KeyCode.ENTER) {
+                    if (!field.getText().isBlank()) {
+                        try {
+
+                            pv.write(Double.parseDouble(field.getText()));
+                        } catch (Exception ex) {
+
+                        }
+                    }
+                }
+
+            }
+        });
+
+        bAcep.setOnMouseClicked((event) -> {
             try {
                 this.getDialogPane().getScene().getWindow().setOnCloseRequest(e -> this.close());
-                PV pv =  ScriptUtil.getPrimaryPV(widget).getPV();
-                
+                PV pv = ScriptUtil.getPrimaryPV(widget).getPV();
+
                 if (!field.getText().isBlank()) {
                     pv.write(Double.parseDouble(field.getText()));
                 }
-                
+
                 field.setText("");
             } catch (Exception ex) {
                 System.out.println("No se pudo obtener ni escribir en el pv");
             }
         });
-        
-       
-       // pane.setContent(new VBox(15, nodes));
-    pane.setContent(new VBox(root));
-       
-        pane.setMinSize(150, 170);
+
+        // pane.setContent(new VBox(15, nodes));
+        pane.setContent(new VBox(root));
+
+        pane.setMinSize(200, 100);
         setResizable(true);
 
     }
-    
-     public boolean stringValidate(String value) {
+
+    public boolean stringValidate(String value) {
 
         boolean checkValue = false;
 
@@ -157,9 +210,8 @@ public class NumberDialog extends Dialog <String>{
         return checkValue;
     }
 
-    public static  Button getbAcep() {
+    public static Button getbAcep() {
         return bAcep;
     }
 
-     
 }

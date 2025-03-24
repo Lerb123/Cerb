@@ -1,6 +1,6 @@
 package com.ceos.phoebus.runtime;
 
-import com.ceos.phoebus.runtime.numberboard.NumberBoardScene;
+import com.ceos.phoebus.runtime.information.NumberBoardScene;
 import com.ceos.phoebus.runtime.numberboard.NumberDialog;
 import java.util.Optional;
 import java.util.concurrent.CompletableFuture;

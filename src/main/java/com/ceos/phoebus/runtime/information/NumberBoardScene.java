@@ -1,4 +1,4 @@
-package com.ceos.phoebus.runtime.numberboard;
+package com.ceos.phoebus.runtime.information;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -60,6 +60,7 @@ public class NumberBoardScene {
             }
         });
 
+        
         bPunto.setOnMouseClicked((MouseEvent event) -> {
             if (!field.getText().contains(".")) {
                 field.setText(field.getText() + ".");
