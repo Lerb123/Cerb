@@ -4,12 +4,9 @@
  */
 package com.ceos.phoebus.runtime.numberboard;
 
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import javafx.event.EventHandler;
-import javafx.event.EventType;
 import javafx.geometry.Insets;
 import javafx.scene.control.Button;
 import javafx.scene.control.Dialog;
@@ -19,9 +16,9 @@ import javafx.scene.input.KeyCode;
 import javafx.scene.input.KeyEvent;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.GridPane;
-import javafx.scene.layout.HBox;
-import javafx.scene.layout.Priority;
 import javafx.scene.layout.VBox;
+import javafx.scene.text.Font;
+import javafx.scene.text.FontWeight;
 import org.csstudio.display.builder.model.Widget;
 import org.csstudio.display.builder.runtime.script.ScriptUtil;
 import org.phoebus.pv.PV;
@@ -33,6 +30,7 @@ import org.phoebus.pv.PV;
 public class NumberDialog extends Dialog<String> {
 
     private TextField field = new TextField();
+    private Button blogo = new Button("◥ ◤");
     private Button b0 = new Button("0");
     private Button b1 = new Button("1");
     private Button b2 = new Button("2");
@@ -49,62 +47,25 @@ public class NumberDialog extends Dialog<String> {
     private static Button bAcep = new Button("Enter");
 
     public NumberDialog(Widget widget) {
-        //sizes buttons
-        b0.setMinWidth(50);
-        b0.setMinHeight(50);
-        
-        b1.setMinWidth(50);
-        b1.setMinHeight(50);
-
-        b2.setMinWidth(50);
-        b2.setMinHeight(50);
-
-        b3.setMinWidth(50);
-        b3.setMinHeight(50);
-
-        b4.setMinWidth(50);
-        b4.setMinHeight(50);
-
-        b5.setMinWidth(50);
-        b5.setMinHeight(50);
-
-        b6.setMinWidth(50);  
-        b6.setMinHeight(50);
-
-        b7.setMinWidth(50);
-        b7.setMinHeight(50);
-
-        b8.setMinWidth(50);
-        b8.setMinHeight(50);
-
-        b9.setMinWidth(50);
-        b9.setMinHeight(50);
-
-        bClrOne.setMinWidth(50);
-        bClrOne.setMinHeight(50);
-
-        bDelete.setMinWidth(50);
-        bDelete.setMinHeight(50);
-
-        bPunto.setMinWidth(50);
-        bPunto.setMinHeight(50);
-
-        bAcep.setMinWidth(50);
-        bAcep.setMinHeight(50);
+         this.getDialogPane().getScene().getWindow().setOnCloseRequest(e -> this.close());
+        //Sizes
+        setSize();
+        setFont();
+        //Fonts
 
         final DialogPane pane = getDialogPane();
 
         GridPane root = new GridPane();
-        root.setPadding(new Insets(5, 5, 5, 5));
+//        root.setPadding(new Insets(0, 0, 0, 15));
         root.setHgap(5);
-        root.setVgap(5);
+        root.setVgap(4);
 
         root.add(field, 0, 0, 7, 1);
 
-        root.add(b9, 0, 1);
-        root.add(b8, 2, 1);
-        root.add(b7, 4, 1);
-        root.add(bClrOne, 6, 1);
+        root.add(b9, 0, 2);
+        root.add(b8, 2, 2);
+        root.add(b7, 4, 2);
+        root.add(bClrOne, 6, 2);
 
         root.add(b6, 0, 3);
         root.add(b5, 2, 3);
@@ -114,11 +75,11 @@ public class NumberDialog extends Dialog<String> {
         root.add(b3, 0, 5);
         root.add(b2, 2, 5);
         root.add(b1, 4, 5);
-        root.add(bAcep, 6, 5);
+        root.add(blogo, 6, 5);
 
         root.add(b0, 0, 7);
         root.add(bPunto, 2, 7);
-
+        root.add(bAcep, 4, 7, 7, 1);
         this.setDialogPane(pane);
         /*
         Actions buttons
@@ -171,9 +132,10 @@ public class NumberDialog extends Dialog<String> {
             }
         });
 
+       
         bAcep.setOnMouseClicked((event) -> {
             try {
-                this.getDialogPane().getScene().getWindow().setOnCloseRequest(e -> this.close());
+               
                 PV pv = ScriptUtil.getPrimaryPV(widget).getPV();
 
                 if (!field.getText().isBlank()) {
@@ -189,8 +151,11 @@ public class NumberDialog extends Dialog<String> {
         // pane.setContent(new VBox(15, nodes));
         pane.setContent(new VBox(root));
 
-        pane.setMinSize(200, 100);
-        setResizable(true);
+        pane.setMinSize(80, 80);
+        setResizable(false);
+        pane.setMaxWidth(250);
+        pane.setMaxHeight(300);
+        
 
     }
 
@@ -214,4 +179,73 @@ public class NumberDialog extends Dialog<String> {
         return bAcep;
     }
 
+    private void setSize() {
+        field.setMinHeight(50);
+        //sizes buttons
+        blogo.setMinWidth(50);
+        blogo.setMinHeight(50);
+        
+        b0.setMinWidth(50);
+        b0.setMinHeight(50);
+
+        b1.setMinWidth(50);
+        b1.setMinHeight(50);
+
+        b2.setMinWidth(50);
+        b2.setMinHeight(50);
+
+        b3.setMinWidth(50);
+        b3.setMinHeight(50);
+
+        b4.setMinWidth(50);
+        b4.setMinHeight(50);
+
+        b5.setMinWidth(50);
+        b5.setMinHeight(50);
+
+        b6.setMinWidth(50);
+        b6.setMinHeight(50);
+
+        b7.setMinWidth(50);
+        b7.setMinHeight(50);
+
+        b8.setMinWidth(50);
+        b8.setMinHeight(50);
+
+        b9.setMinWidth(50);
+        b9.setMinHeight(50);
+
+        bClrOne.setMinWidth(50);
+        bClrOne.setMinHeight(50);
+
+        bDelete.setMinWidth(50);
+        bDelete.setMinHeight(50);
+
+        bPunto.setMinWidth(50);
+        bPunto.setMinHeight(50);
+
+        bAcep.setMinWidth(110);
+        bAcep.setMinHeight(50);
+
+    }
+
+    private void setFont() {
+        Font bFont = Font.font("Arial", FontWeight.BOLD, 15);
+        field.setFont(bFont);
+        blogo.setFont(bFont);
+        b0.setFont(bFont);
+        b1.setFont(bFont);
+        b2.setFont(bFont);
+        b3.setFont(bFont);
+        b4.setFont(bFont);
+        b5.setFont(bFont);
+        b6.setFont(bFont);
+        b7.setFont(bFont);
+        b8.setFont(bFont);
+        b9.setFont(bFont);
+        bClrOne.setFont(bFont);
+        bDelete.setFont(bFont);
+        bPunto.setFont(bFont);
+        bAcep.setFont(bFont);
+    }
 }
