@@ -1,22 +1,26 @@
 package com.ceos.phoebus.runtime;
 
+import com.ceos.phoebus.runtime.information.NumberBoardScene;
+import com.ceos.phoebus.runtime.numberboard.NumberDialog;
 import java.util.Optional;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.CountDownLatch;
 import java.util.logging.Level;
+import javafx.application.Platform;
 import javafx.scene.Node;
+import javafx.scene.Scene;
 import javafx.scene.control.Alert;
-import javax.swing.JFrame;
+import javafx.scene.input.MouseEvent;
+import javafx.scene.layout.GridPane;
+import javafx.stage.Stage;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.core.config.Configurator;
 import org.csstudio.display.builder.model.Widget;
-import org.csstudio.dcom.ceos.phoebus.runtimeisplay.builder.representation.ToolkitRepresentation;
 import org.csstudio.display.builder.representation.ToolkitRepresentation;
 import org.csstudio.display.builder.representation.javafx.Messages;
 import org.csstudio.display.builder.representation.javafx.widgets.JFXBaseRepresentation;
 import org.csstudio.display.builder.runtime.pv.RuntimePV;
-import org.csstudio.display.builder.runtime.script.PVUtil;
 import org.csstudio.display.builder.runtime.script.ScriptUtil;
 import org.epics.pvaccess.client.rpc.RPCClientImpl;
 import org.epics.pvaccess.server.rpc.RPCRequestException;
@@ -175,8 +179,44 @@ public class CeosUtils {
     public static void getPv(final Widget widget) {
         final RuntimePV rt = ScriptUtil.getPrimaryPV(widget);
         System.out.println(rt);
-       PV pv = rt.getPV();
+        PV pv = rt.getPV();
         System.out.println(pv);
     }
 
+    //
+    public static void initNumberBoardScene(final Widget widget) {
+        try {
+            ToolkitRepresentation tk = ToolkitRepresentation.getToolkit(widget.getDisplayModel());
+            final Node node = JFXBaseRepresentation.getJFXNode(widget);
+
+            tk.execute(()
+                    -> {
+                final NumberDialog dialog = new NumberDialog(widget);
+                DialogHelper.positionDialog(dialog, node, -100, -50);
+                dialog.initOwner(node.getScene().getWindow());
+                dialog.show();
+//                Stage stage = new Stage();
+//
+//                GridPane root = new NumberBoardScene().getRoot();
+//
+//                Scene board = new Scene(root, 150, 170);
+//
+//                stage.setScene(board);
+//                stage.show();
+//
+//                NumberBoardScene.getbAcep().setOnMouseClicked((MouseEvent event) -> {
+//                    stage.close();
+//                });
+//                DialogHelper.positionDialog(root, node, -100, -50);
+//                dialog.initOwner(node.getScene().getWindow());
+            });
+        } catch (Exception ex) {
+            java.util.logging.Logger.getLogger(CeosUtils.class.getName()).log(Level.SEVERE, null, ex);
+        }
+
+        //Init toolkit de javafx
+        //  Platform.startup(()
+        //        -> {
+        //});
+    }
 }

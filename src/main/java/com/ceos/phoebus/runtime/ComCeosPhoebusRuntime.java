@@ -11,6 +11,6 @@ package com.ceos.phoebus.runtime;
 public class ComCeosPhoebusRuntime {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+    //   CeosUtils.initNumberBoardScene();
     }
 }
