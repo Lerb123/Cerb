@@ -2,6 +2,7 @@ package com.ceos.phoebus.runtime;
 
 import com.ceos.phoebus.runtime.information.NumberBoardScene;
 import com.ceos.phoebus.runtime.numberboard.NumberDialog;
+import com.ceos.phoebus.runtime.editorreceta.EditorReceta;
 import java.util.Optional;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.CountDownLatch;
@@ -191,7 +192,8 @@ public class CeosUtils {
 
             tk.execute(()
                     -> {
-                final NumberDialog dialog = new NumberDialog(widget);
+//                final NumberDialog dialog = new NumberDialog(widget);
+                final EditorReceta dialog = new EditorReceta(widget);
                 DialogHelper.positionDialog(dialog, node, -100, -50);
                 dialog.initOwner(node.getScene().getWindow());
                 dialog.show();
