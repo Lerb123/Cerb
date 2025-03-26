@@ -6,9 +6,9 @@ package com.ceos.phoebus.runtime.editorreceta;
 
 import java.net.URL;
 import java.util.ResourceBundle;
-import javafx.collections.FXCollections;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.control.CheckBox;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.Label;
 
@@ -18,22 +18,85 @@ import javafx.scene.control.Label;
  * @author ceos
  */
 public class PrimaryController implements Initializable {
+
     /**
      * Initializes the controller class.
      */
+    @FXML
+    private ComboBox<String> miComboBox;
+    @FXML
+    private Label actualRecipe;
+    @FXML
+    private CheckBox proportion;
+    @FXML
+    private CheckBox brix;
+    @FXML
+    private CheckBox diet;
 
-    @FXML private ComboBox <String> miComboBox;
+    @FXML
+
+    public void handleValueAction() {
+        String seleccion = miComboBox.getValue();
+        actualRecipe.setText(seleccion);
+    }
+
+    @FXML
+    public void handleButton1Action() {
+        //logic
+    }
+
+    @FXML
+    public void handleButton2Action() {
+        //logic
+    }
+
+    @FXML
+    public void handleButton3Action() {
+        //logic
+    }
+
+    @FXML
+    public void handleButton4Action() {
+        //logic
+    }
+
+    @FXML
+    public void handleProportion() {
+        if (proportion.isSelected()) {
+            brix.setSelected(false);
+            diet.setSelected(false);
+
+            //more logic
+        }
+    }
+
+    @FXML
+    public void handleBrix() {
+        if (brix.isSelected()) {
+            proportion.setSelected(false);
+            diet.setSelected(false);
+
+            //more logic
+        }
+    }
+
+    @FXML
+    private void handleDiet() {
+        if (diet.isSelected()) {
+            proportion.setSelected(false);
+            brix.setSelected(false);
+
+            //more logic
+        }
+    }
 
     @Override
     public void initialize(URL url, ResourceBundle rb) {
-//        miComboBox.setItems(FXCollections.observableArrayList("Frescolita 2L", "Chinotto 2L",
-//            "Chinotto 1.5L", "Coca-Cola 1.5L", "Producto Sc", "Coca-Cola Light 2L",
-//            "Coca-Cola 2L", "Grapette Naranja 1.5", "CocaCola m-c1.25L", "CocaCola 350ml",
-//            "Grapette Uva 1.5L"));
-
 
     }
-    
-  
 
+    @FXML
+    private void handleFillMsgAdv() {
+        //logic
+    }
 }
