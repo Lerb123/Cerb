@@ -6,6 +6,7 @@ package com.ceos.phoebus.runtime.editorreceta;
 
 import java.net.URL;
 import java.util.ResourceBundle;
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.CheckBox;
@@ -41,22 +42,22 @@ public class PrimaryController implements Initializable {
     }
 
     @FXML
-    public void handleButton1Action() {
+    public void handleButton1Action(ActionEvent event) {
         //logic
     }
 
     @FXML
-    public void handleButton2Action() {
+    public void handleButton2Action(ActionEvent event) {
         //logic
     }
 
     @FXML
-    public void handleButton3Action() {
+    public void handleButton3Action(ActionEvent event) {
         //logic
     }
 
     @FXML
-    public void handleButton4Action() {
+    public void handleButton4Action(ActionEvent event) {
         //logic
     }
 

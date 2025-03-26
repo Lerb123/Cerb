@@ -37,7 +37,7 @@
         <Label prefHeight="124.0" prefWidth="124.0" />
         <ImageView fitHeight="73.0" fitWidth="131.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true">
             <image>
-                <Image url="@../../../../../../Imágenes/img.png" />
+                <Image url="@../../../../../../../../../../../Imágenes/img.png" />
             </image>
         </ImageView>
         <Label id="idProduct" fx:id="actualRecipe" alignment="CENTER" contentDisplay="CENTER" prefHeight="28.0" prefWidth="290.0" GridPane.columnIndex="2">
