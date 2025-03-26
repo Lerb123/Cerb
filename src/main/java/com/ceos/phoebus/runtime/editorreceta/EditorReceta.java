@@ -25,7 +25,7 @@ public class EditorReceta extends Dialog<String> {
         final DialogPane pane = getDialogPane();
         Parent root;
         try {
-         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("primary.fxml"));
+         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("program.fxml"));
          root = fxmlLoader.load();
          pane.setContent(root);
         } catch (IOException ex) {
