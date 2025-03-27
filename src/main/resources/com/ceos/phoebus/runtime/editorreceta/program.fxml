@@ -162,56 +162,86 @@
                         <Font name="System Bold" size="14.0" />
                      </font>
                   </Label>
-                  <Label prefHeight="30.0" prefWidth="40.0" text="1">
+                  <TextField alignment="CENTER" prefHeight="30.0" prefWidth="40.0" promptText="120">
                      <HBox.margin>
                         <Insets bottom="5.0" />
                      </HBox.margin>
-                  </Label>
-                  <Label prefHeight="30.0" prefWidth="40.0" text="2">
+                     <padding>
+                        <Insets bottom="5.0" />
+                     </padding>
+                  </TextField>
+                  <TextField alignment="CENTER" layoutX="187.0" layoutY="20.0" prefHeight="30.0" prefWidth="40.0" promptText="5">
+                     <padding>
+                        <Insets bottom="5.0" />
+                     </padding>
                      <HBox.margin>
                         <Insets bottom="5.0" />
                      </HBox.margin>
-                  </Label>
-                  <Label prefHeight="30.0" prefWidth="40.0" text="3">
+                  </TextField>
+                  <TextField alignment="CENTER" layoutX="237.0" layoutY="20.0" prefHeight="30.0" prefWidth="40.0" promptText="180">
+                     <padding>
+                        <Insets bottom="5.0" />
+                     </padding>
                      <HBox.margin>
                         <Insets bottom="5.0" />
                      </HBox.margin>
-                  </Label>
-                  <Label prefHeight="30.0" prefWidth="40.0" text="4">
+                  </TextField>
+                  <TextField alignment="CENTER" layoutX="287.0" layoutY="20.0" prefHeight="30.0" prefWidth="40.0" promptText="180">
+                     <padding>
+                        <Insets bottom="5.0" />
+                     </padding>
                      <HBox.margin>
                         <Insets bottom="5.0" />
                      </HBox.margin>
-                  </Label>
-                  <Label prefHeight="30.0" prefWidth="40.0" text="5">
+                  </TextField>
+                  <TextField alignment="CENTER" layoutX="337.0" layoutY="20.0" prefHeight="30.0" prefWidth="40.0" promptText="120">
+                     <padding>
+                        <Insets bottom="5.0" />
+                     </padding>
                      <HBox.margin>
                         <Insets bottom="5.0" />
                      </HBox.margin>
-                  </Label>
-                  <Label prefHeight="30.0" prefWidth="40.0" text="6">
+                  </TextField>
+                  <TextField alignment="CENTER" layoutX="387.0" layoutY="20.0" prefHeight="30.0" prefWidth="40.0" promptText="0">
+                     <padding>
+                        <Insets bottom="5.0" />
+                     </padding>
                      <HBox.margin>
                         <Insets bottom="5.0" />
                      </HBox.margin>
-                  </Label>
-                  <Label prefHeight="30.0" prefWidth="40.0" text="7">
+                  </TextField>
+                  <TextField alignment="CENTER" layoutX="437.0" layoutY="20.0" prefHeight="30.0" prefWidth="40.0" promptText="0">
+                     <padding>
+                        <Insets bottom="5.0" />
+                     </padding>
                      <HBox.margin>
                         <Insets bottom="5.0" />
                      </HBox.margin>
-                  </Label>
-                  <Label prefHeight="30.0" prefWidth="40.0" text="8">
+                  </TextField>
+                  <TextField alignment="CENTER" layoutX="487.0" layoutY="20.0" prefHeight="30.0" prefWidth="40.0" promptText="0">
+                     <padding>
+                        <Insets bottom="5.0" />
+                     </padding>
                      <HBox.margin>
                         <Insets bottom="5.0" />
                      </HBox.margin>
-                  </Label>
-                  <Label prefHeight="30.0" prefWidth="40.0" text="9">
+                  </TextField>
+                  <TextField alignment="CENTER" layoutX="537.0" layoutY="20.0" prefHeight="30.0" prefWidth="40.0" promptText="0">
+                     <padding>
+                        <Insets bottom="5.0" />
+                     </padding>
                      <HBox.margin>
                         <Insets bottom="5.0" />
                      </HBox.margin>
-                  </Label>
-                  <Label prefHeight="30.0" prefWidth="40.0" text="10">
+                  </TextField>
+                  <TextField alignment="CENTER" layoutX="587.0" layoutY="20.0" prefHeight="30.0" prefWidth="40.0" promptText="0">
+                     <padding>
+                        <Insets bottom="5.0" />
+                     </padding>
                      <HBox.margin>
                         <Insets bottom="5.0" />
                      </HBox.margin>
-                  </Label>
+                  </TextField>
                </children>
                <VBox.margin>
                   <Insets left="5.0" />

@@ -30,8 +30,8 @@
         <RowConstraints maxHeight="186.0" minHeight="0.0" prefHeight="186.0" vgrow="SOMETIMES" />
         <RowConstraints maxHeight="146.0" minHeight="0.0" prefHeight="20.0" vgrow="SOMETIMES" />
         <RowConstraints maxHeight="514.0" minHeight="10.0" prefHeight="58.0" vgrow="SOMETIMES" />
-        <RowConstraints maxHeight="484.0" minHeight="10.0" prefHeight="451.0" valignment="TOP" vgrow="SOMETIMES" />
-        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints maxHeight="484.0" minHeight="10.0" prefHeight="442.0" valignment="TOP" vgrow="SOMETIMES" />
+        <RowConstraints maxHeight="53.0" minHeight="10.0" prefHeight="53.0" vgrow="SOMETIMES" />
     </rowConstraints>
     <children>
         <Label prefHeight="124.0" prefWidth="124.0" />
@@ -59,10 +59,10 @@
                 <Font name="Liberation Sans Bold" size="18.0" />
             </font>
         </Label>
-        <Button fx:id="bHome" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#handleButton1Action" prefHeight="26.0" prefWidth="74.0" text="Button" textAlignment="CENTER" GridPane.rowIndex="4" />
-        <Button fx:id="bOK" mnemonicParsing="false" onAction="#handleButton2Action" prefHeight="26.0" prefWidth="74.0" text="Button" GridPane.columnIndex="2" GridPane.rowIndex="4" />
-        <Button fx:id="bTemperature" mnemonicParsing="false" onAction="#handleButton3Action" prefHeight="26.0" prefWidth="74.0" text="Button" GridPane.columnIndex="3" GridPane.rowIndex="4" />
-        <Button fx:id="bList" mnemonicParsing="false" onAction="#handleButton4Action" prefHeight="26.0" prefWidth="74.0" text="Button" GridPane.columnIndex="5" GridPane.rowIndex="4" />
+        <Button fx:id="bHome" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#handleButton1Action" prefHeight="40.0" prefWidth="70.0" text="Button" textAlignment="CENTER" GridPane.rowIndex="4" />
+        <Button fx:id="bOK" mnemonicParsing="false" onAction="#handleButton2Action" prefHeight="40.0" prefWidth="70.0" text="Button" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+        <Button fx:id="bTemperature" mnemonicParsing="false" onAction="#handleButton3Action" prefHeight="40.0" prefWidth="70.0" text="Button" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+        <Button fx:id="bList" mnemonicParsing="false" onAction="#handleButton4Action" prefHeight="40.0" prefWidth="70.0" text="Button" GridPane.columnIndex="5" GridPane.rowIndex="4" />
         <VBox prefHeight="389.0" prefWidth="240.0" spacing="5.0" GridPane.columnIndex="2" GridPane.rowIndex="3">
             <children>
                 <Label prefHeight="40.0" prefWidth="240.0" text="Numero de receta">
