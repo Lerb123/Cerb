@@ -17,7 +17,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="459.0" prefWidth="1051.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ceos.phoebus.runtime.editorreceta.ProgramController">
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="772.0" prefWidth="1057.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ceos.phoebus.runtime.editorreceta.ProgramController">
    <children>
       <VBox prefHeight="500.0" prefWidth="277.0" spacing="5.0">
          <children>
@@ -147,9 +147,14 @@
             <Insets />
          </opaqueInsets>
       </VBox>
-      <Separator orientation="VERTICAL" prefHeight="459.0" prefWidth="79.0" />
-      <VBox prefHeight="454.0" prefWidth="723.0">
+      <Separator orientation="VERTICAL" prefHeight="459.0" prefWidth="17.0" />
+      <VBox prefHeight="454.0" prefWidth="761.0">
          <children>
+            <Button fx:id="Enter" mnemonicParsing="false" onAction="#handleRegistry" text="Enter">
+               <VBox.margin>
+                  <Insets left="10.0" top="5.0" />
+               </VBox.margin>
+            </Button>
             <HBox prefHeight="40.0" prefWidth="511.0" spacing="10.0">
                <children>
                   <Label prefHeight="20.0" prefWidth="167.0" text="Tiempo Duracion Fase">
@@ -215,26 +220,26 @@
                   <Insets top="10.0" />
                </padding>
             </HBox>
-            <TableView fx:id="tablePhase" maxWidth="705.0" prefHeight="418.0" prefWidth="697.0">
+            <TableView fx:id="tablePhase" editable="true" maxWidth="757.0" prefHeight="694.0" prefWidth="753.0">
               <columns>
-                <TableColumn fx:id="col1" prefWidth="150.0" text="Numero de Fase" />
-                <TableColumn fx:id="col2" prefWidth="55.0" text="1" />
-                  <TableColumn fx:id="col3" prefWidth="55.0" text="2" />
-                  <TableColumn fx:id="col4" prefWidth="55.0" text="3" />
-                  <TableColumn fx:id="col5" prefWidth="55.0" text="4" />
-                  <TableColumn fx:id="col6" prefWidth="55.0" text="5" />
-                  <TableColumn fx:id="col7" prefWidth="55.0" text="6" />
-                  <TableColumn fx:id="col8" prefWidth="55.0" text="7" />
-                  <TableColumn fx:id="col9" prefWidth="55.0" text="8" />
-                  <TableColumn fx:id="col10" prefWidth="55.0" text="9" />
-                  <TableColumn fx:id="col11" prefWidth="55.0" text="10" />
+                <TableColumn fx:id="col1" prefWidth="250.0" text="Numero de Fase" />
+                <TableColumn fx:id="col2" prefWidth="50.0" text="1" />
+                  <TableColumn fx:id="col3" prefWidth="50.0" text="2" />
+                  <TableColumn fx:id="col4" prefWidth="50.0" text="3" />
+                  <TableColumn fx:id="col5" prefWidth="50.0" text="4" />
+                  <TableColumn fx:id="col6" prefWidth="50.0" text="5" />
+                  <TableColumn fx:id="col7" prefWidth="50.0" text="6" />
+                  <TableColumn fx:id="col8" prefWidth="50.0" text="7" />
+                  <TableColumn fx:id="col9" prefWidth="50.0" text="8" />
+                  <TableColumn fx:id="col10" prefWidth="50.0" text="9" />
+                  <TableColumn fx:id="col11" prefWidth="50.0" text="10" />
               </columns>
                <HBox.margin>
                   <Insets right="10.0" top="5.0" />
                </HBox.margin>
-               <padding>
-                  <Insets right="1.0" />
-               </padding>
+               <VBox.margin>
+                  <Insets left="5.0" />
+               </VBox.margin>
             </TableView>
          </children>
          <HBox.margin>

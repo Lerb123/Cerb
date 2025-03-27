@@ -17,20 +17,22 @@ import org.csstudio.display.builder.model.Widget;
  *
  * @author ceos
  */
-public class EditorReceta extends Dialog<String> {
+public class ManiobraCarbonatador extends Dialog<String> {
 
-    public EditorReceta(Widget widget) {
-        setTitle("Ceos Editor");
+    public ManiobraCarbonatador(Widget widget) {
+
+        setTitle("Ceos Mixer");
         this.getDialogPane().getScene().getWindow().setOnCloseRequest(e -> this.close());
         final DialogPane pane = getDialogPane();
         Parent root;
+
         try {
-         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("primary.fxml"));
-         root = fxmlLoader.load();
-         pane.setContent(root);
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("program.fxml"));
+            root = fxmlLoader.load();
+            pane.setContent(root);
         } catch (IOException ex) {
             Logger.getLogger(EditorReceta.class.getName()).log(Level.SEVERE, null, ex);
         }
-        
     }
+
 }
