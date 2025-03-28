@@ -3,6 +3,9 @@ package com.ceos.phoebus.runtime;
 import com.ceos.phoebus.runtime.editorreceta.EditorReceta;
 import com.ceos.phoebus.runtime.editorreceta.ManiobraCarbonatador;
 import com.ceos.phoebus.runtime.numberboard.NumberDialog;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
 import java.util.Optional;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.CountDownLatch;
@@ -36,6 +39,7 @@ import org.phoebus.ui.dialog.DialogHelper;
 public class CeosUtils {
 
     private static final Logger logger = LogManager.getLogger(CeosUtils.class);
+
 
     /* 
     public static void main(String[] args) {
@@ -242,4 +246,21 @@ public class CeosUtils {
        
     }
 
+    
+    public static Connection getConnection(){
+        
+    final String  URL = "jdbc:sqlite:ccbna.db";
+    Connection con=null;
+        try {
+            con = DriverManager.getConnection(URL);
+            System.out.println("conectado");
+        } catch (SQLException ex) {
+            System.err.println("no conectado");
+        }
+    
+    return con;
+    }
+    
+    
+   
 }

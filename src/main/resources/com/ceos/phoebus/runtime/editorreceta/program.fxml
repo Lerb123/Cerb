@@ -98,7 +98,7 @@
                         <Font name="Liberation Sans Bold" size="12.0" />
                      </font>
                   </Label>
-                  <TextField prefHeight="26.0" prefWidth="60.0" GridPane.columnIndex="1">
+                  <TextField fx:id="timeP" prefHeight="26.0" prefWidth="60.0" GridPane.columnIndex="1">
                      <padding>
                         <Insets left="10.0" />
                      </padding>
@@ -106,17 +106,17 @@
                         <Insets left="5.0" right="5.0" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField GridPane.columnIndex="1" GridPane.rowIndex="1">
+                  <TextField fx:id="temperature" GridPane.columnIndex="1" GridPane.rowIndex="1">
                      <GridPane.margin>
                         <Insets left="5.0" right="5.0" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField GridPane.columnIndex="1" GridPane.rowIndex="2">
+                  <TextField fx:id="highConduc" GridPane.columnIndex="1" GridPane.rowIndex="2">
                      <GridPane.margin>
                         <Insets left="5.0" right="5.0" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField GridPane.columnIndex="1" GridPane.rowIndex="3">
+                  <TextField fx:id="lowConduc" GridPane.columnIndex="1" GridPane.rowIndex="3">
                      <GridPane.margin>
                         <Insets left="5.0" right="5.0" />
                      </GridPane.margin>
@@ -162,7 +162,7 @@
                         <Font name="System Bold" size="14.0" />
                      </font>
                   </Label>
-                  <TextField alignment="CENTER" prefHeight="30.0" prefWidth="40.0" promptText="120">
+                  <TextField fx:id="phase1" alignment="CENTER" prefHeight="30.0" prefWidth="40.0" promptText="120">
                      <HBox.margin>
                         <Insets bottom="5.0" />
                      </HBox.margin>
@@ -170,7 +170,7 @@
                         <Insets bottom="5.0" />
                      </padding>
                   </TextField>
-                  <TextField alignment="CENTER" layoutX="187.0" layoutY="20.0" prefHeight="30.0" prefWidth="40.0" promptText="5">
+                  <TextField fx:id="phase2" alignment="CENTER" layoutX="187.0" layoutY="20.0" prefHeight="30.0" prefWidth="40.0" promptText="5">
                      <padding>
                         <Insets bottom="5.0" />
                      </padding>
@@ -178,7 +178,7 @@
                         <Insets bottom="5.0" />
                      </HBox.margin>
                   </TextField>
-                  <TextField alignment="CENTER" layoutX="237.0" layoutY="20.0" prefHeight="30.0" prefWidth="40.0" promptText="180">
+                  <TextField fx:id="phase3" alignment="CENTER" layoutX="237.0" layoutY="20.0" prefHeight="30.0" prefWidth="40.0" promptText="180">
                      <padding>
                         <Insets bottom="5.0" />
                      </padding>
@@ -186,7 +186,7 @@
                         <Insets bottom="5.0" />
                      </HBox.margin>
                   </TextField>
-                  <TextField alignment="CENTER" layoutX="287.0" layoutY="20.0" prefHeight="30.0" prefWidth="40.0" promptText="180">
+                  <TextField fx:id="phase4" alignment="CENTER" layoutX="287.0" layoutY="20.0" prefHeight="30.0" prefWidth="40.0" promptText="180">
                      <padding>
                         <Insets bottom="5.0" />
                      </padding>
@@ -194,7 +194,7 @@
                         <Insets bottom="5.0" />
                      </HBox.margin>
                   </TextField>
-                  <TextField alignment="CENTER" layoutX="337.0" layoutY="20.0" prefHeight="30.0" prefWidth="40.0" promptText="120">
+                  <TextField fx:id="phase5" alignment="CENTER" layoutX="337.0" layoutY="20.0" prefHeight="30.0" prefWidth="40.0" promptText="120">
                      <padding>
                         <Insets bottom="5.0" />
                      </padding>
@@ -202,7 +202,7 @@
                         <Insets bottom="5.0" />
                      </HBox.margin>
                   </TextField>
-                  <TextField alignment="CENTER" layoutX="387.0" layoutY="20.0" prefHeight="30.0" prefWidth="40.0" promptText="0">
+                  <TextField fx:id="phase6" alignment="CENTER" layoutX="387.0" layoutY="20.0" prefHeight="30.0" prefWidth="40.0" promptText="0">
                      <padding>
                         <Insets bottom="5.0" />
                      </padding>
@@ -210,7 +210,7 @@
                         <Insets bottom="5.0" />
                      </HBox.margin>
                   </TextField>
-                  <TextField alignment="CENTER" layoutX="437.0" layoutY="20.0" prefHeight="30.0" prefWidth="40.0" promptText="0">
+                  <TextField fx:id="phase7" alignment="CENTER" layoutX="437.0" layoutY="20.0" prefHeight="30.0" prefWidth="40.0" promptText="0">
                      <padding>
                         <Insets bottom="5.0" />
                      </padding>
@@ -218,7 +218,7 @@
                         <Insets bottom="5.0" />
                      </HBox.margin>
                   </TextField>
-                  <TextField alignment="CENTER" layoutX="487.0" layoutY="20.0" prefHeight="30.0" prefWidth="40.0" promptText="0">
+                  <TextField fx:id="phase8" alignment="CENTER" layoutX="487.0" layoutY="20.0" prefHeight="30.0" prefWidth="40.0" promptText="0">
                      <padding>
                         <Insets bottom="5.0" />
                      </padding>
@@ -226,7 +226,7 @@
                         <Insets bottom="5.0" />
                      </HBox.margin>
                   </TextField>
-                  <TextField alignment="CENTER" layoutX="537.0" layoutY="20.0" prefHeight="30.0" prefWidth="40.0" promptText="0">
+                  <TextField fx:id="phase9" alignment="CENTER" layoutX="537.0" layoutY="20.0" prefHeight="30.0" prefWidth="40.0" promptText="0">
                      <padding>
                         <Insets bottom="5.0" />
                      </padding>
@@ -234,7 +234,7 @@
                         <Insets bottom="5.0" />
                      </HBox.margin>
                   </TextField>
-                  <TextField alignment="CENTER" layoutX="587.0" layoutY="20.0" prefHeight="30.0" prefWidth="40.0" promptText="0">
+                  <TextField fx:id="phase10" alignment="CENTER" layoutX="587.0" layoutY="20.0" prefHeight="30.0" prefWidth="40.0" promptText="0">
                      <padding>
                         <Insets bottom="5.0" />
                      </padding>

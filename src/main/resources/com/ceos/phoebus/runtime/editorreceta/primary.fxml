@@ -2,6 +2,7 @@
 
 <?import java.lang.String?>
 <?import javafx.collections.FXCollections?>
+<?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.CheckBox?>
 <?import javafx.scene.control.ComboBox?>
@@ -37,7 +38,7 @@
         <Label prefHeight="124.0" prefWidth="124.0" />
         <ImageView fitHeight="73.0" fitWidth="131.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true">
             <image>
-                <Image url="@../../../../../../../../../../../Imágenes/img.png" />
+                <Image url="@../../../../../../../../../../../img.png" />
             </image>
         </ImageView>
         <Label id="idProduct" fx:id="actualRecipe" alignment="CENTER" contentDisplay="CENTER" prefHeight="28.0" prefWidth="290.0" GridPane.columnIndex="2">
@@ -119,16 +120,16 @@
         </VBox>
         <VBox prefHeight="200.0" prefWidth="100.0" spacing="5.0" GridPane.columnIndex="3" GridPane.rowIndex="3">
             <children>
-                <TextField prefHeight="40.0" prefWidth="147.0" />
-                <TextField layoutX="10.0" layoutY="10.0" prefHeight="40.0" prefWidth="147.0" />
-                <TextField layoutX="10.0" layoutY="36.0" prefHeight="40.0" prefWidth="147.0" />
-                <TextField layoutX="10.0" layoutY="62.0" prefHeight="40.0" prefWidth="147.0" />
-                <TextField layoutX="10.0" layoutY="88.0" prefHeight="40.0" prefWidth="147.0" />
-                <TextField layoutX="10.0" layoutY="114.0" prefHeight="40.0" prefWidth="147.0" />
-                <TextField layoutX="10.0" layoutY="114.0" prefHeight="40.0" prefWidth="147.0" />
-                <TextField layoutX="10.0" layoutY="140.0" prefHeight="40.0" prefWidth="147.0" />
-                <TextField layoutX="10.0" layoutY="166.0" prefHeight="40.0" prefWidth="147.0" />
-                <TextField layoutX="10.0" layoutY="192.0" prefHeight="40.0" prefWidth="147.0" />
+                <TextField fx:id="numberRecipe" prefHeight="40.0" prefWidth="147.0" />
+                <TextField fx:id="brixsyrup" layoutX="10.0" layoutY="10.0" prefHeight="40.0" prefWidth="147.0" />
+                <TextField fx:id="specificWeight" layoutX="10.0" layoutY="36.0" prefHeight="40.0" prefWidth="147.0" />
+                <TextField fx:id="brixBeverage" layoutX="10.0" layoutY="62.0" prefHeight="40.0" prefWidth="147.0" />
+                <TextField fx:id="nominalRatio" layoutX="10.0" layoutY="88.0" prefHeight="40.0" prefWidth="147.0" />
+                <TextField fx:id="co2Volumes" layoutX="10.0" layoutY="114.0" prefHeight="40.0" prefWidth="147.0" />
+                <TextField fx:id="saturatorPressure" layoutX="10.0" layoutY="114.0" prefHeight="40.0" prefWidth="147.0" />
+                <TextField fx:id="beverageTemperature" layoutX="10.0" layoutY="140.0" prefHeight="40.0" prefWidth="147.0" />
+                <TextField fx:id="nominalProduction" layoutX="10.0" layoutY="166.0" prefHeight="40.0" prefWidth="147.0" />
+                <TextField fx:id="minNivel" layoutX="10.0" layoutY="192.0" prefHeight="40.0" prefWidth="147.0" />
             </children>
         </VBox>
         <Separator orientation="VERTICAL" prefHeight="200.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
@@ -156,32 +157,43 @@
                         <Font name="System Bold" size="15.0" />
                     </font>
                 </Label>
-                <CheckBox fx:id="proportion" mnemonicParsing="false" onAction="#handleProportion" prefHeight="18.0" prefWidth="344.0" text="Proporcion" GridPane.columnSpan="2" GridPane.rowIndex="1" />
-                <CheckBox fx:id="brix" layoutX="10.0" layoutY="62.0" mnemonicParsing="false" onAction="#handleBrix" prefHeight="18.0" prefWidth="347.0" text="Brix" GridPane.columnSpan="2" GridPane.rowIndex="2" />
-                <CheckBox fx:id="diet" layoutX="10.0" layoutY="88.0" mnemonicParsing="false" onAction="#handleDiet" prefHeight="18.0" prefWidth="350.0" text="Diet" GridPane.columnSpan="2" GridPane.rowIndex="3" />
-                <Label prefHeight="36.0" prefWidth="171.0" text="VM1  =" GridPane.rowIndex="5" />
-                <Label layoutX="10.0" layoutY="267.0" prefHeight="36.0" prefWidth="171.0" text="VM2 =" GridPane.rowIndex="6" />
-                <Label layoutX="10.0" layoutY="318.0" prefHeight="36.0" prefWidth="171.0" text="VM3 =" GridPane.rowIndex="7" />
-                <Label prefHeight="35.0" prefWidth="66.0" text="\%" GridPane.columnIndex="1" GridPane.rowIndex="5" />
-                <Label layoutX="186.0" layoutY="268.0" prefHeight="35.0" prefWidth="74.0" text="\%" GridPane.columnIndex="1" GridPane.rowIndex="6" />
-                <Label layoutX="186.0" layoutY="319.0" prefHeight="35.0" prefWidth="76.0" text="\%" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+                <CheckBox fx:id="brix" layoutX="10.0" layoutY="62.0" mnemonicParsing="false" onAction="#handleBrix" prefHeight="18.0" prefWidth="347.0" text="Brix" GridPane.columnSpan="2" GridPane.rowIndex="1" />
+                <CheckBox fx:id="diet" layoutX="10.0" layoutY="88.0" mnemonicParsing="false" onAction="#handleDiet" prefHeight="18.0" prefWidth="350.0" text="Diet" GridPane.columnSpan="2" GridPane.rowIndex="2" />
+                <Label fx:id="vm2" prefHeight="36.0" prefWidth="171.0" text="VM1 (%) =" GridPane.rowIndex="4" />
+                <Label layoutX="10.0" layoutY="267.0" prefHeight="36.0" prefWidth="171.0" text="VM2 (%)=" GridPane.rowIndex="5" />
+                <Label layoutX="10.0" layoutY="318.0" prefHeight="36.0" prefWidth="171.0" text="VM3 (%)=" GridPane.rowIndex="6" />
+                <Label prefHeight="35.0" prefWidth="66.0" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+            <Label fx:id="vm1" prefHeight="40.0" prefWidth="100.0" GridPane.columnIndex="1" GridPane.rowIndex="4">
+               <GridPane.margin>
+                  <Insets left="5.0" right="5.0" />
+               </GridPane.margin>
+            </Label>
+            <Label fx:id="vm2" prefHeight="40.0" prefWidth="100.0" GridPane.columnIndex="1" GridPane.rowIndex="5">
+               <GridPane.margin>
+                  <Insets left="5.0" right="5.0" />
+               </GridPane.margin>
+            </Label>
+            <Label fx:id="vm3" prefHeight="40.0" prefWidth="100.0" GridPane.columnIndex="1" GridPane.rowIndex="6">
+               <GridPane.margin>
+                  <Insets left="5.0" right="5.0" />
+               </GridPane.margin>
+            </Label>
             </children>
         </GridPane>
         <ComboBox fx:id="miComboBox" onAction="#handleValueAction" prefHeight="26.0" prefWidth="274.0" GridPane.rowIndex="3">
             <items>
                 <FXCollections fx:factory="observableArrayList">
-                    <String fx:value="Frescolita 2L" />
-                    <String fx:value="Chinotto 2L" />
-                    <String fx:value="Chinotto 1.5L" />
-                    <String fx:value="Coca-Cola 1.5L" />
-                    <String fx:value="Producto Sc" />
+                    <String fx:value="Coca-Cola Menos Calorías 2L" />
+                    <String fx:value="Coca-Cola Menos Calorías 1.5L o 1L" />
+                    <String fx:value="Chinotto Sin Calorías 2L" />
+                    <String fx:value="Chinotto Sin Calorías 1.5L o 1L" />
+                    <String fx:value="Frescolita Sin Calorías  2L" />
                     <String fx:value="Coca-Cola Light 2L" />
-                    <String fx:value="Coca-Cola 2L" />
-                    <String fx:value="Grapette Naranja 1.5" />
-                    <String fx:value="Chinotto 1.5L" />
-                    <String fx:value="CocaCola m-c1.25L" />
-                    <String fx:value="CocaCola 350ml" />
-                    <String fx:value="Grapette Uva 1.5L" />
+                    <String fx:value="Frescolita Sin Calorías 1.5L o 1L" />
+                    <String fx:value="Hit Uva Sin Calorías 2L" />
+                    <String fx:value="Hit Uva Sin Calorías 1.5L o 1L" />
+                    <String fx:value="Fanta Naranja 2L" />
+                    <String fx:value="Fanta Naranja 1.5L o 1L" />
                 </FXCollections>
             </items>
         </ComboBox>

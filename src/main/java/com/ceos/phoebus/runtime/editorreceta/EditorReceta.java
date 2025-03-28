@@ -20,7 +20,7 @@ import org.csstudio.display.builder.model.Widget;
 public class EditorReceta extends Dialog<String> {
 
     public EditorReceta(Widget widget) {
-        setTitle("Ceos Editor");
+        setTitle("CEOS EDITOR");
         this.getDialogPane().getScene().getWindow().setOnCloseRequest(e -> this.close());
         final DialogPane pane = getDialogPane();
         Parent root;

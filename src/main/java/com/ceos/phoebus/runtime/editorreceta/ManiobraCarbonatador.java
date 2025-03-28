@@ -21,7 +21,7 @@ public class ManiobraCarbonatador extends Dialog<String> {
 
     public ManiobraCarbonatador(Widget widget) {
 
-        setTitle("Ceos Mixer");
+        setTitle("CEOS MIXER");
         this.getDialogPane().getScene().getWindow().setOnCloseRequest(e -> this.close());
         final DialogPane pane = getDialogPane();
         Parent root;

@@ -10,6 +10,7 @@ import javafx.scene.control.CheckBox;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
+import javafx.scene.control.TextField;
 import javafx.scene.control.cell.PropertyValueFactory;
 
 /**
@@ -18,34 +19,41 @@ import javafx.scene.control.cell.PropertyValueFactory;
  */
 public class ProgramController implements Initializable {
 
-    @FXML
-    private ComboBox<String> miComboBox;
-    @FXML
-    private TableView<Registro> tablePhase;
+    @FXML private TextField phase1;
+    @FXML private TextField phase2;
+    @FXML private TextField phase3;
+    @FXML private TextField phase4;
+    @FXML private TextField phase5;
+    @FXML private TextField phase6;
+    @FXML private TextField phase7;
+    @FXML private TextField phase8;
+    @FXML private TextField phase9;
+    @FXML private TextField phase10;
+    
+    @FXML private TextField timeP;
 
-    @FXML
-    private TableColumn <Registro, String> col1;
-    @FXML
-    private TableColumn <Registro, CheckBox> col2;
-    @FXML
-    private TableColumn <Registro, CheckBox> col3;
-    @FXML
-    private TableColumn <Registro, CheckBox> col4;
-    @FXML
-    private TableColumn <Registro, CheckBox> col5;
-    @FXML
-    private TableColumn <Registro, CheckBox> col6;
-    @FXML
-    private TableColumn <Registro, CheckBox> col7;
-    @FXML
-    private TableColumn <Registro, CheckBox> col8;
-    @FXML
-    private TableColumn <Registro, CheckBox> col9;
-    @FXML
-    private TableColumn <Registro, CheckBox> col10;
+    @FXML private TextField temperature;
 
-    @FXML
-    private TableColumn <Registro, CheckBox> col11 ;
+    @FXML private TextField highConduc;
+
+    @FXML private TextField lowConduc;
+
+    @FXML private ComboBox<String> miComboBox;
+
+    @FXML private TableView<Registro> tablePhase;
+
+    @FXML private TableColumn<Registro, String> col1;
+    @FXML private TableColumn<Registro, CheckBox> col2;
+    @FXML private TableColumn<Registro, CheckBox> col3;
+    @FXML private TableColumn<Registro, CheckBox> col4;
+    @FXML private TableColumn<Registro, CheckBox> col5;
+    @FXML private TableColumn<Registro, CheckBox> col6;
+    @FXML private TableColumn<Registro, CheckBox> col7;
+    @FXML private TableColumn<Registro, CheckBox> col8;
+    @FXML private TableColumn<Registro, CheckBox> col9;
+    @FXML private TableColumn<Registro, CheckBox> col10;
+
+    @FXML private TableColumn<Registro, CheckBox> col11;
 
     private ObservableList<Registro> registros = FXCollections.observableArrayList(
             new Registro("Calentador"),
@@ -101,57 +109,77 @@ public class ProgramController implements Initializable {
 //            System.out.println( registros.get(0).isActivechk1());
 //            
 //        });
-      
         tablePhase.setEditable(true);
         tablePhase.setItems(registros);
     }
 
     @FXML
-    public void handleRegistry(){
-    
+    public void handleRegistry() {
+
         for (Registro registro : registros) {
             if (registro.getChk1().isSelected()) {
                 System.out.println("pum chk1");
-                
+
             }
-           if (registro.getChk2().isSelected()) {
-                 System.out.println("pum chk2");
-                 //logic
+            if (registro.getChk2().isSelected()) {
+                System.out.println("pum chk2");
+                //logic
             }
-           if (registro.getChk3().isSelected()) {
-                 System.out.println("pum chk3");
-                 //logic
+            if (registro.getChk3().isSelected()) {
+                System.out.println("pum chk3");
+                //logic
             }
-           if (registro.getChk4().isSelected()) {
-                 System.out.println("pum chk4");
-                 //logic
+            if (registro.getChk4().isSelected()) {
+                System.out.println("pum chk4");
+                //logic
             }
-           if (registro.getChk5().isSelected()) {
-                 System.out.println("pum chk5");
-                 //logic
+            if (registro.getChk5().isSelected()) {
+                System.out.println("pum chk5");
+                //logic
             }
-           if (registro.getChk6().isSelected()) {
-                 System.out.println("pum chk6");
-                 //logic
-                 
+            if (registro.getChk6().isSelected()) {
+                System.out.println("pum chk6");
+                //logic
+
             }
-           if (registro.getChk7().isSelected()) {
+            if (registro.getChk7().isSelected()) {
                 System.out.println("pum chk7");
                 //logic
             }
-           if (registro.getChk8().isSelected()) {
-                 System.out.println("pum chk8");
-                 //logic
+            if (registro.getChk8().isSelected()) {
+                System.out.println("pum chk8");
+                //logic
             }
-           if (registro.getChk9().isSelected()) {
-                 System.out.println("pum chk9");
-                 //logic
+            if (registro.getChk9().isSelected()) {
+                System.out.println("pum chk9");
+                //logic
             }
             if (registro.getChk10().isSelected()) {
-                 System.out.println("pum chk10");
-                 //logic
+                System.out.println("pum chk10");
+                //logic
             }
-           
+
+            //actual value program name
+            String programName = miComboBox.getValue();
+
+            //get fields left
+            String time = timeP.getText();
+            String temp = temperature.getText();
+            String highC = highConduc.getText();
+            String lowC = lowConduc.getText();
+            
+            //get fields high
+            String f1 = phase1.getText();
+            String f2 = phase2.getText();
+            String f3 = phase3.getText();
+            String f4 = phase4.getText();
+            String f5 = phase5.getText();
+            String f6 = phase6.getText();
+            String f7 = phase7.getText();
+            String f8 = phase8.getText();
+            String f9 = phase9.getText();
+            String f10 = phase10.getText();
+            
         }
     }
 }
