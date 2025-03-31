@@ -9,7 +9,6 @@ import java.sql.SQLException;
 import java.util.Optional;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.CountDownLatch;
-import java.util.logging.Level;
 import javafx.scene.Node;
 import javafx.scene.control.Alert;
 import org.apache.logging.log4j.LogManager;
@@ -38,8 +37,8 @@ import org.phoebus.ui.dialog.DialogHelper;
  */
 public class CeosUtils {
 
-    private static final Logger logger = LogManager.getLogger(CeosUtils.class);
-
+//  private static final Logger logger = LoggerFactory.getLogger(CeosUtils.class);
+private static final Logger logger =LogManager.getLogger(CeosUtils.class);
 
     /* 
     public static void main(String[] args) {
@@ -112,7 +111,7 @@ public class CeosUtils {
 
     }
 
-    private static void loadLogger() {
+    public static void loadLogger() {
         Configurator.initialize("ceos", "/log4j2.properties");
     }
 
@@ -140,7 +139,7 @@ public class CeosUtils {
         try {
             done.await();
         } catch (InterruptedException ex) {
-            // Ignore
+            logger.error("error"+ex.getMessage());
         }
     }
 
@@ -197,7 +196,7 @@ public class CeosUtils {
                 dialog.show();
             });
         } catch (Exception ex) {
-            java.util.logging.Logger.getLogger(CeosUtils.class.getName()).log(Level.SEVERE, null, ex);
+           logger.error("error"+ex.getMessage());
         }
 
         /*NO BORRAR
@@ -221,7 +220,7 @@ public class CeosUtils {
                 dialog.show();
             });
         } catch (Exception ex) {
-            java.util.logging.Logger.getLogger(CeosUtils.class.getName()).log(Level.SEVERE, null, ex);
+           logger.error("error"+ex.getMessage());
         }
 
       
@@ -240,7 +239,7 @@ public class CeosUtils {
                 dialog.show();
             });
         } catch (Exception ex) {
-            java.util.logging.Logger.getLogger(CeosUtils.class.getName()).log(Level.SEVERE, null, ex);
+           logger.error("error"+ex.getMessage());
         }
 
        
