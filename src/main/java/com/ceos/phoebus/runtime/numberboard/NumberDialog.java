@@ -139,6 +139,7 @@ public class NumberDialog extends Dialog<String> {
                 PV pv = ScriptUtil.getPrimaryPV(widget).getPV();
 
                 if (!field.getText().isBlank()) {
+                    
                     pv.write(Double.parseDouble(field.getText()));
                 }
 

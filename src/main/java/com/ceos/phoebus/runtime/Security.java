@@ -20,6 +20,7 @@ import javafx.scene.control.TextField;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.Priority;
 import javafx.scene.layout.VBox;
+import org.csstudio.display.builder.model.Widget;
 import org.csstudio.display.builder.representation.javafx.Messages;
 import org.epics.pvaccess.server.rpc.RPCRequestException;
 import org.epics.pvdata.pv.PVStructure;
@@ -37,7 +38,7 @@ public class Security extends Dialog<String> {
     private boolean valor= false;
     
     
-    public Security() {
+    public Security(Widget widget) {
         
         final DialogPane pane = getDialogPane();
 
@@ -74,10 +75,13 @@ public class Security extends Dialog<String> {
             PVStructure pv = null;
             try {
                 pv = CeosUtils.enablePermission(username, password);
+                valor=  pv.getBooleanField("value").get();
+                CeosUtils.initNumberBoardScene(widget);
             } catch (RPCRequestException ex) {
                 Logger.getLogger(Security.class.getName()).log(Level.SEVERE, null, ex);
             }
-            valor=  pv.getBooleanField("value").get();
+            
+            
         });
 
         setResultConverter((button) ->

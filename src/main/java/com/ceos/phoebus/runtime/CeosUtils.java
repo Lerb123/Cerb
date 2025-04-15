@@ -11,9 +11,11 @@ import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.CountDownLatch;
 import javafx.scene.Node;
 import javafx.scene.control.Alert;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
-import org.apache.logging.log4j.core.config.Configurator;
+//import org.apache.logging.log4j.LogManager;
+//import org.apache.logging.log4j.Logger;
+//import org.apache.logging.log4j.core.config.Configurator;
+//import org.apache.logging.log4j.LogManager;
+//import org.apache.logging.log4j.Logger;
 import org.csstudio.display.builder.model.Widget;
 import org.csstudio.display.builder.representation.ToolkitRepresentation;
 import org.csstudio.display.builder.representation.javafx.Messages;
@@ -30,6 +32,10 @@ import org.epics.pvdata.pv.ScalarType;
 import org.epics.pvdata.pv.Structure;
 import org.phoebus.pv.PV;
 import org.phoebus.ui.dialog.DialogHelper;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+//import org.slf4j.Logger;
+//import org.slf4j.LoggerFactory;
 
 /**
  *
@@ -37,8 +43,8 @@ import org.phoebus.ui.dialog.DialogHelper;
  */
 public class CeosUtils {
 
-//  private static final Logger logger = LoggerFactory.getLogger(CeosUtils.class);
-private static final Logger logger =LogManager.getLogger(CeosUtils.class);
+  private static final Logger logger = LoggerFactory.getLogger(CeosUtils.class);
+//private static final Logger logger =LogManager.getLogger(CeosUtils.class);
 
     /* 
     public static void main(String[] args) {
@@ -59,10 +65,16 @@ private static final Logger logger =LogManager.getLogger(CeosUtils.class);
         }
     }
      */
+ 
     public static boolean checkLoginUser() {
         boolean check = false;
         //code here
         return check;
+    }
+    
+    //
+    public static Logger getLogger(){
+    return logger;
     }
 
     /*
@@ -104,16 +116,14 @@ private static final Logger logger =LogManager.getLogger(CeosUtils.class);
     }
 
     //elaborado a modo de prueba. Usar para constatar la libreria
-    public static void hola() throws RPCRequestException {
-        loadLogger();
+    public static void hola(){
+//        Configurator.initialize("ceos", "/log4j2.properties");
+
         System.out.println("Hola mundo!!!!!");
         logger.info("Log ceos");
 
     }
 
-    public static void loadLogger() {
-        Configurator.initialize("ceos", "/log4j2.properties");
-    }
 
     public static void showErrorDialog(final Widget widget, final String error) throws Exception {
         final Node node = JFXBaseRepresentation.getJFXNode(widget);
@@ -153,7 +163,7 @@ private static final Logger logger =LogManager.getLogger(CeosUtils.class);
 
             tk.execute(()
                     -> {
-                final Security dialog = new Security();
+                final Security dialog = new Security(widget);
                 DialogHelper.positionDialog(dialog, node, -100, -50);
                 dialog.initOwner(node.getScene().getWindow());
                 final Optional<String> result = dialog.showAndWait();
@@ -161,6 +171,7 @@ private static final Logger logger =LogManager.getLogger(CeosUtils.class);
             });
 
             try {
+                
                 return done.get();
 
             } catch (Exception ex) {
