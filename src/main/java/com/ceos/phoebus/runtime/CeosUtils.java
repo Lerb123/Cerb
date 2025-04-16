@@ -80,6 +80,12 @@ public class CeosUtils {
     /*
     Servicio rpc en epics v4 utiza protocolo pvAccess par la comunicación entre clientes y 
     servidores. El servidor expone metodos que pueden ser invocados por un cliente.
+    
+    TODO: 
+        Remember to activate the JAAS configuration with the command :
+
+        a. jaas:realm-list
+        b. jaas:realm-manage --index 1
      */
     public static PVStructure enablePermission(String username, String password) throws RPCRequestException {
         PVStructure pv = null;
@@ -101,14 +107,16 @@ public class CeosUtils {
         RPCClientImpl rpcClient = new RPCClientImpl("_Security");
 
         PVStructure response = rpcClient.request(request, 3.0);
+        
+        
         if (response != null) {
-            System.out.println("Logeado!!!");
-            System.out.println(response);
+            
+            System.out.println("Response::"+response);
+            logger.info("Se ha logeado el usuario");
             pv = response;
         } else {
-            System.out.println("credenciales falsas");
+           
         }
-//        enabled = response.getBooleanField("value").get();
         rpcClient.destroy();
 
         //retornarmos el valor del permiso

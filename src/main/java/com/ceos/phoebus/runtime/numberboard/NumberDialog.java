@@ -4,6 +4,7 @@
  */
 package com.ceos.phoebus.runtime.numberboard;
 
+import com.ceos.phoebus.runtime.CeosUtils;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import javafx.event.EventHandler;
@@ -123,6 +124,7 @@ public class NumberDialog extends Dialog<String> {
                         try {
 
                             pv.write(Double.parseDouble(field.getText()));
+                           
                         } catch (Exception ex) {
 
                         }

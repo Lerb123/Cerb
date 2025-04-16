@@ -74,11 +74,23 @@ public class Security extends Dialog<String> {
             
             PVStructure pv = null;
             try {
+                
+                //1.Request to karaf-merlot container security method (_Security). 
                 pv = CeosUtils.enablePermission(username, password);
+                
+                //2.Response to karaf-merlot container security method (_Security).Remember to enable security in karaf {file: etc/user.properties by default}.
                 valor=  pv.getBooleanField("value").get();
-                CeosUtils.initNumberBoardScene(widget);
+                  
+                
+                if (!valor) { 
+                    CeosUtils.getLogger().warn(String.format("CEOS ::: User {%s} tries to modify a value {%s} to which he/she does not have permission.", username, widget.getID()));
+                    System.out.println("la respuesta es falsa");
+                }else{
+                    //3.Invoke the numeric keypad
+                  CeosUtils.initNumberBoardScene(widget);
+                }
             } catch (RPCRequestException ex) {
-                Logger.getLogger(Security.class.getName()).log(Level.SEVERE, null, ex);
+                CeosUtils.getLogger().error("Connection to the rpc method for security validation is not possible.");
             }
             
             
