@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Saved on 2025-04-23 16:19:42 by lerb-->
+<display version="2.0.0">
+  <name>Display</name>
+  <width>500</width>
+  <height>430</height>
+  <background_color>
+    <color red="230" green="230" blue="230">
+    </color>
+  </background_color>
+  <widget type="led" version="2.0.0">
+    <name>LED</name>
+    <x>270</x>
+    <y>90</y>
+    <width>30</width>
+    <height>40</height>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Action Button</name>
+    <text>produccion</text>
+    <x>350</x>
+    <y>100</y>
+    <rules>
+      <rule name="New Rule" prop_id="enabled" out_exp="false">
+        <exp bool_exp="pvInt0 == 1 and pvInt1 == 0 and pvInt2 == 0 and pvInt3 ==2">
+          <value>false</value>
+        </exp>
+        <exp bool_exp="pvInt0 != 1 and pvInt1 == 1 and pvInt2 == 1 and pvInt3 ==0">
+          <value>true</value>
+        </exp>
+        <pv_name>loc://cip</pv_name>
+        <pv_name>loc://stop</pv_name>
+        <pv_name>loc://reset</pv_name>
+        <pv_name>loc://state</pv_name>
+      </rule>
+    </rules>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update</name>
+    <pv_name>loc://cip</pv_name>
+    <x>360</x>
+    <y>180</y>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_1</name>
+    <pv_name>loc://stop</pv_name>
+    <x>230</x>
+    <y>180</y>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Action Button_5</name>
+    <actions>
+      <action type="write_pv">
+        <description>Write PV</description>
+        <pv_name>$(pv_name)</pv_name>
+        <value>2</value>
+      </action>
+    </actions>
+    <pv_name>loc://state</pv_name>
+    <text>state-on</text>
+    <y>230</y>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Action Button_6</name>
+    <actions>
+      <action type="write_pv">
+        <description>Write PV</description>
+        <pv_name>$(pv_name)</pv_name>
+        <value>0</value>
+      </action>
+    </actions>
+    <pv_name>loc://state</pv_name>
+    <text>state-off</text>
+    <y>280</y>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>Boolean Button</name>
+    <pv_name>loc://reset</pv_name>
+    <x>140</x>
+    <y>270</y>
+    <off_label>reset-Off</off_label>
+    <on_label>reset-On</on_label>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>Boolean Button_1</name>
+    <pv_name>loc://stop</pv_name>
+    <x>270</x>
+    <y>270</y>
+    <off_label>stop-Off</off_label>
+    <on_label>stop-On</on_label>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>Boolean Button_2</name>
+    <pv_name>loc://cip</pv_name>
+    <x>400</x>
+    <y>270</y>
+    <off_label>cip-Off</off_label>
+    <on_label>cip-On</on_label>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_2</name>
+    <pv_name>loc://reset</pv_name>
+    <x>80</x>
+    <y>80</y>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_3</name>
+    <pv_name>loc://state</pv_name>
+    <x>90</x>
+    <y>130</y>
+    <scripts>
+      <script file="EmbeddedPy">
+        <text><![CDATA[# Embedded python script
+from org.csstudio.display.builder.runtime.script import PVUtil, ScriptUtil
+
+
+reset = PVUtil.getDouble(pvs[0])
+
+if reset == 1:
+	PVUtil.writePV("loc://state", 0, 1)]]></text>
+        <pv_name>loc://reset</pv_name>
+      </script>
+    </scripts>
+  </widget>
+</display>
