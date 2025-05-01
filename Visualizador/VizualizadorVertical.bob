@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Saved on 2025-03-17 17:46:37 by Usuario-->
+<display version="2.0.0">
+  <name>Display</name>
+  <width>35</width>
+  <height>30</height>
+  <background_color>
+    <color red="190" green="190" blue="190" alpha="0">
+    </color>
+  </background_color>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_27</name>
+    <x>8</x>
+    <y>15</y>
+    <width>1</width>
+    <height>19</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="19.0" y="0.0">
+      </point>
+    </points>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle_21</name>
+    <x>1</x>
+    <width>8</width>
+    <height>29</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle_22</name>
+    <x>15</x>
+    <width>20</width>
+    <height>30</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_29</name>
+    <y>1</y>
+    <width>1</width>
+    <height>10</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="10.0" y="0.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_31</name>
+    <y>29</y>
+    <width>1</width>
+    <height>10</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="10.0" y="0.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+</display>

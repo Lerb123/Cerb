@@ -1,0 +1,682 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Saved on 2025-05-01 14:44:27 by ceos-->
+<display version="2.0.0">
+  <name>Plantilla</name>
+  <width>1920</width>
+  <height>1080</height>
+  <background_color>
+    <color red="190" green="190" blue="190" alpha="190">
+    </color>
+  </background_color>
+  <scripts>
+    <script file="EmbeddedPy">
+      <text><![CDATA[# Embedded python script
+from org.csstudio.display.builder.runtime.script import PVUtil, ScriptUtil
+
+
+
+estrategia = PVUtil.getDouble(pvs[0])
+
+if estrategia == 1:
+	PVUtil.writePV("pva://fbEM_Main_DB_PARAMS_iRecipe/value", 0, 1)]]></text>
+      <pv_name>pva://fbEM_Main_DB_PARAMS_Strategic/value</pv_name>
+    </script>
+    <script file="EmbeddedPy">
+      <text><![CDATA[# Embedded python script
+from org.csstudio.display.builder.runtime.script import PVUtil, ScriptUtil
+
+
+
+stop = PVUtil.getDouble(pvs[0])
+
+if stop == 1:
+	PVUtil.writePV("pva://fbEM_Main_DB_State/value", 12, 1)
+        ]]></text>
+      <pv_name>pva://fbEM_Main_DB_OP_CMD_boStop/value</pv_name>
+    </script>
+  </scripts>
+  <widget type="action_button" version="3.0.0">
+    <name>Action Button_22</name>
+    <text></text>
+    <x>52</x>
+    <y>40</y>
+    <width>60</width>
+    <height>60</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="48.0">
+      </font>
+    </font>
+    <background_color>
+      <color red="179" green="179" blue="179">
+      </color>
+    </background_color>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle_1</name>
+    <x>30</x>
+    <y>20</y>
+    <width>1860</width>
+    <height>120</height>
+    <line_width>0</line_width>
+    <background_color>
+      <color red="179" green="179" blue="179">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="picture" version="2.0.0">
+    <name>Picture</name>
+    <file>../Iconos/PNGRev/LogoCeos.png</file>
+    <x>1740</x>
+    <y>40</y>
+    <width>120</width>
+    <height>60</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display</name>
+    <file>001-Menu.bob</file>
+    <x>61</x>
+    <y>150</y>
+    <width>1800</width>
+    <height>890</height>
+    <rules>
+      <rule name="CambioDeArchivo" prop_id="file" out_exp="false">
+        <exp bool_exp="pvStr0==&quot;Menu&quot;">
+          <value>001-Menu.bob</value>
+        </exp>
+        <exp bool_exp="pvStr0==&quot;Carbonatador&quot;">
+          <value>011-CarbonatadorL2.bob</value>
+        </exp>
+        <exp bool_exp="pvStr0==&quot;CIP&quot;">
+          <value>013-CIP.bob</value>
+        </exp>
+        <exp bool_exp="pvStr0==&quot;Produccion&quot;">
+          <value>012-Produccion.bob</value>
+        </exp>
+        <exp bool_exp="pvStr0==&quot;Parametrizacion&quot;">
+          <value>014-Estrategias.bob</value>
+        </exp>
+        <exp bool_exp="pvStr0 == &quot;Avisos&quot;">
+          <value>002-PantallaAviso.bob</value>
+        </exp>
+        <exp bool_exp="pvStr0 == &quot;Alarmas&quot;">
+          <value>003-PantallaAlarma.bob</value>
+        </exp>
+        <exp bool_exp="pvStr0==&quot;Grafica&quot;">
+          <value>015-Grafica.bob</value>
+        </exp>
+        <exp bool_exp="pvStr0==&quot;spagua&quot;">
+          <value>PID_AGUA.bob</value>
+        </exp>
+        <exp bool_exp="pvStr0==&quot;spjarabe&quot;">
+          <value>PID_JARABE.bob</value>
+        </exp>
+        <exp bool_exp="pvStr0==&quot;spco2&quot;">
+          <value>PID_CO2.bob</value>
+        </exp>
+        <exp bool_exp="pvStr0==&quot;presiont&quot;">
+          <value>PresionTQ.bob</value>
+        </exp>
+        <pv_name>loc://numeroDePagina</pv_name>
+      </rule>
+    </rules>
+    <border_width>1</border_width>
+    <border_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </border_color>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update</name>
+    <pv_name>sys://time</pv_name>
+    <x>1730</x>
+    <y>110</y>
+    <width>150</width>
+    <background_color>
+      <color red="190" green="190" blue="190">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>Group</name>
+    <x>1650</x>
+    <y>40</y>
+    <width>60</width>
+    <height>60</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="action_button" version="3.0.0">
+      <name>Action Button_13</name>
+      <text></text>
+      <width>60</width>
+      <height>60</height>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="48.0">
+        </font>
+      </font>
+      <background_color>
+        <color red="179" green="179" blue="179">
+        </color>
+      </background_color>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+    <widget type="picture" version="2.0.0">
+      <name>Action Button_14</name>
+      <file>../Iconos/PNGRev/Configuracion.png</file>
+      <x>10</x>
+      <y>10</y>
+      <width>40</width>
+      <height>40</height>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>Action Button_15</name>
+      <actions>
+      </actions>
+      <text></text>
+      <width>60</width>
+      <height>60</height>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="48.0">
+        </font>
+      </font>
+      <background_color>
+        <color red="179" green="179" blue="179">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <tooltip>$(actions)</tooltip>
+      <enabled>false</enabled>
+    </widget>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>Group_3</name>
+    <x>190</x>
+    <y>40</y>
+    <width>60</width>
+    <height>60</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="action_button" version="3.0.0">
+      <name>Action Button_16</name>
+      <text></text>
+      <width>60</width>
+      <height>60</height>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="48.0">
+        </font>
+      </font>
+      <background_color>
+        <color red="179" green="179" blue="179">
+        </color>
+      </background_color>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+    <widget type="picture" version="2.0.0">
+      <name>Action Button_17</name>
+      <file>../Iconos/PNGRev/AlarmaAmarilla.png</file>
+      <x>10</x>
+      <y>10</y>
+      <width>40</width>
+      <height>40</height>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>Action Button_18</name>
+      <actions>
+        <action type="write_pv">
+          <description>Write PV</description>
+          <pv_name>$(pv_name)</pv_name>
+          <value>Avisos</value>
+        </action>
+      </actions>
+      <pv_name>loc://numeroDePagina</pv_name>
+      <text></text>
+      <width>60</width>
+      <height>60</height>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="48.0">
+        </font>
+      </font>
+      <background_color>
+        <color red="179" green="179" blue="179">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>Group_4</name>
+    <x>120</x>
+    <y>40</y>
+    <width>60</width>
+    <height>60</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="action_button" version="3.0.0">
+      <name>Action Button_19</name>
+      <text></text>
+      <width>60</width>
+      <height>60</height>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="48.0">
+        </font>
+      </font>
+      <background_color>
+        <color red="179" green="179" blue="179">
+        </color>
+      </background_color>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+    <widget type="picture" version="2.0.0">
+      <name>Action Button_20</name>
+      <file>../Iconos/PNGRev/AlarmaRoja.png</file>
+      <x>10</x>
+      <y>10</y>
+      <width>40</width>
+      <height>40</height>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>Action Button_21</name>
+      <actions>
+        <action type="write_pv">
+          <description>Write PV</description>
+          <pv_name>$(pv_name)</pv_name>
+          <value>Alarmas</value>
+        </action>
+      </actions>
+      <pv_name>loc://numeroDePagina</pv_name>
+      <text></text>
+      <width>60</width>
+      <height>60</height>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="48.0">
+        </font>
+      </font>
+      <background_color>
+        <color red="179" green="179" blue="179">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>Group_5</name>
+    <x>50</x>
+    <y>40</y>
+    <width>60</width>
+    <height>60</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="action_button" version="3.0.0">
+      <name>Action Button_25</name>
+      <actions>
+      </actions>
+      <text></text>
+      <width>60</width>
+      <height>60</height>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="48.0">
+        </font>
+      </font>
+      <background_color>
+        <color red="179" green="179" blue="179">
+        </color>
+      </background_color>
+      <tooltip>$(actions)</tooltip>
+      <enabled>false</enabled>
+    </widget>
+    <widget type="picture" version="2.0.0">
+      <name>Action Button_23</name>
+      <file>../Iconos/PNGRev/Home.png</file>
+      <x>11</x>
+      <y>10</y>
+      <width>40</width>
+      <height>40</height>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>Action Button_27</name>
+      <actions>
+        <action type="write_pv">
+          <description>Write PV</description>
+          <pv_name>$(pv_name)</pv_name>
+          <value>Menu</value>
+        </action>
+      </actions>
+      <pv_name>loc://numeroDePagina</pv_name>
+      <text></text>
+      <width>60</width>
+      <height>60</height>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="48.0">
+        </font>
+      </font>
+      <background_color>
+        <color red="179" green="179" blue="179">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle</name>
+    <x>40</x>
+    <y>110</y>
+    <width>1700</width>
+    <line_width>0</line_width>
+    <background_color>
+      <color red="190" green="190" blue="190">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label</name>
+    <text>Automatización C. A.</text>
+    <x>1794</x>
+    <y>90</y>
+    <width>90</width>
+    <height>10</height>
+    <font>
+      <font family="Arial" style="BOLD" size="8.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color red="31" green="152" blue="160">
+      </color>
+    </foreground_color>
+  </widget>
+  <widget type="combo" version="2.0.0">
+    <name>Combo Box_2</name>
+    <pv_name>loc://numeroDePagina</pv_name>
+    <x>1385</x>
+    <y>61</y>
+    <width>240</width>
+    <height>40</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color red="170" green="170" blue="170">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="179" green="179" blue="179">
+      </color>
+    </background_color>
+    <items>
+      <item>Carbonatador</item>
+      <item>Produccion</item>
+      <item>CIP</item>
+    </items>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Text Update_9</name>
+    <text>Seleccionar</text>
+    <x>1385</x>
+    <y>62</y>
+    <width>210</width>
+    <height>40</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <background_color>
+      <color red="179" green="179" blue="179">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <vertical_alignment>1</vertical_alignment>
+    <rules>
+      <rule name="CambiTexto" prop_id="text" out_exp="false">
+        <exp bool_exp="pvStr0==&quot;Carbonatador&quot;">
+          <value>Carbonatador</value>
+        </exp>
+        <exp bool_exp="pvStr0==&quot;Produccion&quot;">
+          <value>Producción</value>
+        </exp>
+        <exp bool_exp="pvStr0==&quot;CIP&quot;">
+          <value>CIP</value>
+        </exp>
+        <exp bool_exp="pvStr0==&quot;Avisos&quot;">
+          <value>Avisos</value>
+        </exp>
+        <exp bool_exp="pvStr0==&quot;Alarmas&quot;">
+          <value>Alarmas</value>
+        </exp>
+        <exp bool_exp="pvStr0==&quot;Menu&quot;">
+          <value>Menu</value>
+        </exp>
+        <exp bool_exp="pvStr0==&quot;Parametrizacion&quot;">
+          <value>Parametrización</value>
+        </exp>
+        <exp bool_exp="pvStr0==&quot;Grafica&quot;">
+          <value>Grafica</value>
+        </exp>
+        <pv_name>loc://numeroDePagina</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_6</name>
+    <text>Navegación:</text>
+    <x>1385</x>
+    <y>42</y>
+    <width>240</width>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_1</name>
+    <pv_name>loc://numeroDePagina</pv_name>
+    <x>670</x>
+    <y>70</y>
+    <visible>false</visible>
+    <scripts>
+      <script file="EmbeddedPy">
+        <text><![CDATA[# Embedded python script
+from org.csstudio.display.builder.runtime.script import PVUtil, ScriptUtil
+#print 'Hello'
+
+if PVUtil.getDouble(pvs[0]) == 0:
+    PVUtil.writePV("loc://numeroDePagina", "Menu", 2)
+# widget.setPropertyValue('text', PVUtil.getString(pvs[0]))]]></text>
+        <pv_name>$(pv_name)</pv_name>
+      </script>
+    </scripts>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>Group_7</name>
+    <x>269</x>
+    <y>40</y>
+    <width>60</width>
+    <height>60</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="action_button" version="3.0.0">
+      <name>Action Button_33</name>
+      <actions>
+      </actions>
+      <text></text>
+      <width>60</width>
+      <height>60</height>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="48.0">
+        </font>
+      </font>
+      <background_color>
+        <color red="179" green="179" blue="179">
+        </color>
+      </background_color>
+      <tooltip>$(actions)</tooltip>
+      <enabled>false</enabled>
+    </widget>
+    <widget type="picture" version="2.0.0">
+      <name>Action Button_34</name>
+      <file>../Iconos/databrowser_2x-removebg-preview.png</file>
+      <x>11</x>
+      <y>10</y>
+      <width>40</width>
+      <height>40</height>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>Action Button_35</name>
+      <actions>
+        <action type="write_pv">
+          <description>Write PV</description>
+          <pv_name>$(pv_name)</pv_name>
+          <value>Grafica</value>
+        </action>
+      </actions>
+      <pv_name>loc://numeroDePagina</pv_name>
+      <text></text>
+      <width>60</width>
+      <height>60</height>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="48.0">
+        </font>
+      </font>
+      <background_color>
+        <color red="179" green="179" blue="179">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_2</name>
+    <pv_name>loc://activateDrain</pv_name>
+    <x>630</x>
+    <y>60</y>
+    <visible>false</visible>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED</name>
+    <pv_name>loc://enable</pv_name>
+    <x>930</x>
+    <y>80</y>
+    <scripts>
+      <script file="EmbeddedPy">
+        <text><![CDATA[# Embedded python script
+from org.csstudio.display.builder.runtime.script import PVUtil, ScriptUtil
+from com.ceos.phoebus.runtime import CeosUtils
+
+query = PVUtil.getString(pvs[1])
+
+enable = PVUtil.getDouble(pvs[0])
+
+#login esta activo
+if enable == 1:
+    while CeosUtils.checkAutoLogoutUser(query, "luis") == False:
+        dato = CeosUtils.checkAutoLogoutUser(query, "luis")
+        pvs[0].write(1)
+
+    #bloquear campos I/O y botones
+    pvs[0].write(0)]]></text>
+        <pv_name>loc://enable</pv_name>
+        <pv_name trigger="false">loc://query</pv_name>
+      </script>
+    </scripts>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_3</name>
+    <pv_name>loc://enable</pv_name>
+    <x>880</x>
+    <y>30</y>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_6</name>
+    <pv_name>loc://query</pv_name>
+    <x>1110</x>
+    <y>30</y>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="20.0">
+      </font>
+    </font>
+    <background_color>
+      <color red="179" green="179" blue="179">
+      </color>
+    </background_color>
+    <precision>0</precision>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+    <scripts>
+      <script file="EmbeddedPy">
+        <text><![CDATA[# Embedded python script
+from org.csstudio.display.builder.runtime.script import PVUtil, ScriptUtil
+
+
+enable = PVUtil.getDouble(pvs[0]) 
+
+if enable != 1:
+    pvs[1].write("")]]></text>
+        <pv_name>loc://enable</pv_name>
+        <pv_name>$(pv_name)</pv_name>
+      </script>
+    </scripts>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Action Button_1</name>
+    <actions>
+      <action type="execute">
+        <description>Execute Script</description>
+        <script file="EmbeddedPy">
+          <text><![CDATA[# Embedded python script
+from org.csstudio.display.builder.runtime.script import PVUtil, ScriptUtil
+from com.ceos.phoebus.runtime import CeosUtils
+
+
+valor = PVUtil.getString(CeosUtils.getPV(widget))
+dato = CeosUtils.handlerLogoutUser(valor, "luis")
+PVUtil.writePV("loc://enable", 7, 1000)
+if  int(dato) == 1:
+	PVUtil.writePV("loc://checklogin", 1, 1000)
+	PVUtil.writePV("loc://enable", 7, 1000)
+else:
+	PVUtil.writePV("loc://checklogin", 0, 1000)]]></text>
+        </script>
+      </action>
+    </actions>
+    <pv_name>loc://query</pv_name>
+    <text>Cerrar sesion</text>
+    <x>1240</x>
+    <y>30</y>
+    <width>110</width>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="16.0">
+      </font>
+    </font>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Action Button_3</name>
+    <actions>
+      <action type="open_display">
+        <description>Open Display</description>
+        <file>seguridad_general.bob</file>
+        <target>window</target>
+      </action>
+    </actions>
+    <pv_name>loc://query</pv_name>
+    <text>Abrir sesion</text>
+    <x>1240</x>
+    <y>69</y>
+    <width>110</width>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="16.0">
+      </font>
+    </font>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+</display>

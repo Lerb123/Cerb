@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Saved on 2025-04-25 10:27:26 by cgarcia-->
+<display version="2.0.0">
+  <name>Macro Activa teclado seguridad</name>
+  <width>190</width>
+  <height>70</height>
+  <widget type="group" version="3.0.0">
+    <x>18</x>
+    <y>18</y>
+    <width>154</width>
+    <height>34</height>
+    <style>3</style>
+    <background_color>
+      <color red="190" green="190" blue="190" alpha="190">
+      </color>
+    </background_color>
+    <widget type="textentry" version="3.0.0">
+      <name>Text Entry_1</name>
+      <pv_name>loc://$(user)</pv_name>
+      <x>2</x>
+      <y>2</y>
+      <width>150</width>
+      <height>30</height>
+      <background_color>
+        <color red="190" green="190" blue="190" alpha="190">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>Action Button_1</name>
+      <actions>
+        <action type="execute">
+          <description>Execute Script</description>
+          <script file="EmbeddedPy">
+            <text><![CDATA[# Embedded python script
+from org.csstudio.display.builder.runtime.script import PVUtil, ScriptUtil
+from com.ceos.phoebus.runtime import CeosUtils
+
+CeosUtils.initAlphabeticBoardScene(widget)
+#print 'Hello'
+# widget.setPropertyValue('text', PVUtil.getString(pvs[0]))]]></text>
+          </script>
+        </action>
+      </actions>
+      <pv_name>loc://$(user)</pv_name>
+      <text></text>
+      <x>2</x>
+      <y>2</y>
+      <width>150</width>
+      <transparent>true</transparent>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+  </widget>
+</display>

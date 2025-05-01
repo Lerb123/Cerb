@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Saved on 2025-03-13 11:00:27 by Usuario-->
+<display version="2.0.0">
+  <name>Display</name>
+  <width>102</width>
+  <height>40</height>
+  <background_color>
+    <color red="190" green="190" blue="190" alpha="0">
+    </color>
+  </background_color>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle_20</name>
+    <x>16</x>
+    <width>70</width>
+    <height>40</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Header_Background" red="77" green="77" blue="77">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="arc" version="2.0.0">
+    <name>Arc_19</name>
+    <x>1</x>
+    <width>30</width>
+    <height>40</height>
+    <start_angle>90.0</start_angle>
+    <total_angle>180.0</total_angle>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Header_Background" red="77" green="77" blue="77">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="arc" version="2.0.0">
+    <name>Arc_20</name>
+    <x>71</x>
+    <width>30</width>
+    <height>40</height>
+    <start_angle>90.0</start_angle>
+    <total_angle>-180.0</total_angle>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Header_Background" red="77" green="77" blue="77">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+  </widget>
+</display>

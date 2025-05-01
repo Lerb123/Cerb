@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Saved on 2025-05-01 12:33:26 by ceos-->
+<display version="2.0.0">
+  <name>Macro Prueba</name>
+  <width>140</width>
+  <height>21</height>
+  <widget type="textentry" version="3.0.0">
+    <name>Text Entry</name>
+    <pv_name>pva://$(prueba)/value</pv_name>
+    <width>140</width>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="16.0">
+      </font>
+    </font>
+    <background_color>
+      <color red="242" green="242" blue="242">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Action Button</name>
+    <actions>
+      <action type="open_display">
+        <description>Open Display</description>
+        <file>seguridad_general.bob</file>
+        <target>window</target>
+      </action>
+    </actions>
+    <pv_name>pva://$(prueba)/value</pv_name>
+    <text></text>
+    <width>140</width>
+    <height>20</height>
+    <transparent>true</transparent>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+</display>

@@ -1,0 +1,3895 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Saved on 2025-01-24 17:25:58 by cgarcia-->
+<display version="2.0.0">
+  <name>Display</name>
+  <width>1920</width>
+  <height>1080</height>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>16</x>
+    <y>23</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_1</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>20</x>
+    <y>70</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_2</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>80</x>
+    <y>20</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_3</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>80</x>
+    <y>70</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_4</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>140</x>
+    <y>20</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_5</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>140</x>
+    <y>70</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_6</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>20</x>
+    <y>130</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_7</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>80</x>
+    <y>130</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_8</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>140</x>
+    <y>130</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_9</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>20</x>
+    <y>190</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_10</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>80</x>
+    <y>190</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_11</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>140</x>
+    <y>190</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_13</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>20</x>
+    <y>243</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_14</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>24</x>
+    <y>290</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_15</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>84</x>
+    <y>240</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_16</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>84</x>
+    <y>290</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_17</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>144</x>
+    <y>240</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_18</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>144</x>
+    <y>290</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_19</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>24</x>
+    <y>350</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_20</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>84</x>
+    <y>350</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_21</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>144</x>
+    <y>350</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_22</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>24</x>
+    <y>410</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_23</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>84</x>
+    <y>410</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_24</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>144</x>
+    <y>410</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_25</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>20</x>
+    <y>453</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_26</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>24</x>
+    <y>500</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_27</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>84</x>
+    <y>450</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_28</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>84</x>
+    <y>500</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_29</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>144</x>
+    <y>450</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_30</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>144</x>
+    <y>500</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_31</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>24</x>
+    <y>560</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_32</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>84</x>
+    <y>560</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_33</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>144</x>
+    <y>560</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_34</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>24</x>
+    <y>620</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_35</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>84</x>
+    <y>620</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_36</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>144</x>
+    <y>620</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_37</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>24</x>
+    <y>673</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_38</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>28</x>
+    <y>720</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_39</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>88</x>
+    <y>670</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_40</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>88</x>
+    <y>720</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_41</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>148</x>
+    <y>670</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_42</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>148</x>
+    <y>720</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_43</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>28</x>
+    <y>780</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_44</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>88</x>
+    <y>780</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_45</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>148</x>
+    <y>780</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_46</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>28</x>
+    <y>840</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_47</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>88</x>
+    <y>840</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_48</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>148</x>
+    <y>840</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_49</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>240</x>
+    <y>203</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_50</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>244</x>
+    <y>250</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_51</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>304</x>
+    <y>200</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_52</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>304</x>
+    <y>250</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_53</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>364</x>
+    <y>200</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_54</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>364</x>
+    <y>250</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_55</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>244</x>
+    <y>310</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_56</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>304</x>
+    <y>310</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_57</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>364</x>
+    <y>310</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_58</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>244</x>
+    <y>370</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_59</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>304</x>
+    <y>370</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_60</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>364</x>
+    <y>370</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_61</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>244</x>
+    <y>423</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_62</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>248</x>
+    <y>470</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_63</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>308</x>
+    <y>420</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_64</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>308</x>
+    <y>470</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_65</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>368</x>
+    <y>420</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_66</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>368</x>
+    <y>470</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_67</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>248</x>
+    <y>530</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_68</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>308</x>
+    <y>530</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_69</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>368</x>
+    <y>530</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_70</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>248</x>
+    <y>590</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_71</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>308</x>
+    <y>590</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_72</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>368</x>
+    <y>590</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_73</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>244</x>
+    <y>633</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_74</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>248</x>
+    <y>680</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_75</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>308</x>
+    <y>630</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_76</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>308</x>
+    <y>680</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_77</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>368</x>
+    <y>630</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_78</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>368</x>
+    <y>680</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_79</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>248</x>
+    <y>740</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_80</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>308</x>
+    <y>740</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_81</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>368</x>
+    <y>740</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_82</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>248</x>
+    <y>800</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_83</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>308</x>
+    <y>800</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_84</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>368</x>
+    <y>800</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_85</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>248</x>
+    <y>853</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_86</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>252</x>
+    <y>900</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_87</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>312</x>
+    <y>850</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_88</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>312</x>
+    <y>900</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_89</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>372</x>
+    <y>850</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_90</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>372</x>
+    <y>900</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_91</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>252</x>
+    <y>960</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_92</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>312</x>
+    <y>960</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_93</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>372</x>
+    <y>960</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_94</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>252</x>
+    <y>1020</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_95</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>312</x>
+    <y>1020</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_96</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>372</x>
+    <y>1020</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_97</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>450</x>
+    <y>23</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_98</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>454</x>
+    <y>70</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_99</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>514</x>
+    <y>20</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_100</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>514</x>
+    <y>70</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_101</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>574</x>
+    <y>20</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_102</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>574</x>
+    <y>70</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_103</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>454</x>
+    <y>130</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_104</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>514</x>
+    <y>130</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_105</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>574</x>
+    <y>130</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_106</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>454</x>
+    <y>190</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_107</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>514</x>
+    <y>190</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_108</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>574</x>
+    <y>190</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_109</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>454</x>
+    <y>243</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_110</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>458</x>
+    <y>290</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_111</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>518</x>
+    <y>240</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_112</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>518</x>
+    <y>290</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_113</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>578</x>
+    <y>240</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_114</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>578</x>
+    <y>290</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_115</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>458</x>
+    <y>350</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_116</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>518</x>
+    <y>350</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_117</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>578</x>
+    <y>350</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_118</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>458</x>
+    <y>410</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_119</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>518</x>
+    <y>410</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_120</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>578</x>
+    <y>410</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_121</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>454</x>
+    <y>453</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_122</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>458</x>
+    <y>500</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_123</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>518</x>
+    <y>450</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_124</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>518</x>
+    <y>500</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_125</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>578</x>
+    <y>450</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_126</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>578</x>
+    <y>500</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_127</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>458</x>
+    <y>560</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_128</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>518</x>
+    <y>560</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_129</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>578</x>
+    <y>560</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_130</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>458</x>
+    <y>620</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_131</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>518</x>
+    <y>620</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_132</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>578</x>
+    <y>620</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_133</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>458</x>
+    <y>673</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_134</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>462</x>
+    <y>720</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_135</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>522</x>
+    <y>670</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_136</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>522</x>
+    <y>720</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_137</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>582</x>
+    <y>670</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_138</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>582</x>
+    <y>720</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_139</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>462</x>
+    <y>780</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_140</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>522</x>
+    <y>780</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_141</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>582</x>
+    <y>780</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_142</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>462</x>
+    <y>840</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_143</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>522</x>
+    <y>840</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_144</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>582</x>
+    <y>840</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_145</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>660</x>
+    <y>213</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_146</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>664</x>
+    <y>260</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_147</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>724</x>
+    <y>210</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_148</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>724</x>
+    <y>260</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_149</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>784</x>
+    <y>210</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_150</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>784</x>
+    <y>260</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_151</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>664</x>
+    <y>320</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_152</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>724</x>
+    <y>320</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_153</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>784</x>
+    <y>320</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_154</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>664</x>
+    <y>380</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_155</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>724</x>
+    <y>380</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_156</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>784</x>
+    <y>380</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_157</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>664</x>
+    <y>433</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_158</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>668</x>
+    <y>480</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_159</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>728</x>
+    <y>430</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_160</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>728</x>
+    <y>480</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_161</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>788</x>
+    <y>430</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_162</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>788</x>
+    <y>480</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_163</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>668</x>
+    <y>540</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_164</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>728</x>
+    <y>540</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_165</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>788</x>
+    <y>540</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_166</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>668</x>
+    <y>600</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_167</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>728</x>
+    <y>600</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_168</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>788</x>
+    <y>600</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_169</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>664</x>
+    <y>643</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_170</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>668</x>
+    <y>690</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_171</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>728</x>
+    <y>640</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_172</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>728</x>
+    <y>690</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_173</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>788</x>
+    <y>640</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_174</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>788</x>
+    <y>690</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_175</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>668</x>
+    <y>750</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_176</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>728</x>
+    <y>750</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_177</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>788</x>
+    <y>750</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_178</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>668</x>
+    <y>810</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_179</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>728</x>
+    <y>810</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_180</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>788</x>
+    <y>810</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_181</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>668</x>
+    <y>863</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_182</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>672</x>
+    <y>910</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_183</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>732</x>
+    <y>860</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_184</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>732</x>
+    <y>910</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_185</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>792</x>
+    <y>860</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_186</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>792</x>
+    <y>910</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_187</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>672</x>
+    <y>970</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_188</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>732</x>
+    <y>970</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_189</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>792</x>
+    <y>970</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_190</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>672</x>
+    <y>1030</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_191</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>732</x>
+    <y>1030</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_192</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>792</x>
+    <y>1030</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_193</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>870</x>
+    <y>63</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_194</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>874</x>
+    <y>110</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_195</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>934</x>
+    <y>60</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_196</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>934</x>
+    <y>110</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_197</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>994</x>
+    <y>60</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_198</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>994</x>
+    <y>110</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_199</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>874</x>
+    <y>170</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_200</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>934</x>
+    <y>170</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_201</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>994</x>
+    <y>170</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_202</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>874</x>
+    <y>230</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_203</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>934</x>
+    <y>230</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_204</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>994</x>
+    <y>230</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_205</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>874</x>
+    <y>283</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_206</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>878</x>
+    <y>330</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_207</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>938</x>
+    <y>280</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_208</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>938</x>
+    <y>330</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_209</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>998</x>
+    <y>280</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_210</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>998</x>
+    <y>330</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_211</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>878</x>
+    <y>390</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_212</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>938</x>
+    <y>390</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_213</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>998</x>
+    <y>390</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_214</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>878</x>
+    <y>450</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_215</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>938</x>
+    <y>450</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_216</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>998</x>
+    <y>450</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_217</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>874</x>
+    <y>493</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_218</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>878</x>
+    <y>540</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_219</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>938</x>
+    <y>490</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_220</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>938</x>
+    <y>540</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_221</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>998</x>
+    <y>490</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_222</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>998</x>
+    <y>540</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_223</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>878</x>
+    <y>600</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_224</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>938</x>
+    <y>600</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_225</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>998</x>
+    <y>600</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_226</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>878</x>
+    <y>660</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_227</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>938</x>
+    <y>660</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_228</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>998</x>
+    <y>660</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_229</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>878</x>
+    <y>713</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_230</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>882</x>
+    <y>760</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_231</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>942</x>
+    <y>710</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_232</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>942</x>
+    <y>760</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_233</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1002</x>
+    <y>710</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_234</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1002</x>
+    <y>760</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_235</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>882</x>
+    <y>820</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_236</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>942</x>
+    <y>820</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_237</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1002</x>
+    <y>820</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_238</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>882</x>
+    <y>880</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_239</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>942</x>
+    <y>880</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_240</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1002</x>
+    <y>880</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_241</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1100</x>
+    <y>203</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_242</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1104</x>
+    <y>250</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_243</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1164</x>
+    <y>200</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_244</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1164</x>
+    <y>250</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_245</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1224</x>
+    <y>200</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_246</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1224</x>
+    <y>250</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_247</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1104</x>
+    <y>310</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_248</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1164</x>
+    <y>310</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_249</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1224</x>
+    <y>310</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_250</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1104</x>
+    <y>370</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_251</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1164</x>
+    <y>370</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_252</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1224</x>
+    <y>370</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_253</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1104</x>
+    <y>423</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_254</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1108</x>
+    <y>470</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_255</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1168</x>
+    <y>420</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_256</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1168</x>
+    <y>470</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_257</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1228</x>
+    <y>420</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_258</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1228</x>
+    <y>470</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_259</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1108</x>
+    <y>530</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_260</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1168</x>
+    <y>530</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_261</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1228</x>
+    <y>530</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_262</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1108</x>
+    <y>590</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_263</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1168</x>
+    <y>590</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_264</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1228</x>
+    <y>590</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_265</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1104</x>
+    <y>633</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_266</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1108</x>
+    <y>680</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_267</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1168</x>
+    <y>630</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_268</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1168</x>
+    <y>680</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_269</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1228</x>
+    <y>630</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_270</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1228</x>
+    <y>680</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_271</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1108</x>
+    <y>740</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_272</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1168</x>
+    <y>740</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_273</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1228</x>
+    <y>740</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_274</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1108</x>
+    <y>800</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_275</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1168</x>
+    <y>800</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_276</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1228</x>
+    <y>800</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_277</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1108</x>
+    <y>853</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_278</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1112</x>
+    <y>900</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_279</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1172</x>
+    <y>850</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_280</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1172</x>
+    <y>900</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_281</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1232</x>
+    <y>850</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_282</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1232</x>
+    <y>900</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_283</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1112</x>
+    <y>960</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_284</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1172</x>
+    <y>960</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_285</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1232</x>
+    <y>960</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_286</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1112</x>
+    <y>1020</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_287</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1172</x>
+    <y>1020</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_288</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1232</x>
+    <y>1020</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_289</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1290</x>
+    <y>23</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_290</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1294</x>
+    <y>70</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_291</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1354</x>
+    <y>20</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_292</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1354</x>
+    <y>70</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_293</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1414</x>
+    <y>20</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_294</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1414</x>
+    <y>70</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_295</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1294</x>
+    <y>130</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_296</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1354</x>
+    <y>130</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_297</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1414</x>
+    <y>130</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_298</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1294</x>
+    <y>190</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_299</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1354</x>
+    <y>190</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_300</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1414</x>
+    <y>190</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_301</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1294</x>
+    <y>243</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_302</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1298</x>
+    <y>290</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_303</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1358</x>
+    <y>240</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_304</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1358</x>
+    <y>290</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_305</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1418</x>
+    <y>240</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_306</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1418</x>
+    <y>290</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_307</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1298</x>
+    <y>350</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_308</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1358</x>
+    <y>350</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_309</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1418</x>
+    <y>350</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_310</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1298</x>
+    <y>410</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_311</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1358</x>
+    <y>410</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_312</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1418</x>
+    <y>410</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_313</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1294</x>
+    <y>453</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_314</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1298</x>
+    <y>500</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_315</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1358</x>
+    <y>450</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_316</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1358</x>
+    <y>500</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_317</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1418</x>
+    <y>450</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_318</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1418</x>
+    <y>500</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_319</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1298</x>
+    <y>560</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_320</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1358</x>
+    <y>560</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_321</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1418</x>
+    <y>560</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_322</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1298</x>
+    <y>620</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_323</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1358</x>
+    <y>620</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_324</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1418</x>
+    <y>620</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_325</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1298</x>
+    <y>673</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_326</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1302</x>
+    <y>720</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_327</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1362</x>
+    <y>670</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_328</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1362</x>
+    <y>720</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_329</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1422</x>
+    <y>670</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_330</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1422</x>
+    <y>720</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_331</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1302</x>
+    <y>780</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_332</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1362</x>
+    <y>780</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_333</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1422</x>
+    <y>780</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_334</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1302</x>
+    <y>840</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_335</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1362</x>
+    <y>840</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_336</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1422</x>
+    <y>840</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_337</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1520</x>
+    <y>193</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_338</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1524</x>
+    <y>240</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_339</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1584</x>
+    <y>190</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_340</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1584</x>
+    <y>240</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_341</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1644</x>
+    <y>190</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_342</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1644</x>
+    <y>240</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_343</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1524</x>
+    <y>300</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_344</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1584</x>
+    <y>300</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_345</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1644</x>
+    <y>300</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_346</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1524</x>
+    <y>360</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_347</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1584</x>
+    <y>360</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_348</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1644</x>
+    <y>360</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_349</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1524</x>
+    <y>413</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_350</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1528</x>
+    <y>460</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_351</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1588</x>
+    <y>410</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_352</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1588</x>
+    <y>460</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_353</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1648</x>
+    <y>410</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_354</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1648</x>
+    <y>460</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_355</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1528</x>
+    <y>520</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_356</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1588</x>
+    <y>520</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_357</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1648</x>
+    <y>520</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_358</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1528</x>
+    <y>580</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_359</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1588</x>
+    <y>580</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_360</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1648</x>
+    <y>580</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_361</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1524</x>
+    <y>623</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_362</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1528</x>
+    <y>670</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_363</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1588</x>
+    <y>620</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_364</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1588</x>
+    <y>670</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_365</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1648</x>
+    <y>620</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_366</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1648</x>
+    <y>670</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_367</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1528</x>
+    <y>730</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_368</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1588</x>
+    <y>730</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_369</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1648</x>
+    <y>730</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_370</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1528</x>
+    <y>790</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_371</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1588</x>
+    <y>790</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_372</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1648</x>
+    <y>790</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_373</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1528</x>
+    <y>843</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_374</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1532</x>
+    <y>890</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_375</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1592</x>
+    <y>840</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_376</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1592</x>
+    <y>890</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_377</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1652</x>
+    <y>840</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_378</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1652</x>
+    <y>890</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_379</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1532</x>
+    <y>950</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_380</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1592</x>
+    <y>950</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_381</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1652</x>
+    <y>950</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_382</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1532</x>
+    <y>1010</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_383</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1592</x>
+    <y>1010</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_384</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1652</x>
+    <y>1010</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_385</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1730</x>
+    <y>43</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_386</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1734</x>
+    <y>90</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_387</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1794</x>
+    <y>40</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_388</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1794</x>
+    <y>90</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_389</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1854</x>
+    <y>40</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_390</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1854</x>
+    <y>90</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_391</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1734</x>
+    <y>150</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_392</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1794</x>
+    <y>150</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_393</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1854</x>
+    <y>150</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_394</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1734</x>
+    <y>210</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_395</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1794</x>
+    <y>210</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_396</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1854</x>
+    <y>210</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_397</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1734</x>
+    <y>263</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_398</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1738</x>
+    <y>310</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_399</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1798</x>
+    <y>260</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_400</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1798</x>
+    <y>310</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_401</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1858</x>
+    <y>260</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_402</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1858</x>
+    <y>310</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_403</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1738</x>
+    <y>370</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_404</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1798</x>
+    <y>370</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_405</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1858</x>
+    <y>370</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_406</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1738</x>
+    <y>430</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_407</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1798</x>
+    <y>430</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_408</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1858</x>
+    <y>430</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_409</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1734</x>
+    <y>473</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_410</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1738</x>
+    <y>520</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_411</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1798</x>
+    <y>470</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_412</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1798</x>
+    <y>520</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_413</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1858</x>
+    <y>470</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_414</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1858</x>
+    <y>520</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_415</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1738</x>
+    <y>580</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_416</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1798</x>
+    <y>580</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_417</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1858</x>
+    <y>580</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_418</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1738</x>
+    <y>640</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_419</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1798</x>
+    <y>640</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_420</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1858</x>
+    <y>640</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_421</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1738</x>
+    <y>693</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_422</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1742</x>
+    <y>740</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_423</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1802</x>
+    <y>690</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_424</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1802</x>
+    <y>740</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_425</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1862</x>
+    <y>690</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_426</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1862</x>
+    <y>740</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_427</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1742</x>
+    <y>800</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_428</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1802</x>
+    <y>800</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_429</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1862</x>
+    <y>800</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_430</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1742</x>
+    <y>860</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_431</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1802</x>
+    <y>860</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_432</name>
+    <file>Valvula 1/Valvula1Animado.bob</file>
+    <x>1862</x>
+    <y>860</y>
+    <width>30</width>
+    <height>35</height>
+    <resize>2</resize>
+  </widget>
+</display>

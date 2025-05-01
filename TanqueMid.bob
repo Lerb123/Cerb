@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Saved on 2025-01-23 15:20:28 by cgarcia-->
+<display version="2.0.0">
+  <name>Display</name>
+  <width>60</width>
+  <height>60</height>
+  <background_color>
+    <color red="190" green="190" blue="190">
+    </color>
+  </background_color>
+  <widget type="group" version="3.0.0">
+    <name>Group_2</name>
+    <width>60</width>
+    <height>60</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle_16</name>
+      <width>60</width>
+      <height>40</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Grid" red="128" green="128" blue="128">
+        </color>
+      </line_color>
+      <background_color>
+        <color red="190" green="190" blue="190">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="arc" version="2.0.0">
+      <name>Arc_18</name>
+      <y>20</y>
+      <width>60</width>
+      <height>40</height>
+      <start_angle>180.0</start_angle>
+      <total_angle>180.0</total_angle>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Grid" red="128" green="128" blue="128">
+        </color>
+      </line_color>
+      <background_color>
+        <color red="190" green="190" blue="190">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>Ellipse_10</name>
+      <x>20</x>
+      <y>10</y>
+      <width>20</width>
+      <height>20</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Grid" red="128" green="128" blue="128">
+        </color>
+      </line_color>
+      <background_color>
+        <color red="190" green="190" blue="190">
+        </color>
+      </background_color>
+    </widget>
+  </widget>
+</display>

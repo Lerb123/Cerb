@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Saved on 2025-04-29 14:01:02 by ceos-->
+<display version="2.0.0">
+  <name>Grafica</name>
+  <width>1765</width>
+  <height>890</height>
+  <background_color>
+    <color red="190" green="190" blue="190">
+    </color>
+  </background_color>
+  <widget type="stripchart" version="2.1.0">
+    <name>Strip Chart</name>
+    <width>1500</width>
+    <height>850</height>
+    <background_color>
+      <color red="190" green="190" blue="190">
+      </color>
+    </background_color>
+    <show_grid>true</show_grid>
+    <title_font>
+      <font family="Liberation Sans" style="BOLD" size="20.0">
+      </font>
+    </title_font>
+    <label_font>
+      <font family="Liberation Sans" style="BOLD" size="20.0">
+      </font>
+    </label_font>
+    <scale_font>
+      <font family="Liberation Sans" style="BOLD" size="18.0">
+      </font>
+    </scale_font>
+    <show_toolbar>false</show_toolbar>
+    <show_legend>true</show_legend>
+    <scripts>
+      <script file="EmbeddedPy">
+        <text><![CDATA[# Embedded python script
+from org.csstudio.display.builder.runtime.script import PVUtil, ScriptUtil
+
+agua= PVUtil.getDouble(pvs[0])
+agua_sp= PVUtil.getDouble(pvs[1])
+
+jarabe= PVUtil.getDouble(pvs[2])
+jarabe_sp= PVUtil.getDouble(pvs[3])
+
+co2= PVUtil.getDouble(pvs[4])
+co2_sp= PVUtil.getDouble(pvs[5])
+
+
+ScriptUtil.getLogger().warn("CEOS:: Valores de grafica: ->\nAgua= "+agua+"\nSetpoint_agua= "agua_sp"\nJarabe"+jarabe+"\nSetpoint_jarabe= "+jarabe_sp+"\nCO2= "+co2+"\nSetpoint_co2=co2_sp")]]></text>
+        <pv_name>pva://PID01_PV_IN/value</pv_name>
+        <pv_name>pva://PID01_SP_INT/value</pv_name>
+        <pv_name>pva://PID02_PV_IN/value</pv_name>
+        <pv_name>pva://PID02_SP_INT/value</pv_name>
+        <pv_name>pva://PID03_PV_IN/value</pv_name>
+        <pv_name>pva://PID03_SP_INT/value</pv_name>
+      </script>
+    </scripts>
+    <start>5 minute</start>
+    <end>1 hour</end>
+    <y_axes>
+      <y_axis>
+        <title>Y</title>
+        <autoscale>false</autoscale>
+        <log_scale>false</log_scale>
+        <minimum>0.0</minimum>
+        <maximum>100.0</maximum>
+        <show_grid>true</show_grid>
+        <visible>true</visible>
+        <color>
+          <color name="Text" red="0" green="0" blue="0">
+          </color>
+        </color>
+      </y_axis>
+    </y_axes>
+    <traces>
+      <trace>
+        <name>Agua</name>
+        <y_pv>pva://PID01_PV_IN</y_pv>
+        <axis>0</axis>
+        <trace_type>1</trace_type>
+        <color>
+          <color red="255" green="0" blue="0">
+          </color>
+        </color>
+        <line_width>5</line_width>
+        <point_type>0</point_type>
+        <point_size>2</point_size>
+        <visible>true</visible>
+      </trace>
+      <trace>
+        <name>SP_Agua</name>
+        <y_pv>pva://PID01_SP_INT</y_pv>
+        <axis>0</axis>
+        <trace_type>4</trace_type>
+        <color>
+          <color red="204" green="51" blue="51">
+          </color>
+        </color>
+        <line_width>2</line_width>
+        <point_type>3</point_type>
+        <point_size>10</point_size>
+        <visible>true</visible>
+      </trace>
+      <trace>
+        <name>Jarabe</name>
+        <y_pv>pva://PID02_PV_IN</y_pv>
+        <axis>0</axis>
+        <trace_type>1</trace_type>
+        <color>
+          <color red="0" green="0" blue="255">
+          </color>
+        </color>
+        <line_width>5</line_width>
+        <point_type>0</point_type>
+        <point_size>10</point_size>
+        <visible>true</visible>
+      </trace>
+      <trace>
+        <name>SP_Jarabe</name>
+        <y_pv>pva://PID02_SP_INT</y_pv>
+        <axis>0</axis>
+        <trace_type>2</trace_type>
+        <color>
+          <color red="77" green="102" blue="204">
+          </color>
+        </color>
+        <line_width>2</line_width>
+        <point_type>3</point_type>
+        <point_size>10</point_size>
+        <visible>true</visible>
+      </trace>
+      <trace>
+        <name>CO2</name>
+        <y_pv>pva://PID03_PV_IN</y_pv>
+        <axis>0</axis>
+        <trace_type>1</trace_type>
+        <color>
+          <color red="0" green="128" blue="0">
+          </color>
+        </color>
+        <line_width>5</line_width>
+        <point_type>0</point_type>
+        <point_size>10</point_size>
+        <visible>true</visible>
+      </trace>
+      <trace>
+        <name>SP_CO2</name>
+        <y_pv>pva://PID03_SP_INT</y_pv>
+        <axis>0</axis>
+        <trace_type>1</trace_type>
+        <color>
+          <color red="102" green="153" blue="102">
+          </color>
+        </color>
+        <line_width>2</line_width>
+        <point_type>3</point_type>
+        <point_size>10</point_size>
+        <visible>true</visible>
+      </trace>
+      <trace>
+        <name>Presión</name>
+        <y_pv>pva://AI05/cmd.rActiveValue</y_pv>
+        <axis>0</axis>
+        <trace_type>2</trace_type>
+        <color>
+          <color red="255" green="255" blue="255">
+          </color>
+        </color>
+        <line_width>3</line_width>
+        <point_type>0</point_type>
+        <point_size>10</point_size>
+        <visible>true</visible>
+      </trace>
+    </traces>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Action Button</name>
+    <actions>
+      <action type="write_pv">
+        <description>Producciòn</description>
+        <pv_name>$(pv_name)</pv_name>
+        <value>Produccion</value>
+      </action>
+    </actions>
+    <pv_name>loc://numeroDePagina</pv_name>
+    <text>Produccion</text>
+    <x>1540</x>
+    <y>8</y>
+    <width>210</width>
+    <height>60</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="20.0">
+      </font>
+    </font>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Action Button_1</name>
+    <actions>
+      <action type="write_pv">
+        <description>CIP</description>
+        <pv_name>$(pv_name)</pv_name>
+        <value>CIP</value>
+      </action>
+    </actions>
+    <pv_name>loc://numeroDePagina</pv_name>
+    <text>CIP</text>
+    <x>1540</x>
+    <y>96</y>
+    <width>210</width>
+    <height>60</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="20.0">
+      </font>
+    </font>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Action Button_2</name>
+    <actions>
+      <action type="write_pv">
+        <description>Parametrizaciòn</description>
+        <pv_name>$(pv_name)</pv_name>
+        <value>Parametrizacion</value>
+      </action>
+    </actions>
+    <pv_name>loc://numeroDePagina</pv_name>
+    <text>Modulos de Equipo</text>
+    <x>1538</x>
+    <y>190</y>
+    <width>210</width>
+    <height>60</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="20.0">
+      </font>
+    </font>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Action Button_3</name>
+    <text>Manuales</text>
+    <x>1540</x>
+    <y>281</y>
+    <width>210</width>
+    <height>60</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="20.0">
+      </font>
+    </font>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Action Button_4</name>
+    <text>Valvulas</text>
+    <x>1538</x>
+    <y>370</y>
+    <width>210</width>
+    <height>60</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="20.0">
+      </font>
+    </font>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Action Button_5</name>
+    <actions>
+      <action type="write_pv">
+        <description>pid_aGUA</description>
+        <pv_name>$(pv_name)</pv_name>
+        <value>spagua</value>
+      </action>
+    </actions>
+    <pv_name>loc://numeroDePagina</pv_name>
+    <text>PID01-Flujo de agua</text>
+    <x>1538</x>
+    <y>460</y>
+    <width>210</width>
+    <height>60</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="20.0">
+      </font>
+    </font>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Action Button_6</name>
+    <actions>
+      <action type="write_pv">
+        <description>PID_Jarabe</description>
+        <pv_name>$(pv_name)</pv_name>
+        <value>spjarabe</value>
+      </action>
+    </actions>
+    <pv_name>loc://numeroDePagina</pv_name>
+    <text>PID02-Flujo de jarabe</text>
+    <x>1538</x>
+    <y>550</y>
+    <width>210</width>
+    <height>60</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="20.0">
+      </font>
+    </font>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Action Button_7</name>
+    <actions>
+      <action type="write_pv">
+        <description>SP_CO2</description>
+        <pv_name>$(pv_name)</pv_name>
+        <value>spco2</value>
+      </action>
+    </actions>
+    <pv_name>loc://numeroDePagina</pv_name>
+    <text>PID03-Flujo de CO2</text>
+    <x>1538</x>
+    <y>650</y>
+    <width>210</width>
+    <height>60</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="20.0">
+      </font>
+    </font>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Action Button_8</name>
+    <actions>
+      <action type="write_pv">
+        <description>presionTQ</description>
+        <pv_name>$(pv_name)</pv_name>
+        <value>presiont</value>
+      </action>
+    </actions>
+    <pv_name>loc://numeroDePagina</pv_name>
+    <text>PID04-Presion de tanque</text>
+    <x>1538</x>
+    <y>740</y>
+    <width>210</width>
+    <height>60</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="20.0">
+      </font>
+    </font>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+</display>

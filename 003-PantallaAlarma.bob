@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Saved on 2025-04-25 00:32:52 by lerb-->
+<display version="2.0.0">
+  <name>Alarmas</name>
+  <width>1730</width>
+  <height>903</height>
+  <background_color>
+    <color red="190" green="190" blue="190">
+    </color>
+  </background_color>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle_1</name>
+    <x>40</x>
+    <y>30</y>
+    <width>1650</width>
+    <height>70</height>
+    <line_width>0</line_width>
+    <background_color>
+      <color red="170" green="170" blue="170">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label</name>
+    <text>Alarmas</text>
+    <x>40</x>
+    <y>30</y>
+    <width>1650</width>
+    <height>70</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="36.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_1</name>
+    <text>1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10
+
+11
+
+12
+
+13
+
+14
+
+15</text>
+    <x>140</x>
+    <y>216</y>
+    <width>40</width>
+    <height>657</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="18.0">
+      </font>
+    </font>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Falla_Agua</name>
+    <macros>
+      <alarm>fallaFlujoAgua</alarm>
+      <tag>Falla flujo de Agua</tag>
+    </macros>
+    <file>macro_alarm_field.bob</file>
+    <x>190</x>
+    <y>216</y>
+    <width>460</width>
+    <height>30</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Text Update_1</name>
+    <macros>
+      <alarm>fallaFlujoJarabe</alarm>
+      <tag>Falla flujo de Jarabe</tag>
+    </macros>
+    <file>macro_alarm_field.bob</file>
+    <x>190</x>
+    <y>257</y>
+    <width>460</width>
+    <height>30</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Text Update_2</name>
+    <macros>
+      <alarm>fallaNivelBajo</alarm>
+      <tag>Falla nivel bajo Tanque saturador</tag>
+    </macros>
+    <file>macro_alarm_field.bob</file>
+    <x>190</x>
+    <y>299</y>
+    <width>460</width>
+    <height>30</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Text Update_3</name>
+    <file>macro_alarm_field.bob</file>
+    <x>190</x>
+    <y>342</y>
+    <width>460</width>
+    <height>30</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Text Update_4</name>
+    <file>macro_alarm_field.bob</file>
+    <x>190</x>
+    <y>388</y>
+    <width>460</width>
+    <height>30</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Text Update_5</name>
+    <file>macro_alarm_field.bob</file>
+    <x>190</x>
+    <y>432</y>
+    <width>460</width>
+    <height>30</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Text Update_6</name>
+    <file>macro_alarm_field.bob</file>
+    <x>190</x>
+    <y>474</y>
+    <width>460</width>
+    <height>30</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Text Update_7</name>
+    <file>macro_alarm_field.bob</file>
+    <x>190</x>
+    <y>516</y>
+    <width>460</width>
+    <height>30</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Text Update_8</name>
+    <file>macro_alarm_field.bob</file>
+    <x>190</x>
+    <y>561</y>
+    <width>460</width>
+    <height>30</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Text Update_9</name>
+    <file>macro_alarm_field.bob</file>
+    <x>190</x>
+    <y>606</y>
+    <width>460</width>
+    <height>30</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Text Update_20</name>
+    <file>macro_alarm_field.bob</file>
+    <x>190</x>
+    <y>651</y>
+    <width>460</width>
+    <height>30</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Text Update_21</name>
+    <file>macro_alarm_field.bob</file>
+    <x>190</x>
+    <y>696</y>
+    <width>460</width>
+    <height>30</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Text Update_22</name>
+    <file>macro_alarm_field.bob</file>
+    <x>190</x>
+    <y>738</y>
+    <width>460</width>
+    <height>30</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Text Update_23</name>
+    <file>macro_alarm_field.bob</file>
+    <x>190</x>
+    <y>780</y>
+    <width>460</width>
+    <height>30</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Text Update_24</name>
+    <file>macro_alarm_field.bob</file>
+    <x>190</x>
+    <y>826</y>
+    <width>460</width>
+    <height>30</height>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_3</name>
+    <text>16
+
+17
+
+18
+
+19
+
+20
+
+21
+
+22
+
+23
+
+24
+
+25
+
+26
+
+27
+
+28
+
+29
+
+30</text>
+    <x>1080</x>
+    <y>216</y>
+    <width>40</width>
+    <height>657</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="18.0">
+      </font>
+    </font>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Text Update_25</name>
+    <file>macro_alarm_field.bob</file>
+    <x>1130</x>
+    <y>213</y>
+    <width>460</width>
+    <height>30</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Text Update_26</name>
+    <file>macro_alarm_field.bob</file>
+    <x>1130</x>
+    <y>257</y>
+    <width>460</width>
+    <height>30</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Text Update_27</name>
+    <file>macro_alarm_field.bob</file>
+    <x>1130</x>
+    <y>299</y>
+    <width>460</width>
+    <height>30</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Text Update_28</name>
+    <file>macro_alarm_field.bob</file>
+    <x>1130</x>
+    <y>342</y>
+    <width>460</width>
+    <height>30</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Text Update_29</name>
+    <file>macro_alarm_field.bob</file>
+    <x>1130</x>
+    <y>388</y>
+    <width>460</width>
+    <height>30</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Text Update_30</name>
+    <file>macro_alarm_field.bob</file>
+    <x>1130</x>
+    <y>432</y>
+    <width>460</width>
+    <height>30</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Text Update_31</name>
+    <file>macro_alarm_field.bob</file>
+    <x>1130</x>
+    <y>474</y>
+    <width>460</width>
+    <height>30</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Text Update_32</name>
+    <file>macro_alarm_field.bob</file>
+    <x>1130</x>
+    <y>516</y>
+    <width>460</width>
+    <height>30</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Text Update_33</name>
+    <file>macro_alarm_field.bob</file>
+    <x>1130</x>
+    <y>561</y>
+    <width>460</width>
+    <height>30</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Text Update_34</name>
+    <file>macro_alarm_field.bob</file>
+    <x>1130</x>
+    <y>606</y>
+    <width>460</width>
+    <height>30</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Text Update_35</name>
+    <file>macro_alarm_field.bob</file>
+    <x>1130</x>
+    <y>651</y>
+    <width>460</width>
+    <height>30</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Text Update_36</name>
+    <file>macro_alarm_field.bob</file>
+    <x>1130</x>
+    <y>696</y>
+    <width>460</width>
+    <height>30</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Text Update_37</name>
+    <file>macro_alarm_field.bob</file>
+    <x>1130</x>
+    <y>738</y>
+    <width>460</width>
+    <height>30</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Text Update_38</name>
+    <file>macro_alarm_field.bob</file>
+    <x>1130</x>
+    <y>780</y>
+    <width>460</width>
+    <height>30</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Text Update_39</name>
+    <file>macro_alarm_field.bob</file>
+    <x>1130</x>
+    <y>826</y>
+    <width>460</width>
+    <height>30</height>
+  </widget>
+</display>

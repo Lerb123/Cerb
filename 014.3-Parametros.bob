@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Saved on 2025-04-25 10:28:38 by cgarcia-->
+<display version="2.0.0">
+  <name>parametros</name>
+  <width>810</width>
+  <height>360</height>
+  <widget type="group" version="3.0.0">
+    <name>Group</name>
+    <x>5</x>
+    <y>2</y>
+    <width>369</width>
+    <height>32</height>
+    <style>2</style>
+    <widget type="label" version="2.0.0">
+      <name>Control:</name>
+      <text>Tipo de mezcla:</text>
+      <x>19</x>
+      <y>10</y>
+      <width>139</width>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="16.0">
+        </font>
+      </font>
+    </widget>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>Group_1</name>
+    <x>395</x>
+    <y>2</y>
+    <width>400</width>
+    <height>32</height>
+    <style>2</style>
+    <widget type="label" version="2.0.0">
+      <name>Control:_1</name>
+      <text>Temperatura de bebida:</text>
+      <x>25</x>
+      <y>10</y>
+      <width>195</width>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="16.0">
+        </font>
+      </font>
+    </widget>
+    <widget type="embedded" version="2.0.0">
+      <name>Embedded Display_6</name>
+      <macros>
+        <prueba>fbEM_Main_DB_PARAMS_ProductionData_rTempBeberage</prueba>
+      </macros>
+      <file>macroprueba.bob</file>
+      <x>244</x>
+      <y>6</y>
+      <width>142</width>
+      <height>20</height>
+    </widget>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>Group_2</name>
+    <x>395</x>
+    <y>50</y>
+    <width>400</width>
+    <height>32</height>
+    <style>2</style>
+    <widget type="label" version="2.0.0">
+      <name>Control:_2</name>
+      <text>Produccion nominal:</text>
+      <x>25</x>
+      <y>10</y>
+      <width>186</width>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="16.0">
+        </font>
+      </font>
+    </widget>
+    <widget type="embedded" version="2.0.0">
+      <name>Embedded Display_7</name>
+      <macros>
+        <prueba>fbEM_Main_DB_PARAMS_ProductionData_rNominalProduction</prueba>
+      </macros>
+      <file>macroprueba.bob</file>
+      <x>244</x>
+      <y>6</y>
+      <width>142</width>
+      <height>20</height>
+    </widget>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>Group_3</name>
+    <x>5</x>
+    <y>50</y>
+    <width>369</width>
+    <height>32</height>
+    <style>2</style>
+    <widget type="label" version="2.0.0">
+      <name>Control:_3</name>
+      <text>Brix jarabe:</text>
+      <x>19</x>
+      <y>7</y>
+      <width>139</width>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="16.0">
+        </font>
+      </font>
+    </widget>
+    <widget type="embedded" version="2.0.0">
+      <name>Embedded Display</name>
+      <macros>
+        <prueba>fbEM_Main_DB_PARAMS_ProductionData_rBrixSyrup</prueba>
+      </macros>
+      <file>macroprueba.bob</file>
+      <x>215</x>
+      <y>7</y>
+      <width>142</width>
+      <height>20</height>
+    </widget>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>Group_4</name>
+    <x>395</x>
+    <y>101</y>
+    <width>400</width>
+    <height>32</height>
+    <style>2</style>
+    <widget type="label" version="2.0.0">
+      <name>Control:_4</name>
+      <text>Nivel minimo:</text>
+      <x>25</x>
+      <y>10</y>
+      <width>180</width>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="16.0">
+        </font>
+      </font>
+    </widget>
+    <widget type="embedded" version="2.0.0">
+      <name>Embedded Display_8</name>
+      <macros>
+        <prueba>fbEM_Main_DB_PARAMS_ProductionData_rSPLevel</prueba>
+      </macros>
+      <file>macroprueba.bob</file>
+      <x>244</x>
+      <y>6</y>
+      <width>142</width>
+      <height>20</height>
+    </widget>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>Group_5</name>
+    <x>5</x>
+    <y>101</y>
+    <width>369</width>
+    <height>32</height>
+    <style>2</style>
+    <widget type="label" version="2.0.0">
+      <name>Control:_5</name>
+      <text>Peso especifico jarabe:</text>
+      <x>19</x>
+      <y>10</y>
+      <width>209</width>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="16.0">
+        </font>
+      </font>
+    </widget>
+    <widget type="embedded" version="2.0.0">
+      <name>Embedded Display_2</name>
+      <macros>
+        <prueba>fbEM_Main_DB_PARAMS_ProductionData_rSWSyrup</prueba>
+      </macros>
+      <file>macroprueba.bob</file>
+      <x>215</x>
+      <y>5</y>
+      <width>142</width>
+      <height>20</height>
+    </widget>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>Group_6</name>
+    <x>395</x>
+    <y>153</y>
+    <width>400</width>
+    <height>32</height>
+    <style>2</style>
+    <widget type="label" version="2.0.0">
+      <name>Control:_6</name>
+      <text>VM1:</text>
+      <x>25</x>
+      <y>10</y>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="16.0">
+        </font>
+      </font>
+    </widget>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>Group_7</name>
+    <x>5</x>
+    <y>153</y>
+    <width>369</width>
+    <height>32</height>
+    <style>2</style>
+    <widget type="label" version="2.0.0">
+      <name>Control:_7</name>
+      <text>Brix bebida:</text>
+      <x>19</x>
+      <y>5</y>
+      <width>165</width>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="16.0">
+        </font>
+      </font>
+    </widget>
+    <widget type="embedded" version="2.0.0">
+      <name>Embedded Display_1</name>
+      <macros>
+        <prueba>fbEM_Main_DB_PARAMS_ProductionData_rBrixBeberage</prueba>
+      </macros>
+      <file>macroprueba.bob</file>
+      <x>215</x>
+      <y>5</y>
+      <width>142</width>
+      <height>20</height>
+    </widget>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>Group_8</name>
+    <x>395</x>
+    <y>201</y>
+    <width>400</width>
+    <height>32</height>
+    <style>2</style>
+    <widget type="label" version="2.0.0">
+      <name>Control:_8</name>
+      <text>VM2:</text>
+      <x>25</x>
+      <y>10</y>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="16.0">
+        </font>
+      </font>
+    </widget>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>Group_9</name>
+    <x>5</x>
+    <y>201</y>
+    <width>369</width>
+    <height>32</height>
+    <style>2</style>
+    <widget type="label" version="2.0.0">
+      <name>Control:_9</name>
+      <text>Relacion nominal:</text>
+      <x>19</x>
+      <y>9</y>
+      <width>177</width>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="16.0">
+        </font>
+      </font>
+    </widget>
+    <widget type="embedded" version="2.0.0">
+      <name>Embedded Display_3</name>
+      <macros>
+        <prueba>fbEM_Main_DB_PARAMS_ProductionData_rNominalRelatioin</prueba>
+      </macros>
+      <file>macroprueba.bob</file>
+      <x>215</x>
+      <y>6</y>
+      <width>142</width>
+      <height>20</height>
+    </widget>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>Group_10</name>
+    <x>395</x>
+    <y>254</y>
+    <width>400</width>
+    <height>32</height>
+    <style>2</style>
+    <widget type="label" version="2.0.0">
+      <name>Control:_10</name>
+      <text>VM3:</text>
+      <x>25</x>
+      <y>10</y>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="16.0">
+        </font>
+      </font>
+    </widget>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>Group_11</name>
+    <x>5</x>
+    <y>254</y>
+    <width>369</width>
+    <height>32</height>
+    <style>2</style>
+    <widget type="label" version="2.0.0">
+      <name>Control:_11</name>
+      <text>Vol. CO2:</text>
+      <x>19</x>
+      <y>10</y>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="16.0">
+        </font>
+      </font>
+    </widget>
+    <widget type="embedded" version="2.0.0">
+      <name>Embedded Display_4</name>
+      <macros>
+        <prueba>fbEM_Main_DB_PARAMS_ProductionData_rCO2Vol</prueba>
+      </macros>
+      <file>macroprueba.bob</file>
+      <x>215</x>
+      <y>8</y>
+      <width>142</width>
+      <height>20</height>
+    </widget>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>Group_12</name>
+    <x>5</x>
+    <y>306</y>
+    <width>369</width>
+    <height>32</height>
+    <style>2</style>
+    <widget type="label" version="2.0.0">
+      <name>Control:_12</name>
+      <text>Presion almacen:</text>
+      <x>19</x>
+      <y>10</y>
+      <width>158</width>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="16.0">
+        </font>
+      </font>
+    </widget>
+    <widget type="embedded" version="2.0.0">
+      <name>Embedded Display_5</name>
+      <macros>
+        <prueba>fbEM_Main_DB_PARAMS_ProductionData_rPressStorage</prueba>
+      </macros>
+      <file>macroprueba.bob</file>
+      <x>215</x>
+      <y>4</y>
+      <width>142</width>
+      <height>20</height>
+    </widget>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_6</name>
+    <pv_name>pva://VA01/cmd.rActual</pv_name>
+    <x>630</x>
+    <y>164</y>
+    <width>140</width>
+    <height>18</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="16.0">
+      </font>
+    </font>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_8</name>
+    <pv_name>pva://VA02/cmd.rActual</pv_name>
+    <x>630</x>
+    <y>212</y>
+    <width>140</width>
+    <height>18</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="16.0">
+      </font>
+    </font>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_10</name>
+    <pv_name>pva://VA03/cmd.rActual</pv_name>
+    <x>630</x>
+    <y>265</y>
+    <width>140</width>
+    <height>18</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="16.0">
+      </font>
+    </font>
+    <show_units>false</show_units>
+    <horizontal_alignment>1</horizontal_alignment>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_10</name>
+    <macros>
+      <prueba>fbEM_Main_DB_PARAMS_ProductionData_iBeberageType</prueba>
+    </macros>
+    <file>macroprueba.bob</file>
+    <x>421</x>
+    <y>311</y>
+    <width>142</width>
+    <height>20</height>
+    <visible>false</visible>
+  </widget>
+</display>

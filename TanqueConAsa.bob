@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Saved on 2025-02-04 16:13:52 by Usuario-->
+<display version="2.0.0">
+  <name>Display</name>
+  <width>120</width>
+  <height>197</height>
+  <background_color>
+    <color red="190" green="190" blue="190" alpha="0">
+    </color>
+  </background_color>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle_11</name>
+    <x>90</x>
+    <y>139</y>
+    <width>30</width>
+    <height>10</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color red="77" green="77" blue="77">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle_12</name>
+    <x>90</x>
+    <y>49</y>
+    <width>30</width>
+    <height>10</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color red="77" green="77" blue="77">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle_13</name>
+    <y>29</y>
+    <height>139</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color red="77" green="77" blue="77">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="arc" version="2.0.0">
+    <name>Arc_14</name>
+    <height>60</height>
+    <total_angle>180.0</total_angle>
+    <line_width>1</line_width>
+    <line_color>
+      <color red="77" green="77" blue="77">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="arc" version="2.0.0">
+    <name>Arc_15</name>
+    <y>137</y>
+    <height>60</height>
+    <start_angle>180.0</start_angle>
+    <total_angle>180.0</total_angle>
+    <line_width>1</line_width>
+    <line_color>
+      <color red="77" green="77" blue="77">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle_14</name>
+    <x>110</x>
+    <y>39</y>
+    <width>10</width>
+    <height>120</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color red="77" green="77" blue="77">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_7</name>
+    <x>40</x>
+    <y>139</y>
+    <width>20</width>
+    <height>20</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color red="77" green="77" blue="77">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_8</name>
+    <x>40</x>
+    <y>39</y>
+    <width>20</width>
+    <height>20</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color red="77" green="77" blue="77">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+  </widget>
+</display>

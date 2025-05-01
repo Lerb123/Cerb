@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Saved on 2025-01-23 15:24:03 by cgarcia-->
+<display version="2.0.0">
+  <name>Display</name>
+  <width>60</width>
+  <height>30</height>
+  <background_color>
+    <color red="190" green="190" blue="190">
+    </color>
+  </background_color>
+  <widget type="group" version="3.0.0">
+    <name>Group_7</name>
+    <width>60</width>
+    <height>30</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="polygon" version="2.0.0">
+      <name>Polyline_25</name>
+      <width>60</width>
+      <height>30</height>
+      <points>
+        <point x="0.0" y="20.0">
+        </point>
+        <point x="0.0" y="10.0">
+        </point>
+        <point x="20.0" y="10.0">
+        </point>
+        <point x="20.0" y="0.0">
+        </point>
+        <point x="30.0" y="0.0">
+        </point>
+        <point x="30.0" y="10.0">
+        </point>
+        <point x="40.0" y="10.0">
+        </point>
+        <point x="60.0" y="0.0">
+        </point>
+        <point x="60.0" y="30.0">
+        </point>
+        <point x="40.0" y="20.0">
+        </point>
+        <point x="30.0" y="20.0">
+        </point>
+        <point x="30.0" y="30.0">
+        </point>
+        <point x="20.0" y="30.0">
+        </point>
+        <point x="20.0" y="20.0">
+        </point>
+        <point x="0.0" y="20.0">
+        </point>
+      </points>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Grid" red="128" green="128" blue="128">
+        </color>
+      </line_color>
+      <background_color>
+        <color red="190" green="190" blue="190">
+        </color>
+      </background_color>
+    </widget>
+  </widget>
+</display>

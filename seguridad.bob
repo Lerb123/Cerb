@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Saved on 2025-05-01 12:04:00 by ceos-->
+<display version="2.0.0">
+  <name>Seguridad</name>
+  <width>340</width>
+  <height>310</height>
+  <background_color>
+    <color red="190" green="190" blue="190">
+    </color>
+  </background_color>
+  <widget type="label" version="2.0.0">
+    <name>Label</name>
+    <text>Nombre de Usuario</text>
+    <x>30</x>
+    <y>20</y>
+    <width>263</width>
+    <height>30</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="24.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_1</name>
+    <text>Contraseña de Usuario</text>
+    <x>30</x>
+    <y>130</y>
+    <width>280</width>
+    <height>30</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="24.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Action Button</name>
+    <actions>
+      <action type="execute">
+        <description>Execute Script</description>
+        <script file="EmbeddedPy">
+          <text><![CDATA[# Embedded python script
+from org.csstudio.display.builder.runtime.script import PVUtil, ScriptUtil
+from com.ceos.phoebus.runtime import CeosUtils
+
+username = PVUtil.createPV("loc://username", 3)
+value_username = PVUtil.getString(username)
+
+password = PVUtil.createPV("loc://password", 3)
+value_password = PVUtil.getString(password)
+#print(CeosUtils.enablePermission(value_username ,value_password))
+
+if CeosUtils.handlerLoginUser(value_username ,value_password) == True:
+	CeosUtils.initNumberBoardScene(widget)
+elif CeosUtils.handlerLoginUser(value_username ,value_password) == False:
+	#si los valores ingresados no son correctos, se vuelve a invocar al teclado alfabetico
+	ScriptUtil.showMessageDialog(widget, "Usuario [" +value_username+"] estas tratando de alterar un valor de proceso el cual no tienes derecho de modificar.")
+#	ScriptUtil.getLogger().warn("CEOS::REPORTE::<<Alguien con nombre de usuario " +{username}+ "trato de modificar la variable de proceso "+CeosUtils.getPv().getName())	
+#	ScriptUtil.closeDisplay(widget)
+#else:
+#		#si los valores ingresados no son correctos, se vuelve a invocar al teclado alfabetico
+#		ScriptUtil.showMessageDialog(widget, "No existe este usuario: ["+ value_username+"]")
+PVUtil.writePV("loc://password", "", 1)
+PVUtil.writePV("loc://username", "", 1)
+]]></text>
+        </script>
+      </action>
+    </actions>
+    <pv_name>pva://$(prueba)/value</pv_name>
+    <text>Aceptar</text>
+    <x>110</x>
+    <y>260</y>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_1</name>
+    <macros>
+      <user>username</user>
+    </macros>
+    <file>macrofield.bob</file>
+    <x>67</x>
+    <y>60</y>
+    <width>200</width>
+    <height>60</height>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_2</name>
+    <macros>
+      <user>password</user>
+    </macros>
+    <file>macrofield.bob</file>
+    <x>64</x>
+    <y>170</y>
+    <width>200</width>
+    <height>60</height>
+    <transparent>true</transparent>
+  </widget>
+</display>

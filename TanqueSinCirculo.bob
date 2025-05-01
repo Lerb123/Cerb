@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Saved on 2025-03-17 15:52:55 by Usuario-->
+<display version="2.0.0">
+  <name>Display</name>
+  <width>80</width>
+  <height>158</height>
+  <background_color>
+    <color red="190" green="190" blue="190" alpha="0">
+    </color>
+  </background_color>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle_15</name>
+    <y>19</y>
+    <width>80</width>
+    <height>120</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="arc" version="2.0.0">
+    <name>Arc_16</name>
+    <width>80</width>
+    <height>40</height>
+    <total_angle>180.0</total_angle>
+    <line_width>1</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="arc" version="2.0.0">
+    <name>Arc_17</name>
+    <y>118</y>
+    <width>80</width>
+    <height>40</height>
+    <start_angle>180.0</start_angle>
+    <total_angle>180.0</total_angle>
+    <line_width>1</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+  </widget>
+</display>

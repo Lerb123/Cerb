@@ -1,0 +1,854 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Saved on 2025-04-29 14:14:07 by ceos-->
+<display version="2.0.0">
+  <name>pasos</name>
+  <width>900</width>
+  <height>805</height>
+  <widget type="group" version="3.0.0">
+    <name>Group_4</name>
+    <x>10</x>
+    <width>882</width>
+    <height>177</height>
+    <style>2</style>
+    <widget type="group" version="3.0.0">
+      <name>Group_9</name>
+      <x>20</x>
+      <y>77</y>
+      <width>853</width>
+      <height>35</height>
+      <style>2</style>
+      <widget type="label" version="2.0.0">
+        <name>Control:_11</name>
+        <text>Estrategia:</text>
+        <x>25</x>
+        <y>10</y>
+        <width>180</width>
+        <font>
+          <font family="Liberation Sans" style="BOLD" size="16.0">
+          </font>
+        </font>
+      </widget>
+      <widget type="label" version="2.0.0">
+        <name>Text Update_16</name>
+        <text></text>
+        <x>236</x>
+        <y>8</y>
+        <width>595</width>
+        <height>18</height>
+        <font>
+          <font family="Liberation Sans" style="BOLD" size="16.0">
+          </font>
+        </font>
+        <background_color>
+          <color name="Read_Background" red="240" green="240" blue="240">
+          </color>
+        </background_color>
+        <transparent>false</transparent>
+        <horizontal_alignment>1</horizontal_alignment>
+        <rules>
+          <rule name="Estrategia" prop_id="text" out_exp="false">
+            <exp bool_exp="pvInt0 == 1">
+              <value>CIP</value>
+            </exp>
+            <exp bool_exp="pvInt0 == 2">
+              <value>OVERFLOW</value>
+            </exp>
+            <exp bool_exp="pvInt0 == 3">
+              <value>RINSE</value>
+            </exp>
+            <exp bool_exp="pvInt0 == 4">
+              <value>PRODUCTION</value>
+            </exp>
+            <exp bool_exp="pvInt0 == 5">
+              <value>FLOW_TEST</value>
+            </exp>
+            <exp bool_exp="pvInt0 == 6">
+              <value>DRAIN</value>
+            </exp>
+            <pv_name>pva://fbEM_Desareador_DB_PARAMS_Strategic/value</pv_name>
+          </rule>
+        </rules>
+      </widget>
+    </widget>
+    <widget type="group" version="3.0.0">
+      <name>Group_11</name>
+      <x>20</x>
+      <y>28</y>
+      <width>853</width>
+      <height>35</height>
+      <style>2</style>
+      <widget type="label" version="2.0.0">
+        <name>Control:_13</name>
+        <text>Estado:</text>
+        <x>25</x>
+        <y>10</y>
+        <width>180</width>
+        <font>
+          <font family="Liberation Sans" style="BOLD" size="16.0">
+          </font>
+        </font>
+      </widget>
+      <widget type="label" version="2.0.0">
+        <name>Text Update_18</name>
+        <text></text>
+        <x>236</x>
+        <y>8</y>
+        <width>595</width>
+        <height>18</height>
+        <font>
+          <font family="Liberation Sans" style="BOLD" size="16.0">
+          </font>
+        </font>
+        <background_color>
+          <color name="Read_Background" red="240" green="240" blue="240">
+          </color>
+        </background_color>
+        <transparent>false</transparent>
+        <horizontal_alignment>1</horizontal_alignment>
+        <rules>
+          <rule name="Estado" prop_id="text" out_exp="false">
+            <exp bool_exp="pvInt0 == 0">
+              <value>IDLE</value>
+            </exp>
+            <exp bool_exp="pvInt0 == 1">
+              <value>STARTING</value>
+            </exp>
+            <exp bool_exp="pvInt0 == 2">
+              <value>RUNNING</value>
+            </exp>
+            <exp bool_exp="pvInt0 ==  3">
+              <value>PAUSING</value>
+            </exp>
+            <exp bool_exp="pvInt0 == 4">
+              <value>PAUSED</value>
+            </exp>
+            <exp bool_exp="pvInt0 == 5">
+              <value>HOLDING</value>
+            </exp>
+            <exp bool_exp="pvInt0 == 6">
+              <value>HELD</value>
+            </exp>
+            <exp bool_exp="pvInt0 ==  7">
+              <value>RESTARTING</value>
+            </exp>
+            <exp bool_exp="pvInt0 ==  8">
+              <value>STOPPING</value>
+            </exp>
+            <exp bool_exp="pvInt0 ==  9">
+              <value>STOPPED</value>
+            </exp>
+            <exp bool_exp="pvInt0 == 10">
+              <value>ABORTING</value>
+            </exp>
+            <exp bool_exp="pvInt0 == 11">
+              <value>ABORTED</value>
+            </exp>
+            <exp bool_exp="pvInt0 == 12">
+              <value>COMPLETED</value>
+            </exp>
+            <pv_name>pva://fbEM_Desareador_DB_State</pv_name>
+          </rule>
+        </rules>
+      </widget>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Control:_14</name>
+      <text>EM_Desareador</text>
+      <x>32</x>
+      <y>4</y>
+      <width>887</width>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="18.0">
+        </font>
+      </font>
+    </widget>
+    <widget type="group" version="3.0.0">
+      <name>Group_10</name>
+      <x>20</x>
+      <y>129</y>
+      <width>853</width>
+      <height>35</height>
+      <style>2</style>
+      <widget type="label" version="2.0.0">
+        <name>Control:_12</name>
+        <text>Paso:</text>
+        <x>25</x>
+        <y>10</y>
+        <width>180</width>
+        <font>
+          <font family="Liberation Sans" style="BOLD" size="16.0">
+          </font>
+        </font>
+      </widget>
+      <widget type="label" version="2.0.0">
+        <name>Text Update_17</name>
+        <text></text>
+        <x>236</x>
+        <y>7</y>
+        <width>595</width>
+        <height>18</height>
+        <font>
+          <font family="Liberation Sans" style="BOLD" size="16.0">
+          </font>
+        </font>
+        <background_color>
+          <color name="Read_Background" red="240" green="240" blue="240">
+          </color>
+        </background_color>
+        <transparent>false</transparent>
+        <horizontal_alignment>1</horizontal_alignment>
+        <rules>
+          <rule name="New Rule" prop_id="text" out_exp="false">
+            <exp bool_exp="pvInt0 == 0">
+              <value>En Espera</value>
+            </exp>
+            <exp bool_exp="pvInt0 == 1">
+              <value>Preparando Desareador</value>
+            </exp>
+            <exp bool_exp="pvInt0 == 2">
+              <value>Listo para producción</value>
+            </exp>
+            <pv_name>pva://fbEM_Desareador_DB_PARAMS_Step/value</pv_name>
+          </rule>
+        </rules>
+      </widget>
+    </widget>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>Group_13</name>
+    <x>10</x>
+    <y>190</y>
+    <width>882</width>
+    <height>193</height>
+    <style>2</style>
+    <widget type="group" version="3.0.0">
+      <name>Group_14</name>
+      <x>20</x>
+      <y>81</y>
+      <width>853</width>
+      <height>35</height>
+      <style>2</style>
+      <widget type="label" version="2.0.0">
+        <name>Control:_15</name>
+        <text>Estrategia:</text>
+        <x>25</x>
+        <y>10</y>
+        <width>180</width>
+        <font>
+          <font family="Liberation Sans" style="BOLD" size="16.0">
+          </font>
+        </font>
+      </widget>
+      <widget type="label" version="2.0.0">
+        <name>Text Update_20</name>
+        <text></text>
+        <x>236</x>
+        <y>6</y>
+        <width>595</width>
+        <height>18</height>
+        <font>
+          <font family="Liberation Sans" style="BOLD" size="16.0">
+          </font>
+        </font>
+        <background_color>
+          <color name="Read_Background" red="240" green="240" blue="240">
+          </color>
+        </background_color>
+        <transparent>false</transparent>
+        <horizontal_alignment>1</horizontal_alignment>
+        <rules>
+          <rule name="New Rule" prop_id="text" out_exp="false">
+            <exp bool_exp="pvInt0 == 1">
+              <value>CIP</value>
+            </exp>
+            <exp bool_exp="pvInt0 == 2">
+              <value>OVERFLOW</value>
+            </exp>
+            <exp bool_exp="pvInt0 == 3">
+              <value>RINSE</value>
+            </exp>
+            <exp bool_exp="pvInt0 == 4">
+              <value>PRODUCTION</value>
+            </exp>
+            <exp bool_exp="pvInt0 == 5">
+              <value>FLOW_TEST</value>
+            </exp>
+            <exp bool_exp="pvInt0 == 6">
+              <value>DRAIN</value>
+            </exp>
+            <pv_name>pva://fbEM_Syrup_DB_PARAMS_Strategic/value</pv_name>
+          </rule>
+        </rules>
+      </widget>
+    </widget>
+    <widget type="group" version="3.0.0">
+      <name>Group_15</name>
+      <x>20</x>
+      <y>28</y>
+      <width>853</width>
+      <height>35</height>
+      <style>2</style>
+      <widget type="label" version="2.0.0">
+        <name>Control:_16</name>
+        <text>Estado:</text>
+        <x>25</x>
+        <y>10</y>
+        <width>180</width>
+        <font>
+          <font family="Liberation Sans" style="BOLD" size="16.0">
+          </font>
+        </font>
+      </widget>
+      <widget type="label" version="2.0.0">
+        <name>Text Update_21</name>
+        <text></text>
+        <x>236</x>
+        <y>7</y>
+        <width>595</width>
+        <height>18</height>
+        <font>
+          <font family="Liberation Sans" style="BOLD" size="16.0">
+          </font>
+        </font>
+        <background_color>
+          <color name="Read_Background" red="240" green="240" blue="240">
+          </color>
+        </background_color>
+        <transparent>false</transparent>
+        <horizontal_alignment>1</horizontal_alignment>
+        <rules>
+          <rule name="Estado" prop_id="text" out_exp="false">
+            <exp bool_exp="pvInt0 == 0">
+              <value>IDLE</value>
+            </exp>
+            <exp bool_exp=" pvInt0 == 1">
+              <value>STARTING</value>
+            </exp>
+            <exp bool_exp="pvInt0 == 2">
+              <value>RUNNING</value>
+            </exp>
+            <exp bool_exp="pvInt0 ==  3">
+              <value>PAUSING</value>
+            </exp>
+            <exp bool_exp="pvInt0 == 4">
+              <value>PAUSED</value>
+            </exp>
+            <exp bool_exp="pvInt0 == 5">
+              <value>HOLDING</value>
+            </exp>
+            <exp bool_exp="pvInt0 == 6">
+              <value>HELD</value>
+            </exp>
+            <exp bool_exp="pvInt0 == 7">
+              <value>RESTARING</value>
+            </exp>
+            <exp bool_exp="pvInt0 == 8">
+              <value>STOPPING</value>
+            </exp>
+            <exp bool_exp="pvInt0 == 9">
+              <value>STOPPED</value>
+            </exp>
+            <exp bool_exp="pvInt0 == 10">
+              <value>ABORTING</value>
+            </exp>
+            <exp bool_exp="pvInt0 == 11">
+              <value>ABORTED</value>
+            </exp>
+            <exp bool_exp="pvInt0 == 12">
+              <value>COMPLETED</value>
+            </exp>
+            <pv_name>pva://fbEM_Syrup_DB_State</pv_name>
+          </rule>
+        </rules>
+      </widget>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Control:_17</name>
+      <text>EM_Syrup</text>
+      <x>32</x>
+      <y>4</y>
+      <width>887</width>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="18.0">
+        </font>
+      </font>
+    </widget>
+    <widget type="group" version="3.0.0">
+      <name>Group_16</name>
+      <x>20</x>
+      <y>138</y>
+      <width>853</width>
+      <height>35</height>
+      <style>2</style>
+      <widget type="label" version="2.0.0">
+        <name>Control:_18</name>
+        <text>Paso:</text>
+        <x>25</x>
+        <y>10</y>
+        <width>180</width>
+        <font>
+          <font family="Liberation Sans" style="BOLD" size="16.0">
+          </font>
+        </font>
+      </widget>
+      <widget type="label" version="2.0.0">
+        <name>Text Update_22</name>
+        <text></text>
+        <x>236</x>
+        <y>6</y>
+        <width>595</width>
+        <height>18</height>
+        <font>
+          <font family="Liberation Sans" style="BOLD" size="16.0">
+          </font>
+        </font>
+        <background_color>
+          <color name="Read_Background" red="240" green="240" blue="240">
+          </color>
+        </background_color>
+        <transparent>false</transparent>
+        <horizontal_alignment>1</horizontal_alignment>
+        <rules>
+          <rule name="New Rule" prop_id="text" out_exp="false">
+            <exp bool_exp="pvInt0 == 0">
+              <value>En espera</value>
+            </exp>
+            <exp bool_exp="pvInt0 == 1">
+              <value>Suministro a drenaje</value>
+            </exp>
+            <exp bool_exp="pvInt0 == 2">
+              <value>Verifica brix</value>
+            </exp>
+            <exp bool_exp="pvInt0 == 3">
+              <value>Listo para producción</value>
+            </exp>
+            <pv_name>pva://fbEM_Syrup_DB_PARAMS_Step/value</pv_name>
+          </rule>
+        </rules>
+      </widget>
+    </widget>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>Group_18</name>
+    <x>10</x>
+    <y>400</y>
+    <width>882</width>
+    <height>193</height>
+    <style>2</style>
+    <widget type="group" version="3.0.0">
+      <name>Group_19</name>
+      <x>20</x>
+      <y>81</y>
+      <width>853</width>
+      <height>35</height>
+      <style>2</style>
+      <widget type="label" version="2.0.0">
+        <name>Control:_20</name>
+        <text>Estrategia:</text>
+        <x>25</x>
+        <y>10</y>
+        <width>180</width>
+        <font>
+          <font family="Liberation Sans" style="BOLD" size="16.0">
+          </font>
+        </font>
+      </widget>
+    </widget>
+    <widget type="group" version="3.0.0">
+      <name>Group_20</name>
+      <x>20</x>
+      <y>28</y>
+      <width>853</width>
+      <height>35</height>
+      <style>2</style>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="16.0">
+        </font>
+      </font>
+      <widget type="label" version="2.0.0">
+        <name>Control:_21</name>
+        <text>Estado:</text>
+        <x>25</x>
+        <y>10</y>
+        <width>180</width>
+        <font>
+          <font family="Liberation Sans" style="BOLD" size="16.0">
+          </font>
+        </font>
+      </widget>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Control:_22</name>
+      <text>EM_Almacenamiento</text>
+      <x>32</x>
+      <y>4</y>
+      <width>887</width>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="18.0">
+        </font>
+      </font>
+    </widget>
+    <widget type="group" version="3.0.0">
+      <name>Group_21</name>
+      <x>20</x>
+      <y>138</y>
+      <width>853</width>
+      <height>35</height>
+      <style>2</style>
+      <widget type="label" version="2.0.0">
+        <name>Control:_23</name>
+        <text>Paso:</text>
+        <x>25</x>
+        <y>10</y>
+        <width>180</width>
+        <font>
+          <font family="Liberation Sans" style="BOLD" size="16.0">
+          </font>
+        </font>
+      </widget>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Text Update_25</name>
+      <text></text>
+      <x>257</x>
+      <y>36</y>
+      <width>595</width>
+      <height>18</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="16.0">
+        </font>
+      </font>
+      <background_color>
+        <color name="Read_Background" red="240" green="240" blue="240">
+        </color>
+      </background_color>
+      <transparent>false</transparent>
+      <horizontal_alignment>1</horizontal_alignment>
+      <rules>
+        <rule name="New Rule" prop_id="text" out_exp="false">
+          <exp bool_exp="pvInt0 == 0">
+            <value>IDLE</value>
+          </exp>
+          <exp bool_exp="pvInt0 == 1">
+            <value>STARTING</value>
+          </exp>
+          <exp bool_exp="pvInt0 ==  2">
+            <value>RUNNING</value>
+          </exp>
+          <exp bool_exp="pvInt0 ==  3">
+            <value>PAUSING</value>
+          </exp>
+          <exp bool_exp="pvInt0 ==  4">
+            <value>PAUSED</value>
+          </exp>
+          <exp bool_exp="pvInt0 ==  5">
+            <value>HOLDING</value>
+          </exp>
+          <exp bool_exp="pvInt0 ==  6">
+            <value>HELD</value>
+          </exp>
+          <exp bool_exp="pvInt0 ==  7">
+            <value>RESTARTING</value>
+          </exp>
+          <exp bool_exp="pvInt0 ==  8">
+            <value>STOPPING</value>
+          </exp>
+          <exp bool_exp="pvInt0 ==  9">
+            <value>STOPPED</value>
+          </exp>
+          <exp bool_exp="pvInt0 ==  10">
+            <value>ABORTING</value>
+          </exp>
+          <exp bool_exp="pvInt0 == 11">
+            <value>ABORTED</value>
+          </exp>
+          <exp bool_exp="pvInt0 == 12">
+            <value>COMPLETE</value>
+          </exp>
+          <pv_name>pva://fbEM_Storage_DB_State</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Text Update_24</name>
+      <text></text>
+      <x>257</x>
+      <y>89</y>
+      <width>595</width>
+      <height>18</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="16.0">
+        </font>
+      </font>
+      <background_color>
+        <color name="Read_Background" red="240" green="240" blue="240">
+        </color>
+      </background_color>
+      <transparent>false</transparent>
+      <horizontal_alignment>1</horizontal_alignment>
+      <rules>
+        <rule name="New Rule" prop_id="text" out_exp="false">
+          <exp bool_exp="pvInt0 == 1">
+            <value>CIP</value>
+          </exp>
+          <exp bool_exp="pvInt0 == 2">
+            <value>OVERFLOW</value>
+          </exp>
+          <exp bool_exp="pvInt0 ==  3">
+            <value>RINSE</value>
+          </exp>
+          <exp bool_exp="pvInt0 ==  4">
+            <value>PRODUCTION</value>
+          </exp>
+          <exp bool_exp="pvInt0 ==  5">
+            <value>FLOW_TEST</value>
+          </exp>
+          <exp bool_exp="pvInt0 ==  6">
+            <value>DRAIN</value>
+          </exp>
+          <pv_name>pva://fbEM_Storage_DB_PARAMS_Strategic/value</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Text Update_26</name>
+      <text></text>
+      <x>257</x>
+      <y>146</y>
+      <width>595</width>
+      <height>18</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="16.0">
+        </font>
+      </font>
+      <background_color>
+        <color name="Read_Background" red="240" green="240" blue="240">
+        </color>
+      </background_color>
+      <transparent>false</transparent>
+      <horizontal_alignment>1</horizontal_alignment>
+      <rules>
+        <rule name="New Rule" prop_id="text" out_exp="false">
+          <exp bool_exp="pvInt0 == 0">
+            <value>En espera</value>
+          </exp>
+          <exp bool_exp="pvInt0 == 1">
+            <value>Listo para producción</value>
+          </exp>
+          <exp bool_exp="pvInt0 == 2">
+            <value>Listo para producción</value>
+          </exp>
+          <pv_name>pva://fbEM_Storage_DB_Step/value</pv_name>
+        </rule>
+      </rules>
+    </widget>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>Group_22</name>
+    <x>10</x>
+    <y>607</y>
+    <width>882</width>
+    <height>193</height>
+    <style>2</style>
+    <widget type="group" version="3.0.0">
+      <name>Group_23</name>
+      <x>20</x>
+      <y>81</y>
+      <width>853</width>
+      <height>35</height>
+      <style>2</style>
+      <widget type="label" version="2.0.0">
+        <name>Control:_24</name>
+        <text>Estrategia:</text>
+        <x>25</x>
+        <y>10</y>
+        <width>180</width>
+        <font>
+          <font family="Liberation Sans" style="BOLD" size="16.0">
+          </font>
+        </font>
+      </widget>
+    </widget>
+    <widget type="group" version="3.0.0">
+      <name>Group_24</name>
+      <x>20</x>
+      <y>28</y>
+      <width>853</width>
+      <height>35</height>
+      <style>2</style>
+      <widget type="label" version="2.0.0">
+        <name>Control:_25</name>
+        <text>Estado:</text>
+        <x>25</x>
+        <y>10</y>
+        <width>180</width>
+        <font>
+          <font family="Liberation Sans" style="BOLD" size="16.0">
+          </font>
+        </font>
+      </widget>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Control:_26</name>
+      <text>EM_CO2</text>
+      <x>32</x>
+      <y>4</y>
+      <width>887</width>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="18.0">
+        </font>
+      </font>
+    </widget>
+    <widget type="group" version="3.0.0">
+      <name>Group_25</name>
+      <x>20</x>
+      <y>138</y>
+      <width>853</width>
+      <height>35</height>
+      <style>2</style>
+      <widget type="label" version="2.0.0">
+        <name>Control:_27</name>
+        <text>Paso:</text>
+        <x>25</x>
+        <y>10</y>
+        <width>180</width>
+        <font>
+          <font family="Liberation Sans" style="BOLD" size="16.0">
+          </font>
+        </font>
+      </widget>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Text Update_28</name>
+      <text></text>
+      <x>257</x>
+      <y>38</y>
+      <width>595</width>
+      <height>18</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="16.0">
+        </font>
+      </font>
+      <background_color>
+        <color name="Read_Background" red="240" green="240" blue="240">
+        </color>
+      </background_color>
+      <transparent>false</transparent>
+      <horizontal_alignment>1</horizontal_alignment>
+      <rules>
+        <rule name="New Rule" prop_id="text" out_exp="false">
+          <exp bool_exp="pvInt0 == 0">
+            <value>IDLE</value>
+          </exp>
+          <exp bool_exp="pvInt0 == 1">
+            <value>STARTING</value>
+          </exp>
+          <exp bool_exp="pvInt0 == 2">
+            <value>RUNNING</value>
+          </exp>
+          <exp bool_exp="pvInt0 ==  3">
+            <value>PAUSING</value>
+          </exp>
+          <exp bool_exp="pvInt0 ==  4">
+            <value>PAUSED</value>
+          </exp>
+          <exp bool_exp="pvInt0 ==  5">
+            <value>HOLDING</value>
+          </exp>
+          <exp bool_exp="pvInt0 ==  6">
+            <value>HELD</value>
+          </exp>
+          <exp bool_exp="pvInt0 ==  7">
+            <value>RESTARTING</value>
+          </exp>
+          <exp bool_exp="pvInt0 ==  8">
+            <value>STOPPING</value>
+          </exp>
+          <exp bool_exp="pvInt0 ==  9">
+            <value>STOPPED</value>
+          </exp>
+          <exp bool_exp="pvInt0 ==  10">
+            <value>ABORTING</value>
+          </exp>
+          <exp bool_exp="pvInt0 ==  11">
+            <value>ABORTED</value>
+          </exp>
+          <exp bool_exp="pvInt0 ==  12">
+            <value>COMPLETED</value>
+          </exp>
+          <pv_name>pva://fbEM_CO2_DB_State</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Text Update_27</name>
+      <text></text>
+      <x>257</x>
+      <y>91</y>
+      <width>595</width>
+      <height>18</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="16.0">
+        </font>
+      </font>
+      <background_color>
+        <color name="Read_Background" red="240" green="240" blue="240">
+        </color>
+      </background_color>
+      <transparent>false</transparent>
+      <horizontal_alignment>1</horizontal_alignment>
+      <rules>
+        <rule name="New Rule" prop_id="text" out_exp="false">
+          <exp bool_exp="pvInt0 == 1">
+            <value>CIP</value>
+          </exp>
+          <exp bool_exp="pvInt0 == 2">
+            <value>OVERFLOW</value>
+          </exp>
+          <exp bool_exp="pvInt0 == 3">
+            <value>RINSE</value>
+          </exp>
+          <exp bool_exp="pvInt0 == 4">
+            <value>PRODUCTION</value>
+          </exp>
+          <exp bool_exp="pvInt0 == 5">
+            <value>FLOW_TEST</value>
+          </exp>
+          <exp bool_exp="pvInt0 == 6">
+            <value>DRAIN</value>
+          </exp>
+          <pv_name>pva://fbEM_CO2_DB_PARAMS_Strategic</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Text Update_29</name>
+      <text></text>
+      <x>257</x>
+      <y>148</y>
+      <width>595</width>
+      <height>18</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="16.0">
+        </font>
+      </font>
+      <background_color>
+        <color name="Read_Background" red="240" green="240" blue="240">
+        </color>
+      </background_color>
+      <transparent>false</transparent>
+      <horizontal_alignment>1</horizontal_alignment>
+      <rules>
+        <rule name="New Rule" prop_id="text" out_exp="false">
+          <exp bool_exp="pvInt0 == 0">
+            <value>En espera</value>
+          </exp>
+          <exp bool_exp="pvInt0 == 1">
+            <value>Listo para producción</value>
+          </exp>
+          <pv_name>pva://fbEM_CO2_DB_Step/value</pv_name>
+        </rule>
+      </rules>
+    </widget>
+  </widget>
+</display>

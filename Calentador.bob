@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Saved on 2025-03-17 16:11:12 by Usuario-->
+<display version="2.0.0">
+  <name>Display</name>
+  <width>60</width>
+  <height>60</height>
+  <background_color>
+    <color red="190" green="190" blue="190" alpha="0">
+    </color>
+  </background_color>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle_17</name>
+    <x>10</x>
+    <y>10</y>
+    <width>40</width>
+    <height>40</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_17</name>
+    <x>10</x>
+    <width>1</width>
+    <height>60</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="60.0">
+      </point>
+    </points>
+    <line_width>4</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_18</name>
+    <x>50</x>
+    <width>1</width>
+    <height>60</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="60.0">
+      </point>
+    </points>
+    <line_width>4</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_19</name>
+    <y>10</y>
+    <width>60</width>
+    <height>1</height>
+    <points>
+      <point x="60.0" y="0.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_20</name>
+    <y>50</y>
+    <width>60</width>
+    <height>1</height>
+    <points>
+      <point x="60.0" y="0.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle_18</name>
+    <x>11</x>
+    <y>10</y>
+    <width>7</width>
+    <height>40</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle_19</name>
+    <x>17</x>
+    <y>10</y>
+    <width>7</width>
+    <height>40</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle_20</name>
+    <x>23</x>
+    <y>10</y>
+    <width>7</width>
+    <height>40</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle_21</name>
+    <x>29</x>
+    <y>10</y>
+    <width>7</width>
+    <height>40</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle_22</name>
+    <x>35</x>
+    <y>10</y>
+    <width>7</width>
+    <height>40</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle_23</name>
+    <x>41</x>
+    <y>10</y>
+    <width>7</width>
+    <height>40</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+  </widget>
+</display>
