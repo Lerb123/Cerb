@@ -23,8 +23,8 @@ import javafx.scene.control.CheckBox;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.core.Logger;
+//import org.apache.logging.log4j.LogManager;
+//import org.apache.logging.log4j.core.Logger;
 //import org.apache.logging.log4j.LogManager;
 //import org.apache.logging.log4j.Logger;
 //import org.apache.logging.log4j.core.config.Configurator;
@@ -35,7 +35,7 @@ import org.apache.logging.log4j.core.Logger;
  * @author ceos
  */
 public class PrimaryController implements Initializable {
- private static final org.apache.logging.log4j.Logger logger =LogManager.getLogger(PrimaryController.class);
+ 
     /**
      * Initializes the controller class.
      */
@@ -90,7 +90,7 @@ public class PrimaryController implements Initializable {
     public void initialize(URL url, ResourceBundle rb) {
         miComboBox.setItems(products);
 //      Configurator.initialize("ceos", "/log4j2.properties");
-        logger.info("The recipe editor has been started");
+//        logger.info("The recipe editor has been started");
     }
 
     /*
@@ -117,7 +117,7 @@ public class PrimaryController implements Initializable {
             String query = "SELECT * FROM receta WHERE nameproduct='" + seleccion + "';";
             Statement ps = con.createStatement();
             ResultSet rs = ps.executeQuery(query);
-            logger.info(String.format("The recipe has been selected: %s", miComboBox.getValue()));
+//            logger.info(String.format("The recipe has been selected: %s", miComboBox.getValue()));
             
             while (rs.next()) {
 
