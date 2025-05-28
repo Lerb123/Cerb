@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Saved on 2025-04-08 16:12:17 by cgarcia-->
+<display version="2.0.0">
+  <name>topbuttons</name>
+  <width>1747</width>
+  <height>65</height>
+  <widget type="action_button" version="3.0.0">
+    <name>Action Button</name>
+    <text>MAIN</text>
+    <x>10</x>
+    <y>4</y>
+    <width>200</width>
+    <height>58</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="18.0">
+      </font>
+    </font>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Action Button_1</name>
+    <text>DESAREADOR</text>
+    <x>370</x>
+    <y>4</y>
+    <width>200</width>
+    <height>58</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="18.0">
+      </font>
+    </font>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Action Button_2</name>
+    <text>JARABE</text>
+    <x>750</x>
+    <y>4</y>
+    <width>200</width>
+    <height>58</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="18.0">
+      </font>
+    </font>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Action Button_3</name>
+    <text>SATURADOR</text>
+    <x>1151</x>
+    <y>4</y>
+    <width>200</width>
+    <height>58</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="18.0">
+      </font>
+    </font>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Action Button_4</name>
+    <text>MANTENIMIENTO</text>
+    <x>1510</x>
+    <y>4</y>
+    <width>200</width>
+    <height>58</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="18.0">
+      </font>
+    </font>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+</display>

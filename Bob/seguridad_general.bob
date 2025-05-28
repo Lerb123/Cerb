@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Saved on 2025-05-13 11:47:48 by operador-->
+<display version="2.0.0">
+  <name>Seguridad</name>
+  <width>340</width>
+  <height>310</height>
+  <background_color>
+    <color red="190" green="190" blue="190">
+    </color>
+  </background_color>
+  <widget type="label" version="2.0.0">
+    <name>Label</name>
+    <text>Nombre de Usuario</text>
+    <x>30</x>
+    <y>20</y>
+    <width>263</width>
+    <height>30</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="24.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_1</name>
+    <text>Contraseña de Usuario</text>
+    <x>30</x>
+    <y>130</y>
+    <width>280</width>
+    <height>30</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="24.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>btnAceptar</name>
+    <actions>
+      <action type="execute">
+        <description>Execute Script</description>
+        <script file="EmbeddedPy">
+          <text><![CDATA[# Embedded python script
+from org.csstudio.display.builder.runtime.script import PVUtil, ScriptUtil
+from com.ceos.phoebus.runtime import CeosUtils
+
+
+username = PVUtil.createPV("loc://username", 3)
+value_username = PVUtil.getString(username)
+
+password = PVUtil.createPV("loc://password", 3)
+value_password = PVUtil.getString(password)
+
+
+#variable de monitoreo del permiso
+enable = PVUtil.createPV("loc://enable", 1000)
+
+name_query = PVUtil.createPV("loc://query", 3)
+#PVUtil.writePV("loc://query", str(value_username), 1000)
+
+#..........................................................................Validations..............................................................................................
+
+if CeosUtils.handlerLoginUser(value_username ,value_password) == True:
+	ScriptUtil.showMessageDialog(widget, "Acceso permitido a usuario ["+value_username+"]")
+	PVUtil.writePV("loc://enable", 1, 1000)
+	#ScriptUtil.getLogger().severe( "Acceso permitido a usuario ["+str(value_username)+"]. Modo modificacion activado")
+	#habilita I/O campos y botones para lectura/escritura
+	PVUtil.writePV("loc://query", str(value_username), 1000)
+	#ScriptUtil.showMessageDialog(widget, "Acceso permitido a usuario ["+value_username+"]")
+	ScriptUtil.closeDisplay(widget)
+	PVUtil.writePV("loc://password", "", 1)
+	#PVUtil.writePV("loc://username", "", 1)
+	
+	
+elif CeosUtils.handlerLoginUser(value_username ,value_password) == False:	
+	#deshabilita I/O campos y botones para lectura/escritura
+	PVUtil.writePV("loc://enable", 0, 1)
+	PVUtil.writePV("loc://password", "", 1)
+	PVUtil.writePV("loc://username", "", 1)
+	ScriptUtil.closeDisplay(widget)
+	ScriptUtil.showMessageDialog(widget, "Usuario [" +value_username+"] estas tratando de alterar un valor de proceso el cual no tienes derecho de modificar.")
+	ScriptUtil.getLogger().warning("CEOS::REPORTE::<<Alguien con nombre de usuario " +{str(value_username)}+ "trato de modificar la variable de proceso "+CeosUtils.getPv().getName())	
+	
+else:
+	ScriptUtil.showMessageDialog(widget, "No existe este usuario: ["+ value_username+"] o estas digitando mal la constraseña")
+	PVUtil.writePV("loc://password", "", 1)
+	PVUtil.writePV("loc://username", "", 1)
+
+
+]]></text>
+        </script>
+      </action>
+    </actions>
+    <text>Aceptar</text>
+    <x>40</x>
+    <y>260</y>
+    <height>40</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="18.0">
+      </font>
+    </font>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_2</name>
+    <macros>
+      <user>password</user>
+    </macros>
+    <file>macrofield.bob</file>
+    <x>70</x>
+    <y>170</y>
+    <width>200</width>
+    <height>60</height>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>btnCancelar</name>
+    <actions>
+      <action type="execute">
+        <description>Execute Script</description>
+        <script file="EmbeddedPy">
+          <text><![CDATA[# Embedded python script
+from org.csstudio.display.builder.runtime.script import PVUtil, ScriptUtil
+from com.ceos.phoebus.runtime import CeosUtils
+
+#display = widget.getDisplayModel()
+
+#btn_cancelar = display.runtimeChildren().getChildByName("btnCancelar")
+#ScriptUtil.closeDisplay(btn_cancelar)
+
+ScriptUtil.closeDisplay(widget)]]></text>
+        </script>
+      </action>
+    </actions>
+    <text>Cancelar</text>
+    <x>182</x>
+    <y>260</y>
+    <height>40</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="18.0">
+      </font>
+    </font>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update</name>
+    <pv_name>loc://username</pv_name>
+    <x>92</x>
+    <y>80</y>
+    <width>150</width>
+    <height>30</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="18.0">
+      </font>
+    </font>
+    <background_color>
+      <color red="190" green="190" blue="190">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <border_width>1</border_width>
+  </widget>
+</display>

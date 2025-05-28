@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Saved on 2025-05-03 20:02:58 by lerb-->
+<display version="2.0.0">
+  <name>estrategia</name>
+  <width>1770</width>
+  <height>890</height>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display</name>
+    <file>014.5-Topbuttons.bob</file>
+    <width>1724</width>
+    <height>70</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_1</name>
+    <file>014.1-Controlopc.bob</file>
+    <y>70</y>
+    <width>830</width>
+    <height>256</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_2</name>
+    <file>014.3-Parametros.bob</file>
+    <y>340</y>
+    <width>830</width>
+    <height>344</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_3</name>
+    <file>014.2-Downbuttons.bob</file>
+    <x>12</x>
+    <y>760</y>
+    <width>807</width>
+    <height>73</height>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>Action Button</name>
+    <pv_name>pva://fbEM_Desareador_DB_PARAMS_bLiberarBomba/value</pv_name>
+    <x>12</x>
+    <y>699</y>
+    <width>804</width>
+    <height>49</height>
+    <off_label>BOMBA DE AGUA</off_label>
+    <off_color>
+      <color red="240" green="240" blue="240">
+      </color>
+    </off_color>
+    <on_label>BOMBA DE AGUA</on_label>
+    <on_color>
+      <color red="179" green="230" blue="179">
+      </color>
+    </on_color>
+    <show_led>false</show_led>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <actions>
+      <action type="execute">
+        <description>Execute Script</description>
+        <script file="EmbeddedPy">
+          <text><![CDATA[# Embedded python script
+from org.csstudio.display.builder.runtime.script import PVUtil, ScriptUtil
+from com.ceos.phoebus.runtime import CeosUtils
+
+
+# widget.setPropertyValue('text', PVUtil.getString(pvs[0]))]]></text>
+        </script>
+      </action>
+    </actions>
+    <tooltip>$(actions)</tooltip>
+    <show_confirm_dialog>false</show_confirm_dialog>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_4</name>
+    <file>014.4-Pasos.bob</file>
+    <x>822</x>
+    <y>67</y>
+    <width>908</width>
+    <height>808</height>
+  </widget>
+</display>

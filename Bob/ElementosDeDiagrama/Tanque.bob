@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Saved on 2025-04-20 11:31:25 by cgarcia-->
+<display version="2.0.0">
+  <name>Display</name>
+  <width>80</width>
+  <height>158</height>
+  <background_color>
+    <color red="190" green="190" blue="190" alpha="0">
+    </color>
+  </background_color>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle_15</name>
+    <y>19</y>
+    <width>80</width>
+    <height>120</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Header_Background" red="77" green="77" blue="77">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="arc" version="2.0.0">
+    <name>Arc_16</name>
+    <width>80</width>
+    <height>40</height>
+    <total_angle>180.0</total_angle>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Header_Background" red="77" green="77" blue="77">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="arc" version="2.0.0">
+    <name>Arc_17</name>
+    <y>118</y>
+    <width>80</width>
+    <height>40</height>
+    <start_angle>180.0</start_angle>
+    <total_angle>180.0</total_angle>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Header_Background" red="77" green="77" blue="77">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_9</name>
+    <x>30</x>
+    <y>109</y>
+    <width>20</width>
+    <height>20</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Header_Background" red="77" green="77" blue="77">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+    <rules>
+      <rule name="New Rule" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pvInt0 == 1">
+          <value>
+            <color red="255" green="255" blue="255">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pvInt0 == 0">
+          <value>
+            <color name="Grid" red="128" green="128" blue="128">
+            </color>
+          </value>
+        </exp>
+        <pv_name>pva://$(level)</pv_name>
+      </rule>
+    </rules>
+  </widget>
+</display>

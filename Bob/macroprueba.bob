@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Saved on 2025-05-03 13:01:50 by lerb-->
+<display version="2.0.0">
+  <name>Macro Prueba</name>
+  <width>140</width>
+  <height>21</height>
+  <widget type="textentry" version="3.0.0">
+    <name>Text Entry</name>
+    <pv_name>pva://$(prueba)/value</pv_name>
+    <width>140</width>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="16.0">
+      </font>
+    </font>
+    <background_color>
+      <color red="242" green="242" blue="242">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Action Button</name>
+    <actions>
+      <action type="execute">
+        <description>Execute Script</description>
+        <script file="EmbeddedPy">
+          <text><![CDATA[# Embedded python script
+from org.csstudio.display.builder.runtime.script import PVUtil, ScriptUtil
+from com.ceos.phoebus.runtime import CeosUtils
+
+
+CeosUtils.initNumberBoardScene(widget)]]></text>
+        </script>
+      </action>
+    </actions>
+    <pv_name>pva://$(prueba)/value</pv_name>
+    <text></text>
+    <width>140</width>
+    <height>20</height>
+    <transparent>true</transparent>
+    <rules>
+      <rule name="New Rule" prop_id="enabled" out_exp="false">
+        <exp bool_exp="pvInt0 == 1">
+          <value>true</value>
+        </exp>
+        <exp bool_exp="pvInt0 != 1">
+          <value>false</value>
+        </exp>
+        <pv_name>loc://enable</pv_name>
+      </rule>
+    </rules>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+</display>

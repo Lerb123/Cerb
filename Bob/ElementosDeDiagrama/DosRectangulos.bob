@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Saved on 2025-01-23 15:22:54 by cgarcia-->
+<display version="2.0.0">
+  <name>Display</name>
+  <width>50</width>
+  <height>60</height>
+  <background_color>
+    <color red="190" green="190" blue="190">
+    </color>
+  </background_color>
+  <widget type="group" version="3.0.0">
+    <name>Group_5</name>
+    <width>50</width>
+    <height>60</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="polyline" version="2.0.0">
+      <name>Polyline_21</name>
+      <x>25</x>
+      <y>19</y>
+      <width>1</width>
+      <points>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="0.0" y="20.0">
+        </point>
+      </points>
+      <line_color>
+        <color name="Grid" red="128" green="128" blue="128">
+        </color>
+      </line_color>
+    </widget>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle_18</name>
+      <y>30</y>
+      <width>50</width>
+      <height>30</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Grid" red="128" green="128" blue="128">
+        </color>
+      </line_color>
+      <background_color>
+        <color red="190" green="190" blue="190">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle_19</name>
+      <x>10</x>
+      <width>30</width>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Grid" red="128" green="128" blue="128">
+        </color>
+      </line_color>
+      <background_color>
+        <color red="190" green="190" blue="190">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="polyline" version="2.0.0">
+      <name>Polyline_22</name>
+      <x>10</x>
+      <y>45</y>
+      <width>30</width>
+      <height>1</height>
+      <points>
+        <point x="30.0" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+      </points>
+      <line_color>
+        <color name="Grid" red="128" green="128" blue="128">
+        </color>
+      </line_color>
+    </widget>
+  </widget>
+</display>

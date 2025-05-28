@@ -1,0 +1,7406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Saved on 2025-05-03 14:46:48 by lerb-->
+<display version="2.0.0">
+  <name>Carbonatador</name>
+  <width>1800</width>
+  <height>890</height>
+  <background_color>
+    <color red="190" green="190" blue="190" alpha="190">
+    </color>
+  </background_color>
+  <widget type="embedded" version="2.0.0">
+    <name>TanquePeq</name>
+    <file>ElementosDeDiagrama/TanqueSinCirculo.bob</file>
+    <x>509</x>
+    <y>719</y>
+    <width>50</width>
+    <height>90</height>
+    <resize>1</resize>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_106</name>
+    <x>1610</x>
+    <y>112</y>
+    <width>1</width>
+    <height>50</height>
+    <points>
+      <point x="0.0" y="25.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_4</name>
+    <x>130</x>
+    <y>382</y>
+    <width>170</width>
+    <height>1</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="170.0" y="0.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_121</name>
+    <x>1333</x>
+    <y>10</y>
+    <width>277</width>
+    <height>612</height>
+    <points>
+      <point x="0.0" y="612.0">
+      </point>
+      <point x="0.0" y="2.0">
+      </point>
+      <point x="277.0" y="0.0">
+      </point>
+      <point x="277.0" y="90.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+    <line_style>1</line_style>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_112</name>
+    <x>610</x>
+    <y>491</y>
+    <width>1</width>
+    <height>16</height>
+    <points>
+      <point x="0.0" y="16.023773193359375">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_62</name>
+    <x>556</x>
+    <y>478</y>
+    <width>25</width>
+    <height>1</height>
+    <points>
+      <point x="25.7801513671875" y="0.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_36</name>
+    <x>540</x>
+    <y>468</y>
+    <width>20</width>
+    <height>20</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_128</name>
+    <text>LS</text>
+    <x>540</x>
+    <y>470</y>
+    <width>20</width>
+    <height>15</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="8.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Header_Background" red="77" green="77" blue="77">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_124</name>
+    <x>751</x>
+    <y>280</y>
+    <width>32</width>
+    <height>168</height>
+    <points>
+      <point x="32.3486328125" y="0.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="168.31387329101562">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_109</name>
+    <x>646</x>
+    <y>470</y>
+    <width>103</width>
+    <height>113</height>
+    <points>
+      <point x="103.23089599609375" y="90.0">
+      </point>
+      <point x="63.02789306640625" y="90.0">
+      </point>
+      <point x="62.7685546875" y="113.0">
+      </point>
+      <point x="14.0" y="113.0">
+      </point>
+      <point x="14.0" y="0.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_138</name>
+    <x>211</x>
+    <y>106</y>
+    <width>1</width>
+    <height>52</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="52.04853820800781">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_137</name>
+    <x>137</x>
+    <y>158</y>
+    <width>273</width>
+    <height>1</height>
+    <points>
+      <point x="273.60643005371094" y="0.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle_7</name>
+    <x>20</x>
+    <y>536</y>
+    <width>120</width>
+    <height>30</height>
+    <line_width>0</line_width>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_150</name>
+    <x>131</x>
+    <y>628</y>
+    <width>50</width>
+    <height>1</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="49.99999999999999" y="0.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_64</name>
+    <x>648</x>
+    <y>451</y>
+    <width>25</width>
+    <height>1</height>
+    <points>
+      <point x="370.0" y="0.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_99</name>
+    <x>572</x>
+    <y>157</y>
+    <width>34</width>
+    <height>44</height>
+    <points>
+      <point x="34.19" y="0.0">
+      </point>
+      <point x="34.19" y="44.094">
+      </point>
+      <point x="0.0" y="44.094">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Attention" red="255" green="160" blue="0">
+      </color>
+    </line_color>
+    <line_style>1</line_style>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_98</name>
+    <x>540</x>
+    <y>155</y>
+    <width>140</width>
+    <height>256</height>
+    <points>
+      <point x="135.56" y="256.11198346269845">
+      </point>
+      <point x="135.56" y="0.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Attention" red="255" green="160" blue="0">
+      </color>
+    </line_color>
+    <line_style>1</line_style>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_95</name>
+    <x>686</x>
+    <y>415</y>
+    <width>25</width>
+    <height>1</height>
+    <points>
+      <point x="25.7801513671875" y="0.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Attention" red="255" green="160" blue="0">
+      </color>
+    </line_color>
+    <line_style>2</line_style>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_87</name>
+    <x>627</x>
+    <y>416</y>
+    <width>25</width>
+    <height>1</height>
+    <points>
+      <point x="25.7801513671875" y="0.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_88</name>
+    <x>656</x>
+    <y>416</y>
+    <width>25</width>
+    <height>1</height>
+    <points>
+      <point x="25.7801513671875" y="0.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_81</name>
+    <x>220</x>
+    <y>310</y>
+    <width>58</width>
+    <height>52</height>
+    <points>
+      <point x="58.0" y="52.5">
+      </point>
+      <point x="58.0" y="52.5">
+      </point>
+      <point x="58.0" y="0.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="50.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="MINOR" red="255" green="128" blue="0">
+      </color>
+    </line_color>
+    <line_style>1</line_style>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_155</name>
+    <x>795</x>
+    <y>492</y>
+    <width>1</width>
+    <height>31</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.33917236328125" y="31.202911376953125">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Attention" red="255" green="160" blue="0">
+      </color>
+    </line_color>
+    <line_style>1</line_style>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_3</name>
+    <x>1415</x>
+    <y>325</y>
+    <width>1</width>
+    <height>40</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="20.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_69</name>
+    <x>780</x>
+    <y>380</y>
+    <height>10</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="100.0" y="0.0">
+      </point>
+      <point x="100.0" y="10.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_68</name>
+    <x>780</x>
+    <y>330</y>
+    <width>101</width>
+    <height>10</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="101.384033203125" y="0.0">
+      </point>
+      <point x="101.1246337890625" y="10.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_67</name>
+    <x>780</x>
+    <y>280</y>
+    <height>171</height>
+    <points>
+      <point x="0.0" y="171.8830817086356">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="100.0" y="0.0">
+      </point>
+      <point x="100.0" y="10.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>Group</name>
+    <x>180</x>
+    <y>729</y>
+    <width>70</width>
+    <height>88</height>
+    <style>3</style>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle_14</name>
+      <width>70</width>
+      <height>88</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color red="130" green="130" blue="130">
+        </color>
+      </line_color>
+      <background_color>
+        <color red="130" green="130" blue="130">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>Ellipse_8</name>
+      <x>10</x>
+      <y>9</y>
+      <width>10</width>
+      <height>10</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color red="120" green="120" blue="120">
+        </color>
+      </line_color>
+      <background_color>
+        <color red="130" green="130" blue="130">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>Ellipse_10</name>
+      <x>10</x>
+      <y>60</y>
+      <width>10</width>
+      <height>10</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color red="120" green="120" blue="120">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Grid" red="128" green="128" blue="128">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>Ellipse_11</name>
+      <x>50</x>
+      <y>29</y>
+      <width>10</width>
+      <height>10</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color red="120" green="120" blue="120">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Grid" red="128" green="128" blue="128">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>Ellipse_13</name>
+      <x>50</x>
+      <y>70</y>
+      <width>10</width>
+      <height>10</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color red="120" green="120" blue="120">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Grid" red="128" green="128" blue="128">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>Ellipse_30</name>
+      <x>58</x>
+      <y>18</y>
+      <width>10</width>
+      <height>10</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color red="120" green="120" blue="120">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Grid" red="128" green="128" blue="128">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>Ellipse_12</name>
+      <x>50</x>
+      <y>49</y>
+      <width>10</width>
+      <height>10</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color red="120" green="120" blue="120">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Grid" red="128" green="128" blue="128">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>Ellipse_9</name>
+      <x>10</x>
+      <y>34</y>
+      <width>10</width>
+      <height>10</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color red="120" green="120" blue="120">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Grid" red="128" green="128" blue="128">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="polyline" version="2.0.0">
+      <name>Polyline_152</name>
+      <x>55</x>
+      <y>21</y>
+      <width>9</width>
+      <height>14</height>
+      <points>
+        <point x="0.0" y="14.916850691862464">
+        </point>
+        <point x="9.24630679627623" y="0.0">
+        </point>
+      </points>
+      <line_width>2</line_width>
+      <line_color>
+        <color red="120" green="120" blue="120">
+        </color>
+      </line_color>
+    </widget>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_148</name>
+    <x>912</x>
+    <y>107</y>
+    <width>109</width>
+    <height>96</height>
+    <points>
+      <point x="109.02618408203125" y="96.494">
+      </point>
+      <point x="0.0" y="96.494">
+      </point>
+      <point x="0.0" y="54.82269501535055">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_140</name>
+    <x>556</x>
+    <y>71</y>
+    <width>459</width>
+    <height>19</height>
+    <points>
+      <point x="459.4206115236991" y="19.62245164093565">
+      </point>
+      <point x="117.26125578779647" y="19.62245164093565">
+      </point>
+      <point x="117.82763876651984" y="0.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_130</name>
+    <x>426</x>
+    <y>40</y>
+    <width>50</width>
+    <height>79</height>
+    <points>
+      <point x="50.0" y="68.0">
+      </point>
+      <point x="50.0" y="0.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_122</name>
+    <x>1280</x>
+    <y>186</y>
+    <width>260</width>
+    <height>55</height>
+    <points>
+      <point x="0.0" y="53.680000000000014">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="260.0" y="0.0">
+      </point>
+      <point x="260.0" y="55.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+    <line_style>1</line_style>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_63</name>
+    <x>1246</x>
+    <y>120</y>
+    <width>144</width>
+    <height>1</height>
+    <points>
+      <point x="144.6624777916502" y="0.3281219484506579">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_61</name>
+    <x>1245</x>
+    <y>162</y>
+    <width>144</width>
+    <height>1</height>
+    <points>
+      <point x="144.23381423205137" y="0.0">
+      </point>
+      <point x="0.0" y="0.10186895717836819">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_60</name>
+    <x>1315</x>
+    <y>317</y>
+    <width>1</width>
+    <height>10</height>
+    <points>
+      <point x="0.0" y="15.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_58</name>
+    <x>1295</x>
+    <y>317</y>
+    <width>1</width>
+    <height>10</height>
+    <points>
+      <point x="0.0" y="15.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_56</name>
+    <x>1275</x>
+    <y>317</y>
+    <width>1</width>
+    <height>10</height>
+    <points>
+      <point x="0.0" y="15.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_54</name>
+    <x>1256</x>
+    <y>316</y>
+    <width>1</width>
+    <height>10</height>
+    <points>
+      <point x="0.0" y="15.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_50</name>
+    <x>1255</x>
+    <y>317</y>
+    <width>155</width>
+    <height>1</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="155.512829" y="0.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_53</name>
+    <x>1390</x>
+    <y>68</y>
+    <width>190</width>
+    <height>331</height>
+    <points>
+      <point x="190.0" y="82.0">
+      </point>
+      <point x="190.0" y="0.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="331.5233009338379">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_45</name>
+    <x>1561</x>
+    <y>430</y>
+    <width>118</width>
+    <height>30</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="89.07" y="0.0">
+      </point>
+      <point x="89.07" y="29.856">
+      </point>
+      <point x="118.48299999999995" y="29.856">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EV23_3</name>
+    <file>ElementosDeDiagrama/Calentador.bob</file>
+    <x>884</x>
+    <y>636</y>
+    <width>70</width>
+    <height>70</height>
+    <resize>1</resize>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_117</name>
+    <x>1111</x>
+    <y>230</y>
+    <width>109</width>
+    <height>418</height>
+    <points>
+      <point x="109.0" y="418.5116767911966">
+      </point>
+      <point x="109.0" y="0.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_116</name>
+    <x>1161</x>
+    <y>450</y>
+    <width>1</width>
+    <height>198</height>
+    <points>
+      <point x="0.0" y="198.6690000000001">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_115</name>
+    <x>1100</x>
+    <y>28</y>
+    <width>550</width>
+    <height>619</height>
+    <points>
+      <point x="5.0" y="619.0">
+      </point>
+      <point x="5.0" y="0.0">
+      </point>
+      <point x="550.0" y="0.0">
+      </point>
+      <point x="550.0" y="120.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_32</name>
+    <x>1050</x>
+    <y>488</y>
+    <width>25</width>
+    <height>40</height>
+    <points>
+      <point x="0.0" y="6.0">
+      </point>
+      <point x="25.0" y="6.0">
+      </point>
+      <point x="25.0" y="40.0">
+      </point>
+      <point x="0.0" y="40.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+    <line_style>1</line_style>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_27</name>
+    <x>1305</x>
+    <y>764</y>
+    <height>16</height>
+    <points>
+      <point x="0.0" y="16.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="100.618" y="0.0">
+      </point>
+      <point x="100.618" y="14.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+    <line_style>1</line_style>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>JarabeTerminadoCavaDeJarabe_3</name>
+    <x>459</x>
+    <y>739</y>
+    <width>25</width>
+    <height>1</height>
+    <points>
+      <point x="25.7801513671875" y="0.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+    </points>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>JarabeTerminadoCavaDeJarabe_2</name>
+    <x>442</x>
+    <y>665</y>
+    <width>3</width>
+    <height>143</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="143.57870257323907">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Attention" red="255" green="160" blue="0">
+      </color>
+    </line_color>
+    <line_style>1</line_style>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>JarabeTerminadoCavaDeJarabe_1</name>
+    <x>424</x>
+    <y>665</y>
+    <width>46</width>
+    <height>83</height>
+    <points>
+      <point x="46.011629277269115" y="83.11305409651447">
+      </point>
+      <point x="45.16830682759442" y="0.5652704825718047">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Attention" red="255" green="160" blue="0">
+      </color>
+    </line_color>
+    <line_style>1</line_style>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_75</name>
+    <x>352</x>
+    <y>282</y>
+    <width>1</width>
+    <height>21</height>
+    <points>
+      <point x="0.0" y="21.023773193359375">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_114</name>
+    <x>750</x>
+    <y>567</y>
+    <width>1</width>
+    <height>50</height>
+    <points>
+      <point x="0.0" y="25.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_111</name>
+    <x>1020</x>
+    <y>41</y>
+    <width>1</width>
+    <height>606</height>
+    <points>
+      <point x="0.7999999999999545" y="606.5">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_100</name>
+    <x>1560</x>
+    <y>380</y>
+    <width>90</width>
+    <height>270</height>
+    <points>
+      <point x="90.0" y="270.0">
+      </point>
+      <point x="90.0" y="170.0">
+      </point>
+      <point x="0.0" y="170.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>JarabeTerminadoCavaDeJarabe_6</name>
+    <x>720</x>
+    <y>798</y>
+    <width>1</width>
+    <height>50</height>
+    <points>
+      <point x="0.0" y="50.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_72</name>
+    <x>294</x>
+    <y>423</y>
+    <width>25</width>
+    <height>1</height>
+    <points>
+      <point x="10.0" y="0.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_14</name>
+    <x>206</x>
+    <y>423</y>
+    <width>86</width>
+    <height>1</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="86.56102391702183" y="0.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_59</name>
+    <x>179</x>
+    <y>481</y>
+    <width>81</width>
+    <height>19</height>
+    <points>
+      <point x="0.0" y="19.836492009173412">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="81.81929218305169" y="0.3270159816530622">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle_17</name>
+    <x>1660</x>
+    <y>441</y>
+    <width>120</width>
+    <height>30</height>
+    <line_width>0</line_width>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_54</name>
+    <text>PRODUCTO TERMINADO</text>
+    <x>1660</x>
+    <y>441</y>
+    <width>120</width>
+    <height>30</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="8.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Header_Background" red="77" green="77" blue="77">
+      </color>
+    </foreground_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_38</name>
+    <x>750</x>
+    <y>542</y>
+    <width>1</width>
+    <height>72</height>
+    <points>
+      <point x="0.0" y="20.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_36</name>
+    <x>541</x>
+    <y>863</y>
+    <width>91</width>
+    <height>13</height>
+    <points>
+      <point x="90.0" y="0.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="10.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>JarabeTerminadoCavaDeJarabe</name>
+    <x>540</x>
+    <y>799</y>
+    <width>91</width>
+    <height>24</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="20.0">
+      </point>
+      <point x="90.0990099009901" y="20.0">
+      </point>
+      <point x="90.0990099009901" y="65.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>JarabeTerminadoCavaDeJarabe</name>
+    <x>489</x>
+    <y>741</y>
+    <width>25</width>
+    <height>1</height>
+    <points>
+      <point x="25.7801513671875" y="0.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>JarabeTerminadoCavaDeJarabe</name>
+    <x>540</x>
+    <y>710</y>
+    <width>32</width>
+    <points>
+      <point x="6.0" y="20.0">
+      </point>
+      <point x="6.0" y="0.0">
+      </point>
+      <point x="32.21040280280624" y="0.0">
+      </point>
+      <point x="32.21040280280613" y="9.232999999999947">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>JarabeTerminadoCavaDeJarabe</name>
+    <x>369</x>
+    <y>798</y>
+    <width>1</width>
+    <height>80</height>
+    <points>
+      <point x="0.0" y="23.0">
+      </point>
+      <point x="0.0" y="70.0">
+      </point>
+    </points>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>JarabeTerminadoCavaDeJarabe</name>
+    <x>78</x>
+    <y>757</y>
+    <width>447</width>
+    <height>63</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="71.79573431805532" y="0.0">
+      </point>
+      <point x="117.01009319905533" y="10.527342103788897">
+      </point>
+      <point x="156.58137543705533" y="25.527342103788897">
+      </point>
+      <point x="189.01009319905535" y="24.884265460788924">
+      </point>
+      <point x="188.79573431805534" y="63.21762913579016">
+      </point>
+      <point x="361.79573431805534" y="63.21762913579016">
+      </point>
+      <point x="447.2735704574809" y="63.12206190790539">
+      </point>
+      <point x="447.0474622644522" y="30.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_31</name>
+    <x>599</x>
+    <y>141</y>
+    <width>272</width>
+    <height>197</height>
+    <points>
+      <point x="272.2106382978727" y="0.0">
+      </point>
+      <point x="75.02601880877751" y="0.0">
+      </point>
+      <point x="21.891222570532932" y="0.0">
+      </point>
+      <point x="21.891222570532932" y="197.0">
+      </point>
+      <point x="0.0" y="197.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_21</name>
+    <x>585</x>
+    <y>557</y>
+    <width>25</width>
+    <height>1</height>
+    <points>
+      <point x="25.7801513671875" y="0.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_19</name>
+    <x>610</x>
+    <y>474</y>
+    <width>1</width>
+    <height>151</height>
+    <points>
+      <point x="0.0" y="35.0">
+      </point>
+      <point x="0.0" y="121.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_16</name>
+    <x>305</x>
+    <y>453</y>
+    <width>53</width>
+    <height>97</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="97.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle_12</name>
+    <x>178</x>
+    <y>422</y>
+    <width>108</width>
+    <height>60</height>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="130" green="130" blue="130" alpha="0">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_13</name>
+    <x>279</x>
+    <y>363</y>
+    <width>25</width>
+    <height>1</height>
+    <points>
+      <point x="25.7801513671875" y="0.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_8</name>
+    <x>320</x>
+    <y>282</y>
+    <width>32</width>
+    <height>31</height>
+    <points>
+      <point x="0.0" y="31.0">
+      </point>
+      <point x="0.0" y="1.0">
+      </point>
+      <point x="32.593641586616116" y="1.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_2</name>
+    <x>160</x>
+    <y>221</y>
+    <width>437</width>
+    <height>110</height>
+    <points>
+      <point x="437.78788280000003" y="140.0">
+      </point>
+      <point x="437.78788280000003" y="0.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_1</name>
+    <x>138</x>
+    <y>39</y>
+    <width>413</width>
+    <height>67</height>
+    <points>
+      <point x="413.0" y="0.0">
+      </point>
+      <point x="413.0" y="67.48486756750785">
+      </point>
+      <point x="0.0" y="67.48486756750785">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline</name>
+    <x>136</x>
+    <y>40</y>
+    <width>661</width>
+    <height>1</height>
+    <points>
+      <point x="661.657036729285" y="0.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>BOMBA VACIO</name>
+    <file>ElementosDeDiagrama/Compresores.bob</file>
+    <x>334</x>
+    <y>299</y>
+    <width>30</width>
+    <height>30</height>
+    <resize>1</resize>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_7</name>
+    <x>348</x>
+    <y>313</y>
+    <width>240</width>
+    <height>21</height>
+    <points>
+      <point x="240.841407678812" y="50.0">
+      </point>
+      <point x="240.841407678812" y="1.322">
+      </point>
+      <point x="0.0" y="1.322">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_14</name>
+    <text>BOMBA VACIO P4</text>
+    <x>295</x>
+    <y>264</y>
+    <width>74</width>
+    <height>15</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="8.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_15</name>
+    <text>Y</text>
+    <x>315</x>
+    <y>309</y>
+    <width>11</width>
+    <height>15</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="10.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_11</name>
+    <x>434</x>
+    <y>395</y>
+    <width>43</width>
+    <height>69</height>
+    <points>
+      <point x="50.0" y="0.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="69.80911254882812">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>VE 18_1</name>
+    <file>../Iconos/Iconos para diagramas/Valvulas/ValvulaSeguridadIzquierda.bob</file>
+    <x>419</x>
+    <y>389</y>
+    <width>26</width>
+    <height>19</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_18</name>
+    <text>Y</text>
+    <x>476</x>
+    <y>452</y>
+    <width>17</width>
+    <height>15</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="10.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_19</name>
+    <text>Y</text>
+    <x>426</x>
+    <y>461</y>
+    <width>17</width>
+    <height>15</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="10.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_12</name>
+    <x>304</x>
+    <y>345</y>
+    <width>276</width>
+    <height>29</height>
+    <points>
+      <point x="276.0" y="15.0">
+      </point>
+      <point x="276.0" y="0.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="29.835418701171875">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle</name>
+    <x>295</x>
+    <y>375</y>
+    <width>20</width>
+    <height>79</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle_1</name>
+    <x>295</x>
+    <y>375</y>
+    <width>20</width>
+    <line_width>1</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle_10</name>
+    <x>295</x>
+    <y>435</y>
+    <width>20</width>
+    <line_width>1</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>VE 18_2</name>
+    <file>../Iconos/Iconos para diagramas/Valvulas/ValvulaManual.bob</file>
+    <x>189</x>
+    <y>410</y>
+    <width>21</width>
+    <height>20</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>VE 18_3</name>
+    <file>../Iconos/Iconos para diagramas/Valvulas/ValvulaManual.bob</file>
+    <x>187</x>
+    <y>468</y>
+    <width>21</width>
+    <height>20</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_4</name>
+    <x>237</x>
+    <y>471</y>
+    <width>20</width>
+    <height>20</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="arc" version="2.0.0">
+    <name>Ellipse_5</name>
+    <x>237</x>
+    <y>471</y>
+    <width>20</width>
+    <height>20</height>
+    <start_angle>135.0</start_angle>
+    <total_angle>180.0</total_angle>
+    <line_width>1</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_15</name>
+    <x>140</x>
+    <y>551</y>
+    <width>280</width>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="280.0" y="0.0">
+      </point>
+      <point x="280.0" y="20.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_22</name>
+    <text>Y</text>
+    <x>412</x>
+    <y>567</y>
+    <width>17</width>
+    <height>15</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="10.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </foreground_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>BOMBAAGUAP1</name>
+    <file>ElementosDeDiagrama/Compresores.bob</file>
+    <x>735</x>
+    <y>580</y>
+    <width>30</width>
+    <height>30</height>
+    <resize>1</resize>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_24</name>
+    <text>BOMBA AGUA P1</text>
+    <x>716</x>
+    <y>611</y>
+    <width>72</width>
+    <height>11</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="8.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </foreground_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_18</name>
+    <x>550</x>
+    <y>595</y>
+    <width>174</width>
+    <height>1</height>
+    <points>
+      <point x="-40.0" y="20.0">
+      </point>
+      <point x="-40.0" y="0.0">
+      </point>
+      <point x="174.3049017286699" y="0.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_27</name>
+    <text>Y</text>
+    <x>505</x>
+    <y>611</y>
+    <width>11</width>
+    <height>15</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="10.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </foreground_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_29</name>
+    <text>Y</text>
+    <x>686</x>
+    <y>559</y>
+    <width>11</width>
+    <height>15</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="10.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_22</name>
+    <x>691</x>
+    <y>542</y>
+    <width>150</width>
+    <height>152</height>
+    <points>
+      <point x="0.0" y="20.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="131.94444444444446" y="0.0">
+      </point>
+      <point x="131.94444444444446" y="152.148">
+      </point>
+      <point x="150.37083333333325" y="152.148">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EV42_1</name>
+    <file>../Iconos/Iconos para diagramas/Valvulas/ValvulaManualDelgadaDIVertical.bob</file>
+    <x>365</x>
+    <y>833</y>
+    <width>20</width>
+    <height>20</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_39</name>
+    <text>Y</text>
+    <x>361</x>
+    <y>865</y>
+    <width>17</width>
+    <height>15</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="10.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_40</name>
+    <text>Y</text>
+    <x>567</x>
+    <y>716</y>
+    <width>11</width>
+    <height>15</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="10.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_43</name>
+    <text>Y</text>
+    <x>533</x>
+    <y>872</y>
+    <width>17</width>
+    <height>10</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="10.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>BOMBAJARABETERMINADO P2</name>
+    <file>ElementosDeDiagrama/Compresores.bob</file>
+    <x>706</x>
+    <y>848</y>
+    <width>30</width>
+    <height>30</height>
+    <resize>1</resize>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_44</name>
+    <text>BOMBA JARABE TERMINADO P2</text>
+    <x>739</x>
+    <y>871</y>
+    <width>131</width>
+    <height>11</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="8.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </foreground_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_37</name>
+    <x>630</x>
+    <y>863</y>
+    <width>120</width>
+    <height>13</height>
+    <points>
+      <point x="79.12087912087912" y="0.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_39</name>
+    <x>946</x>
+    <y>647</y>
+    <width>634</width>
+    <height>103</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="533.7870967741936" y="3.0">
+      </point>
+      <point x="533.7870967741936" y="99.75">
+      </point>
+      <point x="634.0210359447004" y="99.75">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EV23_4</name>
+    <file>ElementosDeDiagrama/Calentador.bob</file>
+    <x>1580</x>
+    <y>735</y>
+    <width>70</width>
+    <height>70</height>
+    <resize>1</resize>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_44</name>
+    <x>195</x>
+    <y>630</y>
+    <width>863</width>
+    <height>174</height>
+    <points>
+      <point x="0.0" y="163.5784674150209">
+      </point>
+      <point x="39.37176418759287" y="174.55200000000002">
+      </point>
+      <point x="195.0" y="174.72749994932553">
+      </point>
+      <point x="195.0" y="130.0">
+      </point>
+      <point x="195.0" y="120.0">
+      </point>
+      <point x="195.0" y="0.0">
+      </point>
+      <point x="405.0" y="0.0">
+      </point>
+      <point x="405.0" y="88.0">
+      </point>
+      <point x="863.2999697825928" y="88.0">
+      </point>
+      <point x="863.2999697825928" y="18.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_46</name>
+    <x>1286</x>
+    <y>649</y>
+    <width>1</width>
+    <height>80</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="80.15447998046875">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_45</name>
+    <text>Y</text>
+    <x>1278</x>
+    <y>725</y>
+    <width>17</width>
+    <height>15</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="10.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>BOMBAREFRESCOTERMINADO P2_1</name>
+    <file>ElementosDeDiagrama/Compresores.bob</file>
+    <x>1635</x>
+    <y>634</y>
+    <width>30</width>
+    <height>30</height>
+    <resize>1</resize>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_55</name>
+    <text>BOMBA REFRESCO TERMINADO P3</text>
+    <x>1670</x>
+    <y>637</y>
+    <width>83</width>
+    <height>28</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="8.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Header_Background" red="77" green="77" blue="77">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_43</name>
+    <x>1538</x>
+    <y>649</y>
+    <width>127</width>
+    <height>13</height>
+    <points>
+      <point x="101.02272727272727" y="0.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="13.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_48</name>
+    <x>793</x>
+    <y>40</y>
+    <width>227</width>
+    <height>1</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="227.70819099999972" y="0.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EV36</name>
+    <file>../Iconos/Iconos para diagramas/Valvulas/ValvulaManualDelgadaD.bob</file>
+    <x>170</x>
+    <y>28</y>
+    <width>21</width>
+    <height>20</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_68</name>
+    <text>Y</text>
+    <x>174</x>
+    <y>497</y>
+    <width>11</width>
+    <height>15</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="10.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </foreground_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_74</name>
+    <x>413</x>
+    <y>222</y>
+    <width>1</width>
+    <height>91</height>
+    <points>
+      <point x="0.0" y="91.43874877719821">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_82</name>
+    <x>484</x>
+    <y>324</y>
+    <width>104</width>
+    <height>16</height>
+    <points>
+      <point x="0.0" y="16.5">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="104.67844752756127" y="0.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_84</name>
+    <x>484</x>
+    <y>351</y>
+    <width>1</width>
+    <height>102</height>
+    <points>
+      <point x="0.0" y="103.02000000000004">
+      </point>
+      <point x="0.10000000000002274" y="0.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_86</name>
+    <x>160</x>
+    <y>386</y>
+    <width>1</width>
+    <height>159</height>
+    <points>
+      <point x="0.0" y="159.94199396807994">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_103</name>
+    <x>1449</x>
+    <y>289</y>
+    <width>161</width>
+    <height>1</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="161.0" y="0.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_113</name>
+    <x>727</x>
+    <y>595</y>
+    <width>25</width>
+    <height>1</height>
+    <points>
+      <point x="24.78" y="0.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>JarabeTerminadoCavaDeJarabe_5</name>
+    <x>490</x>
+    <y>818</y>
+    <width>70</width>
+    <points>
+      <point x="0.0" y="3.0">
+      </point>
+      <point x="0.0" y="20.0">
+      </point>
+      <point x="70.0" y="20.0">
+      </point>
+      <point x="70.0" y="5.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>JarabeTerminadoCavaDeJarabe_6</name>
+    <x>560</x>
+    <y>650</y>
+    <width>870</width>
+    <height>161</height>
+    <points>
+      <point x="0.0" y="161.0">
+      </point>
+      <point x="0.0" y="148.0">
+      </point>
+      <point x="870.0" y="150.0">
+      </point>
+      <point x="870.0" y="0.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_9</name>
+    <x>540</x>
+    <y>648</y>
+    <width>690</width>
+    <height>78</height>
+    <points>
+      <point x="0.0" y="80.0">
+      </point>
+      <point x="0.0" y="48.75">
+      </point>
+      <point x="47.26027397260274" y="48.75">
+      </point>
+      <point x="47.26027397260274" y="78.0">
+      </point>
+      <point x="690.0" y="78.0">
+      </point>
+      <point x="690.0" y="0.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle_2</name>
+    <x>262</x>
+    <y>793</y>
+    <width>10</width>
+    <line_width>0</line_width>
+    <background_color>
+      <color red="190" green="190" blue="190">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>JarabeTerminadoCavaDeJarabe_10</name>
+    <x>267</x>
+    <y>792</y>
+    <width>25</width>
+    <height>1</height>
+    <points>
+      <point x="0.0" y="25.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>JarabeTerminadoCavaDeJarabe_11</name>
+    <x>1344</x>
+    <y>763</y>
+    <width>25</width>
+    <height>1</height>
+    <points>
+      <point x="25.7801513671875" y="0.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+    </points>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>Group</name>
+    <x>454</x>
+    <y>724</y>
+    <width>30</width>
+    <height>30</height>
+    <style>3</style>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle_24</name>
+      <width>30</width>
+      <height>30</height>
+      <line_width>0</line_width>
+      <line_color>
+        <color red="77" green="77" blue="77">
+        </color>
+      </line_color>
+      <background_color>
+        <color red="102" green="102" blue="102">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="polygon" version="2.0.0">
+      <name>Polygon</name>
+      <width>30</width>
+      <height>30</height>
+      <points>
+        <point x="15.0" y="0.0">
+        </point>
+        <point x="30.0" y="15.0">
+        </point>
+        <point x="15.0" y="30.0">
+        </point>
+        <point x="0.0" y="15.0">
+        </point>
+      </points>
+      <line_width>0</line_width>
+      <line_color>
+        <color red="77" green="77" blue="77">
+        </color>
+      </line_color>
+      <background_color>
+        <color red="130" green="130" blue="130">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_71</name>
+      <text>TCF1</text>
+      <x>2</x>
+      <y>2</y>
+      <width>26</width>
+      <height>15</height>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="6.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Header_Background" red="77" green="77" blue="77">
+        </color>
+      </foreground_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_72</name>
+      <text>S1</text>
+      <x>2</x>
+      <y>10</y>
+      <width>26</width>
+      <height>15</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="10.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Header_Background" red="77" green="77" blue="77">
+        </color>
+      </foreground_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>Group</name>
+    <x>1340</x>
+    <y>748</y>
+    <width>30</width>
+    <height>30</height>
+    <style>3</style>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle_27</name>
+      <width>30</width>
+      <height>30</height>
+      <line_width>0</line_width>
+      <line_color>
+        <color red="77" green="77" blue="77">
+        </color>
+      </line_color>
+      <background_color>
+        <color red="102" green="102" blue="102">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="polygon" version="2.0.0">
+      <name>Polygon_1</name>
+      <width>30</width>
+      <height>30</height>
+      <points>
+        <point x="15.0" y="0.0">
+        </point>
+        <point x="30.0" y="15.0">
+        </point>
+        <point x="15.0" y="30.0">
+        </point>
+        <point x="0.0" y="15.0">
+        </point>
+      </points>
+      <line_width>0</line_width>
+      <line_color>
+        <color red="77" green="77" blue="77">
+        </color>
+      </line_color>
+      <background_color>
+        <color red="130" green="130" blue="130">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_77</name>
+      <text>TCF1</text>
+      <x>2</x>
+      <y>2</y>
+      <width>26</width>
+      <height>15</height>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="6.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Header_Background" red="77" green="77" blue="77">
+        </color>
+      </foreground_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_78</name>
+      <text>S1</text>
+      <x>2</x>
+      <y>10</y>
+      <width>26</width>
+      <height>15</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="10.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Header_Background" red="77" green="77" blue="77">
+        </color>
+      </foreground_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EV17_4</name>
+    <file>ElementosDeDiagrama/Visualizador/VizualizadorVertical.bob</file>
+    <x>1016</x>
+    <y>481</y>
+    <width>30</width>
+    <height>25</height>
+    <resize>3</resize>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_34</name>
+    <x>840</x>
+    <y>694</y>
+    <width>44</width>
+    <height>15</height>
+    <points>
+      <point x="0.0" y="20.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="44.0" y="0.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>Group</name>
+    <x>1060</x>
+    <y>478</y>
+    <width>30</width>
+    <height>30</height>
+    <style>3</style>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <widget type="polyline" version="2.0.0">
+      <name>JarabeTerminadoCavaDeJarabe_12</name>
+      <x>4</x>
+      <y>15</y>
+      <width>25</width>
+      <height>1</height>
+      <points>
+        <point x="25.7801513671875" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+      </points>
+      <line_color>
+        <color name="Attention" red="255" green="160" blue="0">
+        </color>
+      </line_color>
+    </widget>
+    <widget type="group" version="3.0.0">
+      <name>Group_1</name>
+      <width>30</width>
+      <height>30</height>
+      <style>3</style>
+      <transparent>true</transparent>
+      <widget type="rectangle" version="2.0.0">
+        <name>Rectangle_28</name>
+        <width>30</width>
+        <height>30</height>
+        <line_width>1</line_width>
+        <line_color>
+          <color red="120" green="77" blue="77">
+          </color>
+        </line_color>
+        <background_color>
+          <color red="102" green="102" blue="102">
+          </color>
+        </background_color>
+      </widget>
+      <widget type="polygon" version="2.0.0">
+        <name>Polygon_2</name>
+        <width>30</width>
+        <height>30</height>
+        <points>
+          <point x="15.0" y="0.0">
+          </point>
+          <point x="30.0" y="15.0">
+          </point>
+          <point x="15.0" y="30.0">
+          </point>
+          <point x="0.0" y="15.0">
+          </point>
+        </points>
+        <line_width>0</line_width>
+        <line_color>
+          <color red="77" green="77" blue="77">
+          </color>
+        </line_color>
+        <background_color>
+          <color red="130" green="130" blue="130">
+          </color>
+        </background_color>
+      </widget>
+      <widget type="label" version="2.0.0">
+        <name>Label_80</name>
+        <text>TCF1</text>
+        <x>2</x>
+        <y>2</y>
+        <width>26</width>
+        <height>15</height>
+        <font>
+          <font family="Liberation Sans" style="REGULAR" size="6.0">
+          </font>
+        </font>
+        <foreground_color>
+          <color name="Header_Background" red="77" green="77" blue="77">
+          </color>
+        </foreground_color>
+        <horizontal_alignment>1</horizontal_alignment>
+        <vertical_alignment>1</vertical_alignment>
+      </widget>
+      <widget type="label" version="2.0.0">
+        <name>Label_81</name>
+        <text>S1</text>
+        <x>2</x>
+        <y>10</y>
+        <width>26</width>
+        <height>15</height>
+        <font>
+          <font family="Liberation Sans" style="BOLD" size="10.0">
+          </font>
+        </font>
+        <foreground_color>
+          <color name="Header_Background" red="77" green="77" blue="77">
+          </color>
+        </foreground_color>
+        <horizontal_alignment>1</horizontal_alignment>
+        <vertical_alignment>1</vertical_alignment>
+      </widget>
+    </widget>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_40</name>
+    <x>1450</x>
+    <y>288</y>
+    <width>280</width>
+    <height>506</height>
+    <points>
+      <point x="200.0" y="505.0">
+      </point>
+      <point x="280.0" y="505.0">
+      </point>
+      <point x="280.0" y="402.0">
+      </point>
+      <point x="40.0" y="402.0">
+      </point>
+      <point x="40.0" y="82.0">
+      </point>
+      <point x="0.0" y="82.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_42</name>
+    <x>1550</x>
+    <y>350</y>
+    <width>81</width>
+    <height>299</height>
+    <points>
+      <point x="60.305343511450474" y="299.599487833">
+      </point>
+      <point x="60.305343511450474" y="209.599487833">
+      </point>
+      <point x="0.0" y="209.599487833">
+      </point>
+      <point x="0.0" y="25.59899999999999">
+      </point>
+      <point x="81.158" y="25.59899999999999">
+      </point>
+      <point x="81.158" y="0.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_108</name>
+    <x>1450</x>
+    <y>350</y>
+    <width>111</width>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="111.0" y="0.0">
+      </point>
+      <point x="111.0" y="20.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EV23_5</name>
+    <file>../Iconos/Iconos para diagramas/Valvulas/ValvulaManualDelgadaD.bob</file>
+    <x>1605</x>
+    <y>417</y>
+    <width>21</width>
+    <height>20</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>Group_3</name>
+    <x>1523</x>
+    <y>190</y>
+    <width>30</width>
+    <height>30</height>
+    <style>3</style>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <widget type="polyline" version="2.0.0">
+      <name>JarabeTerminadoCavaDeJarabe_13</name>
+      <x>4</x>
+      <y>15</y>
+      <width>25</width>
+      <height>1</height>
+      <points>
+        <point x="25.7801513671875" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+      </points>
+      <line_color>
+        <color name="Attention" red="255" green="160" blue="0">
+        </color>
+      </line_color>
+    </widget>
+    <widget type="group" version="3.0.0">
+      <name>Group_4</name>
+      <width>30</width>
+      <height>30</height>
+      <style>3</style>
+      <transparent>true</transparent>
+      <widget type="rectangle" version="2.0.0">
+        <name>Rectangle_30</name>
+        <width>30</width>
+        <height>30</height>
+        <line_width>0</line_width>
+        <line_color>
+          <color red="77" green="77" blue="77">
+          </color>
+        </line_color>
+        <background_color>
+          <color red="102" green="102" blue="102">
+          </color>
+        </background_color>
+      </widget>
+      <widget type="polygon" version="2.0.0">
+        <name>Polygon_3</name>
+        <width>30</width>
+        <height>30</height>
+        <points>
+          <point x="15.0" y="0.0">
+          </point>
+          <point x="30.0" y="15.0">
+          </point>
+          <point x="15.0" y="30.0">
+          </point>
+          <point x="0.0" y="15.0">
+          </point>
+        </points>
+        <line_width>0</line_width>
+        <line_color>
+          <color red="77" green="77" blue="77">
+          </color>
+        </line_color>
+        <background_color>
+          <color red="130" green="130" blue="130">
+          </color>
+        </background_color>
+      </widget>
+      <widget type="label" version="2.0.0">
+        <name>Label_86</name>
+        <text>TCF1</text>
+        <x>2</x>
+        <y>2</y>
+        <width>26</width>
+        <height>15</height>
+        <font>
+          <font family="Liberation Sans" style="REGULAR" size="6.0">
+          </font>
+        </font>
+        <foreground_color>
+          <color name="Header_Background" red="77" green="77" blue="77">
+          </color>
+        </foreground_color>
+        <horizontal_alignment>1</horizontal_alignment>
+        <vertical_alignment>1</vertical_alignment>
+      </widget>
+      <widget type="label" version="2.0.0">
+        <name>Label_87</name>
+        <text>S1</text>
+        <x>2</x>
+        <y>10</y>
+        <width>26</width>
+        <height>15</height>
+        <font>
+          <font family="Liberation Sans" style="BOLD" size="10.0">
+          </font>
+        </font>
+        <foreground_color>
+          <color name="Header_Background" red="77" green="77" blue="77">
+          </color>
+        </foreground_color>
+        <horizontal_alignment>1</horizontal_alignment>
+        <vertical_alignment>1</vertical_alignment>
+      </widget>
+    </widget>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>VE 18_4</name>
+    <file>../Iconos/Iconos para diagramas/Valvulas/ValvulaSeguridad.bob</file>
+    <x>1405</x>
+    <y>311</y>
+    <width>30</width>
+    <height>19</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle_3</name>
+    <x>1310</x>
+    <y>327</y>
+    <width>10</width>
+    <height>10</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle_20</name>
+    <x>1290</x>
+    <y>327</y>
+    <width>10</width>
+    <height>10</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle_21</name>
+    <x>1270</x>
+    <y>327</y>
+    <width>10</width>
+    <height>10</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle_22</name>
+    <x>1250</x>
+    <y>327</y>
+    <width>10</width>
+    <height>10</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_119</name>
+    <x>1394</x>
+    <y>261</y>
+    <width>192</width>
+    <height>1</height>
+    <points>
+      <point x="193.05485255281687" y="0.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_120</name>
+    <x>1108</x>
+    <y>90</y>
+    <width>277</width>
+    <height>170</height>
+    <points>
+      <point x="277.81376970569795" y="170.527">
+      </point>
+      <point x="133.4882425531905" y="170.527">
+      </point>
+      <point x="134.85888936170113" y="0.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>Group_5</name>
+    <x>1595</x>
+    <y>48</y>
+    <width>30</width>
+    <height>30</height>
+    <style>3</style>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <widget type="polyline" version="2.0.0">
+      <name>JarabeTerminadoCavaDeJarabe_14</name>
+      <x>4</x>
+      <y>15</y>
+      <width>25</width>
+      <height>1</height>
+      <points>
+        <point x="25.7801513671875" y="0.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+      </points>
+      <line_color>
+        <color name="Attention" red="255" green="160" blue="0">
+        </color>
+      </line_color>
+    </widget>
+    <widget type="group" version="3.0.0">
+      <name>Group_6</name>
+      <width>30</width>
+      <height>30</height>
+      <style>3</style>
+      <transparent>true</transparent>
+      <widget type="rectangle" version="2.0.0">
+        <name>Rectangle_31</name>
+        <width>30</width>
+        <height>30</height>
+        <line_width>0</line_width>
+        <line_color>
+          <color red="77" green="77" blue="77">
+          </color>
+        </line_color>
+        <background_color>
+          <color red="102" green="102" blue="102">
+          </color>
+        </background_color>
+      </widget>
+      <widget type="polygon" version="2.0.0">
+        <name>Polygon_4</name>
+        <width>30</width>
+        <height>30</height>
+        <points>
+          <point x="15.0" y="0.0">
+          </point>
+          <point x="30.0" y="15.0">
+          </point>
+          <point x="15.0" y="30.0">
+          </point>
+          <point x="0.0" y="15.0">
+          </point>
+        </points>
+        <line_width>0</line_width>
+        <line_color>
+          <color red="77" green="77" blue="77">
+          </color>
+        </line_color>
+        <background_color>
+          <color red="130" green="130" blue="130">
+          </color>
+        </background_color>
+      </widget>
+      <widget type="label" version="2.0.0">
+        <name>Label_91</name>
+        <text>TCF1</text>
+        <x>2</x>
+        <y>2</y>
+        <width>26</width>
+        <height>15</height>
+        <font>
+          <font family="Liberation Sans" style="REGULAR" size="6.0">
+          </font>
+        </font>
+        <foreground_color>
+          <color name="Header_Background" red="77" green="77" blue="77">
+          </color>
+        </foreground_color>
+        <horizontal_alignment>1</horizontal_alignment>
+        <vertical_alignment>1</vertical_alignment>
+      </widget>
+      <widget type="label" version="2.0.0">
+        <name>Label_92</name>
+        <text>S1</text>
+        <x>2</x>
+        <y>10</y>
+        <width>26</width>
+        <height>15</height>
+        <font>
+          <font family="Liberation Sans" style="BOLD" size="10.0">
+          </font>
+        </font>
+        <foreground_color>
+          <color name="Header_Background" red="77" green="77" blue="77">
+          </color>
+        </foreground_color>
+        <horizontal_alignment>1</horizontal_alignment>
+        <vertical_alignment>1</vertical_alignment>
+      </widget>
+    </widget>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EV1</name>
+    <file>../Iconos/Iconos para diagramas/Valvulas/ValvulaManualDelgadaDVertical.bob</file>
+    <x>461</x>
+    <y>46</y>
+    <width>21</width>
+    <height>20</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EV2</name>
+    <file>../Iconos/Iconos para diagramas/Valvulas/ValvulaManualDelgadaDVertical.bob</file>
+    <x>461</x>
+    <y>75</y>
+    <width>21</width>
+    <height>20</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>Group</name>
+    <x>1016</x>
+    <y>618</y>
+    <width>10</width>
+    <height>20</height>
+    <style>3</style>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle_26</name>
+      <width>10</width>
+      <line_width>0</line_width>
+      <line_color>
+        <color red="77" green="77" blue="77">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Grid" red="128" green="128" blue="128">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="polyline" version="2.0.0">
+      <name>Polyline_24</name>
+      <width>10</width>
+      <points>
+        <point x="10.0" y="0.0">
+        </point>
+        <point x="0.0" y="20.0">
+        </point>
+      </points>
+      <line_width>1</line_width>
+      <line_color>
+        <color red="102" green="102" blue="102">
+        </color>
+      </line_color>
+    </widget>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_139</name>
+    <x>475</x>
+    <y>71</y>
+    <width>84</width>
+    <height>1</height>
+    <points>
+      <point x="71.70731707317074" y="0.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_141</name>
+    <x>1025</x>
+    <y>91</y>
+    <width>74</width>
+    <height>1</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="74.89174307861413" y="0.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EV41_7</name>
+    <file>../Iconos/Iconos para diagramas/Valvulas/ValvulaManualdiamante.bob</file>
+    <x>925</x>
+    <y>191</y>
+    <width>21</width>
+    <height>20</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_142</name>
+    <x>871</x>
+    <y>120</y>
+    <width>142</width>
+    <height>1</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="144.07640121922347" y="0.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_143</name>
+    <x>870</x>
+    <y>162</y>
+    <width>142</width>
+    <height>1</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="144.07640121922347" y="0.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle_39</name>
+    <x>886</x>
+    <y>104</y>
+    <width>9</width>
+    <height>31</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle_40</name>
+    <x>886</x>
+    <y>146</y>
+    <width>9</width>
+    <height>31</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_144</name>
+    <x>1027</x>
+    <y>120</y>
+    <width>66</width>
+    <height>1</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="66.965087890625" y="0.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_145</name>
+    <x>1028</x>
+    <y>162</y>
+    <width>66</width>
+    <height>1</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="66.965087890625" y="0.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_146</name>
+    <x>1107</x>
+    <y>93</y>
+    <width>131</width>
+    <height>26</height>
+    <points>
+      <point x="0.0" y="26.893">
+      </point>
+      <point x="132.5468076923077" y="26.791131042821647">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_147</name>
+    <x>1108</x>
+    <y>162</y>
+    <width>130</width>
+    <height>1</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="130.7738780248951" y="0.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_149</name>
+    <x>101</x>
+    <y>718</y>
+    <width>92</width>
+    <height>24</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="48.717926025390625" y="0.0">
+      </point>
+      <point x="92.65263366699219" y="24.27032470703125">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EV41_11</name>
+    <file>../Iconos/Iconos para diagramas/Valvulas/ValvulaManualDelgadaD.bob</file>
+    <x>118</x>
+    <y>705</y>
+    <width>21</width>
+    <height>20</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_151</name>
+    <x>243</x>
+    <y>618</y>
+    <width>137</width>
+    <height>132</height>
+    <points>
+      <point x="35.85133333333334" y="0.0">
+      </point>
+      <point x="137.0" y="0.0">
+      </point>
+      <point x="137.0" y="130.0">
+      </point>
+      <point x="67.0" y="130.0">
+      </point>
+      <point x="0.0" y="132.29487170999994">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EV4</name>
+    <file>../Iconos/Iconos para diagramas/Valvulas/ValvulaManualDelgadaD.bob</file>
+    <x>301</x>
+    <y>605</y>
+    <width>21</width>
+    <height>20</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_154</name>
+    <x>871</x>
+    <y>118</y>
+    <width>1</width>
+    <height>50</height>
+    <points>
+      <point x="0.0" y="1.0">
+      </point>
+      <point x="0.0" y="45.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_90</name>
+    <x>160</x>
+    <y>556</y>
+    <width>206</width>
+    <height>55</height>
+    <points>
+      <point x="206.0" y="55.200000000000045">
+      </point>
+      <point x="206.0" y="5.2000000000000455">
+      </point>
+      <point x="0.0" y="5.2000000000000455">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_92</name>
+    <x>235</x>
+    <y>624</y>
+    <width>131</width>
+    <height>141</height>
+    <points>
+      <point x="0.0" y="141.25873199999978">
+      </point>
+      <point x="0.0" y="96.221">
+      </point>
+      <point x="131.55374814477602" y="96.221">
+      </point>
+      <point x="131.55374814477602" y="0.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_93</name>
+    <x>160</x>
+    <y>220</y>
+    <width>1</width>
+    <height>156</height>
+    <points>
+      <point x="0.0" y="156.75400000000008">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_65</name>
+    <x>1028</x>
+    <y>450</y>
+    <width>69</width>
+    <height>1</height>
+    <points>
+      <point x="0.0" y="0.709">
+      </point>
+      <point x="69.0908203125" y="0.709">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_66</name>
+    <x>1112</x>
+    <y>450</y>
+    <width>49</width>
+    <height>1</height>
+    <points>
+      <point x="0.0" y="0.709">
+      </point>
+      <point x="49.06449558423913" y="0.709">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_102</name>
+    <text>Y</text>
+    <x>872</x>
+    <y>286</y>
+    <width>17</width>
+    <height>15</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="10.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_103</name>
+    <text>Y</text>
+    <x>873</x>
+    <y>337</y>
+    <width>17</width>
+    <height>15</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="10.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_104</name>
+    <text>Y</text>
+    <x>872</x>
+    <y>386</y>
+    <width>17</width>
+    <height>15</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="10.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_70</name>
+    <x>1025</x>
+    <y>229</y>
+    <width>75</width>
+    <height>2</height>
+    <points>
+      <point x="0.0" y="1.418">
+      </point>
+      <point x="75.09871773097825" y="1.418">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_76</name>
+    <x>640</x>
+    <y>230</y>
+    <width>375</width>
+    <height>143</height>
+    <points>
+      <point x="375.50943396226415" y="0.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="130.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_51</name>
+    <text>Y</text>
+    <x>1407</x>
+    <y>343</y>
+    <width>17</width>
+    <height>10</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="10.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="polygon" version="2.0.0">
+    <name>Polygon_5</name>
+    <x>1440</x>
+    <y>639</y>
+    <width>5</width>
+    <height>10</height>
+    <points>
+      <point x="0.0" y="10.0">
+      </point>
+      <point x="5.0" y="10.0">
+      </point>
+      <point x="5.0" y="0.0">
+      </point>
+      <point x="0.0" y="5.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>Group_16</name>
+    <x>400</x>
+    <y>650</y>
+    <width>30</width>
+    <height>30</height>
+    <style>3</style>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle_34</name>
+      <width>30</width>
+      <height>30</height>
+      <line_width>0</line_width>
+      <line_color>
+        <color red="77" green="77" blue="77">
+        </color>
+      </line_color>
+      <background_color>
+        <color red="102" green="102" blue="102">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="polygon" version="2.0.0">
+      <name>Polygon_6</name>
+      <width>30</width>
+      <height>30</height>
+      <points>
+        <point x="15.0" y="0.0">
+        </point>
+        <point x="30.0" y="15.0">
+        </point>
+        <point x="15.0" y="30.0">
+        </point>
+        <point x="0.0" y="15.0">
+        </point>
+      </points>
+      <line_width>0</line_width>
+      <line_color>
+        <color red="77" green="77" blue="77">
+        </color>
+      </line_color>
+      <background_color>
+        <color red="130" green="130" blue="130">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_120</name>
+      <text>TCF1</text>
+      <x>2</x>
+      <y>2</y>
+      <width>26</width>
+      <height>15</height>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="6.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Header_Background" red="77" green="77" blue="77">
+        </color>
+      </foreground_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_121</name>
+      <text>S1</text>
+      <x>2</x>
+      <y>10</y>
+      <width>26</width>
+      <height>15</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="10.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Header_Background" red="77" green="77" blue="77">
+        </color>
+      </foreground_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle_35</name>
+    <x>436</x>
+    <y>662</y>
+    <width>13</width>
+    <height>8</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_116</name>
+    <text>Y</text>
+    <x>336</x>
+    <y>666</y>
+    <width>8</width>
+    <height>13</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="10.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>Group_19</name>
+    <x>780</x>
+    <y>469</y>
+    <width>30</width>
+    <height>30</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle_44</name>
+      <width>30</width>
+      <height>30</height>
+      <line_width>0</line_width>
+      <line_color>
+        <color red="77" green="77" blue="77">
+        </color>
+      </line_color>
+      <background_color>
+        <color red="102" green="102" blue="102">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="polygon" version="2.0.0">
+      <name>Polygon_7</name>
+      <width>30</width>
+      <height>30</height>
+      <points>
+        <point x="15.0" y="0.0">
+        </point>
+        <point x="30.0" y="15.0">
+        </point>
+        <point x="15.0" y="30.0">
+        </point>
+        <point x="0.0" y="15.0">
+        </point>
+      </points>
+      <line_width>0</line_width>
+      <line_color>
+        <color red="77" green="77" blue="77">
+        </color>
+      </line_color>
+      <background_color>
+        <color red="130" green="130" blue="130">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_126</name>
+      <text>TCF1</text>
+      <x>2</x>
+      <y>2</y>
+      <width>26</width>
+      <height>15</height>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="6.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Header_Background" red="77" green="77" blue="77">
+        </color>
+      </foreground_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_127</name>
+      <text>S1</text>
+      <x>2</x>
+      <y>10</y>
+      <width>26</width>
+      <height>15</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="10.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Header_Background" red="77" green="77" blue="77">
+        </color>
+      </foreground_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>Group_20</name>
+    <x>263</x>
+    <y>300</y>
+    <width>30</width>
+    <height>30</height>
+    <style>3</style>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle_38</name>
+      <width>30</width>
+      <height>30</height>
+      <line_width>0</line_width>
+      <line_color>
+        <color red="77" green="77" blue="77">
+        </color>
+      </line_color>
+      <background_color>
+        <color red="102" green="102" blue="102">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="polygon" version="2.0.0">
+      <name>Polygon_8</name>
+      <width>30</width>
+      <height>30</height>
+      <points>
+        <point x="15.0" y="0.0">
+        </point>
+        <point x="30.0" y="15.0">
+        </point>
+        <point x="15.0" y="30.0">
+        </point>
+        <point x="0.0" y="15.0">
+        </point>
+      </points>
+      <line_width>0</line_width>
+      <line_color>
+        <color red="130" green="130" blue="130">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Grid" red="128" green="128" blue="128">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_123</name>
+      <text>TCF1</text>
+      <x>2</x>
+      <y>2</y>
+      <width>26</width>
+      <height>15</height>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="6.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Header_Background" red="77" green="77" blue="77">
+        </color>
+      </foreground_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_124</name>
+      <text>S1</text>
+      <x>2</x>
+      <y>10</y>
+      <width>26</width>
+      <height>15</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="10.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Header_Background" red="77" green="77" blue="77">
+        </color>
+      </foreground_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>Group_21</name>
+    <x>541</x>
+    <y>140</y>
+    <width>30</width>
+    <height>30</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle_45</name>
+      <width>30</width>
+      <height>30</height>
+      <line_width>0</line_width>
+      <line_color>
+        <color red="77" green="77" blue="77">
+        </color>
+      </line_color>
+      <background_color>
+        <color red="102" green="102" blue="102">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="polygon" version="2.0.0">
+      <name>Polygon_9</name>
+      <width>30</width>
+      <height>30</height>
+      <points>
+        <point x="15.0" y="0.0">
+        </point>
+        <point x="30.0" y="15.0">
+        </point>
+        <point x="15.0" y="30.0">
+        </point>
+        <point x="0.0" y="15.0">
+        </point>
+      </points>
+      <line_width>0</line_width>
+      <line_color>
+        <color red="77" green="77" blue="77">
+        </color>
+      </line_color>
+      <background_color>
+        <color red="130" green="130" blue="130">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_130</name>
+      <text>TCF1</text>
+      <x>2</x>
+      <y>2</y>
+      <width>26</width>
+      <height>15</height>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="6.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Header_Background" red="77" green="77" blue="77">
+        </color>
+      </foreground_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_131</name>
+      <text>S1</text>
+      <x>2</x>
+      <y>10</y>
+      <width>26</width>
+      <height>15</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="10.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Header_Background" red="77" green="77" blue="77">
+        </color>
+      </foreground_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle_46</name>
+    <x>600</x>
+    <y>150</y>
+    <width>13</width>
+    <height>10</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>Group_23</name>
+    <x>700</x>
+    <y>400</y>
+    <width>30</width>
+    <height>30</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle_47</name>
+      <width>30</width>
+      <height>30</height>
+      <line_width>0</line_width>
+      <line_color>
+        <color red="77" green="77" blue="77">
+        </color>
+      </line_color>
+      <background_color>
+        <color red="102" green="102" blue="102">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="polygon" version="2.0.0">
+      <name>Polygon_10</name>
+      <width>30</width>
+      <height>30</height>
+      <points>
+        <point x="15.0" y="0.0">
+        </point>
+        <point x="30.0" y="15.0">
+        </point>
+        <point x="15.0" y="30.0">
+        </point>
+        <point x="0.0" y="15.0">
+        </point>
+      </points>
+      <line_width>0</line_width>
+      <line_color>
+        <color red="77" green="77" blue="77">
+        </color>
+      </line_color>
+      <background_color>
+        <color red="130" green="130" blue="130">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_134</name>
+      <text>TCF1</text>
+      <x>2</x>
+      <y>2</y>
+      <width>26</width>
+      <height>15</height>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="6.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Header_Background" red="77" green="77" blue="77">
+        </color>
+      </foreground_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_135</name>
+      <text>S1</text>
+      <x>2</x>
+      <y>10</y>
+      <width>26</width>
+      <height>15</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="10.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Header_Background" red="77" green="77" blue="77">
+        </color>
+      </foreground_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle_49</name>
+    <x>742</x>
+    <y>444</y>
+    <width>18</width>
+    <height>13</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_85</name>
+    <x>743</x>
+    <y>445</y>
+    <width>16</width>
+    <height>11</height>
+    <points>
+      <point x="16.886101788330166" y="0.0">
+      </point>
+      <point x="0.0" y="11.013969555758479">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>FiltrosPulidores</name>
+    <x>180</x>
+    <y>571</y>
+    <width>99</width>
+    <height>109</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle_41</name>
+      <y>29</y>
+      <width>99</width>
+      <height>66</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Header_Background" red="77" green="77" blue="77">
+        </color>
+      </line_color>
+      <background_color>
+        <color red="128" green="128" blue="128" alpha="0">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="embedded" version="2.0.0">
+      <name>TanquePeq_1</name>
+      <file>ElementosDeDiagrama/TanqueSinCirculo.bob</file>
+      <x>42</x>
+      <width>17</width>
+      <height>50</height>
+      <resize>3</resize>
+    </widget>
+    <widget type="embedded" version="2.0.0">
+      <name>EVF1</name>
+      <file>../Iconos/Iconos para diagramas/Valvulas/ValvulaManualDelgadaD.bob</file>
+      <x>8</x>
+      <y>16</y>
+      <width>21</width>
+      <height>20</height>
+      <resize>2</resize>
+    </widget>
+    <widget type="embedded" version="2.0.0">
+      <name>EVF3</name>
+      <file>../Iconos/Iconos para diagramas/Valvulas/ValvulaManualDelgadaI.bob</file>
+      <x>70</x>
+      <y>16</y>
+      <width>21</width>
+      <height>20</height>
+      <resize>2</resize>
+    </widget>
+    <widget type="embedded" version="2.0.0">
+      <name>EVF4</name>
+      <file>../Iconos/Iconos para diagramas/Valvulas/ValvulaManualDelgadaI.bob</file>
+      <x>70</x>
+      <y>81</y>
+      <width>21</width>
+      <height>20</height>
+      <resize>2</resize>
+    </widget>
+    <widget type="embedded" version="2.0.0">
+      <name>EVF2</name>
+      <file>../Iconos/Iconos para diagramas/Valvulas/ValvulaManualDelgadaD.bob</file>
+      <x>9</x>
+      <y>81</y>
+      <width>21</width>
+      <height>20</height>
+      <resize>2</resize>
+    </widget>
+    <widget type="embedded" version="2.0.0">
+      <name>TanquePeq_2</name>
+      <file>ElementosDeDiagrama/TanqueSinCirculo.bob</file>
+      <x>43</x>
+      <y>59</y>
+      <width>17</width>
+      <height>50</height>
+      <resize>3</resize>
+    </widget>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>PI1</name>
+    <file>../Iconos/Iconos para diagramas/Objeto compuesto/ObjetoCompuesto1.bob</file>
+    <x>211</x>
+    <y>15</y>
+    <width>44</width>
+    <height>65</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>V12P</name>
+    <x>970</x>
+    <y>170</y>
+    <width>30</width>
+    <height>40</height>
+    <style>3</style>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <widget type="embedded" version="2.0.0">
+      <name>V12P</name>
+      <file>../Iconos/Iconos para diagramas/Valvulas/ValvulaCuadradoSinRelleno.bob</file>
+      <x>4</x>
+      <y>10</y>
+      <width>20</width>
+      <height>30</height>
+      <resize>2</resize>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>V12P</name>
+      <text>V12P</text>
+      <width>30</width>
+      <height>10</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="10.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Grid" red="128" green="128" blue="128">
+        </color>
+      </foreground_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>V24P</name>
+    <x>628</x>
+    <y>765</y>
+    <width>30</width>
+    <height>40</height>
+    <style>3</style>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <widget type="embedded" version="2.0.0">
+      <name>V24P</name>
+      <file>../Iconos/Iconos para diagramas/Valvulas/ValvulaCuadradoSinRelleno.bob</file>
+      <x>4</x>
+      <y>10</y>
+      <width>20</width>
+      <height>30</height>
+      <resize>2</resize>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>V24P</name>
+      <text>V24P</text>
+      <width>30</width>
+      <height>10</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="10.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Grid" red="128" green="128" blue="128">
+        </color>
+      </foreground_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_117</name>
+    <text>FILTROS PULIDORES</text>
+    <x>180</x>
+    <y>681</y>
+    <width>98</width>
+    <height>9</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="8.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </foreground_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_17</name>
+    <text>Y</text>
+    <x>1533</x>
+    <y>660</y>
+    <width>11</width>
+    <height>15</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="10.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>Vizualizador1</name>
+    <x>768</x>
+    <y>516</y>
+    <width>51</width>
+    <height>43</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="embedded" version="2.0.0">
+      <name>Visualizador1</name>
+      <file>ElementosDeDiagrama/Visualizador/Vizualizador.bob</file>
+      <x>14</x>
+      <width>25</width>
+      <height>30</height>
+      <resize>3</resize>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>0 Kg/min</name>
+      <text>0 Kg/min</text>
+      <y>28</y>
+      <width>51</width>
+      <height>15</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="10.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Grid" red="128" green="128" blue="128">
+        </color>
+      </foreground_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>Vizualizador2</name>
+    <x>1278</x>
+    <y>774</y>
+    <width>51</width>
+    <height>43</height>
+    <style>3</style>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <widget type="embedded" version="2.0.0">
+      <name>Visualizador2</name>
+      <file>ElementosDeDiagrama/Visualizador/Vizualizador.bob</file>
+      <x>14</x>
+      <width>25</width>
+      <height>30</height>
+      <resize>3</resize>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>0 Kg/min_1</name>
+      <text>0 Kg/min</text>
+      <y>28</y>
+      <width>51</width>
+      <height>15</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="10.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Grid" red="128" green="128" blue="128">
+        </color>
+      </foreground_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>Group</name>
+    <x>1606</x>
+    <y>600</y>
+    <width>10</width>
+    <height>10</height>
+    <style>3</style>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle_18</name>
+      <width>10</width>
+      <height>10</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color red="77" green="77" blue="77">
+        </color>
+      </line_color>
+      <background_color>
+        <color red="102" green="102" blue="102">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>Rectangle_19</name>
+      <width>10</width>
+      <height>10</height>
+      <line_width>0</line_width>
+      <line_color>
+        <color name="Grid" red="128" green="128" blue="128">
+        </color>
+      </line_color>
+      <background_color>
+        <color red="130" green="130" blue="130">
+        </color>
+      </background_color>
+    </widget>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_153</name>
+    <x>340</x>
+    <y>619</y>
+    <width>1</width>
+    <height>51</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="50.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>EV32</name>
+    <x>775</x>
+    <y>409</y>
+    <width>40</width>
+    <height>30</height>
+    <style>3</style>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <widget type="embedded" version="2.0.0">
+      <name>EV32</name>
+      <file>../Iconos/Iconos para diagramas/Valvulas/ValvulaCuadradoSinRellenoVertical.bob</file>
+      <y>6</y>
+      <width>30</width>
+      <height>20</height>
+      <resize>2</resize>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_93</name>
+      <text>EV32</text>
+      <x>30</x>
+      <width>10</width>
+      <height>30</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="10.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Grid" red="128" green="128" blue="128">
+        </color>
+      </foreground_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <rotation_step>3</rotation_step>
+    </widget>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_33</name>
+    <x>841</x>
+    <y>733</y>
+    <width>1</width>
+    <height>45</height>
+    <points>
+      <point x="0.0" y="45.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_83</name>
+    <text>Y</text>
+    <x>833</x>
+    <y>775</y>
+    <width>17</width>
+    <height>15</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="10.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>V23</name>
+    <x>837</x>
+    <y>737</y>
+    <width>40</width>
+    <height>30</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="embedded" version="2.0.0">
+      <name>V23</name>
+      <file>../Iconos/Iconos para diagramas/Valvulas/ValvulaCuadradoSinRellenoVertical.bob</file>
+      <y>6</y>
+      <width>30</width>
+      <height>20</height>
+      <resize>2</resize>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>V23</name>
+      <text>V23</text>
+      <x>30</x>
+      <width>10</width>
+      <height>30</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="10.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Grid" red="128" green="128" blue="128">
+        </color>
+      </foreground_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <rotation_step>3</rotation_step>
+    </widget>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>V17P3-2007</name>
+    <x>1054</x>
+    <y>675</y>
+    <width>40</width>
+    <height>30</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="embedded" version="2.0.0">
+      <name>V17P3-2007</name>
+      <file>../Iconos/Iconos para diagramas/Valvulas/ValvulaCuadradoSinRellenoVertical.bob</file>
+      <y>6</y>
+      <width>30</width>
+      <height>20</height>
+      <resize>2</resize>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>V17P3-2007</name>
+      <text>V17P3-2007</text>
+      <x>30</x>
+      <width>10</width>
+      <height>30</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="10.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Grid" red="128" green="128" blue="128">
+        </color>
+      </foreground_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <rotation_step>3</rotation_step>
+    </widget>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>V17P2-2007</name>
+    <x>1226</x>
+    <y>675</y>
+    <width>40</width>
+    <height>30</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="embedded" version="2.0.0">
+      <name>V17P2-2007</name>
+      <file>../Iconos/Iconos para diagramas/Valvulas/ValvulaCuadradoSinRellenoVertical.bob</file>
+      <y>6</y>
+      <width>30</width>
+      <height>20</height>
+      <resize>2</resize>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>V17P2-2007</name>
+      <text>V17P2-2007</text>
+      <x>30</x>
+      <width>10</width>
+      <height>30</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="10.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Grid" red="128" green="128" blue="128">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color red="130" green="130" blue="130">
+        </color>
+      </background_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <rotation_step>3</rotation_step>
+    </widget>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>V22P-20010</name>
+    <x>1281</x>
+    <y>675</y>
+    <width>40</width>
+    <height>30</height>
+    <style>3</style>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <widget type="embedded" version="2.0.0">
+      <name>V22P-20010</name>
+      <file>../Iconos/Iconos para diagramas/Valvulas/ValvulaCuadradoSinRellenoVertical.bob</file>
+      <y>6</y>
+      <width>30</width>
+      <height>20</height>
+      <resize>2</resize>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>V22P-20010</name>
+      <text>V22P-20010</text>
+      <x>30</x>
+      <width>10</width>
+      <height>30</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="10.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Grid" red="128" green="128" blue="128">
+        </color>
+      </foreground_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <rotation_step>3</rotation_step>
+    </widget>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_112</name>
+    <text>Y</text>
+    <x>1452</x>
+    <y>847</y>
+    <width>17</width>
+    <height>15</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="10.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_49</name>
+    <x>1456</x>
+    <y>648</y>
+    <width>4</width>
+    <height>192</height>
+    <points>
+      <point x="4.0" y="200.0">
+      </point>
+      <point x="4.0" y="0.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>V15P3-2005</name>
+    <x>1455</x>
+    <y>763</y>
+    <width>40</width>
+    <height>30</height>
+    <style>3</style>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <widget type="embedded" version="2.0.0">
+      <name>V15P3-2005</name>
+      <file>../Iconos/Iconos para diagramas/Valvulas/ValvulaCuadradoSinRellenoVertical.bob</file>
+      <y>6</y>
+      <width>30</width>
+      <height>20</height>
+      <resize>2</resize>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>V15P3-2005</name>
+      <text>V15P3-2005</text>
+      <x>30</x>
+      <width>10</width>
+      <height>30</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="10.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Grid" red="128" green="128" blue="128">
+        </color>
+      </foreground_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <rotation_step>3</rotation_step>
+    </widget>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>VM3%</name>
+    <x>1016</x>
+    <y>512</y>
+    <width>40</width>
+    <height>30</height>
+    <style>3</style>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <widget type="embedded" version="2.0.0">
+      <name>VM3%</name>
+      <file>../Iconos/Iconos para diagramas/Valvulas/ValvulaCuadradoSinRellenoVertical.bob</file>
+      <y>6</y>
+      <width>30</width>
+      <height>20</height>
+      <resize>2</resize>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>VM3%</name>
+      <text>VM3%</text>
+      <x>30</x>
+      <width>10</width>
+      <height>30</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="10.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Grid" red="128" green="128" blue="128">
+        </color>
+      </foreground_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <rotation_step>3</rotation_step>
+    </widget>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_48</name>
+    <text>Y</text>
+    <x>1382</x>
+    <y>396</y>
+    <width>17</width>
+    <height>15</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="10.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_106</name>
+    <text>Y</text>
+    <x>1642</x>
+    <y>523</y>
+    <width>17</width>
+    <height>15</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="10.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color red="77" green="77" blue="77">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_47</name>
+    <x>1650</x>
+    <y>460</y>
+    <width>1</width>
+    <height>67</height>
+    <points>
+      <point x="0.0" y="67.11870023666">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>V15P22005</name>
+    <x>1646</x>
+    <y>484</y>
+    <width>40</width>
+    <height>30</height>
+    <style>3</style>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <widget type="embedded" version="2.0.0">
+      <name>V15P22005</name>
+      <file>../Iconos/Iconos para diagramas/Valvulas/ValvulaCuadradoSinRellenoVertical.bob</file>
+      <y>6</y>
+      <width>30</width>
+      <height>20</height>
+      <resize>2</resize>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>V15P22005</name>
+      <text>V15P22005</text>
+      <x>30</x>
+      <width>10</width>
+      <height>30</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="10.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Grid" red="128" green="128" blue="128">
+        </color>
+      </foreground_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <rotation_step>3</rotation_step>
+    </widget>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle_8</name>
+    <x>20</x>
+    <y>742</y>
+    <width>120</width>
+    <height>30</height>
+    <line_width>0</line_width>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_5</name>
+    <text>JARABE</text>
+    <x>20</x>
+    <y>742</y>
+    <width>120</width>
+    <height>30</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Header_Background" red="77" green="77" blue="77">
+      </color>
+    </foreground_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_4</name>
+    <text>RETORNO</text>
+    <x>20</x>
+    <y>536</y>
+    <width>120</width>
+    <height>30</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Header_Background" red="77" green="77" blue="77">
+      </color>
+    </foreground_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle_4</name>
+    <x>20</x>
+    <y>25</y>
+    <width>120</width>
+    <height>30</height>
+    <line_width>0</line_width>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_1</name>
+    <text>GAS CARBONICO</text>
+    <x>20</x>
+    <y>25</y>
+    <width>120</width>
+    <height>30</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Header_Background" red="77" green="77" blue="77">
+      </color>
+    </foreground_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_64</name>
+    <text>°C</text>
+    <x>1670</x>
+    <y>749</y>
+    <width>20</width>
+    <height>15</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="8.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_97</name>
+    <text>°C</text>
+    <x>970</x>
+    <y>603</y>
+    <width>20</width>
+    <height>15</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="8.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>TT_2</name>
+    <x>250</x>
+    <y>521</y>
+    <width>20</width>
+    <height>29</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="polyline" version="2.0.0">
+      <name>Polyline_26</name>
+      <x>10</x>
+      <y>12</y>
+      <width>1</width>
+      <height>17</height>
+      <points>
+        <point x="0.0" y="0.0">
+        </point>
+        <point x="0.0" y="17.79998779296875">
+        </point>
+      </points>
+      <line_width>2</line_width>
+      <line_color>
+        <color red="130" green="130" blue="130">
+        </color>
+      </line_color>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>Ellipse_27</name>
+      <width>20</width>
+      <height>20</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color red="130" green="130" blue="130">
+        </color>
+      </line_color>
+      <background_color>
+        <color red="130" green="130" blue="130">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_98</name>
+      <text>CT
+001</text>
+      <y>1</y>
+      <width>20</width>
+      <height>18</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="6.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="Header_Background" red="77" green="77" blue="77">
+        </color>
+      </foreground_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_55</name>
+    <x>1546</x>
+    <y>243</y>
+    <width>25</width>
+    <height>1</height>
+    <points>
+      <point x="25.7801513671875" y="0.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_34</name>
+    <x>1530</x>
+    <y>232</y>
+    <width>20</width>
+    <height>20</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_113</name>
+    <text>PT
+01</text>
+    <x>1530</x>
+    <y>234</y>
+    <width>20</width>
+    <height>17</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="6.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Header_Background" red="77" green="77" blue="77">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_35</name>
+    <x>1105</x>
+    <y>549</y>
+    <width>25</width>
+    <height>1</height>
+    <points>
+      <point x="25.7801513671875" y="0.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_35</name>
+    <x>1121</x>
+    <y>539</y>
+    <width>20</width>
+    <height>20</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_122</name>
+    <text>CT</text>
+    <x>1121</x>
+    <y>541</y>
+    <width>20</width>
+    <height>15</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="8.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Header_Background" red="77" green="77" blue="77">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_37</name>
+    <x>580</x>
+    <y>547</y>
+    <width>20</width>
+    <height>20</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_129</name>
+    <text>TT</text>
+    <x>580</x>
+    <y>549</y>
+    <width>20</width>
+    <height>15</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="8.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Header_Background" red="77" green="77" blue="77">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_38</name>
+    <x>666</x>
+    <y>407</y>
+    <width>20</width>
+    <height>20</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_132</name>
+    <text>LCN
+G01</text>
+    <x>666</x>
+    <y>409</y>
+    <width>20</width>
+    <height>18</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="6.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Header_Background" red="77" green="77" blue="77">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_39</name>
+    <x>268</x>
+    <y>353</y>
+    <width>20</width>
+    <height>20</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_133</name>
+    <text>TT</text>
+    <x>268</x>
+    <y>355</y>
+    <width>20</width>
+    <height>15</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="8.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Header_Background" red="77" green="77" blue="77">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle_50</name>
+    <x>631</x>
+    <y>137</y>
+    <width>18</width>
+    <height>8</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_102</name>
+    <x>632</x>
+    <y>138</y>
+    <width>16</width>
+    <height>6</height>
+    <points>
+      <point x="16.886101788330166" y="0.0">
+      </point>
+      <point x="0.0" y="6.0076197576864425">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_41</name>
+    <x>459</x>
+    <y>690</y>
+    <width>20</width>
+    <height>20</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_137</name>
+    <text>LCN
+G02</text>
+    <x>459</x>
+    <y>692</y>
+    <width>20</width>
+    <height>18</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="6.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Header_Background" red="77" green="77" blue="77">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle_5</name>
+    <x>20</x>
+    <y>93</y>
+    <width>120</width>
+    <height>30</height>
+    <line_width>0</line_width>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_2</name>
+    <text>NITROGENO</text>
+    <x>20</x>
+    <y>92</y>
+    <width>120</width>
+    <height>30</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Header_Background" red="77" green="77" blue="77">
+      </color>
+    </foreground_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle_42</name>
+    <x>20</x>
+    <y>613</y>
+    <width>120</width>
+    <height>30</height>
+    <line_width>0</line_width>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_114</name>
+    <text>AGUA PROCESO</text>
+    <x>20</x>
+    <y>613</y>
+    <width>120</width>
+    <height>30</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Header_Background" red="77" green="77" blue="77">
+      </color>
+    </foreground_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_118</name>
+    <x>558</x>
+    <y>264</y>
+    <width>30</width>
+    <height>50</height>
+    <points>
+      <point x="30.79" y="50.08203125">
+      </point>
+      <point x="30.79" y="0.0">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="21.046142578125">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>VE 18_5</name>
+    <file>../Iconos/Iconos para diagramas/Valvulas/ValvulaSeguridadIzquierda.bob</file>
+    <x>543</x>
+    <y>257</y>
+    <width>26</width>
+    <height>19</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>Group</name>
+    <x>320</x>
+    <y>9</y>
+    <width>131</width>
+    <height>72</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="polyline" version="2.0.0">
+      <name>Polyline_131</name>
+      <x>52</x>
+      <y>11</y>
+      <width>1</width>
+      <height>50</height>
+      <points>
+        <point x="0.0" y="20.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+      </points>
+      <line_width>2</line_width>
+      <line_color>
+        <color red="130" green="130" blue="130">
+        </color>
+      </line_color>
+    </widget>
+    <widget type="embedded" version="2.0.0">
+      <name>EV42_3</name>
+      <file>../Iconos/Iconos para diagramas/Valvulas/ValvulaAntena.bob</file>
+      <x>71</x>
+      <y>10</y>
+      <width>25</width>
+      <height>30</height>
+      <resize>2</resize>
+    </widget>
+    <widget type="polyline" version="2.0.0">
+      <name>Polyline_129</name>
+      <x>112</x>
+      <y>12</y>
+      <width>1</width>
+      <height>50</height>
+      <points>
+        <point x="0.0" y="20.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+      </points>
+      <line_width>2</line_width>
+      <line_color>
+        <color red="130" green="130" blue="130">
+        </color>
+      </line_color>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>Ellipse_24</name>
+      <x>102</x>
+      <y>6</y>
+      <width>20</width>
+      <height>20</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color red="130" green="130" blue="130">
+        </color>
+      </line_color>
+      <background_color>
+        <color red="130" green="130" blue="130">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_101</name>
+      <text>PI</text>
+      <x>102</x>
+      <y>6</y>
+      <width>20</width>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="10.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color red="100" green="100" blue="100">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color red="130" green="130" blue="130">
+        </color>
+      </background_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>Ellipse_42</name>
+      <x>42</x>
+      <y>6</y>
+      <width>20</width>
+      <height>20</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color red="130" green="130" blue="130">
+        </color>
+      </line_color>
+      <background_color>
+        <color red="130" green="130" blue="130">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_115</name>
+      <text>PS
+01</text>
+      <x>42</x>
+      <y>8</y>
+      <width>20</width>
+      <height>17</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="6.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color red="100" green="100" blue="100">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color red="130" green="130" blue="130" alpha="0">
+        </color>
+      </background_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle_9</name>
+      <width>131</width>
+      <height>72</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color red="130" green="130" blue="130">
+        </color>
+      </line_color>
+      <line_style>2</line_style>
+      <background_color>
+        <color red="30" green="144" blue="255" alpha="0">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="embedded" version="2.0.0">
+      <name>PI1_1</name>
+      <file>../Iconos/Iconos para diagramas/Objeto compuesto/ObjetoCompuesto1.bob</file>
+      <x>13</x>
+      <y>6</y>
+      <width>44</width>
+      <height>65</height>
+      <resize>2</resize>
+    </widget>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EV36_1</name>
+    <file>../Iconos/Iconos para diagramas/Valvulas/ValvulaManualDelgadaD.bob</file>
+    <x>170</x>
+    <y>145</y>
+    <width>21</width>
+    <height>20</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EV2_1</name>
+    <file>../Iconos/Iconos para diagramas/Valvulas/ValvulaManualDelgadaDVertical.bob</file>
+    <x>196</x>
+    <y>120</y>
+    <width>21</width>
+    <height>20</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle_15</name>
+    <x>20</x>
+    <y>142</y>
+    <width>120</width>
+    <height>30</height>
+    <line_width>0</line_width>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_140</name>
+    <text>AIRE</text>
+    <x>20</x>
+    <y>141</y>
+    <width>120</width>
+    <height>30</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Header_Background" red="77" green="77" blue="77">
+      </color>
+    </foreground_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle_16</name>
+    <x>372</x>
+    <y>143</y>
+    <width>120</width>
+    <height>30</height>
+    <line_width>0</line_width>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_141</name>
+    <text>AIRE O NITROGENO</text>
+    <x>372</x>
+    <y>149</y>
+    <width>120</width>
+    <height>30</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="11.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Header_Background" red="77" green="77" blue="77">
+      </color>
+    </foreground_color>
+    <horizontal_alignment>1</horizontal_alignment>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle_23</name>
+    <x>599</x>
+    <y>520</y>
+    <width>11</width>
+    <height>7</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_83</name>
+    <x>596</x>
+    <y>522</y>
+    <width>3</width>
+    <height>1</height>
+    <points>
+      <point x="3.6312255859375" y="0.0">
+      </point>
+      <point x="1.29681396484375" y="0.0">
+      </point>
+      <point x="0.0" y="1.0374755859375">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_59</name>
+    <text>TM02</text>
+    <x>581</x>
+    <y>511</y>
+    <width>15</width>
+    <height>27</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="10.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <rotation_step>1</rotation_step>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle_29</name>
+    <x>747</x>
+    <y>546</y>
+    <width>6</width>
+    <height>10</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>Group_9</name>
+    <x>744</x>
+    <y>546</y>
+    <width>6</width>
+    <height>11</height>
+    <style>3</style>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_105</name>
+    <x>747</x>
+    <y>546</y>
+    <width>6</width>
+    <height>10</height>
+    <points>
+      <point x="6.0" y="0.0">
+      </point>
+      <point x="0.0" y="10.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EV41</name>
+    <file>../Macros/SolenoidValve.bob</file>
+    <x>259</x>
+    <y>17</y>
+    <width>45</width>
+    <height>45</height>
+    <resize>3</resize>
+    <scripts>
+      <script file="EstablecerMacrosAnalogInput.py">
+        <pv_name>loc://noimporta</pv_name>
+      </script>
+    </scripts>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>Group_8</name>
+    <x>226</x>
+    <y>127</y>
+    <width>131</width>
+    <height>72</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="polyline" version="2.0.0">
+      <name>Polyline_133</name>
+      <x>52</x>
+      <y>11</y>
+      <width>1</width>
+      <height>50</height>
+      <points>
+        <point x="0.0" y="20.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+      </points>
+      <line_width>2</line_width>
+      <line_color>
+        <color red="130" green="130" blue="130">
+        </color>
+      </line_color>
+    </widget>
+    <widget type="embedded" version="2.0.0">
+      <name>EV42_5</name>
+      <file>../Iconos/Iconos para diagramas/Valvulas/ValvulaAntena.bob</file>
+      <x>71</x>
+      <y>10</y>
+      <width>25</width>
+      <height>30</height>
+      <resize>2</resize>
+    </widget>
+    <widget type="polyline" version="2.0.0">
+      <name>Polyline_135</name>
+      <x>112</x>
+      <y>12</y>
+      <width>1</width>
+      <height>50</height>
+      <points>
+        <point x="0.0" y="20.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+      </points>
+      <line_width>2</line_width>
+      <line_color>
+        <color red="130" green="130" blue="130">
+        </color>
+      </line_color>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>Ellipse_25</name>
+      <x>102</x>
+      <y>6</y>
+      <width>20</width>
+      <height>20</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color red="130" green="130" blue="130">
+        </color>
+      </line_color>
+      <background_color>
+        <color red="130" green="130" blue="130">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_107</name>
+      <text>PI</text>
+      <x>102</x>
+      <y>6</y>
+      <width>20</width>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="10.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color red="100" green="100" blue="100">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color red="130" green="130" blue="130">
+        </color>
+      </background_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>Ellipse_45</name>
+      <x>42</x>
+      <y>6</y>
+      <width>20</width>
+      <height>20</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color red="130" green="130" blue="130">
+        </color>
+      </line_color>
+      <background_color>
+        <color red="130" green="130" blue="130">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_125</name>
+      <text>PS
+01</text>
+      <x>42</x>
+      <y>8</y>
+      <width>20</width>
+      <height>17</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="6.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color red="100" green="100" blue="100">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color red="130" green="130" blue="130" alpha="0">
+        </color>
+      </background_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle_13</name>
+      <width>131</width>
+      <height>72</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color red="130" green="130" blue="130">
+        </color>
+      </line_color>
+      <line_style>2</line_style>
+      <background_color>
+        <color red="30" green="144" blue="255" alpha="0">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="embedded" version="2.0.0">
+      <name>PI1_3</name>
+      <file>../Iconos/Iconos para diagramas/Objeto compuesto/ObjetoCompuesto1.bob</file>
+      <x>13</x>
+      <y>6</y>
+      <width>44</width>
+      <height>65</height>
+      <resize>2</resize>
+    </widget>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>Group_10</name>
+    <x>680</x>
+    <y>60</y>
+    <width>131</width>
+    <height>72</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="polyline" version="2.0.0">
+      <name>Polyline_136</name>
+      <x>52</x>
+      <y>11</y>
+      <width>1</width>
+      <height>50</height>
+      <points>
+        <point x="0.0" y="20.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+      </points>
+      <line_width>2</line_width>
+      <line_color>
+        <color red="130" green="130" blue="130">
+        </color>
+      </line_color>
+    </widget>
+    <widget type="embedded" version="2.0.0">
+      <name>EV42_6</name>
+      <file>../Iconos/Iconos para diagramas/Valvulas/ValvulaAntena.bob</file>
+      <x>71</x>
+      <y>10</y>
+      <width>25</width>
+      <height>30</height>
+      <resize>2</resize>
+    </widget>
+    <widget type="polyline" version="2.0.0">
+      <name>Polyline_156</name>
+      <x>112</x>
+      <y>12</y>
+      <width>1</width>
+      <height>50</height>
+      <points>
+        <point x="0.0" y="20.0">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+      </points>
+      <line_width>2</line_width>
+      <line_color>
+        <color red="130" green="130" blue="130">
+        </color>
+      </line_color>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>Ellipse_46</name>
+      <x>102</x>
+      <y>6</y>
+      <width>20</width>
+      <height>20</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color red="130" green="130" blue="130">
+        </color>
+      </line_color>
+      <background_color>
+        <color red="130" green="130" blue="130">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_138</name>
+      <text>PI</text>
+      <x>102</x>
+      <y>6</y>
+      <width>20</width>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="10.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color red="100" green="100" blue="100">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color red="130" green="130" blue="130">
+        </color>
+      </background_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>Ellipse_47</name>
+      <x>42</x>
+      <y>6</y>
+      <width>20</width>
+      <height>20</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color red="130" green="130" blue="130">
+        </color>
+      </line_color>
+      <background_color>
+        <color red="130" green="130" blue="130">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_139</name>
+      <text>PS
+01</text>
+      <x>42</x>
+      <y>8</y>
+      <width>20</width>
+      <height>17</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="6.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color red="100" green="100" blue="100">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color red="130" green="130" blue="130" alpha="0">
+        </color>
+      </background_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle_32</name>
+      <width>131</width>
+      <height>72</height>
+      <line_width>1</line_width>
+      <line_color>
+        <color red="130" green="130" blue="130">
+        </color>
+      </line_color>
+      <line_style>2</line_style>
+      <background_color>
+        <color red="30" green="144" blue="255" alpha="0">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="embedded" version="2.0.0">
+      <name>PI1_4</name>
+      <file>../Iconos/Iconos para diagramas/Objeto compuesto/ObjetoCompuesto1.bob</file>
+      <x>13</x>
+      <y>6</y>
+      <width>44</width>
+      <height>65</height>
+      <resize>2</resize>
+    </widget>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EV42</name>
+    <file>../Macros/SolenoidValve.bob</file>
+    <x>492</x>
+    <y>83</y>
+    <width>45</width>
+    <height>45</height>
+    <resize>3</resize>
+    <scripts>
+      <script file="EstablecerMacrosAnalogInput.py">
+        <pv_name>loc://noimporta</pv_name>
+      </script>
+    </scripts>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_28</name>
+    <x>451</x>
+    <y>296</y>
+    <width>1</width>
+    <height>17</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="17.79998779296875">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_31</name>
+    <x>441</x>
+    <y>284</y>
+    <width>20</width>
+    <height>20</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_105</name>
+    <text>PS</text>
+    <x>441</x>
+    <y>286</y>
+    <width>20</width>
+    <height>15</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="8.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Header_Background" red="77" green="77" blue="77">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_29</name>
+    <x>491</x>
+    <y>296</y>
+    <width>1</width>
+    <height>17</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="17.79998779296875">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_32</name>
+    <x>481</x>
+    <y>284</y>
+    <width>20</width>
+    <height>20</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_108</name>
+    <text>IP</text>
+    <x>481</x>
+    <y>286</y>
+    <width>20</width>
+    <height>15</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="8.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Header_Background" red="77" green="77" blue="77">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_40</name>
+    <x>487</x>
+    <y>731</y>
+    <width>20</width>
+    <height>20</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_136</name>
+    <text>LS</text>
+    <x>487</x>
+    <y>731</y>
+    <width>20</width>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="6.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Header_Background" red="77" green="77" blue="77">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle_36</name>
+    <x>329</x>
+    <y>816</y>
+    <width>10</width>
+    <height>10</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Rectangle_37</name>
+    <x>329</x>
+    <y>816</y>
+    <width>10</width>
+    <height>10</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_25</name>
+    <x>981</x>
+    <y>630</y>
+    <width>1</width>
+    <height>17</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="17.79998779296875">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_23</name>
+    <x>971</x>
+    <y>618</y>
+    <width>20</width>
+    <height>20</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_96</name>
+    <text>TT</text>
+    <x>971</x>
+    <y>620</y>
+    <width>20</width>
+    <height>15</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="8.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Header_Background" red="77" green="77" blue="77">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle_25</name>
+    <x>1425</x>
+    <y>659</y>
+    <width>10</width>
+    <line_width>1</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_5</name>
+    <x>1425</x>
+    <y>659</y>
+    <width>10</width>
+    <points>
+      <point x="10.0" y="0.0">
+      </point>
+      <point x="0.0" y="20.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_23</name>
+    <x>1681</x>
+    <y>776</y>
+    <width>1</width>
+    <height>17</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="17.79998779296875">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_22</name>
+    <x>1671</x>
+    <y>764</y>
+    <width>20</width>
+    <height>20</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_95</name>
+    <text>TT</text>
+    <x>1671</x>
+    <y>766</y>
+    <width>20</width>
+    <height>15</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="8.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Header_Background" red="77" green="77" blue="77">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_58</name>
+    <text>TM02</text>
+    <x>1573</x>
+    <y>393</y>
+    <width>28</width>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="10.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </foreground_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle_6</name>
+    <x>1582</x>
+    <y>417</y>
+    <width>9</width>
+    <height>13</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_20</name>
+    <x>1584</x>
+    <y>408</y>
+    <width>2</width>
+    <height>9</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="2.7" y="4.099999999999966">
+      </point>
+      <point x="2.7" y="9.099999999999966">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_10</name>
+    <x>1641</x>
+    <y>412</y>
+    <width>1</width>
+    <height>17</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="0.0" y="17.79998779296875">
+      </point>
+    </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_20</name>
+    <x>1631</x>
+    <y>400</y>
+    <width>20</width>
+    <height>20</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_65</name>
+    <text>PH1</text>
+    <x>1631</x>
+    <y>402</y>
+    <width>20</width>
+    <height>15</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="8.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Header_Background" red="77" green="77" blue="77">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="130" green="130" blue="130">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EV37</name>
+    <file>../Macros/SolenoidValve.bob</file>
+    <x>371</x>
+    <y>528</y>
+    <width>45</width>
+    <height>45</height>
+    <resize>3</resize>
+    <scripts>
+      <script file="EstablecerMacrosAnalogInput.py">
+        <pv_name>loc://noimporta</pv_name>
+      </script>
+    </scripts>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EV16</name>
+    <file>../Macros/SolenoidValve.bob</file>
+    <x>574</x>
+    <y>840</y>
+    <width>45</width>
+    <height>45</height>
+    <resize>3</resize>
+    <scripts>
+      <script file="EstablecerMacrosAnalogInput.py">
+        <pv_name>loc://noimporta</pv_name>
+      </script>
+    </scripts>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EV14</name>
+    <file>../Macros/SolenoidValve.bob</file>
+    <x>522</x>
+    <y>572</y>
+    <width>45</width>
+    <height>45</height>
+    <resize>3</resize>
+    <scripts>
+      <script file="EstablecerMacrosAnalogInput.py">
+        <pv_name>loc://noimporta</pv_name>
+      </script>
+    </scripts>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EV23</name>
+    <file>../Macros/SolenoidValve.bob</file>
+    <x>695</x>
+    <y>518</y>
+    <width>45</width>
+    <height>45</height>
+    <resize>3</resize>
+    <scripts>
+      <script file="EstablecerMacrosAnalogInput.py">
+        <pv_name>loc://noimporta</pv_name>
+      </script>
+    </scripts>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EV35</name>
+    <file>../Macros/SolenoidValve.bob</file>
+    <x>815</x>
+    <y>357</y>
+    <width>45</width>
+    <height>45</height>
+    <resize>3</resize>
+    <scripts>
+      <script file="EstablecerMacrosAnalogInput.py">
+        <pv_name>loc://noimporta</pv_name>
+      </script>
+    </scripts>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EV34</name>
+    <file>../Macros/SolenoidValve.bob</file>
+    <x>815</x>
+    <y>307</y>
+    <width>45</width>
+    <height>45</height>
+    <resize>3</resize>
+    <scripts>
+      <script file="EstablecerMacrosAnalogInput.py">
+        <pv_name>loc://noimporta</pv_name>
+      </script>
+    </scripts>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EV33</name>
+    <file>../Macros/SolenoidValve.bob</file>
+    <x>814</x>
+    <y>257</y>
+    <width>45</width>
+    <height>45</height>
+    <resize>3</resize>
+    <scripts>
+      <script file="EstablecerMacrosAnalogInput.py">
+        <pv_name>loc://noimporta</pv_name>
+      </script>
+    </scripts>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EV43</name>
+    <file>../Macros/SolenoidValve.bob</file>
+    <x>1291</x>
+    <y>97</y>
+    <width>45</width>
+    <height>45</height>
+    <resize>3</resize>
+    <scripts>
+      <script file="EstablecerMacrosAnalogInput.py">
+        <pv_name>loc://noimporta</pv_name>
+      </script>
+    </scripts>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EV12</name>
+    <file>../Macros/SolenoidValve.bob</file>
+    <x>1291</x>
+    <y>138</y>
+    <width>45</width>
+    <height>45</height>
+    <resize>3</resize>
+    <scripts>
+      <script file="EstablecerMacrosAnalogInput.py">
+        <pv_name>loc://noimporta</pv_name>
+      </script>
+    </scripts>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EV11</name>
+    <file>../Macros/SolenoidValve.bob</file>
+    <x>1335</x>
+    <y>294</y>
+    <width>45</width>
+    <height>45</height>
+    <resize>3</resize>
+    <scripts>
+      <script file="EstablecerMacrosAnalogInput.py">
+        <pv_name>loc://noimporta</pv_name>
+      </script>
+    </scripts>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EV13</name>
+    <file>../Macros/SolenoidValve.bob</file>
+    <x>1494</x>
+    <y>326</y>
+    <width>45</width>
+    <height>45</height>
+    <resize>3</resize>
+    <scripts>
+      <script file="EstablecerMacrosAnalogInput.py">
+        <pv_name>loc://noimporta</pv_name>
+      </script>
+    </scripts>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EV15</name>
+    <file>../Macros/SolenoidValve.bob</file>
+    <x>1549</x>
+    <y>626</y>
+    <width>45</width>
+    <height>45</height>
+    <resize>3</resize>
+    <scripts>
+      <script file="EstablecerMacrosAnalogInput.py">
+        <pv_name>loc://noimporta</pv_name>
+      </script>
+    </scripts>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EV25</name>
+    <file>../Macros/SolenoidValveVertical.bob</file>
+    <x>388</x>
+    <y>245</y>
+    <width>45</width>
+    <height>45</height>
+    <resize>3</resize>
+    <scripts>
+      <script file="EstablecerMacrosAnalogInput.py">
+        <pv_name>loc://noimporta</pv_name>
+      </script>
+    </scripts>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EV36</name>
+    <file>../Macros/SolenoidValveVertical.bob</file>
+    <x>280</x>
+    <y>482</y>
+    <width>45</width>
+    <height>45</height>
+    <resize>3</resize>
+    <scripts>
+      <script file="EstablecerMacrosAnalogInput.py">
+        <pv_name>loc://noimporta</pv_name>
+      </script>
+    </scripts>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EV25</name>
+    <file>../Macros/SolenoidValveVertical.bob</file>
+    <x>315</x>
+    <y>623</y>
+    <width>45</width>
+    <height>45</height>
+    <resize>3</resize>
+    <scripts>
+      <script file="EstablecerMacrosAnalogInput.py">
+        <pv_name>loc://noimporta</pv_name>
+      </script>
+    </scripts>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EV18</name>
+    <file>../Macros/SolenoidValveVertical.bob</file>
+    <x>459</x>
+    <y>401</y>
+    <width>45</width>
+    <height>45</height>
+    <resize>3</resize>
+    <scripts>
+      <script file="EstablecerMacrosAnalogInput.py">
+        <pv_name>loc://noimporta</pv_name>
+      </script>
+    </scripts>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EV21</name>
+    <file>../Macros/SolenoidValveVertical.bob</file>
+    <x>1365</x>
+    <y>351</y>
+    <width>45</width>
+    <height>45</height>
+    <resize>3</resize>
+    <scripts>
+      <script file="EstablecerMacrosAnalogInput.py">
+        <pv_name>loc://noimporta</pv_name>
+      </script>
+    </scripts>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EV26</name>
+    <file>../Macros/SolenoidValveVertical.bob</file>
+    <x>996</x>
+    <y>570</y>
+    <width>45</width>
+    <height>45</height>
+    <resize>3</resize>
+    <scripts>
+      <script file="EstablecerMacrosAnalogInput.py">
+        <pv_name>loc://noimporta</pv_name>
+      </script>
+    </scripts>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EV17</name>
+    <file>../Macros/SolenoidValveVertical.bob</file>
+    <x>1080</x>
+    <y>570</y>
+    <width>45</width>
+    <height>45</height>
+    <resize>3</resize>
+    <scripts>
+      <script file="EstablecerMacrosAnalogInput.py">
+        <pv_name>loc://noimporta</pv_name>
+      </script>
+    </scripts>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EV31</name>
+    <file>../Macros/SolenoidValveVertical.bob</file>
+    <x>1136</x>
+    <y>570</y>
+    <width>45</width>
+    <height>45</height>
+    <resize>3</resize>
+    <scripts>
+      <script file="EstablecerMacrosAnalogInput.py">
+        <pv_name>loc://noimporta</pv_name>
+      </script>
+    </scripts>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>EV27</name>
+    <file>../Macros/SolenoidValveVertical.bob</file>
+    <x>1195</x>
+    <y>570</y>
+    <width>45</width>
+    <height>45</height>
+    <resize>3</resize>
+    <scripts>
+      <script file="EstablecerMacrosAnalogInput.py">
+        <pv_name>loc://noimporta</pv_name>
+      </script>
+    </scripts>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>VEP3%</name>
+    <file>../Macros/AnalogValve.bob</file>
+    <x>417</x>
+    <y>784</y>
+    <width>45</width>
+    <height>56</height>
+    <resize>3</resize>
+    <scripts>
+      <script file="EstablecerMacrosAnalogInput.py">
+        <pv_name>loc://noimporta</pv_name>
+      </script>
+    </scripts>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>VEP2%</name>
+    <file>../Macros/AnalogValve.bob</file>
+    <x>538</x>
+    <y>185</y>
+    <width>45</width>
+    <height>56</height>
+    <resize>3</resize>
+    <scripts>
+      <script file="EstablecerMacrosAnalogInput.py">
+        <pv_name>loc://noimporta</pv_name>
+      </script>
+    </scripts>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>VM2%</name>
+    <macros>
+      <value>VA02</value>
+    </macros>
+    <file>../Macros/AnalogValve.bob</file>
+    <x>1382</x>
+    <y>764</y>
+    <width>45</width>
+    <height>56</height>
+    <resize>3</resize>
+    <scripts>
+      <script file="EstablecerMacrosAnalogInput.py">
+        <pv_name>loc://noimporta</pv_name>
+      </script>
+    </scripts>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>VM1%</name>
+    <macros>
+      <value>VA01</value>
+    </macros>
+    <file>../Macros/AnalogValve.bob</file>
+    <x>1310</x>
+    <y>613</y>
+    <width>45</width>
+    <height>56</height>
+    <resize>3</resize>
+    <scripts>
+      <script file="EstablecerMacrosAnalogInput.py">
+        <pv_name>loc://noimporta</pv_name>
+      </script>
+    </scripts>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>VEP1%</name>
+    <macros>
+      <value>VA04</value>
+    </macros>
+    <file>../Macros/AnalogValve.bob</file>
+    <x>1257</x>
+    <y>229</y>
+    <width>45</width>
+    <height>56</height>
+    <resize>3</resize>
+    <scripts>
+      <script file="EstablecerMacrosAnalogInput.py">
+        <pv_name>loc://noimporta</pv_name>
+      </script>
+    </scripts>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label</name>
+    <text>ACCIONAMIENTO VALVULAS</text>
+    <x>372</x>
+    <y>161</y>
+    <width>120</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="8.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color red="77" green="77" blue="77">
+      </color>
+    </foreground_color>
+    <horizontal_alignment>1</horizontal_alignment>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle_33</name>
+    <x>20</x>
+    <y>366</y>
+    <width>120</width>
+    <height>30</height>
+    <line_width>0</line_width>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_142</name>
+    <text>VAPOR</text>
+    <x>20</x>
+    <y>365</y>
+    <width>120</width>
+    <height>30</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Header_Background" red="77" green="77" blue="77">
+      </color>
+    </foreground_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>VE 18_6</name>
+    <file>../Iconos/Iconos para diagramas/Valvulas/ValvulaManual.bob</file>
+    <x>174</x>
+    <y>368</y>
+    <width>21</width>
+    <height>20</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>VEP5</name>
+    <file>../Macros/AnalogValve.bob</file>
+    <x>197</x>
+    <y>346</y>
+    <width>45</width>
+    <height>56</height>
+    <resize>3</resize>
+    <scripts>
+      <script file="EstablecerMacrosAnalogInput.py">
+        <pv_name>loc://noimporta</pv_name>
+      </script>
+    </scripts>
+  </widget>
+  <widget type="ellipse" version="2.0.0">
+    <name>Ellipse_33</name>
+    <x>1600</x>
+    <y>94</y>
+    <width>20</width>
+    <height>20</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color red="77" green="77" blue="77">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_111</name>
+    <text>LT</text>
+    <x>1600</x>
+    <y>96</y>
+    <width>20</width>
+    <height>15</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="8.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="Header_Background" red="77" green="77" blue="77">
+      </color>
+    </foreground_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>TAnque</name>
+    <file>ElementosDeDiagrama/Tanque.bob</file>
+    <x>570</x>
+    <y>346</y>
+    <width>80</width>
+    <height>158</height>
+    <resize>2</resize>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>TAnque_1</name>
+    <file>ElementosDeDiagrama/TanqueConAsa.bob</file>
+    <x>1571</x>
+    <y>128</y>
+    <width>141</width>
+    <height>228</height>
+    <resize>1</resize>
+  </widget>
+</display>

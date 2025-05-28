@@ -1,0 +1,823 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Saved on 2025-03-11 15:32:34 by Usuario-->
+<display version="2.0.0">
+  <name>Display</name>
+  <width>620</width>
+  <height>530</height>
+  <background_color>
+    <color red="190" green="190" blue="190">
+    </color>
+  </background_color>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle_1</name>
+    <x>450</x>
+    <y>270</y>
+    <width>111</width>
+    <height>100</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Header_Background" red="77" green="77" blue="77">
+      </color>
+    </line_color>
+    <background_color>
+      <color red="240" green="240" blue="240" alpha="0">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle</name>
+    <x>220</x>
+    <y>120</y>
+    <width>200</width>
+    <height>310</height>
+    <line_width>0</line_width>
+    <background_color>
+      <color name="Read_Background" red="240" green="240" blue="240">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="combo" version="2.0.0">
+    <name>Combo Box</name>
+    <pv_name>loc://receta&lt;VEnum&gt;(0, "Coca Cola 2L", "Coca Cola ligth 2L","Coca Cola Vainilla","Frescolita 2L","Hit Naranja 2L","Chinotto 2L","Chinotto 1.5L", "Coca Cola 1.5L", "Hit Uva 2L","Hit Piña 2L","Hit Manzana 2L","Grappette Naranja 1.5L", "Grappette Piña 1.5L", "Grappette Kola 1.5L", "Grappette Uva 1.5L", "Berevage 18")</pv_name>
+    <x>20</x>
+    <y>140</y>
+    <width>180</width>
+    <background_color>
+      <color red="242" green="242" blue="242">
+      </color>
+    </background_color>
+    <items>
+      <item>Coca Cola 2L</item>
+      <item>Coca Cola ligth 2L</item>
+      <item>Coca Cola Vainilla</item>
+      <item>Frescolita 2L</item>
+      <item>Hit Naranja 2L</item>
+      <item>Chinotto 2L</item>
+      <item>Chinotto 1.5L</item>
+      <item>Coca Cola 1.5L</item>
+      <item>Hit Uva 2L</item>
+      <item>Hit Piña 2L</item>
+      <item>Hit Manzana 2L</item>
+      <item>Grappette Naranja 1.5L</item>
+      <item>Grappette Piña 1.5L</item>
+      <item>Grappette Kola 1.5L</item>
+      <item>Grappette Uva 1.5L</item>
+      <item>Berevage 18</item>
+    </items>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>Tipo bebida</name>
+    <x>440</x>
+    <y>130</y>
+    <width>140</width>
+    <height>118</height>
+    <background_color>
+      <color red="190" green="190" blue="190">
+      </color>
+    </background_color>
+    <widget type="checkbox" version="2.0.0">
+      <name>Check Box</name>
+      <label>Proporción</label>
+      <x>2</x>
+      <y>2</y>
+      <height>22</height>
+    </widget>
+    <widget type="checkbox" version="2.0.0">
+      <name>Check Box_1</name>
+      <label>Brix</label>
+      <x>2</x>
+      <y>32</y>
+      <width>90</width>
+    </widget>
+    <widget type="ellipse" version="2.0.0">
+      <name>Ellipse</name>
+      <x>22</x>
+      <y>84</y>
+      <width>10</width>
+      <height>1</height>
+    </widget>
+    <widget type="checkbox" version="2.0.0">
+      <name>Check Box_2</name>
+      <label>Diet</label>
+      <x>2</x>
+      <y>62</y>
+      <width>90</width>
+    </widget>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_13</name>
+    <text>VM1=</text>
+    <x>460</x>
+    <y>280</y>
+    <width>40</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="12.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_17</name>
+    <text>%</text>
+    <x>540</x>
+    <y>280</y>
+    <width>10</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="12.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_15</name>
+    <x>500</x>
+    <y>280</y>
+    <width>40</width>
+    <horizontal_alignment>2</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Titulo</name>
+    <x>10</x>
+    <y>10</y>
+    <width>600</width>
+    <height>50</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color red="170" green="170" blue="170">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Read_Background" red="240" green="240" blue="240">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Titulo_1</name>
+    <text>Gestión de las recetas de producción</text>
+    <x>18</x>
+    <y>10</y>
+    <width>582</width>
+    <height>50</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="25.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>ProgramaSimple</name>
+    <x>20</x>
+    <y>90</y>
+    <width>180</width>
+    <height>30</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Text" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Read_Background" red="240" green="240" blue="240">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>ProgramaSimple_1</name>
+    <text>Nombre de la receta</text>
+    <x>20</x>
+    <y>90</y>
+    <width>180</width>
+    <height>30</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <background_color>
+      <color red="210" green="210" blue="210" alpha="254">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>NumeroReceta</name>
+    <x>200</x>
+    <y>130</y>
+    <width>210</width>
+    <height>20</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="label" version="2.0.0">
+      <name>Label_2</name>
+      <text>Numero receta</text>
+      <x>40</x>
+      <width>110</width>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="12.0">
+        </font>
+      </font>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_26</name>
+      <x>160</x>
+      <width>50</width>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="12.0">
+        </font>
+      </font>
+      <background_color>
+        <color name="Button_Background" red="210" green="210" blue="210">
+        </color>
+      </background_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>BrixJarabe</name>
+    <x>240</x>
+    <y>160</y>
+    <width>170</width>
+    <height>20</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="label" version="2.0.0">
+      <name>Label_3</name>
+      <text>Brix Jarabe</text>
+      <width>110</width>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="12.0">
+        </font>
+      </font>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <rules>
+        <rule name="ocultar brix" prop_id="visible" out_exp="false">
+          <exp bool_exp="pvInt0 == 1">
+            <value>false</value>
+          </exp>
+          <exp bool_exp="pvInt0 != 1">
+            <value>true</value>
+          </exp>
+          <pv_name>loc://receta</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_27</name>
+      <x>120</x>
+      <width>50</width>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="12.0">
+        </font>
+      </font>
+      <background_color>
+        <color name="Button_Background" red="210" green="210" blue="210">
+        </color>
+      </background_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <rules>
+        <rule name="ocultar" prop_id="visible" out_exp="false">
+          <exp bool_exp="pvInt0 == 1">
+            <value>false</value>
+          </exp>
+          <pv_name>loc://receta</pv_name>
+        </rule>
+      </rules>
+    </widget>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>PesoEspecificoJarabe</name>
+    <x>220</x>
+    <y>190</y>
+    <width>190</width>
+    <height>20</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="label" version="2.0.0">
+      <name>Label_4</name>
+      <text>Peso específico jarabe</text>
+      <width>130</width>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="12.0">
+        </font>
+      </font>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_28</name>
+      <x>140</x>
+      <width>50</width>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="12.0">
+        </font>
+      </font>
+      <background_color>
+        <color name="Button_Background" red="210" green="210" blue="210">
+        </color>
+      </background_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>BrixBebida</name>
+    <x>240</x>
+    <y>220</y>
+    <width>170</width>
+    <height>20</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="label" version="2.0.0">
+      <name>Label_5</name>
+      <text>Brix bebida</text>
+      <width>110</width>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="12.0">
+        </font>
+      </font>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <rules>
+        <rule name="ocultar" prop_id="visible" out_exp="false">
+          <exp bool_exp="pvInt0 == 1">
+            <value>false</value>
+          </exp>
+          <exp bool_exp="pvInt0 != 1">
+            <value>true</value>
+          </exp>
+          <pv_name>loc://receta</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_29</name>
+      <x>120</x>
+      <width>50</width>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="12.0">
+        </font>
+      </font>
+      <background_color>
+        <color name="Button_Background" red="210" green="210" blue="210">
+        </color>
+      </background_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <rules>
+        <rule name="ocultar" prop_id="visible" out_exp="false">
+          <exp bool_exp="pvInt0 == 1">
+            <value>false</value>
+          </exp>
+          <exp bool_exp="pvInt0 != 1">
+            <value>true</value>
+          </exp>
+          <pv_name>loc://receta</pv_name>
+        </rule>
+      </rules>
+    </widget>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>RelacionNominal</name>
+    <x>200</x>
+    <y>250</y>
+    <width>210</width>
+    <height>20</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="label" version="2.0.0">
+      <name>Label_6</name>
+      <text>Relación nominal</text>
+      <x>40</x>
+      <width>110</width>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="12.0">
+        </font>
+      </font>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_30</name>
+      <x>160</x>
+      <width>50</width>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="12.0">
+        </font>
+      </font>
+      <background_color>
+        <color name="Button_Background" red="210" green="210" blue="210">
+        </color>
+      </background_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>VolumenesdeCo2</name>
+    <x>240</x>
+    <y>280</y>
+    <width>170</width>
+    <height>20</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="label" version="2.0.0">
+      <name>Label_7</name>
+      <text>Volumenes de CO2</text>
+      <width>110</width>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="12.0">
+        </font>
+      </font>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_31</name>
+      <x>120</x>
+      <width>50</width>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="12.0">
+        </font>
+      </font>
+      <background_color>
+        <color name="Button_Background" red="210" green="210" blue="210">
+        </color>
+      </background_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>PResionSaturador</name>
+    <x>240</x>
+    <y>310</y>
+    <width>170</width>
+    <height>20</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="label" version="2.0.0">
+      <name>Label_8</name>
+      <text>Presión saturador</text>
+      <width>110</width>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="12.0">
+        </font>
+      </font>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_32</name>
+      <x>120</x>
+      <width>50</width>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="12.0">
+        </font>
+      </font>
+      <background_color>
+        <color name="Button_Background" red="210" green="210" blue="210">
+        </color>
+      </background_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>TemperaturaBebida</name>
+    <x>230</x>
+    <y>340</y>
+    <width>180</width>
+    <height>20</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="label" version="2.0.0">
+      <name>Label_9</name>
+      <text>Temperatura bebida</text>
+      <width>120</width>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="12.0">
+        </font>
+      </font>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_33</name>
+      <x>130</x>
+      <width>50</width>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="12.0">
+        </font>
+      </font>
+      <background_color>
+        <color name="Button_Background" red="210" green="210" blue="210">
+        </color>
+      </background_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>ProduccionNominal</name>
+    <x>220</x>
+    <y>370</y>
+    <width>190</width>
+    <height>20</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="label" version="2.0.0">
+      <name>Label_10</name>
+      <text>Producción nominal</text>
+      <width>130</width>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="12.0">
+        </font>
+      </font>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_34</name>
+      <x>140</x>
+      <width>50</width>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="12.0">
+        </font>
+      </font>
+      <background_color>
+        <color name="Button_Background" red="210" green="210" blue="210">
+        </color>
+      </background_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>MinNivel%</name>
+    <x>240</x>
+    <y>400</y>
+    <width>170</width>
+    <height>20</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="label" version="2.0.0">
+      <name>Label_11</name>
+      <text>Min nivel %</text>
+      <width>110</width>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="12.0">
+        </font>
+      </font>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_35</name>
+      <x>120</x>
+      <width>50</width>
+      <font>
+        <font family="Liberation Sans" style="REGULAR" size="12.0">
+        </font>
+      </font>
+      <background_color>
+        <color name="Button_Background" red="210" green="210" blue="210">
+        </color>
+      </background_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>BotonOk_2</name>
+    <text></text>
+    <x>100</x>
+    <y>470</y>
+    <width>50</width>
+    <height>50</height>
+    <background_color>
+      <color red="242" green="242" blue="242">
+      </color>
+    </background_color>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>BotonOk_3</name>
+    <text>OK</text>
+    <x>100</x>
+    <y>470</y>
+    <width>50</width>
+    <height>50</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="20.0">
+      </font>
+    </font>
+    <background_color>
+      <color red="242" green="242" blue="242">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>BotonReturn_3</name>
+    <text></text>
+    <x>20</x>
+    <y>470</y>
+    <width>50</width>
+    <height>50</height>
+    <background_color>
+      <color red="242" green="242" blue="242">
+      </color>
+    </background_color>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="picture" version="2.0.0">
+    <name>BotonReturn_4</name>
+    <file>../../Iconos/PNGRev/ESCAPE.png</file>
+    <x>28</x>
+    <y>478</y>
+    <width>35</width>
+    <height>35</height>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>BotonReturn_5</name>
+    <actions>
+      <action type="open_display">
+        <file>AnalogValveErrorCerrar.bob</file>
+        <target>window</target>
+        <description>Open Display</description>
+      </action>
+    </actions>
+    <text></text>
+    <x>20</x>
+    <y>470</y>
+    <width>50</width>
+    <height>50</height>
+    <background_color>
+      <color red="242" green="242" blue="242">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Boton4_3</name>
+    <text></text>
+    <x>260</x>
+    <y>472</y>
+    <width>50</width>
+    <height>50</height>
+    <background_color>
+      <color red="242" green="242" blue="242">
+      </color>
+    </background_color>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="picture" version="2.0.0">
+    <name>Boton4_4</name>
+    <file>../../Iconos/PNGRev/CIPBotonTermometroCentrigradosBajo.png</file>
+    <x>268</x>
+    <y>480</y>
+    <width>35</width>
+    <height>35</height>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Boton4_5</name>
+    <actions>
+      <action type="open_display">
+        <file>AnalogValveErrorCerrar.bob</file>
+        <target>window</target>
+        <description>Open Display</description>
+      </action>
+    </actions>
+    <text></text>
+    <x>260</x>
+    <y>472</y>
+    <width>50</width>
+    <height>50</height>
+    <background_color>
+      <color red="242" green="242" blue="242">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Boton5_3</name>
+    <text></text>
+    <x>340</x>
+    <y>472</y>
+    <width>50</width>
+    <height>50</height>
+    <background_color>
+      <color red="242" green="242" blue="242">
+      </color>
+    </background_color>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="picture" version="2.0.0">
+    <name>Boton5_4</name>
+    <file>../../Iconos/PNGRev/CIPBoton6.png</file>
+    <x>348</x>
+    <y>480</y>
+    <width>35</width>
+    <height>35</height>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Boton5_5</name>
+    <actions>
+      <action type="open_display">
+        <file>AnalogValveErrorCerrar.bob</file>
+        <target>window</target>
+        <description>Open Display</description>
+      </action>
+    </actions>
+    <text></text>
+    <x>340</x>
+    <y>472</y>
+    <width>50</width>
+    <height>50</height>
+    <background_color>
+      <color red="242" green="242" blue="242">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_14</name>
+    <text>VM2=</text>
+    <x>460</x>
+    <y>310</y>
+    <width>40</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="12.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_18</name>
+    <text>%</text>
+    <x>540</x>
+    <y>310</y>
+    <width>10</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="12.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_16</name>
+    <x>500</x>
+    <y>310</y>
+    <width>40</width>
+    <horizontal_alignment>2</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_19</name>
+    <text>VM3=</text>
+    <x>460</x>
+    <y>340</y>
+    <width>40</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="12.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_20</name>
+    <text>%</text>
+    <x>540</x>
+    <y>340</y>
+    <width>10</width>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="12.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_17</name>
+    <x>500</x>
+    <y>340</y>
+    <width>40</width>
+    <horizontal_alignment>2</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+</display>

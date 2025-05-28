@@ -1,0 +1,1478 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Saved on 2025-03-11 15:25:46 by Usuario-->
+<display version="2.0.0">
+  <name>Display</name>
+  <width>620</width>
+  <height>550</height>
+  <background_color>
+    <color red="190" green="190" blue="190">
+    </color>
+  </background_color>
+  <widget type="rectangle" version="2.0.0">
+    <name>Titulo</name>
+    <x>10</x>
+    <y>10</y>
+    <width>600</width>
+    <height>50</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color red="170" green="170" blue="170">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Read_Background" red="240" green="240" blue="240">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Titulo_1</name>
+    <text>Mando manual electroválvulas de desinfección</text>
+    <x>18</x>
+    <y>10</y>
+    <width>582</width>
+    <height>50</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="25.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>BotonOk_2</name>
+    <text></text>
+    <x>180</x>
+    <y>490</y>
+    <width>50</width>
+    <height>50</height>
+    <background_color>
+      <color red="242" green="242" blue="242">
+      </color>
+    </background_color>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>BotonOk_3</name>
+    <text>0</text>
+    <x>180</x>
+    <y>490</y>
+    <width>50</width>
+    <height>50</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="20.0">
+      </font>
+    </font>
+    <background_color>
+      <color red="242" green="242" blue="242">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>BotonReturn_3</name>
+    <text></text>
+    <x>20</x>
+    <y>490</y>
+    <width>50</width>
+    <height>50</height>
+    <background_color>
+      <color red="242" green="242" blue="242">
+      </color>
+    </background_color>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="picture" version="2.0.0">
+    <name>BotonReturn_4</name>
+    <file>../../Iconos/PNGRev/ESCAPE.png</file>
+    <x>28</x>
+    <y>498</y>
+    <width>35</width>
+    <height>35</height>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>BotonReturn_5</name>
+    <actions>
+      <action type="open_display">
+        <file>AnalogValveErrorCerrar.bob</file>
+        <target>window</target>
+        <description>Open Display</description>
+      </action>
+    </actions>
+    <text></text>
+    <x>20</x>
+    <y>490</y>
+    <width>50</width>
+    <height>50</height>
+    <background_color>
+      <color red="242" green="242" blue="242">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Boton4_3</name>
+    <text></text>
+    <x>100</x>
+    <y>490</y>
+    <width>50</width>
+    <height>50</height>
+    <background_color>
+      <color red="242" green="242" blue="242">
+      </color>
+    </background_color>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="picture" version="2.0.0">
+    <name>Boton4_4</name>
+    <file>../../Iconos/PNGRev/MANO.png</file>
+    <x>108</x>
+    <y>498</y>
+    <width>35</width>
+    <height>35</height>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Boton4_5</name>
+    <actions>
+      <action type="open_display">
+        <file>AnalogValveErrorCerrar.bob</file>
+        <target>window</target>
+        <description>Open Display</description>
+      </action>
+    </actions>
+    <text></text>
+    <x>100</x>
+    <y>490</y>
+    <width>50</width>
+    <height>50</height>
+    <background_color>
+      <color red="242" green="242" blue="242">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Boton4_6</name>
+    <text></text>
+    <x>260</x>
+    <y>490</y>
+    <width>50</width>
+    <height>50</height>
+    <background_color>
+      <color red="242" green="242" blue="242">
+      </color>
+    </background_color>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="picture" version="2.0.0">
+    <name>Boton4_7</name>
+    <file>../../Iconos/PNGRev/ALL_AUTO.png</file>
+    <x>268</x>
+    <y>498</y>
+    <width>35</width>
+    <height>35</height>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Boton4_8</name>
+    <actions>
+      <action type="open_display">
+        <file>AnalogValveErrorCerrar.bob</file>
+        <target>window</target>
+        <description>Open Display</description>
+      </action>
+    </actions>
+    <text></text>
+    <x>260</x>
+    <y>490</y>
+    <width>50</width>
+    <height>50</height>
+    <background_color>
+      <color red="242" green="242" blue="242">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>P1</name>
+    <x>40</x>
+    <y>80</y>
+    <width>220</width>
+    <height>70</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle_1</name>
+      <width>220</width>
+      <height>70</height>
+      <line_width>0</line_width>
+      <line_color>
+        <color name="Header_Background" red="77" green="77" blue="77">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Read_Background" red="240" green="240" blue="240">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>Boton5_3</name>
+      <text></text>
+      <x>91</x>
+      <y>23</y>
+      <width>40</width>
+      <height>40</height>
+      <background_color>
+        <color red="242" green="242" blue="242">
+        </color>
+      </background_color>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+    <widget type="picture" version="2.0.0">
+      <name>Boton5_4</name>
+      <file>../../Iconos/PNGRev/ALL_AUTO.png</file>
+      <x>99</x>
+      <y>31</y>
+      <width>25</width>
+      <height>25</height>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>Boton5_5</name>
+      <actions>
+        <action type="open_display">
+          <file>AnalogValveErrorCerrar.bob</file>
+          <target>window</target>
+          <description>Open Display</description>
+        </action>
+      </actions>
+      <text></text>
+      <x>91</x>
+      <y>23</y>
+      <width>40</width>
+      <height>40</height>
+      <background_color>
+        <color red="242" green="242" blue="242">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle</name>
+      <x>10</x>
+      <y>8</y>
+      <width>75</width>
+      <height>55</height>
+      <line_width>0</line_width>
+      <background_color>
+        <color name="Grid" red="128" green="128" blue="128">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label</name>
+      <text>EV17</text>
+      <x>170</x>
+      <y>5</y>
+      <width>40</width>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <horizontal_alignment>2</horizontal_alignment>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_7</name>
+      <text>Activación pulverizador</text>
+      <x>140</x>
+      <y>20</y>
+      <width>70</width>
+      <height>40</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="10.0">
+        </font>
+      </font>
+      <vertical_alignment>2</vertical_alignment>
+    </widget>
+    <widget type="polygon" version="2.0.0">
+      <name>Polygon_5</name>
+      <x>18</x>
+      <y>17</y>
+      <width>30</width>
+      <height>19</height>
+      <points>
+        <point x="0.0" y="41.052631578947356">
+        </point>
+        <point x="58.0" y="0.0">
+        </point>
+        <point x="58.0" y="41.052631578947356">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+      </points>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Header_Background" red="77" green="77" blue="77">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Header_ForeGround" red="255" green="255" blue="255">
+        </color>
+      </background_color>
+    </widget>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>P1_1</name>
+    <x>40</x>
+    <y>160</y>
+    <width>220</width>
+    <height>70</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle_2</name>
+      <width>220</width>
+      <height>70</height>
+      <line_width>0</line_width>
+      <line_color>
+        <color name="Header_Background" red="77" green="77" blue="77">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Read_Background" red="240" green="240" blue="240">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>Boton5_6</name>
+      <text></text>
+      <x>91</x>
+      <y>23</y>
+      <width>40</width>
+      <height>40</height>
+      <background_color>
+        <color red="242" green="242" blue="242">
+        </color>
+      </background_color>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+    <widget type="picture" version="2.0.0">
+      <name>Boton5_7</name>
+      <file>../../Iconos/PNGRev/ALL_AUTO.png</file>
+      <x>99</x>
+      <y>31</y>
+      <width>25</width>
+      <height>25</height>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>Boton5_8</name>
+      <actions>
+        <action type="open_display">
+          <file>AnalogValveErrorCerrar.bob</file>
+          <target>window</target>
+          <description>Open Display</description>
+        </action>
+      </actions>
+      <text></text>
+      <x>91</x>
+      <y>23</y>
+      <width>40</width>
+      <height>40</height>
+      <background_color>
+        <color red="242" green="242" blue="242">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle_3</name>
+      <x>10</x>
+      <y>8</y>
+      <width>75</width>
+      <height>55</height>
+      <line_width>0</line_width>
+      <background_color>
+        <color name="Grid" red="128" green="128" blue="128">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_1</name>
+      <text>EV31</text>
+      <x>170</x>
+      <y>5</y>
+      <width>40</width>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <horizontal_alignment>2</horizontal_alignment>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_8</name>
+      <text>Activación aspiración</text>
+      <x>140</x>
+      <y>20</y>
+      <width>70</width>
+      <height>40</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="10.0">
+        </font>
+      </font>
+      <vertical_alignment>2</vertical_alignment>
+    </widget>
+    <widget type="polygon" version="2.0.0">
+      <name>Polygon_6</name>
+      <x>18</x>
+      <y>17</y>
+      <width>30</width>
+      <height>19</height>
+      <points>
+        <point x="0.0" y="41.052631578947356">
+        </point>
+        <point x="58.0" y="0.0">
+        </point>
+        <point x="58.0" y="41.052631578947356">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+      </points>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Header_Background" red="77" green="77" blue="77">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Header_ForeGround" red="255" green="255" blue="255">
+        </color>
+      </background_color>
+    </widget>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>P1_2</name>
+    <x>40</x>
+    <y>240</y>
+    <width>220</width>
+    <height>70</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle_4</name>
+      <width>220</width>
+      <height>70</height>
+      <line_width>0</line_width>
+      <line_color>
+        <color name="Header_Background" red="77" green="77" blue="77">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Read_Background" red="240" green="240" blue="240">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>Boton5_9</name>
+      <text></text>
+      <x>91</x>
+      <y>23</y>
+      <width>40</width>
+      <height>40</height>
+      <background_color>
+        <color red="242" green="242" blue="242">
+        </color>
+      </background_color>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+    <widget type="picture" version="2.0.0">
+      <name>Boton5_10</name>
+      <file>../../Iconos/PNGRev/ALL_AUTO.png</file>
+      <x>99</x>
+      <y>31</y>
+      <width>25</width>
+      <height>25</height>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>Boton5_11</name>
+      <actions>
+        <action type="open_display">
+          <file>AnalogValveErrorCerrar.bob</file>
+          <target>window</target>
+          <description>Open Display</description>
+        </action>
+      </actions>
+      <text></text>
+      <x>91</x>
+      <y>23</y>
+      <width>40</width>
+      <height>40</height>
+      <background_color>
+        <color red="242" green="242" blue="242">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle_5</name>
+      <x>10</x>
+      <y>8</y>
+      <width>75</width>
+      <height>55</height>
+      <line_width>0</line_width>
+      <background_color>
+        <color name="Grid" red="128" green="128" blue="128">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_9</name>
+      <text>EV33</text>
+      <x>170</x>
+      <y>5</y>
+      <width>40</width>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <horizontal_alignment>2</horizontal_alignment>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_10</name>
+      <text>Entrada líquido desinfectante1</text>
+      <x>140</x>
+      <y>20</y>
+      <width>70</width>
+      <height>40</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="10.0">
+        </font>
+      </font>
+      <vertical_alignment>2</vertical_alignment>
+    </widget>
+    <widget type="polygon" version="2.0.0">
+      <name>Polygon_7</name>
+      <x>18</x>
+      <y>17</y>
+      <width>30</width>
+      <height>19</height>
+      <points>
+        <point x="0.0" y="41.052631578947356">
+        </point>
+        <point x="58.0" y="0.0">
+        </point>
+        <point x="58.0" y="41.052631578947356">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+      </points>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Header_Background" red="77" green="77" blue="77">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Header_ForeGround" red="255" green="255" blue="255">
+        </color>
+      </background_color>
+    </widget>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>P1_3</name>
+    <x>40</x>
+    <y>320</y>
+    <width>220</width>
+    <height>70</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle_6</name>
+      <width>220</width>
+      <height>70</height>
+      <line_width>0</line_width>
+      <line_color>
+        <color name="Header_Background" red="77" green="77" blue="77">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Read_Background" red="240" green="240" blue="240">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>Boton5_12</name>
+      <text></text>
+      <x>91</x>
+      <y>23</y>
+      <width>40</width>
+      <height>40</height>
+      <background_color>
+        <color red="242" green="242" blue="242">
+        </color>
+      </background_color>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+    <widget type="picture" version="2.0.0">
+      <name>Boton5_13</name>
+      <file>../../Iconos/PNGRev/ALL_AUTO.png</file>
+      <x>99</x>
+      <y>31</y>
+      <width>25</width>
+      <height>25</height>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>Boton5_14</name>
+      <actions>
+        <action type="open_display">
+          <file>AnalogValveErrorCerrar.bob</file>
+          <target>window</target>
+          <description>Open Display</description>
+        </action>
+      </actions>
+      <text></text>
+      <x>91</x>
+      <y>23</y>
+      <width>40</width>
+      <height>40</height>
+      <background_color>
+        <color red="242" green="242" blue="242">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle_7</name>
+      <x>10</x>
+      <y>8</y>
+      <width>75</width>
+      <height>55</height>
+      <line_width>0</line_width>
+      <background_color>
+        <color name="Grid" red="128" green="128" blue="128">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_11</name>
+      <text>EV34</text>
+      <x>170</x>
+      <y>5</y>
+      <width>40</width>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <horizontal_alignment>2</horizontal_alignment>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_12</name>
+      <text>Entrada líquido desinfectante2</text>
+      <x>140</x>
+      <y>20</y>
+      <width>70</width>
+      <height>40</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="10.0">
+        </font>
+      </font>
+      <vertical_alignment>2</vertical_alignment>
+    </widget>
+    <widget type="polygon" version="2.0.0">
+      <name>Polygon_8</name>
+      <x>18</x>
+      <y>17</y>
+      <width>30</width>
+      <height>19</height>
+      <points>
+        <point x="0.0" y="41.052631578947356">
+        </point>
+        <point x="58.0" y="0.0">
+        </point>
+        <point x="58.0" y="41.052631578947356">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+      </points>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Header_Background" red="77" green="77" blue="77">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Header_ForeGround" red="255" green="255" blue="255">
+        </color>
+      </background_color>
+    </widget>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>P1_4</name>
+    <x>40</x>
+    <y>400</y>
+    <width>220</width>
+    <height>70</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle_8</name>
+      <width>220</width>
+      <height>70</height>
+      <line_width>0</line_width>
+      <line_color>
+        <color name="Header_Background" red="77" green="77" blue="77">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Read_Background" red="240" green="240" blue="240">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>Boton5_15</name>
+      <text></text>
+      <x>91</x>
+      <y>23</y>
+      <width>40</width>
+      <height>40</height>
+      <background_color>
+        <color red="242" green="242" blue="242">
+        </color>
+      </background_color>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+    <widget type="picture" version="2.0.0">
+      <name>Boton5_16</name>
+      <file>../../Iconos/PNGRev/ALL_AUTO.png</file>
+      <x>99</x>
+      <y>31</y>
+      <width>25</width>
+      <height>25</height>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>Boton5_17</name>
+      <actions>
+        <action type="open_display">
+          <file>AnalogValveErrorCerrar.bob</file>
+          <target>window</target>
+          <description>Open Display</description>
+        </action>
+      </actions>
+      <text></text>
+      <x>91</x>
+      <y>23</y>
+      <width>40</width>
+      <height>40</height>
+      <background_color>
+        <color red="242" green="242" blue="242">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle_9</name>
+      <x>10</x>
+      <y>8</y>
+      <width>75</width>
+      <height>55</height>
+      <line_width>0</line_width>
+      <background_color>
+        <color name="Grid" red="128" green="128" blue="128">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_13</name>
+      <text>EV35</text>
+      <x>160</x>
+      <y>5</y>
+      <width>50</width>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <horizontal_alignment>2</horizontal_alignment>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_14</name>
+      <text>Entrada líquido desinfectante3</text>
+      <x>140</x>
+      <y>20</y>
+      <width>70</width>
+      <height>40</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="10.0">
+        </font>
+      </font>
+      <vertical_alignment>2</vertical_alignment>
+    </widget>
+    <widget type="polygon" version="2.0.0">
+      <name>Polygon_9</name>
+      <x>18</x>
+      <y>17</y>
+      <width>30</width>
+      <height>19</height>
+      <points>
+        <point x="0.0" y="41.052631578947356">
+        </point>
+        <point x="58.0" y="0.0">
+        </point>
+        <point x="58.0" y="41.052631578947356">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+      </points>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Header_Background" red="77" green="77" blue="77">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Header_ForeGround" red="255" green="255" blue="255">
+        </color>
+      </background_color>
+    </widget>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>P1_5</name>
+    <x>360</x>
+    <y>80</y>
+    <width>220</width>
+    <height>70</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle_10</name>
+      <width>220</width>
+      <height>70</height>
+      <line_width>0</line_width>
+      <line_color>
+        <color name="Header_Background" red="77" green="77" blue="77">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Read_Background" red="240" green="240" blue="240">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>Boton5_18</name>
+      <text></text>
+      <x>91</x>
+      <y>23</y>
+      <width>40</width>
+      <height>40</height>
+      <background_color>
+        <color red="242" green="242" blue="242">
+        </color>
+      </background_color>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+    <widget type="picture" version="2.0.0">
+      <name>Boton5_19</name>
+      <file>../../Iconos/PNGRev/ALL_AUTO.png</file>
+      <x>99</x>
+      <y>31</y>
+      <width>25</width>
+      <height>25</height>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>Boton5_20</name>
+      <actions>
+        <action type="open_display">
+          <file>AnalogValveErrorCerrar.bob</file>
+          <target>window</target>
+          <description>Open Display</description>
+        </action>
+      </actions>
+      <text></text>
+      <x>91</x>
+      <y>23</y>
+      <width>40</width>
+      <height>40</height>
+      <background_color>
+        <color red="242" green="242" blue="242">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle_11</name>
+      <x>10</x>
+      <y>8</y>
+      <width>75</width>
+      <height>55</height>
+      <line_width>0</line_width>
+      <background_color>
+        <color name="Grid" red="128" green="128" blue="128">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_15</name>
+      <text>EV32</text>
+      <x>160</x>
+      <y>5</y>
+      <width>50</width>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <horizontal_alignment>2</horizontal_alignment>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_16</name>
+      <text>Lavado tubo de Venturi</text>
+      <x>140</x>
+      <y>20</y>
+      <width>70</width>
+      <height>40</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="10.0">
+        </font>
+      </font>
+      <vertical_alignment>2</vertical_alignment>
+    </widget>
+    <widget type="polygon" version="2.0.0">
+      <name>Polygon_10</name>
+      <x>18</x>
+      <y>17</y>
+      <width>30</width>
+      <height>19</height>
+      <points>
+        <point x="0.0" y="41.052631578947356">
+        </point>
+        <point x="58.0" y="0.0">
+        </point>
+        <point x="58.0" y="41.052631578947356">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+      </points>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Header_Background" red="77" green="77" blue="77">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Header_ForeGround" red="255" green="255" blue="255">
+        </color>
+      </background_color>
+    </widget>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>P1_6</name>
+    <x>360</x>
+    <y>160</y>
+    <width>220</width>
+    <height>70</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle_12</name>
+      <width>220</width>
+      <height>70</height>
+      <line_width>0</line_width>
+      <line_color>
+        <color name="Header_Background" red="77" green="77" blue="77">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Read_Background" red="240" green="240" blue="240">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>Boton5_21</name>
+      <text></text>
+      <x>91</x>
+      <y>23</y>
+      <width>40</width>
+      <height>40</height>
+      <background_color>
+        <color red="242" green="242" blue="242">
+        </color>
+      </background_color>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+    <widget type="picture" version="2.0.0">
+      <name>Boton5_22</name>
+      <file>../../Iconos/PNGRev/ALL_AUTO.png</file>
+      <x>99</x>
+      <y>31</y>
+      <width>25</width>
+      <height>25</height>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>Boton5_23</name>
+      <actions>
+        <action type="open_display">
+          <file>AnalogValveErrorCerrar.bob</file>
+          <target>window</target>
+          <description>Open Display</description>
+        </action>
+      </actions>
+      <text></text>
+      <x>91</x>
+      <y>23</y>
+      <width>40</width>
+      <height>40</height>
+      <background_color>
+        <color red="242" green="242" blue="242">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle_13</name>
+      <x>10</x>
+      <y>8</y>
+      <width>75</width>
+      <height>55</height>
+      <line_width>0</line_width>
+      <background_color>
+        <color name="Grid" red="128" green="128" blue="128">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_17</name>
+      <text>EV36</text>
+      <x>160</x>
+      <y>5</y>
+      <width>50</width>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <horizontal_alignment>2</horizontal_alignment>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_18</name>
+      <text>Reciclado líquido desinfectante</text>
+      <x>140</x>
+      <y>20</y>
+      <width>70</width>
+      <height>40</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="10.0">
+        </font>
+      </font>
+      <vertical_alignment>2</vertical_alignment>
+    </widget>
+    <widget type="polygon" version="2.0.0">
+      <name>Polygon_11</name>
+      <x>18</x>
+      <y>17</y>
+      <width>30</width>
+      <height>19</height>
+      <points>
+        <point x="0.0" y="41.052631578947356">
+        </point>
+        <point x="58.0" y="0.0">
+        </point>
+        <point x="58.0" y="41.052631578947356">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+      </points>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Header_Background" red="77" green="77" blue="77">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Header_ForeGround" red="255" green="255" blue="255">
+        </color>
+      </background_color>
+    </widget>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>P1_7</name>
+    <x>360</x>
+    <y>240</y>
+    <width>220</width>
+    <height>70</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle_14</name>
+      <width>220</width>
+      <height>70</height>
+      <line_width>0</line_width>
+      <line_color>
+        <color name="Header_Background" red="77" green="77" blue="77">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Read_Background" red="240" green="240" blue="240">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>Boton5_24</name>
+      <text></text>
+      <x>91</x>
+      <y>23</y>
+      <width>40</width>
+      <height>40</height>
+      <background_color>
+        <color red="242" green="242" blue="242">
+        </color>
+      </background_color>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+    <widget type="picture" version="2.0.0">
+      <name>Boton5_25</name>
+      <file>../../Iconos/PNGRev/ALL_AUTO.png</file>
+      <x>99</x>
+      <y>31</y>
+      <width>25</width>
+      <height>25</height>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>Boton5_26</name>
+      <actions>
+        <action type="open_display">
+          <file>AnalogValveErrorCerrar.bob</file>
+          <target>window</target>
+          <description>Open Display</description>
+        </action>
+      </actions>
+      <text></text>
+      <x>91</x>
+      <y>23</y>
+      <width>40</width>
+      <height>40</height>
+      <background_color>
+        <color red="242" green="242" blue="242">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle_15</name>
+      <x>10</x>
+      <y>8</y>
+      <width>75</width>
+      <height>55</height>
+      <line_width>0</line_width>
+      <background_color>
+        <color name="Grid" red="128" green="128" blue="128">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_19</name>
+      <text>EV37</text>
+      <x>160</x>
+      <y>5</y>
+      <width>50</width>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <horizontal_alignment>2</horizontal_alignment>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_20</name>
+      <text>Descarga desinfectante 1</text>
+      <x>140</x>
+      <y>20</y>
+      <width>70</width>
+      <height>40</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="10.0">
+        </font>
+      </font>
+      <vertical_alignment>2</vertical_alignment>
+    </widget>
+    <widget type="polygon" version="2.0.0">
+      <name>Polygon_12</name>
+      <x>18</x>
+      <y>17</y>
+      <width>30</width>
+      <height>19</height>
+      <points>
+        <point x="0.0" y="41.052631578947356">
+        </point>
+        <point x="58.0" y="0.0">
+        </point>
+        <point x="58.0" y="41.052631578947356">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+      </points>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Header_Background" red="77" green="77" blue="77">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Header_ForeGround" red="255" green="255" blue="255">
+        </color>
+      </background_color>
+    </widget>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>P1_8</name>
+    <x>360</x>
+    <y>320</y>
+    <width>220</width>
+    <height>70</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle_16</name>
+      <width>220</width>
+      <height>70</height>
+      <line_width>0</line_width>
+      <line_color>
+        <color name="Header_Background" red="77" green="77" blue="77">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Read_Background" red="240" green="240" blue="240">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>Boton5_27</name>
+      <text></text>
+      <x>91</x>
+      <y>23</y>
+      <width>40</width>
+      <height>40</height>
+      <background_color>
+        <color red="242" green="242" blue="242">
+        </color>
+      </background_color>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+    <widget type="picture" version="2.0.0">
+      <name>Boton5_28</name>
+      <file>../../Iconos/PNGRev/ALL_AUTO.png</file>
+      <x>99</x>
+      <y>31</y>
+      <width>25</width>
+      <height>25</height>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>Boton5_29</name>
+      <actions>
+        <action type="open_display">
+          <file>AnalogValveErrorCerrar.bob</file>
+          <target>window</target>
+          <description>Open Display</description>
+        </action>
+      </actions>
+      <text></text>
+      <x>91</x>
+      <y>23</y>
+      <width>40</width>
+      <height>40</height>
+      <background_color>
+        <color red="242" green="242" blue="242">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle_17</name>
+      <x>10</x>
+      <y>8</y>
+      <width>75</width>
+      <height>55</height>
+      <line_width>0</line_width>
+      <background_color>
+        <color name="Grid" red="128" green="128" blue="128">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_21</name>
+      <text>EV18</text>
+      <x>160</x>
+      <y>5</y>
+      <width>50</width>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <horizontal_alignment>2</horizontal_alignment>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_22</name>
+      <text>Despresurización tanque agua</text>
+      <x>140</x>
+      <y>20</y>
+      <width>70</width>
+      <height>40</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="10.0">
+        </font>
+      </font>
+      <vertical_alignment>2</vertical_alignment>
+    </widget>
+    <widget type="polygon" version="2.0.0">
+      <name>Polygon_13</name>
+      <x>18</x>
+      <y>17</y>
+      <width>30</width>
+      <height>19</height>
+      <points>
+        <point x="0.0" y="41.052631578947356">
+        </point>
+        <point x="58.0" y="0.0">
+        </point>
+        <point x="58.0" y="41.052631578947356">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+      </points>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Header_Background" red="77" green="77" blue="77">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Header_ForeGround" red="255" green="255" blue="255">
+        </color>
+      </background_color>
+    </widget>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>P1_9</name>
+    <x>360</x>
+    <y>400</y>
+    <width>220</width>
+    <height>70</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle_18</name>
+      <width>220</width>
+      <height>70</height>
+      <line_width>0</line_width>
+      <line_color>
+        <color name="Header_Background" red="77" green="77" blue="77">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Read_Background" red="240" green="240" blue="240">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>Boton5_30</name>
+      <text></text>
+      <x>91</x>
+      <y>23</y>
+      <width>40</width>
+      <height>40</height>
+      <background_color>
+        <color red="242" green="242" blue="242">
+        </color>
+      </background_color>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+    <widget type="picture" version="2.0.0">
+      <name>Boton5_31</name>
+      <file>../../Iconos/PNGRev/ALL_AUTO.png</file>
+      <x>99</x>
+      <y>31</y>
+      <width>25</width>
+      <height>25</height>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>Boton5_32</name>
+      <actions>
+        <action type="open_display">
+          <file>AnalogValveErrorCerrar.bob</file>
+          <target>window</target>
+          <description>Open Display</description>
+        </action>
+      </actions>
+      <text></text>
+      <x>91</x>
+      <y>23</y>
+      <width>40</width>
+      <height>40</height>
+      <background_color>
+        <color red="242" green="242" blue="242">
+        </color>
+      </background_color>
+      <transparent>true</transparent>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle_19</name>
+      <x>10</x>
+      <y>8</y>
+      <width>75</width>
+      <height>55</height>
+      <line_width>0</line_width>
+      <background_color>
+        <color name="Grid" red="128" green="128" blue="128">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_23</name>
+      <text>EV21</text>
+      <x>160</x>
+      <y>5</y>
+      <width>50</width>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <horizontal_alignment>2</horizontal_alignment>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label_24</name>
+      <text>Despresurización saturador</text>
+      <x>140</x>
+      <y>20</y>
+      <width>70</width>
+      <height>40</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="10.0">
+        </font>
+      </font>
+      <vertical_alignment>2</vertical_alignment>
+    </widget>
+    <widget type="polygon" version="2.0.0">
+      <name>Polygon_14</name>
+      <x>18</x>
+      <y>17</y>
+      <width>30</width>
+      <height>19</height>
+      <points>
+        <point x="0.0" y="41.052631578947356">
+        </point>
+        <point x="58.0" y="0.0">
+        </point>
+        <point x="58.0" y="41.052631578947356">
+        </point>
+        <point x="0.0" y="0.0">
+        </point>
+      </points>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Header_Background" red="77" green="77" blue="77">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Header_ForeGround" red="255" green="255" blue="255">
+        </color>
+      </background_color>
+    </widget>
+  </widget>
+</display>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Saved on 2025-02-05 15:40:00 by Usuario-->
+<display version="2.0.0">
+  <name>Display</name>
+  <width>240</width>
+  <height>130</height>
+  <background_color>
+    <color red="190" green="190" blue="190">
+    </color>
+  </background_color>
+  <widget type="rectangle" version="2.0.0">
+    <name>Titulo</name>
+    <x>10</x>
+    <y>10</y>
+    <width>220</width>
+    <height>50</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color red="170" green="170" blue="170">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Read_Background" red="240" green="240" blue="240">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Titulo_1</name>
+    <text>Enjuague</text>
+    <x>18</x>
+    <y>10</y>
+    <width>202</width>
+    <height>50</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="20.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>BotonReturn_6</name>
+    <text></text>
+    <x>20</x>
+    <y>70</y>
+    <width>50</width>
+    <height>50</height>
+    <background_color>
+      <color red="242" green="242" blue="242">
+      </color>
+    </background_color>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="picture" version="2.0.0">
+    <name>BotonReturn_7</name>
+    <file>../../Iconos/PNGRev/ESCAPE.png</file>
+    <x>28</x>
+    <y>78</y>
+    <width>35</width>
+    <height>35</height>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>BotonReturn_8</name>
+    <actions>
+      <action type="open_display">
+        <file>AnalogValveErrorCerrar.bob</file>
+        <target>window</target>
+        <description>Open Display</description>
+      </action>
+    </actions>
+    <text></text>
+    <x>20</x>
+    <y>70</y>
+    <width>50</width>
+    <height>50</height>
+    <background_color>
+      <color red="242" green="242" blue="242">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Boton3</name>
+    <text></text>
+    <x>180</x>
+    <y>70</y>
+    <width>50</width>
+    <height>50</height>
+    <background_color>
+      <color red="242" green="242" blue="242">
+      </color>
+    </background_color>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="picture" version="2.0.0">
+    <name>Boton3_1</name>
+    <file>../../Iconos/PNGRev/SCaticico.png</file>
+    <x>188</x>
+    <y>78</y>
+    <width>35</width>
+    <height>35</height>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Boton3_2</name>
+    <actions>
+      <action type="open_display">
+        <file>AnalogValveErrorCerrar.bob</file>
+        <target>window</target>
+        <description>Open Display</description>
+      </action>
+    </actions>
+    <text></text>
+    <x>180</x>
+    <y>70</y>
+    <width>50</width>
+    <height>50</height>
+    <background_color>
+      <color red="242" green="242" blue="242">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>BotonReturn_9</name>
+    <text></text>
+    <x>100</x>
+    <y>70</y>
+    <width>50</width>
+    <height>50</height>
+    <background_color>
+      <color red="242" green="242" blue="242">
+      </color>
+    </background_color>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="picture" version="2.0.0">
+    <name>BotonReturn_10</name>
+    <file>../../Iconos/PNGRev/rinser.png</file>
+    <x>108</x>
+    <y>78</y>
+    <width>35</width>
+    <height>35</height>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>BotonReturn_11</name>
+    <actions>
+      <action type="open_display">
+        <file>AnalogValveErrorCerrar.bob</file>
+        <target>window</target>
+        <description>Open Display</description>
+      </action>
+    </actions>
+    <text></text>
+    <x>100</x>
+    <y>70</y>
+    <width>50</width>
+    <height>50</height>
+    <background_color>
+      <color red="242" green="242" blue="242">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+</display>

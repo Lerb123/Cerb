@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Saved on 2025-02-02 13:36:26 by Usuario-->
+<display version="2.0.0">
+  <name>Display</name>
+  <width>620</width>
+  <height>550</height>
+  <background_color>
+    <color red="190" green="190" blue="190">
+    </color>
+  </background_color>
+  <widget type="rectangle" version="2.0.0">
+    <name>Titulo</name>
+    <x>10</x>
+    <y>10</y>
+    <width>600</width>
+    <height>50</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color red="170" green="170" blue="170">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Read_Background" red="240" green="240" blue="240">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Titulo_1</name>
+    <text>Mando manual electroválvulas de desinfección</text>
+    <x>18</x>
+    <y>10</y>
+    <width>582</width>
+    <height>50</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="25.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>BotonOk_2</name>
+    <text></text>
+    <x>180</x>
+    <y>490</y>
+    <width>50</width>
+    <height>50</height>
+    <background_color>
+      <color red="242" green="242" blue="242">
+      </color>
+    </background_color>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>BotonOk_3</name>
+    <text>0</text>
+    <x>180</x>
+    <y>490</y>
+    <width>50</width>
+    <height>50</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="20.0">
+      </font>
+    </font>
+    <background_color>
+      <color red="242" green="242" blue="242">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>BotonReturn_3</name>
+    <text></text>
+    <x>20</x>
+    <y>490</y>
+    <width>50</width>
+    <height>50</height>
+    <background_color>
+      <color red="242" green="242" blue="242">
+      </color>
+    </background_color>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="picture" version="2.0.0">
+    <name>BotonReturn_4</name>
+    <file>../Iconos/PNGRev/ESCAPE.png</file>
+    <x>28</x>
+    <y>498</y>
+    <width>35</width>
+    <height>35</height>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>BotonReturn_5</name>
+    <actions>
+      <action type="open_display">
+        <file>AnalogValveErrorCerrar.bob</file>
+        <target>window</target>
+        <description>Open Display</description>
+      </action>
+    </actions>
+    <text></text>
+    <x>20</x>
+    <y>490</y>
+    <width>50</width>
+    <height>50</height>
+    <background_color>
+      <color red="242" green="242" blue="242">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Boton4_3</name>
+    <text></text>
+    <x>100</x>
+    <y>490</y>
+    <width>50</width>
+    <height>50</height>
+    <background_color>
+      <color red="242" green="242" blue="242">
+      </color>
+    </background_color>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="picture" version="2.0.0">
+    <name>Boton4_4</name>
+    <file>../Iconos/PNGRev/MANO.png</file>
+    <x>108</x>
+    <y>498</y>
+    <width>35</width>
+    <height>35</height>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Boton4_5</name>
+    <actions>
+      <action type="open_display">
+        <file>AnalogValveErrorCerrar.bob</file>
+        <target>window</target>
+        <description>Open Display</description>
+      </action>
+    </actions>
+    <text></text>
+    <x>100</x>
+    <y>490</y>
+    <width>50</width>
+    <height>50</height>
+    <background_color>
+      <color red="242" green="242" blue="242">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Boton4_6</name>
+    <text></text>
+    <x>260</x>
+    <y>490</y>
+    <width>50</width>
+    <height>50</height>
+    <background_color>
+      <color red="242" green="242" blue="242">
+      </color>
+    </background_color>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="picture" version="2.0.0">
+    <name>Boton4_7</name>
+    <file>../Iconos/PNGRev/ALL_AUTO.png</file>
+    <x>268</x>
+    <y>498</y>
+    <width>35</width>
+    <height>35</height>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Boton4_8</name>
+    <actions>
+      <action type="open_display">
+        <file>AnalogValveErrorCerrar.bob</file>
+        <target>window</target>
+        <description>Open Display</description>
+      </action>
+    </actions>
+    <text></text>
+    <x>260</x>
+    <y>490</y>
+    <width>50</width>
+    <height>50</height>
+    <background_color>
+      <color red="242" green="242" blue="242">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>NombreDelPrograma</name>
+    <x>20</x>
+    <y>80</y>
+    <width>180</width>
+    <height>30</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Read_Background" red="240" green="240" blue="240">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>NombreDelPrograma_1</name>
+    <text>Nombre del programa</text>
+    <x>20</x>
+    <y>80</y>
+    <width>180</width>
+    <height>30</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <background_color>
+      <color red="210" green="210" blue="210" alpha="254">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="combo" version="2.0.0">
+    <name>Combo Box_3</name>
+    <pv_name>loc://programaSimple</pv_name>
+    <x>20</x>
+    <y>120</y>
+    <width>180</width>
+    <background_color>
+      <color red="242" green="242" blue="242">
+      </color>
+    </background_color>
+    <items>
+      <item>Enjuague final</item>
+      <item>Enjuague caliente</item>
+      <item>Enjuague frio</item>
+      <item>Lavage con soda 80 C </item>
+      <item>Cloro</item>
+      <item>Lavage Acido</item>
+      <item>Drenaje</item>
+      <item>Enjuague simple</item>
+      <item>Desinfectante con C</item>
+      <item>Lavage Acido C</item>
+      <item>Enjuague desde sala</item>
+      <item>Llenar tanque desde</item>
+      <item>Llenar tanques</item>
+      <item>Test</item>
+      <item>Programa N 15</item>
+      <item>Programa N 16</item>
+      <item>Programa N 17</item>
+      <item>Programa N 18</item>
+      <item>Programa N 19</item>
+    </items>
+  </widget>
+</display>

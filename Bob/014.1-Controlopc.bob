@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Saved on 2025-05-28 17:06:12 by ceos-->
+<display version="2.0.0">
+  <name>control</name>
+  <height>243</height>
+  <widget type="group" version="3.0.0">
+    <name>Group</name>
+    <x>5</x>
+    <y>7</y>
+    <width>395</width>
+    <height>42</height>
+    <style>2</style>
+    <widget type="label" version="2.0.0">
+      <name>Control:</name>
+      <text>Control</text>
+      <x>60</x>
+      <y>10</y>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="16.0">
+        </font>
+      </font>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>Action Button_5</name>
+      <actions>
+        <action type="write_pv">
+          <description>Brix</description>
+          <pv_name>$(pv_name)</pv_name>
+          <value>2</value>
+        </action>
+      </actions>
+      <pv_name>pva://fbEM_Main_DB_PARAMS_ProductionData_iBeberageType/value</pv_name>
+      <text>Brix</text>
+      <x>175</x>
+      <y>4</y>
+      <width>90</width>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="16.0">
+        </font>
+      </font>
+      <rules>
+        <rule name="New Rule" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pvInt0 == 2">
+            <value>
+              <color red="179" green="230" blue="179">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="pvInt0 != 2">
+            <value>
+              <color name="Button_Background" red="210" green="210" blue="210">
+              </color>
+            </value>
+          </exp>
+          <pv_name>$(pv_name)</pv_name>
+        </rule>
+        <rule name="New Rule" prop_id="enabled" out_exp="false">
+          <exp bool_exp="pvInt0 ==2">
+            <value>false</value>
+          </exp>
+          <exp bool_exp="pvInt0 !=2">
+            <value>true</value>
+          </exp>
+          <pv_name>pva://fbEM_Main_DB_State/value</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>Action Button_7</name>
+      <actions>
+        <action type="write_pv">
+          <description>Dieta</description>
+          <pv_name>$(pv_name)</pv_name>
+          <value>3</value>
+        </action>
+      </actions>
+      <pv_name>pva://fbEM_Main_DB_PARAMS_ProductionData_iBeberageType/value</pv_name>
+      <text>Dieta</text>
+      <x>293</x>
+      <y>4</y>
+      <width>90</width>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="16.0">
+        </font>
+      </font>
+      <rules>
+        <rule name="New Rule" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pvInt0 == 3">
+            <value>
+              <color red="179" green="230" blue="179">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="pvInt0 != 3">
+            <value>
+              <color name="Button_Background" red="210" green="210" blue="210">
+              </color>
+            </value>
+          </exp>
+          <pv_name>$(pv_name)</pv_name>
+        </rule>
+        <rule name="New Rule" prop_id="enabled" out_exp="false">
+          <exp bool_exp="pvInt0 ==2">
+            <value>false</value>
+          </exp>
+          <exp bool_exp="pvInt0 !=2">
+            <value>true</value>
+          </exp>
+          <pv_name>pva://fbEM_Main_DB_State/value</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>Group_1</name>
+    <x>411</x>
+    <y>8</y>
+    <width>384</width>
+    <height>42</height>
+    <style>2</style>
+    <widget type="label" version="2.0.0">
+      <name>Control:_1</name>
+      <text>Estado:</text>
+      <x>60</x>
+      <y>10</y>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="16.0">
+        </font>
+      </font>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Text Update</name>
+      <text></text>
+      <x>136</x>
+      <y>6</y>
+      <width>234</width>
+      <height>30</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="16.0">
+        </font>
+      </font>
+      <background_color>
+        <color name="Read_Background" red="240" green="240" blue="240">
+        </color>
+      </background_color>
+      <transparent>false</transparent>
+      <horizontal_alignment>1</horizontal_alignment>
+      <rules>
+        <rule name="Estado" prop_id="text" out_exp="false">
+          <exp bool_exp="pvInt0 == 0">
+            <value>IDDLE</value>
+          </exp>
+          <exp bool_exp="pvInt0 == 1">
+            <value>STARTING</value>
+          </exp>
+          <exp bool_exp="pvInt0 == 2">
+            <value>RUNNING</value>
+          </exp>
+          <exp bool_exp="pvInt0 == 3">
+            <value>PAUSING</value>
+          </exp>
+          <exp bool_exp="pvInt0 == 4">
+            <value>PAUSED</value>
+          </exp>
+          <exp bool_exp="pvInt0 == 5">
+            <value>HOLDING</value>
+          </exp>
+          <exp bool_exp="pvInt0 == 6">
+            <value>HELD</value>
+          </exp>
+          <exp bool_exp="pvInt0 == 7">
+            <value>RESTARTING</value>
+          </exp>
+          <exp bool_exp="pvInt0 == 8">
+            <value>STOPPING</value>
+          </exp>
+          <exp bool_exp="pvInt0 == 9">
+            <value>STOPPED</value>
+          </exp>
+          <exp bool_exp="pvInt0 == 10">
+            <value>ABORTING</value>
+          </exp>
+          <exp bool_exp="pvInt0 == 11">
+            <value>ABORTED</value>
+          </exp>
+          <exp bool_exp="pvInt0 == 12">
+            <value>COMPLETE</value>
+          </exp>
+          <pv_name>pva://fbEM_Main_DB_State/value</pv_name>
+        </rule>
+      </rules>
+    </widget>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>Group_2</name>
+    <x>5</x>
+    <y>80</y>
+    <width>790</width>
+    <height>42</height>
+    <style>2</style>
+    <widget type="label" version="2.0.0">
+      <name>Control:_2</name>
+      <text>Estrategia:</text>
+      <x>60</x>
+      <y>10</y>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="16.0">
+        </font>
+      </font>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>Action Button</name>
+      <actions>
+        <action type="write_pv">
+          <description>CIP</description>
+          <pv_name>$(pv_name)</pv_name>
+          <value>1</value>
+        </action>
+      </actions>
+      <pv_name>pva://fbEM_Main_DB_PARAMS_Strategic/value</pv_name>
+      <text>Cip</text>
+      <x>187</x>
+      <y>5</y>
+      <width>71</width>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="16.0">
+        </font>
+      </font>
+      <rules>
+        <rule name="New Rule" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pvInt0 == 1">
+            <value>
+              <color red="179" green="230" blue="179">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="pvInt0 != 1">
+            <value>
+              <color name="Button_Background" red="210" green="210" blue="210">
+              </color>
+            </value>
+          </exp>
+          <pv_name>$(pv_name)</pv_name>
+        </rule>
+        <rule name="running_disable" prop_id="enabled" out_exp="false">
+          <exp bool_exp="pvInt0 == 2">
+            <value>false</value>
+          </exp>
+          <exp bool_exp="pvInt0 != 2">
+            <value>true</value>
+          </exp>
+          <pv_name>pva://fbEM_Main_DB_State/value</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>Action Button_6</name>
+      <actions>
+        <action type="write_pv">
+          <description>OverFlow</description>
+          <pv_name>$(pv_name)</pv_name>
+          <value>2</value>
+        </action>
+      </actions>
+      <pv_name>pva://fbEM_Main_DB_PARAMS_Strategic/value</pv_name>
+      <text>Rebose</text>
+      <x>268</x>
+      <y>5</y>
+      <width>91</width>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="16.0">
+        </font>
+      </font>
+      <rules>
+        <rule name="New Rule" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pvInt0 == 2">
+            <value>
+              <color red="179" green="230" blue="179">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="pvInt0 != 2">
+            <value>
+              <color name="Button_Background" red="210" green="210" blue="210">
+              </color>
+            </value>
+          </exp>
+          <pv_name>$(pv_name)</pv_name>
+        </rule>
+        <rule name="running_disable" prop_id="enabled" out_exp="false">
+          <exp bool_exp="pvInt0 == 2">
+            <value>false</value>
+          </exp>
+          <exp bool_exp="pvInt0 != 2">
+            <value>true</value>
+          </exp>
+          <pv_name>pva://fbEM_Main_DB_State/value</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>Action Button_1</name>
+      <actions>
+        <action type="write_pv">
+          <description>Rinse</description>
+          <pv_name>$(pv_name)</pv_name>
+          <value>3</value>
+        </action>
+      </actions>
+      <pv_name>pva://fbEM_Main_DB_PARAMS_Strategic/value</pv_name>
+      <text>Enjuague</text>
+      <x>372</x>
+      <y>5</y>
+      <width>90</width>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="16.0">
+        </font>
+      </font>
+      <rules>
+        <rule name="New Rule" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pvInt0 == 3">
+            <value>
+              <color red="179" green="230" blue="179">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="pvInt0 != 3">
+            <value>
+              <color name="Button_Background" red="210" green="210" blue="210">
+              </color>
+            </value>
+          </exp>
+          <pv_name>$(pv_name)</pv_name>
+        </rule>
+        <rule name="running_disable" prop_id="enabled" out_exp="false">
+          <exp bool_exp="pvInt0 == 2">
+            <value>false</value>
+          </exp>
+          <exp bool_exp="pvInt0 != 2">
+            <value>true</value>
+          </exp>
+          <pv_name>pva://fbEM_Main_DB_State/value</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>Action Button_2</name>
+      <actions>
+        <action type="write_pv">
+          <description>Production</description>
+          <pv_name>$(pv_name)</pv_name>
+          <value>4</value>
+        </action>
+      </actions>
+      <pv_name>pva://fbEM_Main_DB_PARAMS_Strategic/value</pv_name>
+      <text>Producción</text>
+      <x>473</x>
+      <y>5</y>
+      <width>101</width>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="16.0">
+        </font>
+      </font>
+      <rules>
+        <rule name="New Rule" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pvInt0 == 4">
+            <value>
+              <color red="179" green="230" blue="179">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="pvInt0 != 4">
+            <value>
+              <color name="Button_Background" red="210" green="210" blue="210">
+              </color>
+            </value>
+          </exp>
+          <pv_name>$(pv_name)</pv_name>
+        </rule>
+        <rule name="running_disable" prop_id="enabled" out_exp="false">
+          <exp bool_exp="pvInt0 == 2">
+            <value>false</value>
+          </exp>
+          <exp bool_exp="pvInt0 != 2">
+            <value>true</value>
+          </exp>
+          <pv_name>pva://fbEM_Main_DB_State/value</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>Action Button_4</name>
+      <actions>
+        <action type="write_pv">
+          <description>Drain</description>
+          <pv_name>$(pv_name)</pv_name>
+          <value>6</value>
+        </action>
+      </actions>
+      <pv_name>pva://fbEM_Main_DB_PARAMS_Strategic/value</pv_name>
+      <text>Drenaje</text>
+      <x>585</x>
+      <y>5</y>
+      <width>70</width>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="16.0">
+        </font>
+      </font>
+      <rules>
+        <rule name="New Rule" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pvInt0 == 6">
+            <value>
+              <color red="179" green="230" blue="179">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="pvInt0 != 6">
+            <value>
+              <color name="Button_Background" red="210" green="210" blue="210">
+              </color>
+            </value>
+          </exp>
+          <pv_name>$(pv_name)</pv_name>
+        </rule>
+        <rule name="running_disable" prop_id="enabled" out_exp="false">
+          <exp bool_exp="pvInt0 == 2">
+            <value>false</value>
+          </exp>
+          <exp bool_exp="pvInt0 != 2">
+            <value>true</value>
+          </exp>
+          <pv_name>pva://fbEM_Main_DB_State/value</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>Action Button_8</name>
+      <actions>
+        <action type="write_pv">
+          <description>S/E</description>
+          <pv_name>$(pv_name)</pv_name>
+          <value>0</value>
+        </action>
+      </actions>
+      <pv_name>pva://fbEM_Main_DB_PARAMS_Strategic/value</pv_name>
+      <text>Sin Estrategia</text>
+      <x>667</x>
+      <y>5</y>
+      <width>112</width>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="16.0">
+        </font>
+      </font>
+      <rules>
+        <rule name="New Rule" prop_id="background_color" out_exp="false">
+          <exp bool_exp="pvInt0 == 0">
+            <value>
+              <color red="179" green="230" blue="179">
+              </color>
+            </value>
+          </exp>
+          <exp bool_exp="pvInt0 != 1">
+            <value>
+              <color name="Button_Background" red="210" green="210" blue="210">
+              </color>
+            </value>
+          </exp>
+          <pv_name>$(pv_name)</pv_name>
+        </rule>
+        <rule name="running_disable" prop_id="enabled" out_exp="false">
+          <exp bool_exp="pvInt0 == 2">
+            <value>false</value>
+          </exp>
+          <exp bool_exp="pvInt0 != 2">
+            <value>true</value>
+          </exp>
+          <pv_name>pva://fbEM_Main_DB_State/value</pv_name>
+        </rule>
+      </rules>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>Group_3</name>
+    <x>5</x>
+    <y>140</y>
+    <width>790</width>
+    <height>42</height>
+    <style>2</style>
+    <widget type="label" version="2.0.0">
+      <name>Text Update_3</name>
+      <text></text>
+      <x>317</x>
+      <y>4</y>
+      <width>350</width>
+      <height>30</height>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="16.0">
+        </font>
+      </font>
+      <background_color>
+        <color name="Read_Background" red="240" green="240" blue="240">
+        </color>
+      </background_color>
+      <transparent>false</transparent>
+      <horizontal_alignment>1</horizontal_alignment>
+      <rules>
+        <rule name="Pasos" prop_id="text" out_exp="false">
+          <exp bool_exp="pvInt0 ==0">
+            <value>Desactivado</value>
+          </exp>
+          <exp bool_exp="pvInt0 == 1">
+            <value>Arrancando Saturador</value>
+          </exp>
+          <exp bool_exp="pvInt0 == 2">
+            <value>Arrancando Desareador</value>
+          </exp>
+          <exp bool_exp="pvInt0 ==  3">
+            <value>Arrancando Syrup</value>
+          </exp>
+          <exp bool_exp="pvInt0 ==  4">
+            <value>Arrancando CO2</value>
+          </exp>
+          <exp bool_exp="pvInt0 ==  5">
+            <value>En Producción</value>
+          </exp>
+          <pv_name>pva://fbEM_Main_DB_PARAMS_Step/value</pv_name>
+        </rule>
+      </rules>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Control:_3</name>
+      <text>Paso</text>
+      <x>60</x>
+      <y>10</y>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="16.0">
+        </font>
+      </font>
+    </widget>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>Group_4</name>
+    <x>5</x>
+    <y>195</y>
+    <width>790</width>
+    <height>42</height>
+    <style>2</style>
+    <widget type="label" version="2.0.0">
+      <name>Control:_4</name>
+      <text>Receta</text>
+      <x>11</x>
+      <y>10</y>
+      <width>72</width>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="16.0">
+        </font>
+      </font>
+      <horizontal_alignment>1</horizontal_alignment>
+    </widget>
+    <widget type="combo" version="2.0.0">
+      <name>Combo Box</name>
+      <pv_name>loc://bebida</pv_name>
+      <x>114</x>
+      <y>5</y>
+      <width>348</width>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="14.0">
+        </font>
+      </font>
+      <rules>
+        <rule name="New Rule" prop_id="enabled" out_exp="false">
+          <exp bool_exp="pvInt0 == 2">
+            <value>false</value>
+          </exp>
+          <exp bool_exp="pvInt0 != 2">
+            <value>true</value>
+          </exp>
+          <pv_name>pva://fbEM_Main_DB_State/value</pv_name>
+        </rule>
+      </rules>
+      <items>
+        <item>Coca-Cola Menos Calorias 2L</item>
+        <item>Coca-Cola Menos Calorias 1.5L o 1L</item>
+        <item>Chinotto Sin Calorias 2L</item>
+        <item>Chinotto Sin Calorias 1.5L o 1L</item>
+        <item>Frescolita Sin Calorias  2L</item>
+        <item>Frescolita Sin Calorias 1.5L o 1L</item>
+        <item>Hit Uva Sin Calorias 2L</item>
+        <item>Hit Uva Sin Calorias 1.5L o 1L</item>
+        <item>Fanta Naranja 2L</item>
+        <item>Fanta Naranja 1.5L o 1L</item>
+      </items>
+      <items_from_pv>false</items_from_pv>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>Action Button_11</name>
+      <actions>
+        <action type="execute">
+          <description>Execute Script</description>
+          <script file="EmbeddedPy">
+            <text><![CDATA[# Embedded python script
+from org.csstudio.display.builder.runtime.script import PVUtil, ScriptUtil
+from com.ceos.phoebus.runtime import CeosUtils
+
+rt_bebida = PVUtil.createPV("loc://bebida", 1000)
+
+bebida = PVUtil.getString(rt_bebida)
+
+CeosUtils.setRecipeFromDB(bebida)]]></text>
+          </script>
+        </action>
+      </actions>
+      <pv_name>loc://bebida</pv_name>
+      <text>Aceptar receta</text>
+      <x>554</x>
+      <y>5</y>
+      <width>160</width>
+      <font>
+        <font family="Liberation Sans" style="BOLD" size="16.0">
+        </font>
+      </font>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+  </widget>
+</display>

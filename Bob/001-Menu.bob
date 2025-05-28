@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Saved on 2025-04-18 17:32:01 by lerb-->
+<display version="2.0.0">
+  <name>Display</name>
+  <width>1800</width>
+  <height>890</height>
+  <background_color>
+    <color red="190" green="190" blue="190">
+    </color>
+  </background_color>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle_3</name>
+    <x>260</x>
+    <y>110</y>
+    <width>600</width>
+    <height>680</height>
+    <line_width>0</line_width>
+    <background_color>
+      <color red="230" green="230" blue="230">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="picture" version="2.0.0">
+    <name>Picture</name>
+    <file>../Iconos/ImagenMenu/ImagenMenu5.jpg</file>
+    <x>280</x>
+    <y>90</y>
+    <width>560</width>
+    <height>720</height>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle</name>
+    <x>20</x>
+    <y>20</y>
+    <width>1760</width>
+    <line_width>0</line_width>
+    <background_color>
+      <color red="230" green="230" blue="230">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle_2</name>
+    <x>20</x>
+    <y>850</y>
+    <width>1760</width>
+    <line_width>0</line_width>
+    <background_color>
+      <color red="230" green="230" blue="230">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle_4</name>
+    <x>940</x>
+    <y>290</y>
+    <width>600</width>
+    <height>320</height>
+    <line_width>0</line_width>
+    <background_color>
+      <color red="230" green="230" blue="230">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle_5</name>
+    <x>960</x>
+    <y>310</y>
+    <width>560</width>
+    <height>280</height>
+    <line_width>0</line_width>
+    <background_color>
+      <color red="179" green="179" blue="179">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Action Button</name>
+    <actions>
+      <action type="write_pv">
+        <description>WritePV</description>
+        <pv_name>$(pv_name)</pv_name>
+        <value>Carbonatador</value>
+      </action>
+    </actions>
+    <pv_name>loc://numeroDePagina</pv_name>
+    <text>Carbonatador</text>
+    <x>1010</x>
+    <y>340</y>
+    <width>470</width>
+    <height>90</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="18.0">
+      </font>
+    </font>
+    <background_color>
+      <color name="Read_Background" red="240" green="240" blue="240">
+      </color>
+    </background_color>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Action Button_1</name>
+    <actions>
+      <action type="write_pv">
+        <description>Parametrizaciòn</description>
+        <pv_name>$(pv_name)</pv_name>
+        <value>Parametrizacion</value>
+      </action>
+    </actions>
+    <pv_name>loc://numeroDePagina</pv_name>
+    <text>Parametrización</text>
+    <x>1010</x>
+    <y>470</y>
+    <width>470</width>
+    <height>90</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="18.0">
+      </font>
+    </font>
+    <background_color>
+      <color name="Read_Background" red="240" green="240" blue="240">
+      </color>
+    </background_color>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label</name>
+    <text>Bienvenido</text>
+    <x>940</x>
+    <y>200</y>
+    <width>600</width>
+    <height>70</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="48.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+</display>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Saved on 2025-04-25 00:32:03 by lerb-->
+<display version="2.0.0">
+  <name>Macro_Alarm</name>
+  <width>460</width>
+  <height>30</height>
+  <widget type="label" version="2.0.0">
+    <name>Label</name>
+    <text>$(tag)</text>
+    <width>460</width>
+    <height>30</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="18.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <rules>
+      <rule name="New Rule" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pvInt0 == 1">
+          <value>
+            <color red="179" green="230" blue="179">
+            </color>
+          </value>
+        </exp>
+        <exp bool_exp="pvInt0 !=1">
+          <value>
+            <color name="Background" red="255" green="255" blue="255">
+            </color>
+          </value>
+        </exp>
+        <pv_name>pva://$(alarm)/value</pv_name>
+      </rule>
+      <rule name="New Rule" prop_id="visible" out_exp="false">
+        <exp bool_exp="pvInt0 == 1">
+          <value>true</value>
+        </exp>
+        <exp bool_exp="pvInt00 != 1">
+          <value>false</value>
+        </exp>
+        <pv_name>pva://$(alarm)/value</pv_name>
+      </rule>
+    </rules>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Action Button</name>
+    <actions>
+      <action type="write_pv">
+        <description>Reset Alarma</description>
+        <pv_name>$(pv_name)</pv_name>
+        <value>0</value>
+      </action>
+    </actions>
+    <pv_name>pva://$(alarm)/value</pv_name>
+    <text></text>
+    <width>460</width>
+    <transparent>true</transparent>
+    <horizontal_alignment>2</horizontal_alignment>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+</display>
