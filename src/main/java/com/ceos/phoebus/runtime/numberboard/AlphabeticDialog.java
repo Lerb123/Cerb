@@ -84,492 +84,493 @@ public class AlphabeticDialog extends Dialog<String> {
 //        root.setPadding(new Insets(0, 0, 0, 15));
         root.setHgap(5);
         root.setVgap(4);
+//
+//        root.add(btnA, 0, 0);
+//        root.add(btnB, 2, 0);
+//        root.add(btnC, 4, 0);
+//        root.add(btnD, 6, 0);
+        root.add(btn9, 0, 0);
+        root.add(btn8, 1, 0);
+        root.add(btn7, 2, 0);
+//        root.add(btnE, 0, 2);
+//        root.add(btnF, 2, 2);
+//        root.add(btnG, 4, 2);
+//        root.add(btnH, 6, 2);
+        
+        
 
-        root.add(btnA, 0, 0);
-        root.add(btnB, 2, 0);
-        root.add(btnC, 4, 0);
-        root.add(btnD, 6, 0);
-        root.add(btn9, 8, 0);
-        root.add(btn8, 10, 0);
+//        root.add(btnI, 0, 4);
+//        root.add(btnJ, 2, 4);
+//        root.add(btnK, 4, 4);
+//        root.add(btnL, 6, 4);
+        root.add(btn6, 0, 2);
+        root.add(btn5, 1, 2);
+        root.add(btn4, 2, 2);
 
-        root.add(btnE, 0, 2);
-        root.add(btnF, 2, 2);
-        root.add(btnG, 4, 2);
-        root.add(btnH, 6, 2);
-        root.add(btn7, 8, 2);
-        root.add(btn6, 10, 2);
+//        root.add(btnM, 0, 6);
+//        root.add(btnN, 2, 6);
+//        root.add(btnÑ, 4, 6);
+//        root.add(btnO, 6, 6);
+        root.add(btn3, 0, 4);
+        root.add(btn2, 1, 4);
+        root.add(btn1, 2, 4);
+//        root.add(btnP, 0, 8);
+//        root.add(btnQ, 2, 8);
+//        root.add(btnR, 4, 8);
+//        root.add(btnS, 6, 8);
+       
+        root.add(btn0, 0, 6);
+        root.add(bCancel, 1, 6);
+        root.add(bClrOne, 2, 6);
+//        root.add(btnT, 0, 10);
+//        root.add(btnU, 2, 10);
+//        root.add(btnV, 4, 10);
+//        root.add(btnW, 6, 10);
+        
 
-        root.add(btnI, 0, 4);
-        root.add(btnJ, 2, 4);
-        root.add(btnK, 4, 4);
-        root.add(btnL, 6, 4);
-        root.add(btn5, 8, 4);
-        root.add(btn4, 10, 4);
-
-        root.add(btnM, 0, 6);
-        root.add(btnN, 2, 6);
-        root.add(btnÑ, 4, 6);
-        root.add(btnO, 6, 6);
-        root.add(btn3, 8, 6);
-        root.add(btn2, 10, 6);
-
-        root.add(btnP, 0, 8);
-        root.add(btnQ, 2, 8);
-        root.add(btnR, 4, 8);
-        root.add(btnS, 6, 8);
-        root.add(btn1, 8, 8);
-        root.add(btn0, 10, 8);
-
-        root.add(btnT, 0, 10);
-        root.add(btnU, 2, 10);
-        root.add(btnV, 4, 10);
-        root.add(btnW, 6, 10);
-        root.add(bCancel, 8, 10);
-        root.add(bClrOne, 10, 10);
-
-        root.add(btnX, 0, 12);
-        root.add(btnY, 2, 12);
-        root.add(btnZ, 4, 12);
-        root.add(bAcep, 6, 12);
-        root.add(bDelete, 8, 12);
+//        root.add(btnX, 0, 12);
+//        root.add(btnY, 2, 12);
+//        root.add(btnZ, 4, 12);
+        root.add(bAcep, 0, 8);
+        root.add(bDelete, 1, 8);
         this.setDialogPane(pane);
 //        /*
-//        Actions buttons
-//         */
-        btnA.setOnMouseClicked(event -> {
-            try {
-                //1.Get runtime pv associated to the widget
-                RuntimePV rpv = CeosUtils.getPv(widget);
-
-                //2.Obtain your current value and write it.
-                if (PVUtil.getDouble(rpv) == 0.0) {
-                    rpv.getPV().write("a");
-
-                } else {
-                    rpv.getPV().write(PVUtil.getString(rpv) + "a");
-                }
-            } catch (Exception ex) {
-               //CeosUtils.getLogger().warn("Cannot write into pv record" + ex.getMessage());
-            }
-        });
-        btnB.setOnMouseClicked(event -> {
-            try {
-                //1.Get runtime pv associated to the widget
-                RuntimePV rpv = CeosUtils.getPv(widget);
-
-                //2.Obtain your current value and write it.
-                if (PVUtil.getDouble(rpv) == 0.0) {
-                    rpv.getPV().write("b");
-
-                } else {
-                    rpv.getPV().write(PVUtil.getString(rpv) + "b");
-                }
-            } catch (Exception ex) {
-                //CeosUtils.getLogger().warn("Cannot write into pv record" + ex.getMessage());
-            }
-        });
-        btnC.setOnMouseClicked(event -> {
-            try {
-                //1.Get runtime pv associated to the widget
-                RuntimePV rpv = CeosUtils.getPv(widget);
-
-                //2.Obtain your current value and write it.
-                if (PVUtil.getDouble(rpv) == 0.0) {
-                    rpv.getPV().write("c");
-
-                } else {
-                    rpv.getPV().write(PVUtil.getString(rpv) + "c");
-                }
-            } catch (Exception ex) {
-                //CeosUtils.getLogger().warn("Cannot write into pv record" + ex.getMessage());
-            }
-        });
-        btnD.setOnMouseClicked(event -> {
-            try {
-                //1.Get runtime pv associated to the widget
-                RuntimePV rpv = CeosUtils.getPv(widget);
-
-                //2.Obtain your current value and write it.
-                if (PVUtil.getDouble(rpv) == 0.0) {
-                    rpv.getPV().write("d");
-
-                } else {
-                    rpv.getPV().write(PVUtil.getString(rpv) + "d");
-                }
-            } catch (Exception ex) {
-                //CeosUtils.getLogger().warn("Cannot write into pv record" + ex.getMessage());
-            }
-        });
-        btnE.setOnMouseClicked(event -> {
-            try {
-                //1.Get runtime pv associated to the widget
-                RuntimePV rpv = CeosUtils.getPv(widget);
-
-                //2.Obtain your current value and write it.
-                if (PVUtil.getDouble(rpv) == 0.0) {
-                    rpv.getPV().write("e");
-
-                } else {
-                    rpv.getPV().write(PVUtil.getString(rpv) + "e");
-
-                }
-            } catch (Exception ex) {
-               // CeosUtils.getLogger().warn("Cannot write into pv record" + ex.getMessage());
-            }
-        });
-        btnF.setOnMouseClicked(event -> {
-            try {
-                //1.Get runtime pv associated to the widget
-                RuntimePV rpv = CeosUtils.getPv(widget);
-
-                //2.Obtain your current value and write it.
-                if (PVUtil.getDouble(rpv) == 0.0) {
-                    rpv.getPV().write("f");
-
-                } else {
-                    rpv.getPV().write(PVUtil.getString(rpv) + "f");
-                }
-            } catch (Exception ex) {
-               // CeosUtils.getLogger().warn("Cannot write into pv record" + ex.getMessage());
-            }
-        });
-        btnG.setOnMouseClicked(event -> {
-            try {
-                //1.Get runtime pv associated to the widget
-                RuntimePV rpv = CeosUtils.getPv(widget);
-
-                //2.Obtain your current value and write it.
-                if (PVUtil.getDouble(rpv) == 0.0) {
-                    rpv.getPV().write("g");
-
-                } else {
-                    rpv.getPV().write(PVUtil.getString(rpv) + "g");
-                }
-            } catch (Exception ex) {
-                //CeosUtils.getLogger().warn("Cannot write into pv record" + ex.getMessage());
-            }
-        });
-        btnH.setOnMouseClicked(event -> {
-            try {
-                //1.Get runtime pv associated to the widget
-                RuntimePV rpv = CeosUtils.getPv(widget);
-
-                //2.Obtain your current value and write it.
-                if (PVUtil.getDouble(rpv) == 0.0) {
-                    rpv.getPV().write("h");
-
-                } else {
-                    rpv.getPV().write(PVUtil.getString(rpv) + "h");
-                }
-            } catch (Exception ex) {
-                //CeosUtils.getLogger().warn("Cannot write into pv record" + ex.getMessage());
-            }
-        });
-        btnI.setOnMouseClicked(event -> {
-            try {
-                //1.Get runtime pv associated to the widget
-                RuntimePV rpv = CeosUtils.getPv(widget);
-
-                //2.Obtain your current value and write it.
-                if (PVUtil.getDouble(rpv) == 0.0) {
-                    rpv.getPV().write("i");
-
-                } else {
-                    rpv.getPV().write(PVUtil.getString(rpv) + "i");
-                }
-            } catch (Exception ex) {
-                //CeosUtils.getLogger().warn("Cannot write into pv record" + ex.getMessage());
-            }
-        });
-        btnJ.setOnMouseClicked(event -> {
-            try {
-                //1.Get runtime pv associated to the widget
-                RuntimePV rpv = CeosUtils.getPv(widget);
-
-                //2.Obtain your current value and write it.
-                if (PVUtil.getDouble(rpv) == 0.0) {
-                    rpv.getPV().write("j");
-
-                } else {
-                    rpv.getPV().write(PVUtil.getString(rpv) + "j");
-                }
-            } catch (Exception ex) {
-                //CeosUtils.getLogger().warn("Cannot write into pv record" + ex.getMessage());
-            }
-        });
-        btnK.setOnMouseClicked(event -> {
-            try {
-                //1.Get runtime pv associated to the widget
-                RuntimePV rpv = CeosUtils.getPv(widget);
-
-                //2.Obtain your current value and write it.
-                if (PVUtil.getDouble(rpv) == 0.0) {
-                    rpv.getPV().write("k");
-
-                } else {
-                    rpv.getPV().write(PVUtil.getString(rpv) + "k");
-                }
-            } catch (Exception ex) {
-                //CeosUtils.getLogger().warn("Cannot write into pv record" + ex.getMessage());
-            }
-        });
-        btnL.setOnMouseClicked(event -> {
-            try {
-                //1.Get runtime pv associated to the widget
-                RuntimePV rpv = CeosUtils.getPv(widget);
-
-                //2.Obtain your current value and write it.
-                if (PVUtil.getDouble(rpv) == 0.0) {
-                    rpv.getPV().write("l");
-
-                } else {
-                    rpv.getPV().write(PVUtil.getString(rpv) + "l");
-                }
-            } catch (Exception ex) {
-                //CeosUtils.getLogger().warn("Cannot write into pv record" + ex.getMessage());
-            }
-        });
-        btnM.setOnMouseClicked(event -> {
-            try {
-                //1.Get runtime pv associated to the widget
-                RuntimePV rpv = CeosUtils.getPv(widget);
-
-                //2.Obtain your current value and write it.
-                if (PVUtil.getDouble(rpv) == 0.0) {
-                    rpv.getPV().write("m");
-
-                } else {
-                    rpv.getPV().write(PVUtil.getString(rpv) + "m");
-                }
-            } catch (Exception ex) {
-                //CeosUtils.getLogger().warn("Cannot write into pv record" + ex.getMessage());
-            }
-        });
-        btnN.setOnMouseClicked(event -> {
-            try {
-                //1.Get runtime pv associated to the widget
-                RuntimePV rpv = CeosUtils.getPv(widget);
-
-                //2.Obtain your current value and write it.
-                if (PVUtil.getDouble(rpv) == 0.0) {
-                    rpv.getPV().write("n");
-
-                } else {
-                    rpv.getPV().write(PVUtil.getString(rpv) + "n");
-                }
-            } catch (Exception ex) {
-                //CeosUtils.getLogger().warn("Cannot write into pv record" + ex.getMessage());
-            }
-        });
-        btnÑ.setOnMouseClicked(event -> {
-            try {
-                //1.Get runtime pv associated to the widget
-                RuntimePV rpv = CeosUtils.getPv(widget);
-
-                //2.Obtain your current value and write it.
-                if (PVUtil.getDouble(rpv) == 0.0) {
-                    rpv.getPV().write("ñ");
-
-                } else {
-                    rpv.getPV().write(PVUtil.getString(rpv) + "ñ");
-                }
-            } catch (Exception ex) {
-                //CeosUtils.getLogger().warn("Cannot write into pv record" + ex.getMessage());
-            }
-        });
-        btnO.setOnMouseClicked(event -> {
-            try {
-                //1.Get runtime pv associated to the widget
-                RuntimePV rpv = CeosUtils.getPv(widget);
-
-                //2.Obtain your current value and write it.
-                if (PVUtil.getDouble(rpv) == 0.0) {
-                    rpv.getPV().write("o");
-
-                } else {
-                    rpv.getPV().write(PVUtil.getString(rpv) + "o");
-                }
-            } catch (Exception ex) {
-                //CeosUtils.getLogger().warn("Cannot write into pv record" + ex.getMessage());
-            }
-        });
-        btnP.setOnMouseClicked(event -> {
-            try {
-                //1.Get runtime pv associated to the widget
-                RuntimePV rpv = CeosUtils.getPv(widget);
-
-                //2.Obtain your current value and write it.
-                if (PVUtil.getDouble(rpv) == 0.0) {
-                    rpv.getPV().write("p");
-
-                } else {
-                    rpv.getPV().write(PVUtil.getString(rpv) + "p");
-                }
-            } catch (Exception ex) {
-                //CeosUtils.getLogger().warn("Cannot write into pv record" + ex.getMessage());
-            }
-        });
-        btnQ.setOnMouseClicked(event -> {
-            try {
-                //1.Get runtime pv associated to the widget
-                RuntimePV rpv = CeosUtils.getPv(widget);
-
-                //2.Obtain your current value and write it.
-                if (PVUtil.getDouble(rpv) == 0.0) {
-                    rpv.getPV().write("q");
-
-                } else {
-                    rpv.getPV().write(PVUtil.getString(rpv) + "q");
-                }
-            } catch (Exception ex) {
-                //CeosUtils.getLogger().warn("Cannot write into pv record" + ex.getMessage());
-            }
-        });
-        btnR.setOnMouseClicked(event -> {
-            try {
-                //1.Get runtime pv associated to the widget
-                RuntimePV rpv = CeosUtils.getPv(widget);
-
-                //2.Obtain your current value and write it.
-                if (PVUtil.getDouble(rpv) == 0.0) {
-                    rpv.getPV().write("r");
-
-                } else {
-                    rpv.getPV().write(PVUtil.getString(rpv) + "r");
-                }
-            } catch (Exception ex) {
-                //CeosUtils.getLogger().warn("Cannot write into pv record" + ex.getMessage());
-            }
-        });
-        btnS.setOnMouseClicked(event -> {
-            try {
-                //1.Get runtime pv associated to the widget
-                RuntimePV rpv = CeosUtils.getPv(widget);
-
-                //2.Obtain your current value and write it.
-                if (PVUtil.getDouble(rpv) == 0.0) {
-                    rpv.getPV().write("s");
-
-                } else {
-                    rpv.getPV().write(PVUtil.getString(rpv) + "s");
-                }
-            } catch (Exception ex) {
-                //CeosUtils.getLogger().warn("Cannot write into pv record" + ex.getMessage());
-            }
-        });
-        btnT.setOnMouseClicked(event -> {
-            try {
-                //1.Get runtime pv associated to the widget
-                RuntimePV rpv = CeosUtils.getPv(widget);
-
-                //2.Obtain your current value and write it.
-                if (PVUtil.getDouble(rpv) == 0.0) {
-                    rpv.getPV().write("t");
-
-                } else {
-                    rpv.getPV().write(PVUtil.getString(rpv) + "t");
-                }
-            } catch (Exception ex) {
-                //CeosUtils.getLogger().warn("Cannot write into pv record" + ex.getMessage());
-            }
-        });
-        btnU.setOnMouseClicked(event -> {
-            try {
-                //1.Get runtime pv associated to the widget
-                RuntimePV rpv = CeosUtils.getPv(widget);
-
-                //2.Obtain your current value and write it.
-                if (PVUtil.getDouble(rpv) == 0.0) {
-                    rpv.getPV().write("u");
-
-                } else {
-                    rpv.getPV().write(PVUtil.getString(rpv) + "u");
-                }
-            } catch (Exception ex) {
-                //CeosUtils.getLogger().warn("Cannot write into pv record" + ex.getMessage());
-            }
-        });
-        btnV.setOnMouseClicked(event -> {
-            try {
-                //1.Get runtime pv associated to the widget
-                RuntimePV rpv = CeosUtils.getPv(widget);
-
-                //2.Obtain your current value and write it.
-                if (PVUtil.getDouble(rpv) == 0.0) {
-                    rpv.getPV().write("v");
-
-                } else {
-                    rpv.getPV().write(PVUtil.getString(rpv) + "v");
-                }
-            } catch (Exception ex) {
-               // CeosUtils.getLogger().warn("Cannot write into pv record" + ex.getMessage());
-            }
-        });
-        btnW.setOnMouseClicked(event -> {
-            try {
-                //1.Get runtime pv associated to the widget
-                RuntimePV rpv = CeosUtils.getPv(widget);
-
-                //2.Obtain your current value and write it.
-                if (PVUtil.getDouble(rpv) == 0.0) {
-                    rpv.getPV().write("w");
-
-                } else {
-                    rpv.getPV().write(PVUtil.getString(rpv) + "w");
-                }
-            } catch (Exception ex) {
-                //CeosUtils.getLogger().warn("Cannot write into pv record" + ex.getMessage());
-            }
-        });
-        btnX.setOnMouseClicked(event -> {
-            try {
-                //1.Get runtime pv associated to the widget
-                RuntimePV rpv = CeosUtils.getPv(widget);
-
-                //2.Obtain your current value and write it.
-                if (PVUtil.getDouble(rpv) == 0.0) {
-                    rpv.getPV().write("x");
-
-                } else {
-                    rpv.getPV().write(PVUtil.getString(rpv) + "x");
-                }
-            } catch (Exception ex) {
-               // CeosUtils.getLogger().warn("Cannot write into pv record" + ex.getMessage());
-            }
-        });
-        btnY.setOnMouseClicked(event -> {
-            try {
-                //1.Get runtime pv associated to the widget
-                RuntimePV rpv = CeosUtils.getPv(widget);
-
-                //2.Obtain your current value and write it.
-                if (PVUtil.getDouble(rpv) == 0.0) {
-                    rpv.getPV().write("y");
-
-                } else {
-                    rpv.getPV().write(PVUtil.getString(rpv) + "y");
-                }
-            } catch (Exception ex) {
-               // CeosUtils.getLogger().warn("Cannot write into pv record" + ex.getMessage());
-            }
-        });
-        btnZ.setOnMouseClicked(event -> {
-            try {
-                //1.Get runtime pv associated to the widget
-                RuntimePV rpv = CeosUtils.getPv(widget);
-
-                //2.Obtain your current value and write it.
-                if (PVUtil.getDouble(rpv) == 0.0) {
-                    rpv.getPV().write("z");
-
-                } else {
-                    rpv.getPV().write(PVUtil.getString(rpv) + "z");
-
-                }
-            } catch (Exception ex) {
-                //CeosUtils.getLogger().warn("Cannot write into pv record" + ex.getMessage());
-            }
-        });
+////        Actions buttons
+////         */
+//        btnA.setOnMouseClicked(event -> {
+//            try {
+//                //1.Get runtime pv associated to the widget
+//                RuntimePV rpv = CeosUtils.getPv(widget);
+//
+//                //2.Obtain your current value and write it.
+//                if (PVUtil.getDouble(rpv) == 0.0) {
+//                    rpv.getPV().write("a");
+//
+//                } else {
+//                    rpv.getPV().write(PVUtil.getString(rpv) + "a");
+//                }
+//            } catch (Exception ex) {
+//               //CeosUtils.getLogger().warn("Cannot write into pv record" + ex.getMessage());
+//            }
+//        });
+//        btnB.setOnMouseClicked(event -> {
+//            try {
+//                //1.Get runtime pv associated to the widget
+//                RuntimePV rpv = CeosUtils.getPv(widget);
+//
+//                //2.Obtain your current value and write it.
+//                if (PVUtil.getDouble(rpv) == 0.0) {
+//                    rpv.getPV().write("b");
+//
+//                } else {
+//                    rpv.getPV().write(PVUtil.getString(rpv) + "b");
+//                }
+//            } catch (Exception ex) {
+//                //CeosUtils.getLogger().warn("Cannot write into pv record" + ex.getMessage());
+//            }
+//        });
+//        btnC.setOnMouseClicked(event -> {
+//            try {
+//                //1.Get runtime pv associated to the widget
+//                RuntimePV rpv = CeosUtils.getPv(widget);
+//
+//                //2.Obtain your current value and write it.
+//                if (PVUtil.getDouble(rpv) == 0.0) {
+//                    rpv.getPV().write("c");
+//
+//                } else {
+//                    rpv.getPV().write(PVUtil.getString(rpv) + "c");
+//                }
+//            } catch (Exception ex) {
+//                //CeosUtils.getLogger().warn("Cannot write into pv record" + ex.getMessage());
+//            }
+//        });
+//        btnD.setOnMouseClicked(event -> {
+//            try {
+//                //1.Get runtime pv associated to the widget
+//                RuntimePV rpv = CeosUtils.getPv(widget);
+//
+//                //2.Obtain your current value and write it.
+//                if (PVUtil.getDouble(rpv) == 0.0) {
+//                    rpv.getPV().write("d");
+//
+//                } else {
+//                    rpv.getPV().write(PVUtil.getString(rpv) + "d");
+//                }
+//            } catch (Exception ex) {
+//                //CeosUtils.getLogger().warn("Cannot write into pv record" + ex.getMessage());
+//            }
+//        });
+//        btnE.setOnMouseClicked(event -> {
+//            try {
+//                //1.Get runtime pv associated to the widget
+//                RuntimePV rpv = CeosUtils.getPv(widget);
+//
+//                //2.Obtain your current value and write it.
+//                if (PVUtil.getDouble(rpv) == 0.0) {
+//                    rpv.getPV().write("e");
+//
+//                } else {
+//                    rpv.getPV().write(PVUtil.getString(rpv) + "e");
+//
+//                }
+//            } catch (Exception ex) {
+//               // CeosUtils.getLogger().warn("Cannot write into pv record" + ex.getMessage());
+//            }
+//        });
+//        btnF.setOnMouseClicked(event -> {
+//            try {
+//                //1.Get runtime pv associated to the widget
+//                RuntimePV rpv = CeosUtils.getPv(widget);
+//
+//                //2.Obtain your current value and write it.
+//                if (PVUtil.getDouble(rpv) == 0.0) {
+//                    rpv.getPV().write("f");
+//
+//                } else {
+//                    rpv.getPV().write(PVUtil.getString(rpv) + "f");
+//                }
+//            } catch (Exception ex) {
+//               // CeosUtils.getLogger().warn("Cannot write into pv record" + ex.getMessage());
+//            }
+//        });
+//        btnG.setOnMouseClicked(event -> {
+//            try {
+//                //1.Get runtime pv associated to the widget
+//                RuntimePV rpv = CeosUtils.getPv(widget);
+//
+//                //2.Obtain your current value and write it.
+//                if (PVUtil.getDouble(rpv) == 0.0) {
+//                    rpv.getPV().write("g");
+//
+//                } else {
+//                    rpv.getPV().write(PVUtil.getString(rpv) + "g");
+//                }
+//            } catch (Exception ex) {
+//                //CeosUtils.getLogger().warn("Cannot write into pv record" + ex.getMessage());
+//            }
+//        });
+//        btnH.setOnMouseClicked(event -> {
+//            try {
+//                //1.Get runtime pv associated to the widget
+//                RuntimePV rpv = CeosUtils.getPv(widget);
+//
+//                //2.Obtain your current value and write it.
+//                if (PVUtil.getDouble(rpv) == 0.0) {
+//                    rpv.getPV().write("h");
+//
+//                } else {
+//                    rpv.getPV().write(PVUtil.getString(rpv) + "h");
+//                }
+//            } catch (Exception ex) {
+//                //CeosUtils.getLogger().warn("Cannot write into pv record" + ex.getMessage());
+//            }
+//        });
+//        btnI.setOnMouseClicked(event -> {
+//            try {
+//                //1.Get runtime pv associated to the widget
+//                RuntimePV rpv = CeosUtils.getPv(widget);
+//
+//                //2.Obtain your current value and write it.
+//                if (PVUtil.getDouble(rpv) == 0.0) {
+//                    rpv.getPV().write("i");
+//
+//                } else {
+//                    rpv.getPV().write(PVUtil.getString(rpv) + "i");
+//                }
+//            } catch (Exception ex) {
+//                //CeosUtils.getLogger().warn("Cannot write into pv record" + ex.getMessage());
+//            }
+//        });
+//        btnJ.setOnMouseClicked(event -> {
+//            try {
+//                //1.Get runtime pv associated to the widget
+//                RuntimePV rpv = CeosUtils.getPv(widget);
+//
+//                //2.Obtain your current value and write it.
+//                if (PVUtil.getDouble(rpv) == 0.0) {
+//                    rpv.getPV().write("j");
+//
+//                } else {
+//                    rpv.getPV().write(PVUtil.getString(rpv) + "j");
+//                }
+//            } catch (Exception ex) {
+//                //CeosUtils.getLogger().warn("Cannot write into pv record" + ex.getMessage());
+//            }
+//        });
+//        btnK.setOnMouseClicked(event -> {
+//            try {
+//                //1.Get runtime pv associated to the widget
+//                RuntimePV rpv = CeosUtils.getPv(widget);
+//
+//                //2.Obtain your current value and write it.
+//                if (PVUtil.getDouble(rpv) == 0.0) {
+//                    rpv.getPV().write("k");
+//
+//                } else {
+//                    rpv.getPV().write(PVUtil.getString(rpv) + "k");
+//                }
+//            } catch (Exception ex) {
+//                //CeosUtils.getLogger().warn("Cannot write into pv record" + ex.getMessage());
+//            }
+//        });
+//        btnL.setOnMouseClicked(event -> {
+//            try {
+//                //1.Get runtime pv associated to the widget
+//                RuntimePV rpv = CeosUtils.getPv(widget);
+//
+//                //2.Obtain your current value and write it.
+//                if (PVUtil.getDouble(rpv) == 0.0) {
+//                    rpv.getPV().write("l");
+//
+//                } else {
+//                    rpv.getPV().write(PVUtil.getString(rpv) + "l");
+//                }
+//            } catch (Exception ex) {
+//                //CeosUtils.getLogger().warn("Cannot write into pv record" + ex.getMessage());
+//            }
+//        });
+//        btnM.setOnMouseClicked(event -> {
+//            try {
+//                //1.Get runtime pv associated to the widget
+//                RuntimePV rpv = CeosUtils.getPv(widget);
+//
+//                //2.Obtain your current value and write it.
+//                if (PVUtil.getDouble(rpv) == 0.0) {
+//                    rpv.getPV().write("m");
+//
+//                } else {
+//                    rpv.getPV().write(PVUtil.getString(rpv) + "m");
+//                }
+//            } catch (Exception ex) {
+//                //CeosUtils.getLogger().warn("Cannot write into pv record" + ex.getMessage());
+//            }
+//        });
+//        btnN.setOnMouseClicked(event -> {
+//            try {
+//                //1.Get runtime pv associated to the widget
+//                RuntimePV rpv = CeosUtils.getPv(widget);
+//
+//                //2.Obtain your current value and write it.
+//                if (PVUtil.getDouble(rpv) == 0.0) {
+//                    rpv.getPV().write("n");
+//
+//                } else {
+//                    rpv.getPV().write(PVUtil.getString(rpv) + "n");
+//                }
+//            } catch (Exception ex) {
+//                //CeosUtils.getLogger().warn("Cannot write into pv record" + ex.getMessage());
+//            }
+//        });
+//        btnÑ.setOnMouseClicked(event -> {
+//            try {
+//                //1.Get runtime pv associated to the widget
+//                RuntimePV rpv = CeosUtils.getPv(widget);
+//
+//                //2.Obtain your current value and write it.
+//                if (PVUtil.getDouble(rpv) == 0.0) {
+//                    rpv.getPV().write("ñ");
+//
+//                } else {
+//                    rpv.getPV().write(PVUtil.getString(rpv) + "ñ");
+//                }
+//            } catch (Exception ex) {
+//                //CeosUtils.getLogger().warn("Cannot write into pv record" + ex.getMessage());
+//            }
+//        });
+//        btnO.setOnMouseClicked(event -> {
+//            try {
+//                //1.Get runtime pv associated to the widget
+//                RuntimePV rpv = CeosUtils.getPv(widget);
+//
+//                //2.Obtain your current value and write it.
+//                if (PVUtil.getDouble(rpv) == 0.0) {
+//                    rpv.getPV().write("o");
+//
+//                } else {
+//                    rpv.getPV().write(PVUtil.getString(rpv) + "o");
+//                }
+//            } catch (Exception ex) {
+//                //CeosUtils.getLogger().warn("Cannot write into pv record" + ex.getMessage());
+//            }
+//        });
+//        btnP.setOnMouseClicked(event -> {
+//            try {
+//                //1.Get runtime pv associated to the widget
+//                RuntimePV rpv = CeosUtils.getPv(widget);
+//
+//                //2.Obtain your current value and write it.
+//                if (PVUtil.getDouble(rpv) == 0.0) {
+//                    rpv.getPV().write("p");
+//
+//                } else {
+//                    rpv.getPV().write(PVUtil.getString(rpv) + "p");
+//                }
+//            } catch (Exception ex) {
+//                //CeosUtils.getLogger().warn("Cannot write into pv record" + ex.getMessage());
+//            }
+//        });
+//        btnQ.setOnMouseClicked(event -> {
+//            try {
+//                //1.Get runtime pv associated to the widget
+//                RuntimePV rpv = CeosUtils.getPv(widget);
+//
+//                //2.Obtain your current value and write it.
+//                if (PVUtil.getDouble(rpv) == 0.0) {
+//                    rpv.getPV().write("q");
+//
+//                } else {
+//                    rpv.getPV().write(PVUtil.getString(rpv) + "q");
+//                }
+//            } catch (Exception ex) {
+//                //CeosUtils.getLogger().warn("Cannot write into pv record" + ex.getMessage());
+//            }
+//        });
+//        btnR.setOnMouseClicked(event -> {
+//            try {
+//                //1.Get runtime pv associated to the widget
+//                RuntimePV rpv = CeosUtils.getPv(widget);
+//
+//                //2.Obtain your current value and write it.
+//                if (PVUtil.getDouble(rpv) == 0.0) {
+//                    rpv.getPV().write("r");
+//
+//                } else {
+//                    rpv.getPV().write(PVUtil.getString(rpv) + "r");
+//                }
+//            } catch (Exception ex) {
+//                //CeosUtils.getLogger().warn("Cannot write into pv record" + ex.getMessage());
+//            }
+//        });
+//        btnS.setOnMouseClicked(event -> {
+//            try {
+//                //1.Get runtime pv associated to the widget
+//                RuntimePV rpv = CeosUtils.getPv(widget);
+//
+//                //2.Obtain your current value and write it.
+//                if (PVUtil.getDouble(rpv) == 0.0) {
+//                    rpv.getPV().write("s");
+//
+//                } else {
+//                    rpv.getPV().write(PVUtil.getString(rpv) + "s");
+//                }
+//            } catch (Exception ex) {
+//                //CeosUtils.getLogger().warn("Cannot write into pv record" + ex.getMessage());
+//            }
+//        });
+//        btnT.setOnMouseClicked(event -> {
+//            try {
+//                //1.Get runtime pv associated to the widget
+//                RuntimePV rpv = CeosUtils.getPv(widget);
+//
+//                //2.Obtain your current value and write it.
+//                if (PVUtil.getDouble(rpv) == 0.0) {
+//                    rpv.getPV().write("t");
+//
+//                } else {
+//                    rpv.getPV().write(PVUtil.getString(rpv) + "t");
+//                }
+//            } catch (Exception ex) {
+//                //CeosUtils.getLogger().warn("Cannot write into pv record" + ex.getMessage());
+//            }
+//        });
+//        btnU.setOnMouseClicked(event -> {
+//            try {
+//                //1.Get runtime pv associated to the widget
+//                RuntimePV rpv = CeosUtils.getPv(widget);
+//
+//                //2.Obtain your current value and write it.
+//                if (PVUtil.getDouble(rpv) == 0.0) {
+//                    rpv.getPV().write("u");
+//
+//                } else {
+//                    rpv.getPV().write(PVUtil.getString(rpv) + "u");
+//                }
+//            } catch (Exception ex) {
+//                //CeosUtils.getLogger().warn("Cannot write into pv record" + ex.getMessage());
+//            }
+//        });
+//        btnV.setOnMouseClicked(event -> {
+//            try {
+//                //1.Get runtime pv associated to the widget
+//                RuntimePV rpv = CeosUtils.getPv(widget);
+//
+//                //2.Obtain your current value and write it.
+//                if (PVUtil.getDouble(rpv) == 0.0) {
+//                    rpv.getPV().write("v");
+//
+//                } else {
+//                    rpv.getPV().write(PVUtil.getString(rpv) + "v");
+//                }
+//            } catch (Exception ex) {
+//               // CeosUtils.getLogger().warn("Cannot write into pv record" + ex.getMessage());
+//            }
+//        });
+//        btnW.setOnMouseClicked(event -> {
+//            try {
+//                //1.Get runtime pv associated to the widget
+//                RuntimePV rpv = CeosUtils.getPv(widget);
+//
+//                //2.Obtain your current value and write it.
+//                if (PVUtil.getDouble(rpv) == 0.0) {
+//                    rpv.getPV().write("w");
+//
+//                } else {
+//                    rpv.getPV().write(PVUtil.getString(rpv) + "w");
+//                }
+//            } catch (Exception ex) {
+//                //CeosUtils.getLogger().warn("Cannot write into pv record" + ex.getMessage());
+//            }
+//        });
+//        btnX.setOnMouseClicked(event -> {
+//            try {
+//                //1.Get runtime pv associated to the widget
+//                RuntimePV rpv = CeosUtils.getPv(widget);
+//
+//                //2.Obtain your current value and write it.
+//                if (PVUtil.getDouble(rpv) == 0.0) {
+//                    rpv.getPV().write("x");
+//
+//                } else {
+//                    rpv.getPV().write(PVUtil.getString(rpv) + "x");
+//                }
+//            } catch (Exception ex) {
+//               // CeosUtils.getLogger().warn("Cannot write into pv record" + ex.getMessage());
+//            }
+//        });
+//        btnY.setOnMouseClicked(event -> {
+//            try {
+//                //1.Get runtime pv associated to the widget
+//                RuntimePV rpv = CeosUtils.getPv(widget);
+//
+//                //2.Obtain your current value and write it.
+//                if (PVUtil.getDouble(rpv) == 0.0) {
+//                    rpv.getPV().write("y");
+//
+//                } else {
+//                    rpv.getPV().write(PVUtil.getString(rpv) + "y");
+//                }
+//            } catch (Exception ex) {
+//               // CeosUtils.getLogger().warn("Cannot write into pv record" + ex.getMessage());
+//            }
+//        });
+//        btnZ.setOnMouseClicked(event -> {
+//            try {
+//                //1.Get runtime pv associated to the widget
+//                RuntimePV rpv = CeosUtils.getPv(widget);
+//
+//                //2.Obtain your current value and write it.
+//                if (PVUtil.getDouble(rpv) == 0.0) {
+//                    rpv.getPV().write("z");
+//
+//                } else {
+//                    rpv.getPV().write(PVUtil.getString(rpv) + "z");
+//
+//                }
+//            } catch (Exception ex) {
+//                //CeosUtils.getLogger().warn("Cannot write into pv record" + ex.getMessage());
+//            }
+//        });
         btn0.setOnMouseClicked(event -> {
             try {
                 //1.Get runtime pv associated to the widget
@@ -767,8 +768,8 @@ public class AlphabeticDialog extends Dialog<String> {
 
         pane.setMinSize(80, 80);
         setResizable(false);
-        pane.setMaxWidth(550);
-        pane.setMaxHeight(500);
+        pane.setMaxWidth(400);
+        pane.setMaxHeight(550);
 
     }
 
@@ -790,132 +791,132 @@ public class AlphabeticDialog extends Dialog<String> {
     private void setSize() {
 //        field.setMinHeight(50);
 //        //sizes buttons
-        btnA.setMinWidth(50);
-        btnA.setMinHeight(50);
+        btnA.setMinWidth(100);
+        btnA.setMinHeight(100);
 
-        btnB.setMinWidth(50);
-        btnB.setMinHeight(50);
+        btnB.setMinWidth(100);
+        btnB.setMinHeight(100);
 
-        btnC.setMinWidth(50);
-        btnC.setMinHeight(50);
+        btnC.setMinWidth(100);
+        btnC.setMinHeight(100);
 
-        btnD.setMinWidth(50);
-        btnD.setMinHeight(50);
+        btnD.setMinWidth(100);
+        btnD.setMinHeight(100);
 
-        btnE.setMinWidth(50);
-        btnE.setMinHeight(50);
+        btnE.setMinWidth(100);
+        btnE.setMinHeight(100);
 
-        btnF.setMinWidth(50);
-        btnF.setMinHeight(50);
+        btnF.setMinWidth(100);
+        btnF.setMinHeight(100);
 
-        btnG.setMinWidth(50);
-        btnG.setMinHeight(50);
+        btnG.setMinWidth(100);
+        btnG.setMinHeight(100);
 
-        btnH.setMinWidth(50);
-        btnH.setMinHeight(50);
+        btnH.setMinWidth(100);
+        btnH.setMinHeight(100);
 
-        btnI.setMinWidth(50);
-        btnI.setMinHeight(50);
+        btnI.setMinWidth(100);
+        btnI.setMinHeight(100);
 
-        btnJ.setMinWidth(50);
-        btnJ.setMinHeight(50);
+        btnJ.setMinWidth(100);
+        btnJ.setMinHeight(100);
 
-        btnK.setMinWidth(50);
-        btnK.setMinHeight(50);
+        btnK.setMinWidth(100);
+        btnK.setMinHeight(100);
 
-        btnL.setMinWidth(50);
-        btnL.setMinHeight(50);
+        btnL.setMinWidth(100);
+        btnL.setMinHeight(100);
 
-        btnM.setMinWidth(50);
-        btnM.setMinHeight(50);
+        btnM.setMinWidth(100);
+        btnM.setMinHeight(100);
 
-        btnN.setMinWidth(50);
-        btnN.setMinHeight(50);
+        btnN.setMinWidth(100);
+        btnN.setMinHeight(100);
 
-        btnÑ.setMinWidth(50);
-        btnÑ.setMinHeight(50);
+        btnÑ.setMinWidth(100);
+        btnÑ.setMinHeight(100);
 
-        btnO.setMinWidth(50);
-        btnO.setMinHeight(50);
+        btnO.setMinWidth(100);
+        btnO.setMinHeight(100);
 
-        btnP.setMinWidth(50);
-        btnP.setMinHeight(50);
+        btnP.setMinWidth(100);
+        btnP.setMinHeight(100);
 
-        btnQ.setMinWidth(50);
-        btnQ.setMinHeight(50);
+        btnQ.setMinWidth(100);
+        btnQ.setMinHeight(100);
 
-        btnR.setMinWidth(50);
-        btnR.setMinHeight(50);
+        btnR.setMinWidth(100);
+        btnR.setMinHeight(100);
 
-        btnS.setMinWidth(50);
-        btnS.setMinHeight(50);
+        btnS.setMinWidth(100);
+        btnS.setMinHeight(100);
 
-        btnT.setMinWidth(50);
-        btnT.setMinHeight(50);
+        btnT.setMinWidth(100);
+        btnT.setMinHeight(100);
 
-        btnU.setMinWidth(50);
-        btnU.setMinHeight(50);
+        btnU.setMinWidth(100);
+        btnU.setMinHeight(100);
 
-        btnV.setMinWidth(50);
-        btnV.setMinHeight(50);
+        btnV.setMinWidth(100);
+        btnV.setMinHeight(100);
 
-        btnW.setMinWidth(50);
-        btnW.setMinHeight(50);
+        btnW.setMinWidth(100);
+        btnW.setMinHeight(100);
 
-        btnX.setMinWidth(50);
-        btnX.setMinHeight(50);
+        btnX.setMinWidth(100);
+        btnX.setMinHeight(100);
 
-        btnY.setMinWidth(50);
-        btnY.setMinHeight(50);
+        btnY.setMinWidth(100);
+        btnY.setMinHeight(100);
 
-        btnZ.setMinWidth(50);
-        btnZ.setMinHeight(50);
+        btnZ.setMinWidth(100);
+        btnZ.setMinHeight(100);
 
-        btn0.setMinWidth(50);
-        btn0.setMinHeight(50);
+        btn0.setMinWidth(100);
+        btn0.setMinHeight(100);
 
-        btn1.setMinWidth(50);
-        btn1.setMinHeight(50);
+        btn1.setMinWidth(100);
+        btn1.setMinHeight(100);
 
-        btn2.setMinWidth(50);
-        btn2.setMinHeight(50);
+        btn2.setMinWidth(100);
+        btn2.setMinHeight(100);
 
-        btn3.setMinWidth(50);
-        btn3.setMinHeight(50);
+        btn3.setMinWidth(100);
+        btn3.setMinHeight(100);
 
-        btn4.setMinWidth(50);
-        btn4.setMinHeight(50);
+        btn4.setMinWidth(100);
+        btn4.setMinHeight(100);
 
-        btn5.setMinWidth(50);
-        btn5.setMinHeight(50);
+        btn5.setMinWidth(100);
+        btn5.setMinHeight(100);
 
-        btn6.setMinWidth(50);
-        btn6.setMinHeight(50);
+        btn6.setMinWidth(100);
+        btn6.setMinHeight(100);
 
-        btn7.setMinWidth(50);
-        btn7.setMinHeight(50);
+        btn7.setMinWidth(100);
+        btn7.setMinHeight(100);
 
-        btn8.setMinWidth(50);
-        btn8.setMinHeight(50);
+        btn8.setMinWidth(100);
+        btn8.setMinHeight(100);
 
-        btn9.setMinWidth(50);
-        btn9.setMinHeight(50);
+        btn9.setMinWidth(100);
+        btn9.setMinHeight(100);
 
-        bAcep.setMinWidth(50);
-        bAcep.setMinHeight(50);
+        bAcep.setMinWidth(100);
+        bAcep.setMinHeight(100);
 
-        bCancel.setMinWidth(50);
-        bCancel.setMinHeight(50);
+        bCancel.setMinWidth(100);
+        bCancel.setMinHeight(100);
 
-        bClrOne.setMinWidth(50);
-        bClrOne.setMinHeight(50);
+        bClrOne.setMinWidth(100);
+        bClrOne.setMinHeight(100);
 
-        bDelete.setMinWidth(50);
-        bDelete.setMinHeight(50);
+        bDelete.setMinWidth(100);
+        bDelete.setMinHeight(100);
     }
 
     private void setFont() {
-        Font bFont = Font.font("Arial", FontWeight.BOLD, 14);
+        Font bFont = Font.font("Arial", FontWeight.BOLD, 24);
 
         btnA.setFont(bFont);
         btnB.setFont(bFont);
